@@ -552,7 +552,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\": 0\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -565,7 +565,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\r\n    \"percentage\": 60\r\n}",
+                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
                                 "positionClaimVotes": [],
@@ -2433,13 +2433,13 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Teams of Contributors",
-                                "config": "{}",
+                                "config": "{\r\n    \"percentage\": 100\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
                                         "type": "Weight Votes Switch",
                                         "name": "Teams @ Jan 2022",
-                                        "config": "{}",
+                                        "config": "{\r\n    \"percentage\": 100\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [
                                             {
@@ -4336,7 +4336,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 99\r\n}",
+                "config": "{\r\n    \"percentage\": 100\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -4683,7 +4683,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": false,
+            "isCollapsed": true,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
