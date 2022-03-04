@@ -565,9 +565,134 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{}",
+                                "config": "{\r\n    \"percentage\": 5\r\n}",
                                 "project": "Governance",
-                                "claimVotesSwitch": [],
+                                "claimVotesSwitch": [
+                                    {
+                                        "type": "Claim Votes Switch",
+                                        "name": "New Claim Votes Switch",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "claimVotesSwitch": [],
+                                        "positionClaimVotes": [
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "prepheadrus Turkish Community Team Token Pool Turkish Community Team",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "7617b300-9a48-4144-985e-41a49059ff75",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 10057.182771067313,
+                                                        "y": 32288.282596621983
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 9907.182771067313,
+                                                        "y": 32548.090217757315
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 3,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "Turkish Community Team Token Pool Turkish Community Team",
+                                                        "id": "773cc2a9-3146-4ff6-a27d-afcc5d9cc81b"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "prepheadrus",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "New Position Claims Folder",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Turkish Community Team Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Turkish Community Team Token Pool Turkish Community Team",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "0678b1d2-d3c3-4b92-82a4-702b02630091",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 10166.990392202644,
+                                                        "y": 32398.090217757315
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 9907.182771067313,
+                                                        "y": 32548.090217757315
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": true,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 3,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "assetClaimVotes": [],
+                                        "featureClaimVotes": [],
+                                        "id": "112cc27b-6059-41f1-a330-601754e22206",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 9907.182771067313,
+                                                "y": 32548.090217757315
+                                            },
+                                            "targetPosition": {
+                                                "x": 9695.05073671135,
+                                                "y": 32760.22225211328
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    }
+                                ],
                                 "positionClaimVotes": [],
                                 "assetClaimVotes": [],
                                 "featureClaimVotes": [],
@@ -2313,7 +2438,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 3,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -2466,7 +2591,7 @@
                                             "Positions"
                                         ],
                                         [
-                                            "Teams @ Jan 2022",
+                                            "Teams @ Feb 2022",
                                             "Position Class"
                                         ],
                                         [
@@ -2517,7 +2642,7 @@
                                     "Positions"
                                 ],
                                 [
-                                    "Teams @ Jan 2022",
+                                    "Teams @ Feb 2022",
                                     "Position Class"
                                 ],
                                 [
