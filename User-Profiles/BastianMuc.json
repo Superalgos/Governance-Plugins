@@ -315,7 +315,100 @@
                         "config": "{}",
                         "project": "Governance",
                         "votesSwitch": [],
-                        "claimVotesSwitch": [],
+                        "claimVotesSwitch": [
+                            {
+                                "type": "Claim Votes Switch",
+                                "name": "New Claim Votes Switch",
+                                "config": "{\n    \"percentage\": 88.5\n}",
+                                "project": "Governance",
+                                "claimVotesSwitch": [],
+                                "positionClaimVotes": [
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "harrellbm Harrellbm Team Token Pool Harrellbm Team PoW Report",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "b6d0d691-c0cd-4bfa-86b0-dc7fe56c326e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 4539.219385841215,
+                                                "y": 17790.192378864667
+                                            },
+                                            "targetPosition": {
+                                                "x": 4539.219385841215,
+                                                "y": 18090.192378864667
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "Harrellbm Team Token Pool Harrellbm Team PoW Report",
+                                                "id": "a8b06573-eec1-4837-b25f-46ea5fd7754b"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "harrellbm",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "Harrellbm Team PoW Report Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Harrellbm Team Token Pool Harrellbm Team PoW Report",
+                                                    "Position Contribution Claim"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "assetClaimVotes": [],
+                                "featureClaimVotes": [],
+                                "id": "7a0bf8d4-4aa8-41d4-8dc7-c37f4efaa025",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 4539.219385841215,
+                                        "y": 18090.192378864667
+                                    },
+                                    "targetPosition": {
+                                        "x": 4539.219385841215,
+                                        "y": 18390.192378864667
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
                         "weightVotesSwitch": [
                             {
                                 "type": "Weight Votes Switch",
@@ -332,12 +425,12 @@
                                         "id": "0f9ed9cb-aa21-4667-900b-58d819f0d12f",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4689.219385841215,
-                                                "y": 17830.384757729335
+                                                "x": 4949.0270069765465,
+                                                "y": 17980.384757729335
                                             },
                                             "targetPosition": {
-                                                "x": 4689.219385841215,
-                                                "y": 18130.384757729335
+                                                "x": 4799.0270069765465,
+                                                "y": 18240.192378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -379,12 +472,12 @@
                                         "id": "fcc0273c-f6b0-480a-88ec-13a1e7f47ad0",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4949.0270069765465,
-                                                "y": 17980.384757729335
+                                                "x": 5099.0270069765465,
+                                                "y": 18240.192378864667
                                             },
                                             "targetPosition": {
-                                                "x": 4689.219385841215,
-                                                "y": 18130.384757729335
+                                                "x": 4799.0270069765465,
+                                                "y": 18240.192378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -433,8 +526,8 @@
                                 "id": "423b04dc-e0f6-4585-8e6b-6609a0878b90",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 4689.219385841215,
-                                        "y": 18130.384757729335
+                                        "x": 4799.0270069765465,
+                                        "y": 18240.192378864667
                                     },
                                     "targetPosition": {
                                         "x": 4539.219385841215,
@@ -532,24 +625,24 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\n    \"percentage\": 100\n}",
+                "config": "{\n    \"percentage\": 91\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
                 "positionClaimsFolders": [
                     {
                         "type": "Position Claims Folder",
-                        "name": "New Position Claims Folder",
-                        "config": "{}",
+                        "name": "Elves and Fairies PoV Report Position Class",
+                        "config": "{\n    \"percentage\": 100\n}",
                         "project": "Governance",
                         "positionClaimsFolders": [],
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
                                 "name": "Elves and Fairies Team Token Pool Elves and Fairies PoV Report",
-                                "config": "{}",
+                                "config": "{\n    \"percentage\": 100\n}",
                                 "project": "Governance",
-                                "id": "7c7b0c92-208b-4084-bd32-80b556dc59bf",
+                                "id": "89ed631f-c691-40c1-a687-00b38de04305",
                                 "savedPayload": {
                                     "position": {
                                         "x": 4989.219385841215,
@@ -581,7 +674,7 @@
                                             "Positions"
                                         ],
                                         [
-                                            "Teams @ Jan 2022",
+                                            "Teams @ Feb 2022",
                                             "Position Class"
                                         ],
                                         [
@@ -620,7 +713,30 @@
                             },
                             "uiObject": {
                                 "isRunning": false
-                            }
+                            },
+                            "referenceParent": {
+                                "type": "Position Class",
+                                "name": "Elves and Fairies PoV Report",
+                                "id": "7b86dc3e-599a-448e-aa43-8ebb670b1be0"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Teams of Contributors",
+                                    "Positions"
+                                ],
+                                [
+                                    "Teams @ Feb 2022",
+                                    "Position Class"
+                                ],
+                                [
+                                    "Teams With PoW Reports",
+                                    "Position Class"
+                                ],
+                                [
+                                    "Elves and Fairies PoV Report",
+                                    "Position Class"
+                                ]
+                            ]
                         }
                     }
                 ],
@@ -928,7 +1044,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
