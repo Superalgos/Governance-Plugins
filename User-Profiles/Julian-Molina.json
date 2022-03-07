@@ -3272,12 +3272,12 @@
                                                         "id": "5cebbf3a-0bf1-46fb-9db0-42e69782f28b",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 24773.447310575684,
-                                                                "y": 16095.214753953456
+                                                                "x": 23938.071868405597,
+                                                                "y": 11807.842509111822
                                                             },
                                                             "targetPosition": {
-                                                                "x": 25085.727995359528,
-                                                                "y": 16607.543529166145
+                                                                "x": 24488.009221927583,
+                                                                "y": 12047.777723703666
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3337,12 +3337,12 @@
                                                 "id": "15ab0cb0-dc5d-4bf0-b815-093d0e4cbea0",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 25085.727995359528,
-                                                        "y": 16607.543529166145
+                                                        "x": 24488.009221927583,
+                                                        "y": 12047.777723703666
                                                     },
                                                     "targetPosition": {
-                                                        "x": 25398.00868014337,
-                                                        "y": 17119.872304378834
+                                                        "x": 25037.94657544957,
+                                                        "y": 12287.71293829551
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3362,22 +3362,225 @@
                                                 "name": "NicN11",
                                                 "config": "{\r\n    \"percentage\": 1\r\n}",
                                                 "project": "Governance",
-                                                "claimVotesSwitch": [],
-                                                "positionClaimVotes": [
+                                                "claimVotesSwitch": [
                                                     {
-                                                        "type": "Position Claim Vote",
-                                                        "name": "",
+                                                        "type": "Claim Votes Switch",
+                                                        "name": "Teams @ Feb 2022 Position Class",
                                                         "config": "{}",
                                                         "project": "Governance",
-                                                        "id": "5bb7d032-7008-4aa5-bc6c-045530db372d",
+                                                        "claimVotesSwitch": [
+                                                            {
+                                                                "type": "Claim Votes Switch",
+                                                                "name": "Teams With PoW Reports Position Class",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "claimVotesSwitch": [
+                                                                    {
+                                                                        "type": "Claim Votes Switch",
+                                                                        "name": "Translation Team PoV Report Position Class",
+                                                                        "config": "{}",
+                                                                        "project": "Governance",
+                                                                        "claimVotesSwitch": [],
+                                                                        "positionClaimVotes": [
+                                                                            {
+                                                                                "type": "Position Claim Vote",
+                                                                                "name": "NicN11 Translation Team Token Pool Translation Team PoV Report",
+                                                                                "config": "{}",
+                                                                                "project": "Governance",
+                                                                                "id": "93b926d2-403a-4c5f-861d-e6a03db069f9",
+                                                                                "savedPayload": {
+                                                                                    "position": {
+                                                                                        "x": 23518.55515445879,
+                                                                                        "y": 9700.929277101624
+                                                                                    },
+                                                                                    "targetPosition": {
+                                                                                        "x": 23822.433438656946,
+                                                                                        "y": 10218.286009340402
+                                                                                    },
+                                                                                    "floatingObject": {
+                                                                                        "isPinned": false,
+                                                                                        "isFrozen": false,
+                                                                                        "isCollapsed": false,
+                                                                                        "angleToParent": 2,
+                                                                                        "distanceToParent": 3,
+                                                                                        "arrangementStyle": 0
+                                                                                    },
+                                                                                    "uiObject": {
+                                                                                        "isRunning": false
+                                                                                    },
+                                                                                    "referenceParent": {
+                                                                                        "type": "Position Contribution Claim",
+                                                                                        "name": "Translation Team Token Pool Translation Team PoV Report",
+                                                                                        "id": "cb6ef589-3d63-415d-a8bd-11da51987b2e"
+                                                                                    },
+                                                                                    "referenceParentCombinedNodePath": [
+                                                                                        [
+                                                                                            "NicN11",
+                                                                                            "User Profile"
+                                                                                        ],
+                                                                                        [
+                                                                                            "New Token Power Switch",
+                                                                                            "Token Power Switch"
+                                                                                        ],
+                                                                                        [
+                                                                                            "New Votes And Claims Programs",
+                                                                                            "Votes And Claims Programs"
+                                                                                        ],
+                                                                                        [
+                                                                                            "New Claims Program",
+                                                                                            "Claims Program"
+                                                                                        ],
+                                                                                        [
+                                                                                            "Teams @ Feb 2022 Position Class",
+                                                                                            "Position Claims Folder"
+                                                                                        ],
+                                                                                        [
+                                                                                            "Teams With PoW Reports Position Class",
+                                                                                            "Position Claims Folder"
+                                                                                        ],
+                                                                                        [
+                                                                                            "Translation Team PoV Report Position Class",
+                                                                                            "Position Claims Folder"
+                                                                                        ],
+                                                                                        [
+                                                                                            "Translation Team Token Pool Translation Team PoV Report",
+                                                                                            "Position Contribution Claim"
+                                                                                        ]
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        ],
+                                                                        "assetClaimVotes": [],
+                                                                        "featureClaimVotes": [],
+                                                                        "id": "b41f63aa-bfcc-46df-a3c6-da8a1d9e8cd0",
+                                                                        "savedPayload": {
+                                                                            "position": {
+                                                                                "x": 23822.433438656946,
+                                                                                "y": 10218.286009340402
+                                                                            },
+                                                                            "targetPosition": {
+                                                                                "x": 24126.311722855102,
+                                                                                "y": 10735.642741579179
+                                                                            },
+                                                                            "floatingObject": {
+                                                                                "isPinned": false,
+                                                                                "isFrozen": false,
+                                                                                "isCollapsed": false,
+                                                                                "angleToParent": 2,
+                                                                                "distanceToParent": 3,
+                                                                                "arrangementStyle": 0
+                                                                            },
+                                                                            "uiObject": {
+                                                                                "isRunning": false
+                                                                            },
+                                                                            "referenceParent": {
+                                                                                "type": "Position Claims Folder",
+                                                                                "name": "Translation Team PoV Report Position Class",
+                                                                                "id": "2cf07100-9275-4195-a9c6-dd59441f3bfb"
+                                                                            },
+                                                                            "referenceParentCombinedNodePath": [
+                                                                                [
+                                                                                    "NicN11",
+                                                                                    "User Profile"
+                                                                                ],
+                                                                                [
+                                                                                    "New Token Power Switch",
+                                                                                    "Token Power Switch"
+                                                                                ],
+                                                                                [
+                                                                                    "New Votes And Claims Programs",
+                                                                                    "Votes And Claims Programs"
+                                                                                ],
+                                                                                [
+                                                                                    "New Claims Program",
+                                                                                    "Claims Program"
+                                                                                ],
+                                                                                [
+                                                                                    "Teams @ Feb 2022 Position Class",
+                                                                                    "Position Claims Folder"
+                                                                                ],
+                                                                                [
+                                                                                    "Teams With PoW Reports Position Class",
+                                                                                    "Position Claims Folder"
+                                                                                ],
+                                                                                [
+                                                                                    "Translation Team PoV Report Position Class",
+                                                                                    "Position Claims Folder"
+                                                                                ]
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "positionClaimVotes": [],
+                                                                "assetClaimVotes": [],
+                                                                "featureClaimVotes": [],
+                                                                "id": "574c7759-2630-4065-bf2b-94941ba54de3",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 24126.311722855102,
+                                                                        "y": 10735.642741579179
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 24430.190007053257,
+                                                                        "y": 11252.999473817956
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Position Claims Folder",
+                                                                        "name": "Teams With PoW Reports Position Class",
+                                                                        "id": "59dbca95-aca6-4290-88cd-d24cd682087e"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "NicN11",
+                                                                            "User Profile"
+                                                                        ],
+                                                                        [
+                                                                            "New Token Power Switch",
+                                                                            "Token Power Switch"
+                                                                        ],
+                                                                        [
+                                                                            "New Votes And Claims Programs",
+                                                                            "Votes And Claims Programs"
+                                                                        ],
+                                                                        [
+                                                                            "New Claims Program",
+                                                                            "Claims Program"
+                                                                        ],
+                                                                        [
+                                                                            "Teams @ Feb 2022 Position Class",
+                                                                            "Position Claims Folder"
+                                                                        ],
+                                                                        [
+                                                                            "Teams With PoW Reports Position Class",
+                                                                            "Position Claims Folder"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ],
+                                                        "positionClaimVotes": [],
+                                                        "assetClaimVotes": [],
+                                                        "featureClaimVotes": [],
+                                                        "id": "dfd9bb8b-976b-421a-8bfd-5d4627ff74f1",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 25495.00651492319,
-                                                                "y": 15923.798970486625
+                                                                "x": 24430.190007053257,
+                                                                "y": 11252.999473817956
                                                             },
                                                             "targetPosition": {
-                                                                "x": 25446.50759753328,
-                                                                "y": 16521.83563743273
+                                                                "x": 24734.068291251413,
+                                                                "y": 11770.356206056733
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3391,9 +3594,9 @@
                                                                 "isRunning": false
                                                             },
                                                             "referenceParent": {
-                                                                "type": "Position Contribution Claim",
-                                                                "name": "Translation Team Token Pool Translation Team PoV Report",
-                                                                "id": "1715faa5-d5af-4c0d-879e-b730cbd9180f"
+                                                                "type": "Position Claims Folder",
+                                                                "name": "Teams @ Feb 2022 Position Class",
+                                                                "id": "e0ba3861-f709-4592-a18a-85a4534c195f"
                                                             },
                                                             "referenceParentCombinedNodePath": [
                                                                 [
@@ -3413,36 +3616,25 @@
                                                                     "Claims Program"
                                                                 ],
                                                                 [
-                                                                    "Teams @ Jan 2022 Position Class",
+                                                                    "Teams @ Feb 2022 Position Class",
                                                                     "Position Claims Folder"
-                                                                ],
-                                                                [
-                                                                    "Teams With PoW Reports Position Class",
-                                                                    "Position Claims Folder"
-                                                                ],
-                                                                [
-                                                                    "Translation Team PoV Report Position Class",
-                                                                    "Position Claims Folder"
-                                                                ],
-                                                                [
-                                                                    "Translation Team Token Pool Translation Team PoV Report",
-                                                                    "Position Contribution Claim"
                                                                 ]
                                                             ]
                                                         }
                                                     }
                                                 ],
+                                                "positionClaimVotes": [],
                                                 "assetClaimVotes": [],
                                                 "featureClaimVotes": [],
                                                 "id": "d5ecd3e0-55c1-4c2a-9a61-25a857507bb4",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 25446.50759753328,
-                                                        "y": 16521.83563743273
+                                                        "x": 24734.068291251413,
+                                                        "y": 11770.356206056733
                                                     },
                                                     "targetPosition": {
-                                                        "x": 25398.00868014337,
-                                                        "y": 17119.872304378834
+                                                        "x": 25037.94657544957,
+                                                        "y": 12287.71293829551
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3462,25 +3654,28 @@
                                                 "name": "gitforkgit",
                                                 "config": "{\r\n    \"percentage\": 0.1\r\n}",
                                                 "project": "Governance",
-                                                "claimVotesSwitch": [],
-                                                "positionClaimVotes": [
+                                                "claimVotesSwitch": [
                                                     {
-                                                        "type": "Position Claim Vote",
-                                                        "name": "gitforkgit Translation Team Token Pool Translation Team PoV Report",
+                                                        "type": "Claim Votes Switch",
+                                                        "name": "New Claim Votes Switch",
                                                         "config": "{}",
                                                         "project": "Governance",
-                                                        "id": "10a59740-061a-43d6-838f-51c2be9ceb40",
+                                                        "claimVotesSwitch": [],
+                                                        "positionClaimVotes": [],
+                                                        "assetClaimVotes": [],
+                                                        "featureClaimVotes": [],
+                                                        "id": "8c6e7457-dcd7-4f88-9311-26ca7a9cf975",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 26179.515843219946,
-                                                                "y": 16209.242547529213
+                                                                "x": 25154.450497942315,
+                                                                "y": 11093.381813337357
                                                             },
                                                             "targetPosition": {
-                                                                "x": 25788.76226168166,
-                                                                "y": 16664.557425954023
+                                                                "x": 25096.19853669594,
+                                                                "y": 11690.547375816433
                                                             },
                                                             "floatingObject": {
-                                                                "isPinned": false,
+                                                                "isPinned": true,
                                                                 "isFrozen": false,
                                                                 "isCollapsed": false,
                                                                 "angleToParent": 2,
@@ -3489,52 +3684,22 @@
                                                             },
                                                             "uiObject": {
                                                                 "isRunning": false
-                                                            },
-                                                            "referenceParent": {
-                                                                "type": "Position Contribution Claim",
-                                                                "name": "Translation Team Token Pool Translation Team PoV Report",
-                                                                "id": "37b5a3db-54ae-4f4f-a903-00efd04cd9ab"
-                                                            },
-                                                            "referenceParentCombinedNodePath": [
-                                                                [
-                                                                    "gitforkgit",
-                                                                    "User Profile"
-                                                                ],
-                                                                [
-                                                                    "New Token Power Switch",
-                                                                    "Token Power Switch"
-                                                                ],
-                                                                [
-                                                                    "New Votes And Claims Programs",
-                                                                    "Votes And Claims Programs"
-                                                                ],
-                                                                [
-                                                                    "New Claims Program",
-                                                                    "Claims Program"
-                                                                ],
-                                                                [
-                                                                    "Education Team PoW Report Position Class",
-                                                                    "Position Claims Folder"
-                                                                ],
-                                                                [
-                                                                    "Translation Team Token Pool Translation Team PoV Report",
-                                                                    "Position Contribution Claim"
-                                                                ]
-                                                            ]
+                                                            }
                                                         }
                                                     }
                                                 ],
+                                                "positionClaimVotes": [],
                                                 "assetClaimVotes": [],
                                                 "featureClaimVotes": [],
                                                 "id": "5912107b-1def-42b7-9e92-e356164d8839",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 25788.76226168166,
-                                                        "y": 16664.557425954023
+                                                        "x": 25096.19853669594,
+                                                        "y": 11690.547375816433
                                                     },
                                                     "targetPosition": {
-                                                        "x": 25398.00868014337,
-                                                        "y": 17119.872304378834
+                                                        "x": 25037.94657544957,
+                                                        "y": 12287.71293829551
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3564,12 +3729,12 @@
                                                         "id": "bdae7aa9-bcdc-4f39-9c09-bd463b131cd3",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 26565.515997672963,
-                                                                "y": 16842.515740521303
+                                                                "x": 25834.210450261824,
+                                                                "y": 11389.958048768876
                                                             },
                                                             "targetPosition": {
-                                                                "x": 25981.762338908167,
-                                                                "y": 16981.19402245007
+                                                                "x": 25436.078512855696,
+                                                                "y": 11838.835493532193
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3621,12 +3786,12 @@
                                                 "id": "1d8bbf04-2b25-4453-9e56-34e7f2f1a384",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 25981.762338908167,
-                                                        "y": 16981.19402245007
+                                                        "x": 25436.078512855696,
+                                                        "y": 11838.835493532193
                                                     },
                                                     "targetPosition": {
-                                                        "x": 25398.00868014337,
-                                                        "y": 17119.872304378834
+                                                        "x": 25037.94657544957,
+                                                        "y": 12287.71293829551
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3658,7 +3823,7 @@
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": true,
+                                                "isCollapsed": false,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -3810,7 +3975,7 @@
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": false,
+                                                "isCollapsed": true,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -4157,7 +4322,7 @@
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": false,
+                                                "isCollapsed": true,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -4668,7 +4833,7 @@
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": false,
+                                                "isCollapsed": true,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -8103,8 +8268,8 @@
                                 "id": "864ee838-c919-4969-8895-a1202939dc32",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 26357.830402528227,
-                                        "y": 14262.008697433042
+                                        "x": 26260.10234092319,
+                                        "y": 14141.324592043298
                                     },
                                     "targetPosition": {
                                         "x": 26083.766765235447,
@@ -8142,8 +8307,8 @@
                                 "id": "69402b7c-506d-47c5-aaf2-7c8fb9e75bec",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 26326.47186354793,
-                                        "y": 14560.365266043525
+                                        "x": 26357.830402528227,
+                                        "y": 14262.008697433042
                                     },
                                     "targetPosition": {
                                         "x": 26083.766765235447,
@@ -8168,6 +8333,123 @@
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "tigers40",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "NicN11",
+                                "config": "{\r\n    \"percentage\": 1\r\n}",
+                                "project": "Governance",
+                                "id": "620012a7-0cf6-4d61-bcab-c260ecb548a8",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 26382.123333845928,
+                                        "y": 14415.388229336078
+                                    },
+                                    "targetPosition": {
+                                        "x": 26083.766765235447,
+                                        "y": 14384.029690355783
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "NicN11",
+                                        "id": "a884f5c0-2ffb-4a31-8edc-349430071fbe"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "NicN11",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "benedictjaeger",
+                                "config": "{\r\n    \"percentage\": 0.5\r\n}",
+                                "project": "Governance",
+                                "id": "d686c6c4-e186-4ecf-8575-d812521b2086",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 26326.47186354793,
+                                        "y": 14560.365266043525
+                                    },
+                                    "targetPosition": {
+                                        "x": 26083.766765235447,
+                                        "y": 14384.029690355783
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "benedictjaeger",
+                                        "id": "e76965a2-ff4c-4c5e-b1b1-735568d69f79"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "benedictjaeger",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "lindersi",
+                                "config": "{\r\n    \"percentage\": 0.5\r\n}",
+                                "project": "Governance",
+                                "id": "2bdc97b1-39f3-4ff0-9507-05582d0772f3",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 26205.787758158185,
+                                        "y": 14658.093327648563
+                                    },
+                                    "targetPosition": {
+                                        "x": 26083.766765235447,
+                                        "y": 14384.029690355783
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "lindersi",
+                                        "id": "a64e6f62-835a-4bbf-a091-9cd3b0196ab0"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "lindersi",
                                             "User Profile"
                                         ]
                                     ]
