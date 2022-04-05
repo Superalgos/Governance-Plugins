@@ -150,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\n    \"percentage\": 0\n}",
+            "config": "{\n    \"percentage\": 30\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -289,8 +289,8 @@
                         "id": "9fa2dcc7-9eec-4c9e-a036-ec86152d2c5e",
                         "savedPayload": {
                             "position": {
-                                "x": 32758.407079646015,
-                                "y": 28100
+                                "x": 32665.701981333532,
+                                "y": 28114.683045111455
                             },
                             "targetPosition": {
                                 "x": 32758.407079646015,
@@ -319,6 +319,45 @@
                                 ]
                             ]
                         }
+                    },
+                    {
+                        "type": "User Supporter",
+                        "name": "Mhnramin",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "d2aa29b0-8eb5-4ce4-8375-1ab9f62e3cca",
+                        "savedPayload": {
+                            "position": {
+                                "x": 33001.1121779585,
+                                "y": 28223.664424312257
+                            },
+                            "targetPosition": {
+                                "x": 32758.407079646015,
+                                "y": 28400
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "Mhnramin",
+                                "id": "5da2ff9a-fc73-449e-b433-bffbe58816f9"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Mhnramin",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
                     }
                 ],
                 "tokensAwarded": {
@@ -328,8 +367,8 @@
                     "id": "fff18c7a-cd37-467c-8bdb-a036f2d2a9a0",
                     "savedPayload": {
                         "position": {
-                            "x": 33058.407079646015,
-                            "y": 28400
+                            "x": 33001.1121779585,
+                            "y": 28576.335575687743
                         },
                         "targetPosition": {
                             "x": 32758.407079646015,
@@ -355,8 +394,8 @@
                     "id": "a2ead972-dfc5-495b-8efc-f4aaa9f0e6c0",
                     "savedPayload": {
                         "position": {
-                            "x": 32758.407079646015,
-                            "y": 28700
+                            "x": 32665.701981333532,
+                            "y": 28685.316954888545
                         },
                         "targetPosition": {
                             "x": 32758.407079646015,
@@ -627,6 +666,215 @@
             "name": "New Votes And Claims Programs",
             "config": "{}",
             "project": "Governance",
+            "votingProgram": {
+                "type": "Voting Program",
+                "name": "New Voting Program",
+                "config": "{\n    \"percentage\": 0\n}",
+                "project": "Governance",
+                "votesSwitch": [
+                    {
+                        "type": "Votes Switch",
+                        "name": "New Votes Switch",
+                        "config": "{}",
+                        "project": "Governance",
+                        "votesSwitch": [],
+                        "claimVotesSwitch": [
+                            {
+                                "type": "Claim Votes Switch",
+                                "name": "Harrellbm Team PoW Report Position Class",
+                                "config": "{}",
+                                "project": "Governance",
+                                "claimVotesSwitch": [],
+                                "positionClaimVotes": [
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "harrellbm ",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "defb3797-1164-42d6-808f-e9a982314c01",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 33197.637564187346,
+                                                "y": 28400
+                                            },
+                                            "targetPosition": {
+                                                "x": 32937.82994305201,
+                                                "y": 28550
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 1,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "",
+                                                "id": "a8b06573-eec1-4837-b25f-46ea5fd7754b"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "harrellbm",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "Harrellbm Team PoW Report Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "",
+                                                    "Position Contribution Claim"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "assetClaimVotes": [],
+                                "featureClaimVotes": [],
+                                "id": "a05f4ff4-6a26-42f5-9941-876dc32b9610",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 32937.82994305201,
+                                        "y": 28550
+                                    },
+                                    "targetPosition": {
+                                        "x": 32678.02232191668,
+                                        "y": 28700
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 1,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position Claims Folder",
+                                        "name": "Harrellbm Team PoW Report Position Class",
+                                        "id": "bbdeebc0-b2d4-4b91-8f2b-768631f49094"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "harrellbm",
+                                            "User Profile"
+                                        ],
+                                        [
+                                            "New Token Power Switch",
+                                            "Token Power Switch"
+                                        ],
+                                        [
+                                            "New Votes And Claims Programs",
+                                            "Votes And Claims Programs"
+                                        ],
+                                        [
+                                            "New Claims Program",
+                                            "Claims Program"
+                                        ],
+                                        [
+                                            "Harrellbm Team PoW Report Position Class",
+                                            "Position Claims Folder"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "weightVotesSwitch": [],
+                        "userProfileVotesSwitch": [],
+                        "id": "49dbc627-1c76-474b-8664-980f9082c484",
+                        "savedPayload": {
+                            "position": {
+                                "x": 32678.02232191668,
+                                "y": 28700
+                            },
+                            "targetPosition": {
+                                "x": 32418.214700781347,
+                                "y": 28850
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "202b8c5a-adc3-4263-90b1-01e826107171",
+                    "savedPayload": {
+                        "position": {
+                            "x": 32418.214700781347,
+                            "y": 29150
+                        },
+                        "targetPosition": {
+                            "x": 32418.214700781347,
+                            "y": 28850
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "7206f322-a8a3-48e5-810d-8ae0e9d7e6a0",
+                "savedPayload": {
+                    "position": {
+                        "x": 32418.214700781347,
+                        "y": 28850
+                    },
+                    "targetPosition": {
+                        "x": 32158.407079646015,
+                        "y": 28700
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
@@ -650,11 +898,11 @@
                                 "id": "c9bc5ca4-c730-4a52-abd5-c3ab1e1b513d",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 32678.02232191668,
-                                        "y": 29300
+                                        "x": 31898.599458510682,
+                                        "y": 29450
                                     },
                                     "targetPosition": {
-                                        "x": 32418.214700781347,
+                                        "x": 31898.599458510682,
                                         "y": 29150
                                     },
                                     "floatingObject": {
@@ -701,12 +949,12 @@
                         "id": "3516f498-c85d-4350-9318-b991fcb53ee4",
                         "savedPayload": {
                             "position": {
-                                "x": 32418.214700781347,
+                                "x": 31898.599458510682,
                                 "y": 29150
                             },
                             "targetPosition": {
-                                "x": 32158.407079646015,
-                                "y": 29000
+                                "x": 31898.599458510682,
+                                "y": 28850
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -752,12 +1000,12 @@
                     "id": "bee3ab3e-de24-4425-b2eb-b8f384c748fd",
                     "savedPayload": {
                         "position": {
-                            "x": 31898.599458510682,
-                            "y": 29150
+                            "x": 31638.79183737535,
+                            "y": 28700
                         },
                         "targetPosition": {
-                            "x": 32158.407079646015,
-                            "y": 29000
+                            "x": 31898.599458510682,
+                            "y": 28850
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -775,8 +1023,8 @@
                 "id": "0e55d21b-cef0-4e17-b938-c85b04b6a827",
                 "savedPayload": {
                     "position": {
-                        "x": 32158.407079646015,
-                        "y": 29000
+                        "x": 31898.599458510682,
+                        "y": 28850
                     },
                     "targetPosition": {
                         "x": 32158.407079646015,
