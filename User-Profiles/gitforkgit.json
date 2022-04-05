@@ -150,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\n    \"percentage\": 30\n}",
+            "config": "{\n    \"percentage\": 40\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -694,12 +694,12 @@
                                         "id": "defb3797-1164-42d6-808f-e9a982314c01",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 33197.637564187346,
-                                                "y": 28400
+                                                "x": 32868.21470078135,
+                                                "y": 28070.577136594
                                             },
                                             "targetPosition": {
-                                                "x": 32937.82994305201,
-                                                "y": 28550
+                                                "x": 32718.214700781347,
+                                                "y": 28330.384757729335
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -739,7 +739,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "",
+                                                    "Harrellbm Team Token Pool Harrellbm Team PoW Report",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -751,12 +751,12 @@
                                 "id": "a05f4ff4-6a26-42f5-9941-876dc32b9610",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 32937.82994305201,
-                                        "y": 28550
+                                        "x": 32718.214700781347,
+                                        "y": 28330.384757729335
                                     },
                                     "targetPosition": {
-                                        "x": 32678.02232191668,
-                                        "y": 28700
+                                        "x": 32568.214700781347,
+                                        "y": 28590.192378864667
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -804,8 +804,97 @@
                         "id": "49dbc627-1c76-474b-8664-980f9082c484",
                         "savedPayload": {
                             "position": {
+                                "x": 32568.214700781347,
+                                "y": 28590.192378864667
+                            },
+                            "targetPosition": {
+                                "x": 32418.214700781347,
+                                "y": 28850
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Votes Switch",
+                        "name": "New Votes Switch",
+                        "config": "{\n    \"percentage\": 30\n}",
+                        "project": "Governance",
+                        "votesSwitch": [],
+                        "claimVotesSwitch": [],
+                        "weightVotesSwitch": [
+                            {
+                                "type": "Weight Votes Switch",
+                                "name": "New Weight Votes Switch",
+                                "config": "{}",
+                                "project": "Governance",
+                                "weightVotesSwitch": [],
+                                "poolWeightVotes": [],
+                                "assetWeightVotes": [],
+                                "featureWeightVotes": [],
+                                "positionWeightVotes": [],
+                                "id": "bea6cb39-782d-4cb0-9c0c-59de0736543e",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 32937.82994305201,
+                                        "y": 29150
+                                    },
+                                    "targetPosition": {
+                                        "x": 32678.02232191668,
+                                        "y": 29000
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 1,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Pool Class",
+                                        "name": "Support Program",
+                                        "id": "fc1422c3-6fac-4acc-969b-26545d9b551b"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Superalgos",
+                                            "Pools"
+                                        ],
+                                        [
+                                            "Governance Programs ",
+                                            "Pool Class"
+                                        ],
+                                        [
+                                            "Community Building Programs",
+                                            "Pool Class"
+                                        ],
+                                        [
+                                            "Support Program",
+                                            "Pool Class"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "userProfileVotesSwitch": [],
+                        "id": "7a8310a5-6be9-48b8-add6-7026bee5b489",
+                        "savedPayload": {
+                            "position": {
                                 "x": 32678.02232191668,
-                                "y": 28700
+                                "y": 29000
                             },
                             "targetPosition": {
                                 "x": 32418.214700781347,
@@ -832,8 +921,8 @@
                     "id": "202b8c5a-adc3-4263-90b1-01e826107171",
                     "savedPayload": {
                         "position": {
-                            "x": 32418.214700781347,
-                            "y": 29150
+                            "x": 32268.214700781347,
+                            "y": 29109.807621135333
                         },
                         "targetPosition": {
                             "x": 32418.214700781347,
