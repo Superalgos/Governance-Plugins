@@ -1414,7 +1414,7 @@
                                     {
                                         "type": "Position Contribution Claim",
                                         "name": "Data Mining Team Data Mining Team",
-                                        "config": "{\r\n    \"percentage\": 90\r\n}",
+                                        "config": "{\r\n    \"percentage\": 95\r\n}",
                                         "project": "Governance",
                                         "id": "8160c014-4c4e-4876-b0ee-da8c1a4a8f58",
                                         "savedPayload": {
@@ -1535,7 +1535,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -1649,7 +1649,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -1960,7 +1960,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 1,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -2000,8 +2000,126 @@
         "id": "7b9b1c90-9101-4b09-bffd-1e5f46cee2c8",
         "savedPayload": {
             "position": {
+                "x": 13274.33628318584,
+                "y": 14300.000000000002
+            },
+            "targetPosition": {
+                "x": 13274.33628318584,
+                "y": 14000.000000000002
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "p2pNetworkNodes": {
+        "type": "P2P Network Nodes",
+        "name": "New P2P Network Nodes",
+        "config": "{\r\n    \"percentage\": 0\r\n}",
+        "project": "Network",
+        "p2pNetworkNodes": [],
+        "id": "e70545c5-f757-4696-a783-dd63e422450d",
+        "savedPayload": {
+            "position": {
                 "x": 12974.33628318584,
                 "y": 14000.000000000002
+            },
+            "targetPosition": {
+                "x": 13274.33628318584,
+                "y": 14000.000000000002
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "forecastsProviders": {
+        "type": "Forecasts Providers",
+        "name": "New Forecasts Providers",
+        "config": "{\r\n    \"percentage\": 5\r\n}",
+        "project": "Governance",
+        "bitcoinFactoryForecasts": [
+            {
+                "type": "Bitcoin Factory Forecasts",
+                "name": "Mainnet",
+                "config": "{}",
+                "project": "Governance",
+                "testClientInstances": [
+                    {
+                        "type": "Test Client Instance",
+                        "name": "aM1",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "6ca8cc6a-bd7f-4950-aba0-ddfb2a089d50",
+                        "savedPayload": {
+                            "position": {
+                                "x": 13274.33628318584,
+                                "y": 13100.000000000002
+                            },
+                            "targetPosition": {
+                                "x": 13274.33628318584,
+                                "y": 13400.000000000002
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "forecastClientInstances": [],
+                "id": "d5a944b0-63b5-47c0-9299-d39281dcba57",
+                "savedPayload": {
+                    "position": {
+                        "x": 13274.33628318584,
+                        "y": 13400.000000000002
+                    },
+                    "targetPosition": {
+                        "x": 13274.33628318584,
+                        "y": 13700.000000000002
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
+        "id": "1360354f-6003-4ee3-8eb0-54d50e1c87d5",
+        "savedPayload": {
+            "position": {
+                "x": 13274.33628318584,
+                "y": 13700.000000000002
             },
             "targetPosition": {
                 "x": 13274.33628318584,
@@ -2033,7 +2151,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": false,
+            "isCollapsed": true,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
