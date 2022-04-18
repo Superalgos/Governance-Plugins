@@ -7715,12 +7715,12 @@
         "id": "78bb0221-93c0-42b5-af05-80e1e8c74538",
         "savedPayload": {
             "position": {
-                "x": 14927.000000000002,
-                "y": 6009.001499250375
+                "x": 16379.203539823007,
+                "y": 18800
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -7742,12 +7742,12 @@
         "id": "b317abdd-926c-4f22-8109-183319388cf4",
         "savedPayload": {
             "position": {
-                "x": 14664.046940557622,
-                "y": 6243.550943990784
+                "x": 16116.250480380628,
+                "y": 19034.54944474041
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -7765,7 +7765,7 @@
     "userApps": {
         "type": "User Apps",
         "name": "New User Apps",
-        "config": "{\r\n    \"percentage\": 0\r\n}",
+        "config": "{\r\n    \"percentage\": 10\r\n}",
         "project": "User-Apps",
         "desktopApps": {
             "type": "Desktop Apps",
@@ -7775,18 +7775,46 @@
             "socialTradingDesktopApps": [
                 {
                     "type": "Social Trading Desktop App",
-                    "name": "New Social Trading Desktop App",
-                    "config": "{\n    \"codeName\": \"localhost\",\n    \"host\": \"localhost\",\n    \"webPort\": \"33248\",\n    \"webSocketsPort\": \"17042\"\n}",
+                    "name": "Social Trading Desktop App #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"host\": \"localhost\",\n    \"webPort\": \"33248\",\n    \"webSocketsPort\": \"17042\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x50c14830a4ade78508ba2160189148a315ef986712b6797c210e4eb8fa8063fe\",\n        \"s\": \"0x1b44dc7efc268ae6cccbec35964fcc0998d689eaa571ede0f736c057785fe909\",\n        \"signature\": \"0x50c14830a4ade78508ba2160189148a315ef986712b6797c210e4eb8fa8063fe1b44dc7efc268ae6cccbec35964fcc0998d689eaa571ede0f736c057785fe9091c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "d0334450-0869-429a-88ff-515bc090bcd9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 16522.193944282957,
+                                "y": 19704.633837648373
+                            },
+                            "targetPosition": {
+                                "x": 16302.278382734008,
+                                "y": 19500.582016317097
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "85685192-261d-4c2b-8e48-e68c4edbe7d4",
                     "savedPayload": {
                         "position": {
-                            "x": 14850.074842911003,
-                            "y": 6709.583515567474
+                            "x": 16302.278382734008,
+                            "y": 19500.582016317097
                         },
                         "targetPosition": {
-                            "x": 14630.159281362055,
-                            "y": 6505.531694236198
+                            "x": 16082.362821185061,
+                            "y": 19296.530194985822
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -7806,12 +7834,12 @@
             "id": "def175aa-5c4e-4491-86a3-337df7fa81b5",
             "savedPayload": {
                 "position": {
-                    "x": 14630.159281362055,
-                    "y": 6505.531694236198
+                    "x": 16082.362821185061,
+                    "y": 19296.530194985822
                 },
                 "targetPosition": {
-                    "x": 14410.243719813108,
-                    "y": 6301.479872904922
+                    "x": 15862.447259636114,
+                    "y": 19092.478373654547
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -7834,18 +7862,46 @@
             "taskServerApps": [
                 {
                     "type": "Task Server App",
-                    "name": "home",
-                    "config": "{ \n\"codeName\": \"\"\n}",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xe782296818607a3d4ffba71992079fc0a53e9d36fb5c3b8e4a371f24eb589ad3\",\n        \"s\": \"0x4fcec2640f4a651685d96d1c56943c64cf8bf7cda85b4401715f2732651174bb\",\n        \"signature\": \"0xe782296818607a3d4ffba71992079fc0a53e9d36fb5c3b8e4a371f24eb589ad34fcec2640f4a651685d96d1c56943c64cf8bf7cda85b4401715f2732651174bb1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "0b4688bd-c503-4675-8760-ab3b9a15d6b0",
+                        "savedPayload": {
+                            "position": {
+                                "x": 15002.431734428586,
+                                "y": 19357.75803062436
+                            },
+                            "targetPosition": {
+                                "x": 15289.103576164429,
+                                "y": 19269.33147830109
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "9b1236df-3c23-4f0b-8db0-c9dc25732bc1",
                     "savedPayload": {
                         "position": {
-                            "x": 13836.900036341423,
-                            "y": 6478.332977551463
+                            "x": 15289.103576164429,
+                            "y": 19269.33147830109
                         },
                         "targetPosition": {
-                            "x": 14123.571878077266,
-                            "y": 6389.906425228192
+                            "x": 15575.775417900271,
+                            "y": 19180.90492597782
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -7865,12 +7921,12 @@
             "id": "8a361c23-a04b-45d7-ac25-c3810485d7f4",
             "savedPayload": {
                 "position": {
-                    "x": 14123.571878077266,
-                    "y": 6389.906425228192
+                    "x": 15575.775417900271,
+                    "y": 19180.90492597782
                 },
                 "targetPosition": {
-                    "x": 14410.243719813108,
-                    "y": 6301.479872904922
+                    "x": 15862.447259636114,
+                    "y": 19092.478373654547
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -7888,12 +7944,12 @@
         "id": "c7c31f6d-47a9-43f8-967f-77c30fb58884",
         "savedPayload": {
             "position": {
-                "x": 14410.243719813108,
-                "y": 6301.479872904922
+                "x": 15862.447259636114,
+                "y": 19092.478373654547
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -7916,9 +7972,37 @@
         "socialPersonas": [
             {
                 "type": "Social Persona",
-                "name": "New Social Persona",
-                "config": "{\"codeName\": \"\",\"handle\": \"\"}",
+                "name": "Social Persona #1",
+                "config": "{\n    \"codeName\": \"Social-Persona-1\",\n    \"handle\": \"prepheadrus-Social-Persona-1\"\n}",
                 "project": "Social-Trading",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "config": "{\n    \"codeName\": \"Social-Persona-1\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xe3d0c833e60a41407e4c6e46f8b3a96ad12e27e28052fd48e39a0faf8f9bc42b\",\n        \"s\": \"0x07b2971cb4532326c57e5322a2286f1275507775a83f13246c4dd77c948eccc0\",\n        \"signature\": \"0xe3d0c833e60a41407e4c6e46f8b3a96ad12e27e28052fd48e39a0faf8f9bc42b07b2971cb4532326c57e5322a2286f1275507775a83f13246c4dd77c948eccc01c\"\n    }\n}",
+                    "project": "Governance",
+                    "id": "b4ff3060-387d-4298-8b99-271c2e58459c",
+                    "savedPayload": {
+                        "position": {
+                            "x": 13240.888888888889,
+                            "y": 33126
+                        },
+                        "targetPosition": {
+                            "x": 13288.888888888889,
+                            "y": 33200
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
                 "availableStorage": {
                     "type": "Available Storage",
                     "name": "New Available Storage",
@@ -8027,12 +8111,12 @@
         "id": "8f205aa3-a38a-4116-bc06-af0c35bbc1e3",
         "savedPayload": {
             "position": {
-                "x": 14206.709339629277,
-                "y": 6139.166620985642
+                "x": 15658.912879452282,
+                "y": 18930.165121735266
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -8055,9 +8139,37 @@
         "p2pNetworkNodes": [
             {
                 "type": "P2P Network Node",
-                "name": "New P2P Network Node",
-                "config": "{ \n\"codeName\": \"\", \n\"host\": \"localhost\" \n}",
+                "name": "P2P Network Node #1",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"localhost\"\n}",
                 "project": "Network",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xd8ed5f3a9bd333fe76e91a953dbd73449c0d0c8a7f362a2fd6989224c197eba3\",\n        \"s\": \"0x52159789447abfdb3b9c9d350c6dad6b99c5dfbf1b2bdb2271346982f8056895\",\n        \"signature\": \"0xd8ed5f3a9bd333fe76e91a953dbd73449c0d0c8a7f362a2fd6989224c197eba352159789447abfdb3b9c9d350c6dad6b99c5dfbf1b2bdb2271346982f80568951b\"\n    }\n}",
+                    "project": "Governance",
+                    "id": "f6f695f7-2052-4aea-a154-fee3230b9ea9",
+                    "savedPayload": {
+                        "position": {
+                            "x": 13536.888888888889,
+                            "y": 32651.384757729335
+                        },
+                        "targetPosition": {
+                            "x": 13588.888888888889,
+                            "y": 32680.384757729335
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
                     "name": "",
@@ -8207,12 +8319,12 @@
         "id": "914aab3e-a341-495e-9c2b-18338e0b4de4",
         "savedPayload": {
             "position": {
-                "x": 14206.709339629277,
-                "y": 5878.836377515107
+                "x": 15658.912879452282,
+                "y": 18669.834878264734
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -8293,12 +8405,12 @@
         "id": "8d5545d1-32f3-4d7a-b17c-ed8e804a21e4",
         "savedPayload": {
             "position": {
-                "x": 14410.243719813108,
-                "y": 5716.523125595828
+                "x": 15862.447259636114,
+                "y": 18507.521626345453
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -8333,12 +8445,12 @@
                         "id": "08045c1f-2136-4395-91d8-0773d18dc7e6",
                         "savedPayload": {
                             "position": {
-                                "x": 15038.140821672863,
-                                "y": 5305.353165029148
+                                "x": 16490.344361495867,
+                                "y": 18096.351665778773
                             },
                             "targetPosition": {
-                                "x": 14851.093881115243,
-                                "y": 5539.902609769557
+                                "x": 16303.297420938248,
+                                "y": 18330.901110519182
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -8358,12 +8470,12 @@
                 "id": "5324bcd8-9b0a-4b14-8f1b-3c4955e6901a",
                 "savedPayload": {
                     "position": {
-                        "x": 14851.093881115243,
-                        "y": 5539.902609769557
+                        "x": 16303.297420938248,
+                        "y": 18330.901110519182
                     },
                     "targetPosition": {
-                        "x": 14664.046940557622,
-                        "y": 5774.452054509966
+                        "x": 16116.250480380628,
+                        "y": 18565.45055525959
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -8382,12 +8494,12 @@
         "id": "94d91988-e9c5-48fc-aa76-24fdbe2b6a60",
         "savedPayload": {
             "position": {
-                "x": 14664.046940557622,
-                "y": 5774.452054509966
+                "x": 16116.250480380628,
+                "y": 18565.45055525959
             },
             "targetPosition": {
-                "x": 14477.000000000002,
-                "y": 6009.001499250375
+                "x": 15929.203539823007,
+                "y": 18800
             },
             "floatingObject": {
                 "isPinned": false,
@@ -8405,12 +8517,12 @@
     "id": "c27af3b5-f11c-4b1d-b367-0b65c0440244",
     "savedPayload": {
         "position": {
-            "x": 14477.000000000002,
-            "y": 6009.001499250375
+            "x": 15929.203539823007,
+            "y": 18800
         },
         "targetPosition": {
-            "x": 14477.000000000002,
-            "y": 6009.001499250375
+            "x": 15929.203539823007,
+            "y": 18800
         },
         "floatingObject": {
             "isPinned": true,
