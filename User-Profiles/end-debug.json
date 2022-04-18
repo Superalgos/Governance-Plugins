@@ -4697,12 +4697,12 @@
         "id": "1c8787dc-31af-4852-9c50-4fd2abeac607",
         "savedPayload": {
             "position": {
-                "x": 33633.333333333336,
-                "y": 18800
+                "x": 33613.333333333336,
+                "y": 18930
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4724,12 +4724,12 @@
         "id": "4d63da9f-7429-4ac4-b66c-b51c585ea14b",
         "savedPayload": {
             "position": {
-                "x": 33545.4653676893,
-                "y": 19012.132034355964
+                "x": 33525.4653676893,
+                "y": 19142.132034355964
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4748,119 +4748,32 @@
         "type": "User Apps",
         "name": "New User Apps",
         "config": "{}",
-        "project": "Governance",
-        "desktopApps": {
-            "type": "Desktop Apps",
-            "name": "New Desktop Apps",
+        "project": "User-Apps",
+        "serverApps": {
+            "type": "Server Apps",
+            "name": "New Server Apps",
             "config": "{}",
-            "project": "Governance",
-            "socialTradingDesktopApps": [
+            "project": "User-Apps",
+            "taskServerApps": [
                 {
-                    "type": "Social Trading Desktop App",
-                    "name": "Social Trading Desktop App #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"host\": \"localhost\",\n    \"webPort\": \"33248\",\n    \"webSocketsPort\": \"17042\"\n}",
-                    "project": "Governance",
+                    "type": "Task Server App",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
+                    "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xc981ca49d31f5e0c668f6545afc963bdc902b989557851e3556018601f73bd51\",\n        \"s\": \"0x2c896cf3087a458ff206963d18733c93ccf59aa63a2ead3306b4d8c74a5bb483\",\n        \"signature\": \"0xc981ca49d31f5e0c668f6545afc963bdc902b989557851e3556018601f73bd512c896cf3087a458ff206963d18733c93ccf59aa63a2ead3306b4d8c74a5bb4831c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x041607e3b771664e091fea214d070cd9bb8833d59ba4482bb9363e9871b3bfcb\",\n        \"s\": \"0x385b91b323c566f9f7c62306be2af257bb74f3e7b9e7de10464c6d8c2ed990ea\",\n        \"signature\": \"0x041607e3b771664e091fea214d070cd9bb8833d59ba4482bb9363e9871b3bfcb385b91b323c566f9f7c62306be2af257bb74f3e7b9e7de10464c6d8c2ed990ea1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "a6fc5abb-4955-46fb-8f5f-14d7678ab57f",
+                        "id": "23dce44e-37f0-467e-9a20-62e2b6300cb1",
                         "savedPayload": {
                             "position": {
-                                "x": 42006.13686128095,
-                                "y": 36251.93789549776
+                                "x": 33313.333333333336,
+                                "y": 20130
                             },
                             "targetPosition": {
-                                "x": 41926.13686128095,
-                                "y": 36195.93789549776
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "53edafc4-1b9d-4af8-b8a7-fa80bb2c2729",
-                    "savedPayload": {
-                        "position": {
-                            "x": 41926.13686128095,
-                            "y": 36195.93789549776
-                        },
-                        "targetPosition": {
-                            "x": 41660.90224322957,
-                            "y": 36055.75730701584
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                }
-            ],
-            "algoTradesPlatformApp": [],
-            "id": "7839198b-e54c-49ac-a3b8-15ced25189e4",
-            "savedPayload": {
-                "position": {
-                    "x": 41660.90224322957,
-                    "y": 36055.75730701584
-                },
-                "targetPosition": {
-                    "x": 41501.292620274966,
-                    "y": 35801.74004724735
-                },
-                "floatingObject": {
-                    "isPinned": false,
-                    "isFrozen": false,
-                    "isCollapsed": true,
-                    "angleToParent": 2,
-                    "distanceToParent": 3,
-                    "arrangementStyle": 0
-                },
-                "uiObject": {
-                    "isRunning": false
-                }
-            }
-        },
-        "mobileApps": {
-            "type": "Mobile Apps",
-            "name": "New Mobile Apps",
-            "config": "{}",
-            "project": "Governance",
-            "socialTradingMobileApps": [
-                {
-                    "type": "Social Trading Mobile App",
-                    "name": "Social Trading Mobile App #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Mobile-App-1\",\n    \"host\": \"localhost\",\n    \"webSocketsPort\": \"15042\"\n}",
-                    "project": "Governance",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Mobile-App-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x1d72efdb76ec693e286cfaecd35afa77ef598c107dfcb45f45aa90439b73f25b\",\n        \"s\": \"0x684751ba643bc2cc7505b9f6b4be992a64269dc3ca81faa6c2370beda42380d6\",\n        \"signature\": \"0x1d72efdb76ec693e286cfaecd35afa77ef598c107dfcb45f45aa90439b73f25b684751ba643bc2cc7505b9f6b4be992a64269dc3ca81faa6c2370beda42380d61c\"\n    }\n}",
-                        "project": "Governance",
-                        "id": "9414311c-f1b1-4eca-aab5-25569ad398dd",
-                        "savedPayload": {
-                            "position": {
-                                "x": 41435.78005990118,
-                                "y": 36294.69679455645
-                            },
-                            "targetPosition": {
-                                "x": 41367.78005990118,
-                                "y": 36386.69679455645
+                                "x": 33313.333333333336,
+                                "y": 19830
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -4875,15 +4788,15 @@
                             }
                         }
                     },
-                    "id": "779373fc-adfc-4f8d-9989-6bc94edc9b6c",
+                    "id": "81d0d692-e03c-405b-b723-b0a160e72682",
                     "savedPayload": {
                         "position": {
-                            "x": 41367.78005990118,
-                            "y": 36386.69679455645
+                            "x": 33313.333333333336,
+                            "y": 19830
                         },
                         "targetPosition": {
-                            "x": 41434.536340088074,
-                            "y": 36094.2184209019
+                            "x": 33313.333333333336,
+                            "y": 19530
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -4899,20 +4812,21 @@
                     }
                 }
             ],
-            "id": "34940442-3c30-414d-953e-839995c48f77",
+            "socialTradingServerApps": [],
+            "id": "8a5c7f12-b0e7-480d-be99-f3cba3c88dd4",
             "savedPayload": {
                 "position": {
-                    "x": 41434.536340088074,
-                    "y": 36094.2184209019
+                    "x": 33313.333333333336,
+                    "y": 19530
                 },
                 "targetPosition": {
-                    "x": 41501.292620274966,
-                    "y": 35801.74004724735
+                    "x": 33313.333333333336,
+                    "y": 19230
                 },
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 1,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -4922,164 +4836,20 @@
                 }
             }
         },
-        "serverApps": {
-            "type": "Server Apps",
-            "name": "New Server Apps",
-            "config": "{}",
-            "project": "Governance",
-            "taskServerApps": [
-                {
-                    "type": "Task Server App",
-                    "name": "Task Server App #1",
-                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
-                    "project": "Governance",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x45147ee8932f5d13ceac763dedd2ec4e68e4a1b39ffaa0aa49a9c7fd044e035f\",\n        \"s\": \"0x561600a9b43971ca3c2d863bcb59509226dfc051555c587236482fd81dde3b27\",\n        \"signature\": \"0x45147ee8932f5d13ceac763dedd2ec4e68e4a1b39ffaa0aa49a9c7fd044e035f561600a9b43971ca3c2d863bcb59509226dfc051555c587236482fd81dde3b271c\"\n    }\n}",
-                        "project": "Governance",
-                        "id": "430d9887-1c23-4b24-9ee2-7e670fde5f68",
-                        "savedPayload": {
-                            "position": {
-                                "x": 41102.09477202456,
-                                "y": 36207.58428825333
-                            },
-                            "targetPosition": {
-                                "x": 41107.09477202456,
-                                "y": 36226.58428825333
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "7a585305-c5af-4a66-ac75-f869cb1c38d9",
-                    "savedPayload": {
-                        "position": {
-                            "x": 41107.09477202456,
-                            "y": 36226.58428825333
-                        },
-                        "targetPosition": {
-                            "x": 41247.27536050648,
-                            "y": 35961.349670201955
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                }
-            ],
-            "socialTradingServerApps": [
-                {
-                    "type": "Social Trading Server App",
-                    "name": "Social Trading Server App #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"host\": \"localhost\",\n    \"webSocketsPort\": \"16042\"\n}",
-                    "project": "Governance",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xd08efe4d9a11108eb1d917a6cde8c234814dab1660c40839374e5ed913f69c9f\",\n        \"s\": \"0x57529d8be4a8969cf8b62369bcda1f7f19a26b0638712c8dfcc624686dd4befa\",\n        \"signature\": \"0xd08efe4d9a11108eb1d917a6cde8c234814dab1660c40839374e5ed913f69c9f57529d8be4a8969cf8b62369bcda1f7f19a26b0638712c8dfcc624686dd4befa1c\"\n    }\n}",
-                        "project": "Governance",
-                        "id": "ff12eb8e-ac63-4ae3-83e3-e67b5aa8abe5",
-                        "savedPayload": {
-                            "position": {
-                                "x": 40984.48514906996,
-                                "y": 35947.56702848485
-                            },
-                            "targetPosition": {
-                                "x": 40947.48514906996,
-                                "y": 35972.56702848485
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "01383224-15a7-458c-a20e-bd1fff859e7e",
-                    "savedPayload": {
-                        "position": {
-                            "x": 40947.48514906996,
-                            "y": 35972.56702848485
-                        },
-                        "targetPosition": {
-                            "x": 41247.27536050648,
-                            "y": 35961.349670201955
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                }
-            ],
-            "id": "08d5be4d-6d29-4a0a-83fa-a81baa3bf94e",
-            "savedPayload": {
-                "position": {
-                    "x": 41247.27536050648,
-                    "y": 35961.349670201955
-                },
-                "targetPosition": {
-                    "x": 41501.292620274966,
-                    "y": 35801.74004724735
-                },
-                "floatingObject": {
-                    "isPinned": false,
-                    "isFrozen": false,
-                    "isCollapsed": false,
-                    "angleToParent": 2,
-                    "distanceToParent": 3,
-                    "arrangementStyle": 0
-                },
-                "uiObject": {
-                    "isRunning": false
-                }
-            }
-        },
-        "id": "e2883785-72d2-4389-b4eb-7e26d1abcc58",
+        "id": "3f598b66-d2a8-4151-b29f-27c19ce941fd",
         "savedPayload": {
             "position": {
-                "x": 33333.333333333336,
-                "y": 19100
+                "x": 33313.333333333336,
+                "y": 19230
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -5103,22 +4873,22 @@
                 {
                     "type": "Social Trading Bot",
                     "name": "Social Trading Bot #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\"\n}",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"end-debug-Social-Trading-Bot-1\"\n}",
                     "project": "Governance",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x6ca5776fbadba8a49e7144578bf7393d35b2856f675edbe01f92413acd3fcaa5\",\n        \"s\": \"0x1154766681dd8521a196498396cb717d9cb4ec41c928f737aa583970c405c79d\",\n        \"signature\": \"0x6ca5776fbadba8a49e7144578bf7393d35b2856f675edbe01f92413acd3fcaa51154766681dd8521a196498396cb717d9cb4ec41c928f737aa583970c405c79d1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x452829a8798e01fbcf1783b866e3aa9e9ce1545abe3a0cb45ca5a15ffdd05ffb\",\n        \"s\": \"0x32edc60c3fa4f6297ecc91f9b79af2339bc33ea0ce4da8f2e1af240c65286dc2\",\n        \"signature\": \"0x452829a8798e01fbcf1783b866e3aa9e9ce1545abe3a0cb45ca5a15ffdd05ffb32edc60c3fa4f6297ecc91f9b79af2339bc33ea0ce4da8f2e1af240c65286dc21c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "17c785bb-7dea-4623-a22d-6f3d25fa47e1",
+                        "id": "62ed2978-ebc2-4c3d-a8df-cb1db5e26af4",
                         "savedPayload": {
                             "position": {
-                                "x": 40274.796175698204,
-                                "y": 41029.426121821016
+                                "x": 38368.413454502355,
+                                "y": 31310.303490191454
                             },
                             "targetPosition": {
-                                "x": 40358.92439249001,
-                                "y": 40741.463549358145
+                                "x": 38287.413454502355,
+                                "y": 31347.303490191454
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -5273,18 +5043,18 @@
                 {
                     "type": "Social Trading Bot",
                     "name": "Social Trading Bot #2",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\"\n}",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"handle\": \"end-debug-Social-Trading-Bot-2\"\n}",
                     "project": "Governance",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x6eaa7b58c453327d663ce90cdeba1eb9bf4fdb4736820e823f02a2a4d45f9b8f\",\n        \"s\": \"0x2774c38f94f374b11f9e8028d605b8d9799aa6bd9cd7366cf0bed7b723cecd2c\",\n        \"signature\": \"0x6eaa7b58c453327d663ce90cdeba1eb9bf4fdb4736820e823f02a2a4d45f9b8f2774c38f94f374b11f9e8028d605b8d9799aa6bd9cd7366cf0bed7b723cecd2c1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xacc2449128fa7eae42383c4b04b31fbe66a49fd908b3bccd2c90d28e952c8705\",\n        \"s\": \"0x7066635c9d8c06e4f40d5512f7f83c0e055414ab775b56cd427ec05e6594c5ef\",\n        \"signature\": \"0xacc2449128fa7eae42383c4b04b31fbe66a49fd908b3bccd2c90d28e952c87057066635c9d8c06e4f40d5512f7f83c0e055414ab775b56cd427ec05e6594c5ef1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7f8b07bc-7aef-434e-9ac1-e5acf217bbfe",
+                        "id": "1e2628d6-260e-46fe-ae88-c8b2c149ce3e",
                         "savedPayload": {
                             "position": {
-                                "x": 37785.50367225967,
-                                "y": 31212.817169366248
+                                "x": 38174.28142014639,
+                                "y": 31144.17145583549
                             },
                             "targetPosition": {
                                 "x": 38075.28142014639,
@@ -5353,12 +5123,12 @@
         "id": "e14c7755-3ae8-4647-ac8f-d8c04c196634",
         "savedPayload": {
             "position": {
-                "x": 33121.20129897737,
-                "y": 19012.132034355964
+                "x": 33101.20129897737,
+                "y": 19142.132034355964
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5382,12 +5152,12 @@
         "id": "f55ffe4f-9266-472c-926a-836ef3f3bf9f",
         "savedPayload": {
             "position": {
-                "x": 33033.333333333336,
-                "y": 18800
+                "x": 33013.333333333336,
+                "y": 18930
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5411,12 +5181,12 @@
         "id": "d78fe453-4592-487e-9f59-dd373b186056",
         "savedPayload": {
             "position": {
-                "x": 33121.20129897737,
-                "y": 18587.867965644036
+                "x": 33101.20129897737,
+                "y": 18717.867965644036
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5439,12 +5209,12 @@
         "id": "b6dbe022-4516-4d42-9d53-c7afdf390308",
         "savedPayload": {
             "position": {
-                "x": 33333.333333333336,
-                "y": 18500
+                "x": 33313.333333333336,
+                "y": 18630
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5479,12 +5249,12 @@
                         "id": "47f07772-e521-49e9-9f3c-c4e73bcca647",
                         "savedPayload": {
                             "position": {
-                                "x": 33969.72943640123,
-                                "y": 18163.60389693211
+                                "x": 33949.72943640123,
+                                "y": 18293.60389693211
                             },
                             "targetPosition": {
-                                "x": 33757.59740204526,
-                                "y": 18375.735931288073
+                                "x": 33737.59740204526,
+                                "y": 18505.735931288073
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -5504,12 +5274,12 @@
                 "id": "ebc7f362-fc2d-4da4-9d77-b2cb06458540",
                 "savedPayload": {
                     "position": {
-                        "x": 33757.59740204526,
-                        "y": 18375.735931288073
+                        "x": 33737.59740204526,
+                        "y": 18505.735931288073
                     },
                     "targetPosition": {
-                        "x": 33545.4653676893,
-                        "y": 18587.867965644036
+                        "x": 33525.4653676893,
+                        "y": 18717.867965644036
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -5528,12 +5298,12 @@
         "id": "b9372a81-f824-4f84-90ec-9b59870cd6e9",
         "savedPayload": {
             "position": {
-                "x": 33545.4653676893,
-                "y": 18587.867965644036
+                "x": 33525.4653676893,
+                "y": 18717.867965644036
             },
             "targetPosition": {
-                "x": 33333.333333333336,
-                "y": 18800
+                "x": 33313.333333333336,
+                "y": 18930
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5551,12 +5321,12 @@
     "id": "2ba902c6-59f4-40f4-91f5-44d12f807061",
     "savedPayload": {
         "position": {
-            "x": 33333.333333333336,
-            "y": 18800
+            "x": 33313.333333333336,
+            "y": 18930
         },
         "targetPosition": {
-            "x": 33333.333333333336,
-            "y": 18800
+            "x": 33313.333333333336,
+            "y": 18930
         },
         "floatingObject": {
             "isPinned": false,
