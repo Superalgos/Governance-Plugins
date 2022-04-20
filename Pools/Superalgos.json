@@ -304,7 +304,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -570,24 +570,84 @@
                             "name": "Liquidity Program",
                             "config": "{}",
                             "project": "Governance",
-                            "poolClasses": [],
-                            "pools": [
+                            "poolClasses": [
                                 {
-                                    "type": "Pool",
-                                    "name": "Liquidity Rewards BTCB",
-                                    "config": "{\n    \"codeName\": \"Liquidity-Rewards-BTCB\"\n}",
+                                    "type": "Pool Class",
+                                    "name": "Liquidity Program BTCB",
+                                    "config": "{}",
                                     "project": "Governance",
                                     "poolClasses": [],
-                                    "pools": [],
-                                    "id": "72cff901-9581-4fe8-a9da-29122a4eb12a",
+                                    "pools": [
+                                        {
+                                            "type": "Pool",
+                                            "name": "Liquidity Rewards BTCB (Pancake)",
+                                            "config": "{\n    \"codeName\": \"Liquidity-Rewards-BTCB-PANCAKE\"\n}",
+                                            "project": "Governance",
+                                            "poolClasses": [],
+                                            "pools": [],
+                                            "id": "fff13c2d-9109-4384-b861-3dd2027e7970",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16877.033944626044,
+                                                    "y": 44847.20258368287
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16617.22632349071,
+                                                    "y": 44997.20258368287
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 3,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "Pool",
+                                            "name": "Liquidity Rewards BTCB (1inch)",
+                                            "config": "{\n    \"codeName\": \"Liquidity-Rewards-BTCB-1INCH\"\n}",
+                                            "project": "Governance",
+                                            "poolClasses": [],
+                                            "pools": [],
+                                            "id": "37e2f1b5-6d11-45e6-8d97-1d1e31627148",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16917.22632349071,
+                                                    "y": 44997.20258368287
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16617.22632349071,
+                                                    "y": 44997.20258368287
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 3,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "63e89c0a-0b23-40e1-94b5-a413de44beb6",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15082.226323490711,
-                                            "y": 44393.70258368287
+                                            "x": 16617.22632349071,
+                                            "y": 44997.20258368287
                                         },
                                         "targetPosition": {
-                                            "x": 14792.448575603989,
-                                            "y": 44471.348297213626
+                                            "x": 16327.448575603992,
+                                            "y": 45074.848297213626
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -603,21 +663,82 @@
                                     }
                                 },
                                 {
-                                    "type": "Pool",
-                                    "name": "Liquidity Rewards BNB",
-                                    "config": "{\n    \"codeName\": \"Liquidity-Rewards-BNB\"\n}",
+                                    "type": "Pool Class",
+                                    "name": "Liquidity Program BNB",
+                                    "config": "{}",
                                     "project": "Governance",
                                     "poolClasses": [],
-                                    "pools": [],
-                                    "id": "5a575199-d502-460e-adfe-660c7e91ef70",
+                                    "pools": [
+                                        {
+                                            "type": "Pool",
+                                            "name": "Liquidity Rewards BNB (Pancake)",
+                                            "config": "{\n    \"codeName\": \"Liquidity-Rewards-BNB-PANCAKE\"\n}",
+                                            "project": "Governance",
+                                            "poolClasses": [],
+                                            "pools": [],
+                                            "id": "3e641160-fdaa-46ad-8379-e478677d14a9",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16877.033944626044,
+                                                    "y": 45302.49401074438
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16587.256196739323,
+                                                    "y": 45224.848297213626
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 3,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "Pool",
+                                            "name": "Liquidity Rewards BNB (Biswap)",
+                                            "config": "{\n    \"codeName\": \"Liquidity-Rewards-BNB-BISWAP\"\n}",
+                                            "project": "Governance",
+                                            "poolClasses": [],
+                                            "pools": [],
+                                            "id": "ef870525-1b0a-463c-b8ee-a05c505b890c",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16799.388231095287,
+                                                    "y": 45436.98033156959
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16587.256196739323,
+                                                    "y": 45224.848297213626
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 3,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "de34ae95-9177-46f2-8486-cf72143c347e",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 15052.256196739323,
-                                            "y": 44621.348297213626
+                                            "x": 16587.256196739323,
+                                            "y": 45224.848297213626
                                         },
                                         "targetPosition": {
-                                            "x": 14792.448575603989,
-                                            "y": 44471.348297213626
+                                            "x": 16327.448575603992,
+                                            "y": 45074.848297213626
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -633,21 +754,52 @@
                                     }
                                 },
                                 {
-                                    "type": "Pool",
-                                    "name": "Liquidity Rewards BUSD",
-                                    "config": "{\n    \"codeName\": \"Liquidity-Rewards-BUSD\"\n}",
+                                    "type": "Pool Class",
+                                    "name": "Liquidity Program BUSD",
+                                    "config": "{}",
                                     "project": "Governance",
                                     "poolClasses": [],
-                                    "pools": [],
-                                    "id": "b5262628-f1d6-45ee-bd6a-81533ee31677",
+                                    "pools": [
+                                        {
+                                            "type": "Pool",
+                                            "name": "Liquidity Rewards BUSD (Pancake)",
+                                            "config": "{\n    \"codeName\": \"Liquidity-Rewards-BUSD-PANCAKE\"\n}",
+                                            "project": "Governance",
+                                            "poolClasses": [],
+                                            "pools": [],
+                                            "id": "dea6736d-86f0-4bdf-8160-a6b5387b971e",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 16482.740002665505,
+                                                    "y": 45654.40379298707
+                                                },
+                                                "targetPosition": {
+                                                    "x": 16405.094289134748,
+                                                    "y": 45364.62604510035
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 3,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "id": "7940ce17-0dd9-4144-af90-a6fa1dcf8a02",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 14870.094289134746,
-                                            "y": 44761.12604510035
+                                            "x": 16405.094289134748,
+                                            "y": 45364.62604510035
                                         },
                                         "targetPosition": {
-                                            "x": 14792.448575603989,
-                                            "y": 44471.348297213626
+                                            "x": 16327.448575603992,
+                                            "y": 45074.848297213626
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -663,15 +815,16 @@
                                     }
                                 }
                             ],
+                            "pools": [],
                             "id": "be148ab7-4c5b-4e1c-ba01-a287e56c8dd8",
                             "savedPayload": {
                                 "position": {
-                                    "x": 14792.448575603989,
-                                    "y": 44471.348297213626
+                                    "x": 16327.448575603992,
+                                    "y": 45074.848297213626
                                 },
                                 "targetPosition": {
-                                    "x": 14532.640954468656,
-                                    "y": 44321.348297213626
+                                    "x": 16067.640954468661,
+                                    "y": 44924.848297213626
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
