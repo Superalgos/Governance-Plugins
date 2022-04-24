@@ -7749,7 +7749,7 @@
     "userApps": {
         "type": "User Apps",
         "name": "New User Apps",
-        "config": "{}",
+        "config": "{\r\n    \"percentage\": \r\n}",
         "project": "User-Apps",
         "desktopApps": {
             "type": "Desktop Apps",
@@ -7765,9 +7765,9 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x0d85a8a70b492ae1db19796910445ba75a8d8472aed2fc79f87f9cf33c9235b0\",\n        \"s\": \"0x7c86805336f886e2a2263b5956379f9398e71b7df306d59a8933bda9c99878ce\",\n        \"signature\": \"0x0d85a8a70b492ae1db19796910445ba75a8d8472aed2fc79f87f9cf33c9235b07c86805336f886e2a2263b5956379f9398e71b7df306d59a8933bda9c99878ce1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xc68241f3c4001930e1b569f060b43d7cd7e379e5eef3f1cea57d24736f7b4460\",\n        \"s\": \"0x67262038894f6ea847d2409f9412a2e0b94a7dadc3f5dd2b2720cc99a695390c\",\n        \"signature\": \"0xc68241f3c4001930e1b569f060b43d7cd7e379e5eef3f1cea57d24736f7b446067262038894f6ea847d2409f9412a2e0b94a7dadc3f5dd2b2720cc99a695390c1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "cc32cb2d-2cd5-4076-8561-e947945a5d7e",
+                        "id": "69a560a7-5b7e-4cf7-a5e8-d84a69d33220",
                         "savedPayload": {
                             "position": {
                                 "x": 4140.401269614175,
@@ -7781,7 +7781,7 @@
                                 "isPinned": false,
                                 "isFrozen": false,
                                 "isCollapsed": false,
-                                "angleToParent": 2,
+                                "angleToParent": 1,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
                             },
@@ -7790,7 +7790,7 @@
                             }
                         }
                     },
-                    "id": "96272598-d1ac-4e85-ba06-e6e15e681f84",
+                    "id": "4ad370d4-eab0-4ba3-a388-e020e3c13c83",
                     "savedPayload": {
                         "position": {
                             "x": 4430.1790175008955,
@@ -7804,7 +7804,7 @@
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
-                            "angleToParent": 2,
+                            "angleToParent": 1,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
                         },
@@ -7815,7 +7815,7 @@
                 }
             ],
             "algoTradesPlatformApp": [],
-            "id": "19813e53-7a1d-42f6-8de2-f0f4aa40a4ab",
+            "id": "46ae1e75-3d3f-471a-bd0f-53a451f7e075",
             "savedPayload": {
                 "position": {
                     "x": 4719.956765387616,
@@ -7841,20 +7841,20 @@
         "serverApps": {
             "type": "Server Apps",
             "name": "New Server Apps",
-            "config": "{\r\n    \"percentage\": 70\r\n}",
+            "config": "{}",
             "project": "User-Apps",
             "taskServerApps": [
                 {
                     "type": "Task Server App",
-                    "name": "Lenovo-pc",
+                    "name": "Task Server App #1",
                     "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xf2579eab9a83d2b8b5244c344588474806bab8cace778f5affe2adba2634370a\",\n        \"s\": \"0x110ec6c2a35b5ba6cfe4c6bcbab31b7d2bc0ed116ffa1982fa7c47cbec99f8c2\",\n        \"signature\": \"0xf2579eab9a83d2b8b5244c344588474806bab8cace778f5affe2adba2634370a110ec6c2a35b5ba6cfe4c6bcbab31b7d2bc0ed116ffa1982fa7c47cbec99f8c21b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x752b46cdacdea16dc4f48ec1558d6c6c68387cedf64a701e65c692285df080b3\",\n        \"s\": \"0x3cca72d355551f3333b43af1445c12cc8320c4bc6c7ec179129fd84cb8a4755d\",\n        \"signature\": \"0x752b46cdacdea16dc4f48ec1558d6c6c68387cedf64a701e65c692285df080b33cca72d355551f3333b43af1445c12cc8320c4bc6c7ec179129fd84cb8a4755d1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "e5d49b86-f495-43c9-9327-cfd02dea3ca0",
+                        "id": "557989b2-5eb9-4ead-99ec-2d3165af86d5",
                         "savedPayload": {
                             "position": {
                                 "x": 4140.401269614175,
@@ -7868,7 +7868,7 @@
                                 "isPinned": false,
                                 "isFrozen": false,
                                 "isCollapsed": false,
-                                "angleToParent": 2,
+                                "angleToParent": 1,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
                             },
@@ -7877,7 +7877,7 @@
                             }
                         }
                     },
-                    "id": "668cdf51-2df8-4220-a875-9f19b4421502",
+                    "id": "3a2f262e-aaa6-4541-b434-f3a4842e5337",
                     "savedPayload": {
                         "position": {
                             "x": 4430.1790175008955,
@@ -7891,7 +7891,7 @@
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
-                            "angleToParent": 2,
+                            "angleToParent": 1,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
                         },
@@ -7902,7 +7902,7 @@
                 }
             ],
             "socialTradingServerApps": [],
-            "id": "72855798-1f01-413e-8e2d-a25f3942529c",
+            "id": "83bed510-20f0-469f-a2fa-e8b4f0a4809f",
             "savedPayload": {
                 "position": {
                     "x": 4719.956765387616,
@@ -7925,7 +7925,7 @@
                 }
             }
         },
-        "id": "4e2475b6-79ac-4711-b8bb-42ffcabc0f10",
+        "id": "ee8f810a-38f9-47a7-9626-db5b42bac049",
         "savedPayload": {
             "position": {
                 "x": 5009.734513274336,
@@ -7956,16 +7956,16 @@
         "bitcoinFactoryForecasts": [
             {
                 "type": "Bitcoin Factory Forecasts",
-                "name": "Mainnet",
+                "name": "Testnet",
                 "config": "{\r\n    \"percentage\": 10\r\n}",
                 "project": "Governance",
                 "testClientInstances": [
                     {
                         "type": "Test Client Instance",
                         "name": "tigers40",
-                        "config": "{}",
+                        "config": "{\r\n    \"codeName\": \"prepheadrus\"\r\n}",
                         "project": "Governance",
-                        "id": "25c2d3c9-c39b-41cf-8113-b8b8581b95a8",
+                        "id": "bd53a383-ade1-433e-a68d-fcf753bb1bc6",
                         "savedPayload": {
                             "position": {
                                 "x": 5309.734513274336,
@@ -7990,7 +7990,7 @@
                     }
                 ],
                 "forecastClientInstances": [],
-                "id": "4abde6a7-30d2-4a25-a8f5-3e447cded982",
+                "id": "30f37688-0d78-43a8-91a6-e732e22fac08",
                 "savedPayload": {
                     "position": {
                         "x": 5309.734513274336,
@@ -8014,7 +8014,7 @@
                 }
             }
         ],
-        "id": "5d057292-c027-43b5-a8de-3a6542d367fb",
+        "id": "e9792bb1-9144-457a-b14f-b41a5d3dfaf2",
         "savedPayload": {
             "position": {
                 "x": 5309.734513274336,
