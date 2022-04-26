@@ -2663,9 +2663,9 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Smidy13\",\n        \"messageHash\": \"0xc8f90bd04d40df028dca4cdae13a0ef1d264562adff290bc8a3527dab608520b\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x98fe32347c5bf8df14784a1a0ff5973cb546b790a5efadd16a23780937ecef66\",\n        \"s\": \"0x179c787a8638c8c7dc47e5dbc9708acada82f6fc33bef6cdd189a41d4c9818aa\",\n        \"signature\": \"0x98fe32347c5bf8df14784a1a0ff5973cb546b790a5efadd16a23780937ecef66179c787a8638c8c7dc47e5dbc9708acada82f6fc33bef6cdd189a41d4c9818aa1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Smidy13\",\n        \"messageHash\": \"0xc8f90bd04d40df028dca4cdae13a0ef1d264562adff290bc8a3527dab608520b\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x01abb053733a9ccd06f6b51d9afa8abcf6d9c151cd632153e307e46eaeb4f96c\",\n        \"s\": \"0x17e44d450e6fca3c32ba3f03e08a3ccb5b8b808f964c3b3fdfbc1e2698e20299\",\n        \"signature\": \"0x01abb053733a9ccd06f6b51d9afa8abcf6d9c151cd632153e307e46eaeb4f96c17e44d450e6fca3c32ba3f03e08a3ccb5b8b808f964c3b3fdfbc1e2698e202991c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "623994de-a16c-4497-b7d5-680240738d49",
+                        "id": "c0ab7e0b-58f0-4e3a-b3e5-fb3851a9288c",
                         "savedPayload": {
                             "position": {
                                 "x": 36380.384757729335,
@@ -2679,7 +2679,7 @@
                                 "isPinned": false,
                                 "isFrozen": false,
                                 "isCollapsed": false,
-                                "angleToParent": 1,
+                                "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
                             },
@@ -2716,6 +2716,34 @@
                     "name": "Raspberry-Pi-4GB",
                     "config": "{\n    \"codeName\": \"Task-Server-App-2\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"Smidy13\",\n        \"messageHash\": \"0xc8f90bd04d40df028dca4cdae13a0ef1d264562adff290bc8a3527dab608520b\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x0bbdc1b211a25cbba6b9c984de592970661784dd317485274323acd8300c4429\",\n        \"s\": \"0x4b5adb7166d424550ea03ddaa1291332a231f37a142fd75b50ef5273db4de921\",\n        \"signature\": \"0x0bbdc1b211a25cbba6b9c984de592970661784dd317485274323acd8300c44294b5adb7166d424550ea03ddaa1291332a231f37a142fd75b50ef5273db4de9211b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "b5ec0d92-b14f-4ee3-a092-c1eefa1583fa",
+                        "savedPayload": {
+                            "position": {
+                                "x": 36380.384757729335,
+                                "y": 18500
+                            },
+                            "targetPosition": {
+                                "x": 36640.19237886467,
+                                "y": 18650
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "5fc65078-5ad5-4229-96f0-3d9101f68818",
                     "savedPayload": {
                         "position": {
@@ -2917,7 +2945,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": false,
+            "isCollapsed": true,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
