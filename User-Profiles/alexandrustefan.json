@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "alexandrustefan",
-    "config": "{\"signature\":{\"message\":\"alexandrustefan\",\"messageHash\":\"0x01480a1f95282f9cd8ecd58e16b722678a17738f633c1b0e4459c091c69c2e89\",\"v\":\"0x1b\",\"r\":\"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa54\",\"s\":\"0x07f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac4\",\"signature\":\"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa5407f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac41b\"},\"codeName\":\"alexandrustefan\"}",
+    "config": "{\r\n    \"signature\": {\r\n        \"message\": \"alexandrustefan\",\r\n        \"messageHash\": \"0x01480a1f95282f9cd8ecd58e16b722678a17738f633c1b0e4459c091c69c2e89\",\r\n        \"v\": \"0x1b\",\r\n        \"r\": \"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa54\",\r\n        \"s\": \"0x07f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac4\",\r\n        \"signature\": \"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa5407f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac41b\"\r\n    },\r\n    \"codeName\": \"alexandrustefan\"\r\n}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -3696,17 +3696,17 @@
         "id": "32edddeb-10a4-4e67-8ebc-518ae17b60e0",
         "savedPayload": {
             "position": {
-                "x": 47256.521739130425,
-                "y": 18800
+                "x": 47384.521739130425,
+                "y": 18801
             },
             "targetPosition": {
-                "x": 46956.521739130425,
-                "y": 18800
+                "x": 47084.521739130425,
+                "y": 18801
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -3723,12 +3723,216 @@
         "id": "9fd346bc-0aa8-44a0-a336-71d8a92e5b4a",
         "savedPayload": {
             "position": {
-                "x": 46656.521739130425,
-                "y": 18800
+                "x": 47084.521739130425,
+                "y": 19101
             },
             "targetPosition": {
-                "x": 46956.521739130425,
-                "y": 18800
+                "x": 47084.521739130425,
+                "y": 18801
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "userApps": {
+        "type": "User Apps",
+        "name": "New User Apps",
+        "config": "{\"percentage\":0}",
+        "project": "User-Apps",
+        "serverApps": {
+            "type": "Server Apps",
+            "name": "New Server Apps",
+            "config": "{}",
+            "project": "User-Apps",
+            "taskServerApps": [
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"alexandrustefan\",\n        \"messageHash\": \"0x01480a1f95282f9cd8ecd58e16b722678a17738f633c1b0e4459c091c69c2e89\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x009725e3c50dc2a114fb2d937de1bdeb2e145384266e8a7eda914f0cf4621a33\",\n        \"s\": \"0x39b1dff5ae0b264e3cfada3233669465a85881410489cc4db8b54eec62aa10c9\",\n        \"signature\": \"0x009725e3c50dc2a114fb2d937de1bdeb2e145384266e8a7eda914f0cf4621a3339b1dff5ae0b264e3cfada3233669465a85881410489cc4db8b54eec62aa10c91c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "09f6ec40-b456-4bc8-9fd4-b4e1fe152663",
+                        "savedPayload": {
+                            "position": {
+                                "x": 45884.521739130425,
+                                "y": 18801
+                            },
+                            "targetPosition": {
+                                "x": 46184.521739130425,
+                                "y": 18801
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "ac972cba-2bb3-4a82-be38-e030ae681958",
+                    "savedPayload": {
+                        "position": {
+                            "x": 46184.521739130425,
+                            "y": 18801
+                        },
+                        "targetPosition": {
+                            "x": 46484.521739130425,
+                            "y": 18801
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "socialTradingServerApps": [],
+            "id": "828ecb5d-18da-4e81-9bf8-4793d41cd622",
+            "savedPayload": {
+                "position": {
+                    "x": 46484.521739130425,
+                    "y": 18801
+                },
+                "targetPosition": {
+                    "x": 46784.521739130425,
+                    "y": 18801
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "id": "8e59ba01-684b-4f8b-9187-dbec0d75dc8d",
+        "savedPayload": {
+            "position": {
+                "x": 46784.521739130425,
+                "y": 18801
+            },
+            "targetPosition": {
+                "x": 47084.521739130425,
+                "y": 18801
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "forecastsProviders": {
+        "type": "Forecasts Providers",
+        "name": "New Forecasts Providers",
+        "config": "{\"percentage\":0}",
+        "project": "Governance",
+        "bitcoinFactoryForecasts": [
+            {
+                "type": "Bitcoin Factory Forecasts",
+                "name": "Testnet",
+                "config": "{}",
+                "project": "Governance",
+                "testClientInstances": [
+                    {
+                        "type": "Test Client Instance",
+                        "name": "Alex-Test-Client-1",
+                        "config": "{\r\n    \"codeName\":\"Alex-Test-Client-1\"\r\n}",
+                        "project": "Governance",
+                        "id": "2025ef24-a7bc-4623-bfe5-f6c830c65325",
+                        "savedPayload": {
+                            "position": {
+                                "x": 47084.521739130425,
+                                "y": 17901
+                            },
+                            "targetPosition": {
+                                "x": 47084.521739130425,
+                                "y": 18201
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "forecastClientInstances": [],
+                "id": "f8db037c-5365-4255-83f2-e35867150b21",
+                "savedPayload": {
+                    "position": {
+                        "x": 47084.521739130425,
+                        "y": 18201
+                    },
+                    "targetPosition": {
+                        "x": 47084.521739130425,
+                        "y": 18501
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
+        "id": "e26222d0-732a-4c85-83bc-05a064958845",
+        "savedPayload": {
+            "position": {
+                "x": 47084.521739130425,
+                "y": 18501
+            },
+            "targetPosition": {
+                "x": 47084.521739130425,
+                "y": 18801
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3746,12 +3950,12 @@
     "id": "4c987083-b506-4f26-9821-e678dd3880d1",
     "savedPayload": {
         "position": {
-            "x": 46956.521739130425,
-            "y": 18800
+            "x": 47084.521739130425,
+            "y": 18801
         },
         "targetPosition": {
-            "x": 46956.521739130425,
-            "y": 18800
+            "x": 47084.521739130425,
+            "y": 18801
         },
         "floatingObject": {
             "isPinned": false,
