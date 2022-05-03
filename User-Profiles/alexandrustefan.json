@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "alexandrustefan",
-    "config": "{\r\n    \"signature\": {\r\n        \"message\": \"alexandrustefan\",\r\n        \"messageHash\": \"0x01480a1f95282f9cd8ecd58e16b722678a17738f633c1b0e4459c091c69c2e89\",\r\n        \"v\": \"0x1b\",\r\n        \"r\": \"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa54\",\r\n        \"s\": \"0x07f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac4\",\r\n        \"signature\": \"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa5407f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac41b\"\r\n    },\r\n    \"codeName\": \"alexandrustefan\"\r\n}",
+    "config": "{\"signature\":{\"message\":\"alexandrustefan\",\"messageHash\":\"0x01480a1f95282f9cd8ecd58e16b722678a17738f633c1b0e4459c091c69c2e89\",\"v\":\"0x1b\",\"r\":\"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa54\",\"s\":\"0x07f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac4\",\"signature\":\"0x38ce12d4391a0c55e024b84b2f33bf12067d12d79a05480b840f092f0447fa5407f4f5911fa4e1bcc5f9787ce0f4ba6674f6ab9dda8a872ad05ed4047669bac41b\"},\"codeName\":\"alexandrustefan\"}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -128,11 +128,11 @@
             "savedPayload": {
                 "position": {
                     "x": 47163.81664081794,
-                    "y": 18514.683045111455
+                    "y": 28114.683045111455
                 },
                 "targetPosition": {
                     "x": 47256.521739130425,
-                    "y": 18800
+                    "y": 28400
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -950,11 +950,11 @@
             "savedPayload": {
                 "position": {
                     "x": 47499.22683744291,
-                    "y": 18623.664424312257
+                    "y": 28223.664424312257
                 },
                 "targetPosition": {
                     "x": 47256.521739130425,
-                    "y": 18800
+                    "y": 28400
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1002,11 +1002,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 47648.27474633222,
-                                        "y": 18517.52141930882
+                                        "y": 28117.52141930882
                                     },
                                     "targetPosition": {
                                         "x": 47868.357956497326,
-                                        "y": 18470.741288874826
+                                        "y": 28070.741288874826
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1050,11 +1050,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 47937.88678023169,
-                                        "y": 18256.753572708418
+                                        "y": 27856.753572708418
                                     },
                                     "targetPosition": {
                                         "x": 47868.357956497326,
-                                        "y": 18470.741288874826
+                                        "y": 28070.741288874826
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1090,11 +1090,11 @@
                         "savedPayload": {
                             "position": {
                                 "x": 47868.357956497326,
-                                "y": 18470.741288874826
+                                "y": 28070.741288874826
                             },
                             "targetPosition": {
                                 "x": 48018.912342928066,
-                                "y": 18637.94887460724
+                                "y": 28237.94887460724
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1111,151 +1111,21 @@
                     },
                     {
                         "type": "Votes Switch",
-                        "name": "Position Votes",
-                        "config": "{\r\n    \"percentage\": 75\r\n}",
+                        "name": "New Votes Switch",
+                        "config": "{\r\n    \"percentage\": 70\r\n}",
                         "project": "Governance",
                         "votesSwitch": [],
                         "claimVotesSwitch": [],
                         "weightVotesSwitch": [
                             {
                                 "type": "Weight Votes Switch",
-                                "name": "Teams With PoW Reports",
+                                "name": "Teams With PoV Reports",
                                 "config": "{}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "Data Mining Team PoW Report",
-                                        "config": "{\r\n    \"percentage\":10\r\n}",
-                                        "project": "Governance",
-                                        "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
-                                        "assetWeightVotes": [],
-                                        "featureWeightVotes": [],
-                                        "positionWeightVotes": [
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "c1ada569-3daf-44a0-ba63-469878d5b19f",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 45826.798376361825,
-                                                        "y": 13657.450397104509
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46275.864299272296,
-                                                        "y": 13686.429646241897
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Data Mining Team Token Pool",
-                                                        "id": "e61f97a8-ee3a-4bf3-947d-eba128813dda"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Data Mining Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "2216c060-c9f7-4417-b41f-1d4f9cb4ca81"
-                                                        ],
-                                                        [
-                                                            "Data Mining Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "e61f97a8-ee3a-4bf3-947d-eba128813dda"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "a2351559-f77d-491e-94ea-21b2e8f24ef6",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 48404.799831506185,
-                                                "y": 18486.429646241897
-                                            },
-                                            "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": true,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Data Mining Team PoW Report",
-                                                "id": "2216c060-c9f7-4417-b41f-1d4f9cb4ca81"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                ],
-                                                [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                ],
-                                                [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                ],
-                                                [
-                                                    "Data Mining Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "2216c060-c9f7-4417-b41f-1d4f9cb4ca81"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Weight Votes Switch",
-                                        "name": "Education Team PoW Report",
+                                        "name": "gitforkgit",
                                         "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
@@ -1265,25 +1135,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "gitforkgit gitforkgit",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "f084278f-9c1a-4c2b-9e38-450585359315",
+                                                "id": "a68e009a-183e-41b1-b423-16d989f97afe",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 46236.60041157722,
-                                                        "y": 13918.834836085227
+                                                        "x": 48183.49763214564,
+                                                        "y": 27768.622330083013
                                                     },
                                                     "targetPosition": {
-                                                        "x": 46340.76942340875,
-                                                        "y": 13481.057704459963
+                                                        "x": 48295.84345480553,
+                                                        "y": 27774.510125160345
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
                                                         "isCollapsed": false,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -1291,255 +1161,50 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "Translation Team Token Pool",
-                                                        "id": "80007c46-9f19-4375-bc24-2770b9cf8ab4"
+                                                        "name": "gitforkgit",
+                                                        "id": "465c1399-bab1-43d4-94a0-486ee34d7b57"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Education Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "c609da41-373d-46ca-b637-d45e24e9b692"
+                                                            "gitforkgit",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Translation Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "80007c46-9f19-4375-bc24-2770b9cf8ab4"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "13bd3af1-77a2-441f-835e-6dad28e5abca",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 45892.22863474835,
-                                                        "y": 13517.26766038249
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46340.76942340875,
-                                                        "y": 13481.057704459963
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Documentation Team Token Pool",
-                                                        "id": "86dcb14e-8d6b-4a38-8ba3-5402e973399f"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Education Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "c609da41-373d-46ca-b637-d45e24e9b692"
-                                                        ],
-                                                        [
-                                                            "Documentation Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "86dcb14e-8d6b-4a38-8ba3-5402e973399f"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "4119691b-09dd-40d2-af47-da891ae084ab",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 46167.72498250746,
-                                                        "y": 13065.659556325956
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46340.76942340875,
-                                                        "y": 13481.057704459963
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Infrastructure Team Token Pool",
-                                                        "id": "8b3b36d9-5bc0-40c0-9773-3e639762fc61"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Education Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "c609da41-373d-46ca-b637-d45e24e9b692"
-                                                        ],
-                                                        [
-                                                            "Infrastructure Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "8b3b36d9-5bc0-40c0-9773-3e639762fc61"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "3dd76911-c484-40c7-a999-23157603cc90",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 46682.36286602793,
-                                                        "y": 13188.117574126856
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46340.76942340875,
-                                                        "y": 13481.057704459963
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Honorable Team Token Pool",
-                                                        "id": "91394858-e3cd-4e04-9e69-ec1d97d12032"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Education Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "c609da41-373d-46ca-b637-d45e24e9b692"
-                                                        ],
-                                                        [
-                                                            "Honorable Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "91394858-e3cd-4e04-9e69-ec1d97d12032"
+                                                            "gitforkgit",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "af09912d-bcca-4244-82bc-8c039475e501",
+                                        "id": "eea1a0c1-8b81-4617-9f30-4293282ccf47",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 48469.704955642635,
-                                                "y": 18281.057704459963
+                                                "x": 48463.05104053794,
+                                                "y": 27623.9557387296
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": true,
                                                 "angleToParent": 1,
-                                                "distanceToParent": 3,
+                                                "distanceToParent": 2,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
@@ -1547,40 +1212,32 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "Education Team PoW Report",
-                                                "id": "c609da41-373d-46ca-b637-d45e24e9b692"
+                                                "name": "gitforkgit",
+                                                "id": "9c7c54e2-7d7f-47e4-94f3-b7247009f71e"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Education Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "c609da41-373d-46ca-b637-d45e24e9b692"
+                                                    "gitforkgit",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "Distribution Team PoW Report",
+                                        "name": "Elves and Fairies",
                                         "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
@@ -1590,25 +1247,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "Elves and Fairies Elves and Fairies",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "df178271-8eb6-4d4a-90ce-50fed541f500",
+                                                "id": "957380ca-a442-4a3b-9013-09084a8588c0",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 46262.43209162688,
-                                                        "y": 12943.33669717998
+                                                        "x": 48294.7035204792,
+                                                        "y": 27535.474336716386
                                                     },
                                                     "targetPosition": {
-                                                        "x": 46493.68115690482,
-                                                        "y": 13329.372796279633
+                                                        "x": 48369.98071369457,
+                                                        "y": 27619.078129582595
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
                                                         "isCollapsed": false,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -1616,60 +1273,50 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "Distribution Team Token Pool",
-                                                        "id": "5a79b95b-d87c-4f56-92da-bbb44ae47c0d"
+                                                        "name": "Elves and Fairies",
+                                                        "id": "82bfe3aa-d3ce-48fc-b351-bf8748bc9a2c"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Distribution Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "a8d736f7-f1f6-42ce-b72a-626c2faf4d09"
+                                                            "Elves and Fairies",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Distribution Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "5a79b95b-d87c-4f56-92da-bbb44ae47c0d"
+                                                            "Elves and Fairies",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "376fb4e3-5109-4d0f-a2cd-d5f4e51135ad",
+                                        "id": "97e19a92-4c8e-4658-8b84-5dcf624aca25",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 48622.61668913871,
-                                                "y": 18129.372796279633
+                                                "x": 48537.188299426976,
+                                                "y": 27468.52374315185
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": true,
                                                 "angleToParent": 1,
-                                                "distanceToParent": 3,
+                                                "distanceToParent": 2,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
@@ -1677,41 +1324,33 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "Distribution Team PoW Report",
-                                                "id": "a8d736f7-f1f6-42ce-b72a-626c2faf4d09"
+                                                "name": "Elves and Fairies",
+                                                "id": "fe1e5af1-8423-49f5-a17b-e9cf25b0761a"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Distribution Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "a8d736f7-f1f6-42ce-b72a-626c2faf4d09"
+                                                    "Elves and Fairies",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "Algorithmic-Trading & Portfolio Management Team PoW Report",
-                                        "config": "{\r\n    \"percentage\": 8\r\n}",
+                                        "name": "Luis",
+                                        "config": "{\r\n    \"percentage\":40\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [],
@@ -1720,25 +1359,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "Luis Luis",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "4cab19ba-43e6-44b5-8a36-f652be95393d",
+                                                "id": "94b615ad-5e1b-4e59-a949-af6c9babc370",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 46674.20830662269,
-                                                        "y": 12816.839316948146
+                                                        "x": 48538.1984853573,
+                                                        "y": 27449.24824733534
                                                     },
                                                     "targetPosition": {
-                                                        "x": 46699.56926440273,
-                                                        "y": 13266.124106163716
+                                                        "x": 48532.31069027997,
+                                                        "y": 27561.59406999523
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -1746,53 +1385,43 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "Algorithmic-Trading & Portfolio Management Team Token Pool",
-                                                        "id": "d93681ca-23e4-4503-b76f-d675d4e81732"
+                                                        "name": "Luis",
+                                                        "id": "d9065fd1-c605-48dd-8f3c-07871b30973f"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Algorithmic-Trading & Portfolio Management Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "d3592eff-41f3-45af-a534-05750b22a887"
+                                                            "Luis",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Algorithmic-Trading & Portfolio Management Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "d93681ca-23e4-4503-b76f-d675d4e81732"
+                                                            "Luis",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "f5295f70-4c19-4689-aedb-4e3e249ab67d",
+                                        "id": "6cbaba38-2437-4f86-bad2-a112325524b6",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 48828.50479663662,
-                                                "y": 18066.124106163716
+                                                "x": 48711.29386616704,
+                                                "y": 27186.348038244705
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1807,41 +1436,33 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "Algorithmic-Trading & Portfolio Management Team PoW Report",
-                                                "id": "d3592eff-41f3-45af-a534-05750b22a887"
+                                                "name": "Luis",
+                                                "id": "47733d37-232d-4859-9d9d-3d2d16eed056"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Algorithmic-Trading & Portfolio Management Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "d3592eff-41f3-45af-a534-05750b22a887"
+                                                    "Luis",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "One-Man Team PoW Report",
-                                        "config": "{\r\n    \"percentage\": 11\r\n}",
+                                        "name": "Alexandru",
+                                        "config": "{\r\n    \"percentage\": 30\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [],
@@ -1850,25 +1471,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "Alexandru Alexandru",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "271d8379-4a90-4894-bb1e-e0e44601c519",
+                                                "id": "71d2b7a5-3546-4863-8611-0927adb5e923",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 47097.604301207975,
-                                                        "y": 12896.193398197553
+                                                        "x": 48771.34647872393,
+                                                        "y": 27560.454135668893
                                                     },
                                                     "targetPosition": {
-                                                        "x": 46911.26726169537,
-                                                        "y": 13305.801146788419
+                                                        "x": 48687.742685857724,
+                                                        "y": 27635.731328884263
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -1876,53 +1497,43 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "One-Man Team Token Pool",
-                                                        "id": "5b589adc-7df5-40bd-bb14-abc1205dd674"
+                                                        "name": "Alexandru",
+                                                        "id": "c12a37f3-8ed6-4eef-8336-2cbaf54624c2"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "One-Man Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "6d3afe45-2088-4f84-9e52-6c01897d21b1"
+                                                            "Alexandru",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "One-Man Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "5b589adc-7df5-40bd-bb14-abc1205dd674"
+                                                            "Alexandru",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "90a7cfad-22b8-4fae-8d98-ee7114c6d67d",
+                                        "id": "360a3432-4744-4fd4-837d-cda737e1d697",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 49040.20279392926,
-                                                "y": 18105.80114678842
+                                                "x": 49022.15785732254,
+                                                "y": 27334.622556022776
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1937,41 +1548,33 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "One-Man Team PoW Report",
-                                                "id": "6d3afe45-2088-4f84-9e52-6c01897d21b1"
+                                                "name": "Alexandru",
+                                                "id": "6829f8f9-eca7-455c-a140-25482b96a203"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "One-Man Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "6d3afe45-2088-4f84-9e52-6c01897d21b1"
+                                                    "Alexandru",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "Marketing Teams PoW Report",
-                                        "config": "{\r\n    \"percentage\": 12\r\n}",
+                                        "name": "Translations",
+                                        "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [],
@@ -1980,25 +1583,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "Translations Translations",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "6773f371-fe49-4582-8883-26de58da8f9f",
+                                                "id": "823d92af-776d-4956-a89a-e95061bc1f10",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 46633.78078587582,
-                                                        "y": 13383.274082569227
+                                                        "x": 48857.57256810497,
+                                                        "y": 27803.949100547
                                                     },
                                                     "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
+                                                        "x": 48745.226745445085,
+                                                        "y": 27798.06130546967
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
                                                         "isCollapsed": false,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -2006,450 +1609,50 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "Superalgos.org Website Team Token Pool",
-                                                        "id": "242465e3-7cfc-4d08-a150-7bcf3496e49b"
+                                                        "name": "Translations",
+                                                        "id": "d32b4af9-b68f-474f-8f3a-8591577fa176"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
+                                                            "Translations",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Superalgos.org Website Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "242465e3-7cfc-4d08-a150-7bcf3496e49b"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "ec9b6fff-1ca9-4b14-96bb-3a77296448c7",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 46804.183179767955,
-                                                        "y": 13083.96691964913
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Superalgos Medium Blog Team Token Pool",
-                                                        "id": "396f32ad-352d-48bf-af2e-9e57b38778ec"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
-                                                        ],
-                                                        [
-                                                            "Superalgos Medium Blog Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "396f32ad-352d-48bf-af2e-9e57b38778ec"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "d4e4541e-4cb7-4db8-a317-3e1a69ad8fdf",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47136.31799257801,
-                                                        "y": 12992.817483342178
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Social Network Teams Token Pool",
-                                                        "id": "f325cd6c-8a8a-407b-9995-1c94be3b1901"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
-                                                        ],
-                                                        [
-                                                            "Social Network Teams Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "f325cd6c-8a8a-407b-9995-1c94be3b1901"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "cccf9497-a9d4-48e8-81d2-0bd2d6d52723",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47435.62515549811,
-                                                        "y": 13163.219877234318
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Exchange Relationships Team Token Pool",
-                                                        "id": "522fe7af-6343-42f7-9f4d-feb2c51e257c"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
-                                                        ],
-                                                        [
-                                                            "Exchange Relationships Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "522fe7af-6343-42f7-9f4d-feb2c51e257c"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "a68b70b3-e12c-4fe6-8f29-aad086f18f8a",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47526.774591805064,
-                                                        "y": 13495.354690044376
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Telegram Team Token Pool",
-                                                        "id": "4c55b787-154e-4d49-957a-8339595c180a"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
-                                                        ],
-                                                        [
-                                                            "Telegram Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "4c55b787-154e-4d49-957a-8339595c180a"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "47745346-6b35-40d8-9a0c-88a91d7c6e78",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47356.372197912926,
-                                                        "y": 13794.661852964471
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Public Relations Team Token Pool",
-                                                        "id": "62b14d55-4a13-4f97-b0ec-efff71cd9231"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
-                                                        ],
-                                                        [
-                                                            "Public Relations Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "62b14d55-4a13-4f97-b0ec-efff71cd9231"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "a06c45fd-cd24-44ea-90f1-9efd40400c51",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47024.23738510287,
-                                                        "y": 13885.811289271425
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47080.27768884044,
-                                                        "y": 13439.314386306802
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "CoinMonks Team Token Pool",
-                                                        "id": "dd454de1-59fd-470c-98ca-b4fb09917f6d"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Marketing Teams PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
-                                                        ],
-                                                        [
-                                                            "CoinMonks Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "dd454de1-59fd-470c-98ca-b4fb09917f6d"
+                                                            "Translations",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "d8fda692-8073-4cb5-b0d4-ad2195b1109f",
+                                        "id": "0f329c03-ca07-45ec-a1ae-a2f0dc4aeea6",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 49209.21322107433,
-                                                "y": 18239.3143863068
+                                                "x": 48912.434331177494,
+                                                "y": 27647.506919038926
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": true,
                                                 "angleToParent": 1,
-                                                "distanceToParent": 3,
+                                                "distanceToParent": 2,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
@@ -2457,430 +1660,32 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "Marketing Teams PoW Report",
-                                                "id": "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
+                                                "name": "Translations",
+                                                "id": "0d2934e1-21a8-428e-91c4-023e44ec6193"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Marketing Teams PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "454ef86c-c1c6-40c5-aaca-d6725e1e3584"
+                                                    "Translations",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "Luis’ Team PoW Report",
-                                        "config": "{\r\n    \"percentage\":11\r\n}",
-                                        "project": "Governance",
-                                        "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
-                                        "assetWeightVotes": [],
-                                        "featureWeightVotes": [],
-                                        "positionWeightVotes": [
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "784dbe78-f708-4343-805d-795d92978d88",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47610.83436536811,
-                                                        "y": 13556.746205729032
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47167.88229377544,
-                                                        "y": 13636.077550554159
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Luis’ Team Token Pool",
-                                                        "id": "3445c383-fa0d-414e-a04f-11ebc4d8961e"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Luis’ Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "5b43ce7d-2d37-456a-a80a-dca64ae5c95d"
-                                                        ],
-                                                        [
-                                                            "Luis’ Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "3445c383-fa0d-414e-a04f-11ebc4d8961e"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "3653e112-e583-47ac-bdbb-bab71de27d1d",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 49296.81782600933,
-                                                "y": 18436.07755055416
-                                            },
-                                            "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": true,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Luis’ Team PoW Report",
-                                                "id": "5b43ce7d-2d37-456a-a80a-dca64ae5c95d"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                ],
-                                                [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                ],
-                                                [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                ],
-                                                [
-                                                    "Luis’ Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "5b43ce7d-2d37-456a-a80a-dca64ae5c95d"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Weight Votes Switch",
-                                        "name": "Brett’s Team PoW Report",
-                                        "config": "{\r\n    \"percentage\":9\r\n}",
-                                        "project": "Governance",
-                                        "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
-                                        "assetWeightVotes": [],
-                                        "featureWeightVotes": [],
-                                        "positionWeightVotes": [
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "f1a8737c-45e1-4672-adff-e98f5e1945bf",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47583.09361233663,
-                                                        "y": 13986.620244329933
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47154.0119172597,
-                                                        "y": 13851.01456985461
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Brett’s Team Token Pool",
-                                                        "id": "bb67fd84-7283-4110-b838-dcdecbb7b4ca"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Brett’s Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "d97c8d9f-401d-4e48-aede-6c91f5b730fd"
-                                                        ],
-                                                        [
-                                                            "Brett’s Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "bb67fd84-7283-4110-b838-dcdecbb7b4ca"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "1ad89004-2c65-42d5-ac2a-a80bbc0c71d5",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 49282.947449493586,
-                                                "y": 18651.014569854608
-                                            },
-                                            "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": true,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Brett’s Team PoW Report",
-                                                "id": "d97c8d9f-401d-4e48-aede-6c91f5b730fd"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                ],
-                                                [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                ],
-                                                [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                ],
-                                                [
-                                                    "Brett’s Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "d97c8d9f-401d-4e48-aede-6c91f5b730fd"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Weight Votes Switch",
-                                        "name": "Smidy’s Team PoW Report",
-                                        "config": "{\r\n    \"percentage\":9\r\n}",
-                                        "project": "Governance",
-                                        "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
-                                        "assetWeightVotes": [],
-                                        "featureWeightVotes": [],
-                                        "positionWeightVotes": [
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "a5266d20-48fd-4a4b-9985-dd190e34803f",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 47358.75796861088,
-                                                        "y": 14354.363031337307
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 47041.844095396824,
-                                                        "y": 14034.885963358296
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Smidy’s Team Token Pool",
-                                                        "id": "6e27ccd8-f4a9-4d72-a21e-deb58f2ca66c"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Smidy’s Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "7bdf079a-7ede-476e-b402-0461c2c312ee"
-                                                        ],
-                                                        [
-                                                            "Smidy’s Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "6e27ccd8-f4a9-4d72-a21e-deb58f2ca66c"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "56d621dc-5583-4137-8a1c-aedc30767f8d",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 49170.77962763071,
-                                                "y": 18834.885963358298
-                                            },
-                                            "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": true,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Smidy’s Team PoW Report",
-                                                "id": "7bdf079a-7ede-476e-b402-0461c2c312ee"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                ],
-                                                [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                ],
-                                                [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                ],
-                                                [
-                                                    "Smidy’s Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "7bdf079a-7ede-476e-b402-0461c2c312ee"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Weight Votes Switch",
-                                        "name": "Desktop Team PoW Report",
+                                        "name": "Data Mining",
                                         "config": "{\r\n    \"percentage\": 10\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
@@ -2890,25 +1695,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "Data Mining Data Mining",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "0af997c3-c43d-4e7f-8c9f-5697bdef74c2",
+                                                "id": "df50fb70-66db-49a0-81b4-2402554e59ec",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 46989.220026630835,
-                                                        "y": 14575.729126028782
+                                                        "x": 48746.36667977142,
+                                                        "y": 28037.097093913628
                                                     },
                                                     "targetPosition": {
-                                                        "x": 46857.0751244068,
-                                                        "y": 14145.569010704034
+                                                        "x": 48671.08948655605,
+                                                        "y": 27953.49330104742
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
                                                         "isCollapsed": false,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -2916,53 +1721,43 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "Desktop Team Token Pool",
-                                                        "id": "fb021c3d-23e1-4450-9a57-2d810c598a54"
+                                                        "name": "Data Mining",
+                                                        "id": "483e4432-c5ec-4ef5-9db5-31d7d817ffab"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Desktop Team PoW Report",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "8ccd7d97-a70d-452a-86e3-009ed9576ca4"
+                                                            "Data Mining",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Desktop Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "fb021c3d-23e1-4450-9a57-2d810c598a54"
+                                                            "Data Mining",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "05f3aa64-5a84-4846-a57c-f7ca20a2986f",
+                                        "id": "b918d131-c5bb-4a3a-8c56-186c7859ea86",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 48986.01065664069,
-                                                "y": 18945.569010704032
+                                                "x": 48988.851458719204,
+                                                "y": 27970.146500349092
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -2977,41 +1772,33 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "Desktop Team PoW Report",
-                                                "id": "8ccd7d97-a70d-452a-86e3-009ed9576ca4"
+                                                "name": "Data Mining",
+                                                "id": "0a432358-83f2-45e3-ab52-d1ff5fbeee8b"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Desktop Team PoW Report",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "8ccd7d97-a70d-452a-86e3-009ed9576ca4"
+                                                    "Data Mining",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "Non-Tech-Users Community Team",
-                                        "config": "{\r\n    \"percentage\":2\r\n}",
+                                        "name": "UX-UI",
+                                        "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [],
@@ -3020,25 +1807,25 @@
                                         "positionWeightVotes": [
                                             {
                                                 "type": "Position Weight Vote",
-                                                "name": "",
+                                                "name": "UX-UI UX-UI",
                                                 "config": "{}",
                                                 "project": "Governance",
-                                                "id": "4f464af6-1bb8-4075-a28c-f0097a27d40b",
+                                                "id": "343b6ec8-3790-4d2b-a436-400343bd6934",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 47084.332013076906,
-                                                        "y": 14240.604432967035
+                                                        "x": 48502.871714893314,
+                                                        "y": 28123.323183294673
                                                     },
                                                     "targetPosition": {
-                                                        "x": 46642.03334883596,
-                                                        "y": 14157.70755962023
+                                                        "x": 48508.759509970645,
+                                                        "y": 28010.977360634784
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
                                                         "isCollapsed": false,
                                                         "angleToParent": 1,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 2,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
@@ -3046,190 +1833,50 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position",
-                                                        "name": "Team Creator EvaMaria70 Token Pool",
-                                                        "id": "8bfad32e-ec6e-4fc7-97a5-8edaf4146076"
+                                                        "name": "UX-UI",
+                                                        "id": "e4400c25-1c8f-479e-a4cd-b2717cc9ec14"
                                                     },
                                                     "referenceParentCombinedNodePath": [
                                                         [
                                                             "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                            "Positions"
                                                         ],
                                                         [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Non-Tech-Users Community Team",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "16dca1fb-10a0-4ff3-9d29-efca11ad421d"
+                                                            "UX-UI",
+                                                            "Position Class"
                                                         ],
                                                         [
-                                                            "Team Creator EvaMaria70 Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "8bfad32e-ec6e-4fc7-97a5-8edaf4146076"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "d360c68d-c0b1-4333-8dd9-5771b4648027",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 46559.136475489155,
-                                                        "y": 14600.006223861175
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46642.03334883596,
-                                                        "y": 14157.70755962023
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Team Leader @gustavohcorradi Token Pool ",
-                                                        "id": "9f231aa9-c04a-424a-b94f-20bcffe5d860"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Non-Tech-Users Community Team",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "16dca1fb-10a0-4ff3-9d29-efca11ad421d"
-                                                        ],
-                                                        [
-                                                            "Team Leader @gustavohcorradi Token Pool ",
-                                                            "Position",
-                                                            "Governance",
-                                                            "9f231aa9-c04a-424a-b94f-20bcffe5d860"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "f2ada36c-c2b8-4f97-b7fc-106c1f74eb3f",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 46199.734684595016,
-                                                        "y": 14074.810686273426
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46642.03334883596,
-                                                        "y": 14157.70755962023
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Team Members Token Pool",
-                                                        "id": "26c8c98f-17ae-467f-9153-ce3d9813a9d1"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Non-Tech-Users Community Team",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "16dca1fb-10a0-4ff3-9d29-efca11ad421d"
-                                                        ],
-                                                        [
-                                                            "Team Members Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "26c8c98f-17ae-467f-9153-ce3d9813a9d1"
+                                                            "UX-UI",
+                                                            "Position"
                                                         ]
                                                     ]
                                                 }
                                             }
                                         ],
-                                        "id": "26152a9f-56df-4874-b635-2cab2638df88",
+                                        "id": "aa9310f0-003f-4ac1-a3b2-a37d368fe84f",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 48770.96888106985,
-                                                "y": 18957.70755962023
+                                                "x": 48675.967095703054,
+                                                "y": 27860.42297420404
                                             },
                                             "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
+                                                "x": 48687.74268585772,
+                                                "y": 27635.731328884263
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": true,
                                                 "angleToParent": 1,
-                                                "distanceToParent": 3,
+                                                "distanceToParent": 2,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
@@ -3237,163 +1884,25 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Class",
-                                                "name": "Non-Tech-Users Community Team",
-                                                "id": "16dca1fb-10a0-4ff3-9d29-efca11ad421d"
+                                                "name": "UX-UI",
+                                                "id": "f0c5965a-3fd4-44d8-871d-ee9ec0c80180"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
                                                     "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                                    "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
                                                 ],
                                                 [
-                                                    "Non-Tech-Users Community Team",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "16dca1fb-10a0-4ff3-9d29-efca11ad421d"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Weight Votes Switch",
-                                        "name": "Turkish Community Team",
-                                        "config": "{\r\n    \"percentage\":1\r\n}",
-                                        "project": "Governance",
-                                        "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
-                                        "assetWeightVotes": [],
-                                        "featureWeightVotes": [],
-                                        "positionWeightVotes": [
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "fdf7a93e-3ea0-4d71-873d-bc520ec254c8",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 46167.034273683734,
-                                                        "y": 14421.63273429183
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 46445.98224793325,
-                                                        "y": 14068.520814835558
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Turkish Community Team Token Pool",
-                                                        "id": "08bd39b6-7691-4207-939a-650a7ecd7f63"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions",
-                                                            "Governance",
-                                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                        ],
-                                                        [
-                                                            "Teams @ Nov 2021",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                        ],
-                                                        [
-                                                            "Teams With PoW Reports",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                        ],
-                                                        [
-                                                            "Turkish Community Team",
-                                                            "Position Class",
-                                                            "Governance",
-                                                            "9803450d-78da-490c-991d-0408bf693e40"
-                                                        ],
-                                                        [
-                                                            "Turkish Community Team Token Pool",
-                                                            "Position",
-                                                            "Governance",
-                                                            "08bd39b6-7691-4207-939a-650a7ecd7f63"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "7736db59-6ade-4b77-83dc-fd1daf44fa50",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 48574.91778016714,
-                                                "y": 18868.520814835556
-                                            },
-                                            "targetPosition": {
-                                                "x": 48853.865754416656,
-                                                "y": 18515.408895379285
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": true,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Turkish Community Team",
-                                                "id": "9803450d-78da-490c-991d-0408bf693e40"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions",
-                                                    "Governance",
-                                                    "862caa2e-7c05-4051-b5eb-3494174e2cd9"
-                                                ],
-                                                [
-                                                    "Teams @ Nov 2021",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
-                                                ],
-                                                [
-                                                    "Teams With PoW Reports",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "90e3eeda-0a84-4338-ae03-c1b0199660ad"
-                                                ],
-                                                [
-                                                    "Turkish Community Team",
-                                                    "Position Class",
-                                                    "Governance",
-                                                    "9803450d-78da-490c-991d-0408bf693e40"
+                                                    "UX-UI",
+                                                    "Position Class"
                                                 ]
                                             ]
                                         }
@@ -3403,15 +1912,15 @@
                                 "assetWeightVotes": [],
                                 "featureWeightVotes": [],
                                 "positionWeightVotes": [],
-                                "id": "4c058bae-a35f-42b6-a842-21c8c1704125",
+                                "id": "2b29c4be-e80f-48f0-a122-a0cddaaa2126",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 48853.865754416656,
-                                        "y": 18515.408895379285
+                                        "x": 48687.74268585772,
+                                        "y": 27635.731328884263
                                     },
                                     "targetPosition": {
-                                        "x": 48442.77029847749,
-                                        "y": 18698.440384763395
+                                        "x": 48353.32751439289,
+                                        "y": 27936.84010174575
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -3419,54 +1928,48 @@
                                         "isCollapsed": false,
                                         "angleToParent": 1,
                                         "distanceToParent": 3,
-                                        "arrangementStyle": 0
+                                        "arrangementStyle": 1
                                     },
                                     "uiObject": {
                                         "isRunning": false
                                     },
                                     "referenceParent": {
                                         "type": "Position Class",
-                                        "name": "Teams With PoW Reports",
-                                        "id": "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                        "name": "Teams With PoV Reports",
+                                        "id": "44e89e0c-6c8e-4c14-9453-15f37f3e7958"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Teams of Contributors",
-                                            "Positions",
-                                            "Governance",
-                                            "862caa2e-7c05-4051-b5eb-3494174e2cd9"
+                                            "Positions"
                                         ],
                                         [
-                                            "Teams @ Nov 2021",
-                                            "Position Class",
-                                            "Governance",
-                                            "4d8fd5e7-76dc-4a81-8a78-d1e3d12a8244"
+                                            "Teams @ April 2022",
+                                            "Position Class"
                                         ],
                                         [
-                                            "Teams With PoW Reports",
-                                            "Position Class",
-                                            "Governance",
-                                            "90e3eeda-0a84-4338-ae03-c1b0199660ad"
+                                            "Teams With PoV Reports",
+                                            "Position Class"
                                         ]
                                     ]
                                 }
                             }
                         ],
                         "userProfileVotesSwitch": [],
-                        "id": "c7d2766c-8388-409e-aade-39b43fbb3af7",
+                        "id": "d067f073-62fb-40b7-9789-e345b2641115",
                         "savedPayload": {
                             "position": {
                                 "x": 48353.32751439289,
-                                "y": 18336.84010174575
+                                "y": 27936.84010174575
                             },
                             "targetPosition": {
                                 "x": 48018.912342928066,
-                                "y": 18637.94887460724
+                                "y": 28237.94887460724
                             },
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": true,
+                                "isCollapsed": false,
                                 "angleToParent": 1,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -3485,11 +1988,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 48169.466729358806,
-                            "y": 18805.15646033965
+                            "y": 28405.15646033965
                         },
                         "targetPosition": {
                             "x": 48018.912342928066,
-                            "y": 18637.94887460724
+                            "y": 28237.94887460724
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -3508,11 +2011,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 48018.912342928066,
-                        "y": 18637.94887460724
+                        "y": 28237.94887460724
                     },
                     "targetPosition": {
                         "x": 47684.49717146324,
-                        "y": 18939.057647468726
+                        "y": 28539.057647468726
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3543,11 +2046,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 47778.05743233123,
-                            "y": 19379.22406779894
+                            "y": 28979.22406779894
                         },
                         "targetPosition": {
                             "x": 47731.27730189724,
-                            "y": 19159.140857633833
+                            "y": 28759.140857633833
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -3566,11 +2069,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 47731.27730189724,
-                        "y": 19159.140857633833
+                        "y": 28759.140857633833
                     },
                     "targetPosition": {
                         "x": 47684.49717146324,
-                        "y": 18939.057647468726
+                        "y": 28539.057647468726
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3589,11 +2092,11 @@
             "savedPayload": {
                 "position": {
                     "x": 47684.49717146324,
-                    "y": 18939.057647468726
+                    "y": 28539.057647468726
                 },
                 "targetPosition": {
                     "x": 47256.521739130425,
-                    "y": 18800
+                    "y": 28400
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -3674,11 +2177,11 @@
             "savedPayload": {
                 "position": {
                     "x": 47163.81664081794,
-                    "y": 19085.316954888545
+                    "y": 28685.316954888545
                 },
                 "targetPosition": {
                     "x": 47256.521739130425,
-                    "y": 18800
+                    "y": 28400
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -3696,17 +2199,17 @@
         "id": "32edddeb-10a4-4e67-8ebc-518ae17b60e0",
         "savedPayload": {
             "position": {
-                "x": 47384.521739130425,
-                "y": 18801
+                "x": 47256.521739130425,
+                "y": 28400
             },
             "targetPosition": {
-                "x": 47084.521739130425,
-                "y": 18801
+                "x": 46956.521739130425,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -3723,12 +2226,12 @@
         "id": "9fd346bc-0aa8-44a0-a336-71d8a92e5b4a",
         "savedPayload": {
             "position": {
-                "x": 47084.521739130425,
-                "y": 19101
+                "x": 46956.521739130425,
+                "y": 28700
             },
             "targetPosition": {
-                "x": 47084.521739130425,
-                "y": 18801
+                "x": 46956.521739130425,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3767,12 +2270,12 @@
                         "id": "09f6ec40-b456-4bc8-9fd4-b4e1fe152663",
                         "savedPayload": {
                             "position": {
-                                "x": 45884.521739130425,
-                                "y": 18801
+                                "x": 45756.521739130425,
+                                "y": 28400
                             },
                             "targetPosition": {
-                                "x": 46184.521739130425,
-                                "y": 18801
+                                "x": 46056.521739130425,
+                                "y": 28400
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -3790,12 +2293,12 @@
                     "id": "ac972cba-2bb3-4a82-be38-e030ae681958",
                     "savedPayload": {
                         "position": {
-                            "x": 46184.521739130425,
-                            "y": 18801
+                            "x": 46056.521739130425,
+                            "y": 28400
                         },
                         "targetPosition": {
-                            "x": 46484.521739130425,
-                            "y": 18801
+                            "x": 46356.521739130425,
+                            "y": 28400
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -3815,12 +2318,12 @@
             "id": "828ecb5d-18da-4e81-9bf8-4793d41cd622",
             "savedPayload": {
                 "position": {
-                    "x": 46484.521739130425,
-                    "y": 18801
+                    "x": 46356.521739130425,
+                    "y": 28400
                 },
                 "targetPosition": {
-                    "x": 46784.521739130425,
-                    "y": 18801
+                    "x": 46656.521739130425,
+                    "y": 28400
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -3838,12 +2341,12 @@
         "id": "8e59ba01-684b-4f8b-9187-dbec0d75dc8d",
         "savedPayload": {
             "position": {
-                "x": 46784.521739130425,
-                "y": 18801
+                "x": 46656.521739130425,
+                "y": 28400
             },
             "targetPosition": {
-                "x": 47084.521739130425,
-                "y": 18801
+                "x": 46956.521739130425,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3878,12 +2381,12 @@
                         "id": "2025ef24-a7bc-4623-bfe5-f6c830c65325",
                         "savedPayload": {
                             "position": {
-                                "x": 47084.521739130425,
-                                "y": 17901
+                                "x": 46956.521739130425,
+                                "y": 27500
                             },
                             "targetPosition": {
-                                "x": 47084.521739130425,
-                                "y": 18201
+                                "x": 46956.521739130425,
+                                "y": 27800
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -3903,12 +2406,12 @@
                 "id": "f8db037c-5365-4255-83f2-e35867150b21",
                 "savedPayload": {
                     "position": {
-                        "x": 47084.521739130425,
-                        "y": 18201
+                        "x": 46956.521739130425,
+                        "y": 27800
                     },
                     "targetPosition": {
-                        "x": 47084.521739130425,
-                        "y": 18501
+                        "x": 46956.521739130425,
+                        "y": 28100
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3927,12 +2430,12 @@
         "id": "e26222d0-732a-4c85-83bc-05a064958845",
         "savedPayload": {
             "position": {
-                "x": 47084.521739130425,
-                "y": 18501
+                "x": 46956.521739130425,
+                "y": 28100
             },
             "targetPosition": {
-                "x": 47084.521739130425,
-                "y": 18801
+                "x": 46956.521739130425,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3950,12 +2453,12 @@
     "id": "4c987083-b506-4f26-9821-e678dd3880d1",
     "savedPayload": {
         "position": {
-            "x": 47084.521739130425,
-            "y": 18801
+            "x": 46956.521739130425,
+            "y": 28400
         },
         "targetPosition": {
-            "x": 47084.521739130425,
-            "y": 18801
+            "x": 46956.521739130425,
+            "y": 28400
         },
         "floatingObject": {
             "isPinned": false,
