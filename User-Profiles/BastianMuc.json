@@ -306,7 +306,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\n    \"percentage\": 0\n}",
+                "config": "{\n    \"percentage\": 39\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -315,7 +315,69 @@
                         "config": "{}",
                         "project": "Governance",
                         "votesSwitch": [],
-                        "claimVotesSwitch": [],
+                        "claimVotesSwitch": [
+                            {
+                                "type": "Claim Votes Switch",
+                                "name": "New Claim Votes Switch",
+                                "config": "{\n    \"percentage\": 6\n}",
+                                "project": "Governance",
+                                "claimVotesSwitch": [],
+                                "positionClaimVotes": [
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "489ab1ce-f7c4-41cc-b04e-f245c35cafee",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 4539.219385841215,
+                                                "y": 22590.192378864667
+                                            },
+                                            "targetPosition": {
+                                                "x": 4539.219385841215,
+                                                "y": 22890.192378864667
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    }
+                                ],
+                                "assetClaimVotes": [],
+                                "featureClaimVotes": [],
+                                "id": "19f917e4-5f89-4203-b03e-0d97c1e3a07b",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 4539.219385841215,
+                                        "y": 22890.192378864667
+                                    },
+                                    "targetPosition": {
+                                        "x": 4539.219385841215,
+                                        "y": 23190.192378864667
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
                         "weightVotesSwitch": [
                             {
                                 "type": "Weight Votes Switch",
@@ -332,12 +394,12 @@
                                         "id": "0f9ed9cb-aa21-4667-900b-58d819f0d12f",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4689.219385841215,
-                                                "y": 22630.384757729335
+                                                "x": 4876.672720507303,
+                                                "y": 22750.414630977946
                                             },
                                             "targetPosition": {
-                                                "x": 4689.219385841215,
-                                                "y": 22930.384757729335
+                                                "x": 4799.0270069765465,
+                                                "y": 23040.192378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -379,12 +441,12 @@
                                         "id": "fcc0273c-f6b0-480a-88ec-13a1e7f47ad0",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4949.0270069765465,
-                                                "y": 22780.384757729335
+                                                "x": 5058.834628111878,
+                                                "y": 22890.192378864667
                                             },
                                             "targetPosition": {
-                                                "x": 4689.219385841215,
-                                                "y": 22930.384757729335
+                                                "x": 4799.0270069765465,
+                                                "y": 23040.192378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -433,12 +495,68 @@
                                 ],
                                 "assetWeightVotes": [],
                                 "featureWeightVotes": [],
-                                "positionWeightVotes": [],
+                                "positionWeightVotes": [
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "Translations Translations",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "2f8c8992-50ba-4f1a-889d-12c88a3c87ed",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 5088.804754863267,
+                                                "y": 23117.838092395425
+                                            },
+                                            "targetPosition": {
+                                                "x": 4799.0270069765465,
+                                                "y": 23040.192378864667
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Translations",
+                                                "id": "d32b4af9-b68f-474f-8f3a-8591577fa176"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Translations",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Translations",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
                                 "id": "423b04dc-e0f6-4585-8e6b-6609a0878b90",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 4689.219385841215,
-                                        "y": 22930.384757729335
+                                        "x": 4799.0270069765465,
+                                        "y": 23040.192378864667
                                     },
                                     "targetPosition": {
                                         "x": 4539.219385841215,
