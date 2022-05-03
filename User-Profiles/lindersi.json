@@ -550,7 +550,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "mARTin-B78 Translations Team Translations Team",
+                                        "name": "mARTin-B78 ",
                                         "config": "{\r\n    \"percentage\": 50\r\n}",
                                         "project": "Governance",
                                         "id": "06e38d1d-d908-47b5-87b6-e68685ef8a8d",
@@ -576,7 +576,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "Translations Team Translations Team",
+                                                "name": "",
                                                 "id": "2b6a8879-f18b-4832-b237-64c52aa15743"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -609,7 +609,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "Translations Team Translations Team",
+                                                    "",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -617,7 +617,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "NicN11 Translations Team Translations Team",
+                                        "name": "NicN11 ",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "3cfb2145-418d-4723-ad0f-d9d8a792d72e",
@@ -643,7 +643,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "Translations Team Translations Team",
+                                                "name": "",
                                                 "id": "7bd6efb4-adac-484e-9ebb-fd3d2bb73815"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -676,7 +676,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "Translations Team Translations Team",
+                                                    "",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -713,7 +713,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Pool Weight Votes",
-                                "config": "{\r\n    \"percentage\": 100\r\n}",
+                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [
@@ -951,7 +951,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Position Weight Votes",
-                                "config": "{\r\n    \"percentage\": 0\r\n}",
+                                "config": "{\r\n    \"percentage\": 100\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [],
@@ -986,8 +986,8 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position",
-                                                "name": "Translation Team Token Pool",
-                                                "id": "ef862927-dd5f-4136-903d-fc4d5c84b378"
+                                                "name": "Translations Team",
+                                                "id": "c0757900-de73-436a-b32b-9340296d3fe8"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -995,19 +995,19 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "Teams @ Feb 2022",
+                                                    "Teams @ April 2022",
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Teams With PoW Reports",
+                                                    "Teams With PoV Reports",
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Translation Team PoV Report",
+                                                    "Translations Team",
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Translation Team Token Pool",
+                                                    "Translations Team",
                                                     "Position"
                                                 ]
                                             ]
@@ -1373,7 +1373,7 @@
                 {
                     "type": "Liquidity Program",
                     "name": "New Liquidity Program",
-                    "config": "{\n    \"asset\": \"BUSD\"\n}",
+                    "config": "{\n    \"asset\": \"BUSD\"\n    \"exchange\": \"PANCAKE\"\n}",
                     "project": "Governance",
                     "tokensAwarded": {
                         "type": "Tokens Awarded",
