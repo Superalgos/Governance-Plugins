@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "Superalgos-Tutorials",
-    "config": "{\n    \"signature\": {\n        \"message\": \"Superalgos-Tutorials\",\n        \"messageHash\": \"0x86c59e804eea5620b92850062197aefc36ec45ec8e6169bec444d8f997474c39\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xa5e02962eab250cbbe9d5398cafa18ef1827c6c8a69f31325e09646fc1ac7670\",\n        \"s\": \"0x61137613016c19c236908242f88f0ed28d22c8463660287a297011467a0b894f\",\n        \"signature\": \"0xa5e02962eab250cbbe9d5398cafa18ef1827c6c8a69f31325e09646fc1ac767061137613016c19c236908242f88f0ed28d22c8463660287a297011467a0b894f1b\"\n    }\n}",
+    "config": "{\"signature\":{\"message\":\"Superalgos-Tutorials\",\"messageHash\":\"0x86c59e804eea5620b92850062197aefc36ec45ec8e6169bec444d8f997474c39\",\"v\":\"0x1b\",\"r\":\"0xa5e02962eab250cbbe9d5398cafa18ef1827c6c8a69f31325e09646fc1ac7670\",\"s\":\"0x61137613016c19c236908242f88f0ed28d22c8463660287a297011467a0b894f\",\"signature\":\"0xa5e02962eab250cbbe9d5398cafa18ef1827c6c8a69f31325e09646fc1ac767061137613016c19c236908242f88f0ed28d22c8463660287a297011467a0b894f1b\"},\"codeName\":\"Superalgos-Tutorials\"}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -9,29 +9,29 @@
         "config": "{}",
         "project": "Governance",
         "tokenPowerSwitch": [],
-        "financialPrograms": {
-            "type": "Financial Programs",
-            "name": "New Financial Programs",
+        "onboardingPrograms": {
+            "type": "Onboarding Programs",
+            "name": "New Onboarding Programs",
             "config": "{}",
             "project": "Governance",
-            "stakingProgram": {
-                "type": "Staking Program",
-                "name": "New Staking Program",
+            "airdropProgram": {
+                "type": "Airdrop Program",
+                "name": "New Airdrop Program",
                 "config": "{}",
                 "project": "Governance",
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
                     "project": "Governance",
-                    "id": "1c5601d6-c529-4deb-8419-007462bab7b1",
+                    "id": "c72e02ad-ec29-43bd-b4e3-c37ccb21d6b1",
                     "savedPayload": {
                         "position": {
-                            "x": 13937.000000000002,
-                            "y": 6146.001499250375
+                            "x": 3147.748305822247,
+                            "y": 22760.581764466555
                         },
                         "targetPosition": {
-                            "x": 13868.000000000002,
-                            "y": 6064.001499250375
+                            "x": 3116.389766841951,
+                            "y": 23058.938333077036
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -46,15 +46,2227 @@
                         }
                     }
                 },
-                "id": "52711d48-d492-488f-af73-ba33069d4a10",
+                "id": "a0bb7aaa-af14-425c-b237-9e1c5ae83b9e",
                 "savedPayload": {
                     "position": {
-                        "x": 13868.000000000002,
-                        "y": 6064.001499250375
+                        "x": 3116.389766841951,
+                        "y": 23058.938333077036
                     },
                     "targetPosition": {
-                        "x": 13811.000000000002,
-                        "y": 6088.001499250375
+                        "x": 3085.0312278616548,
+                        "y": 23357.294901687517
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "githubProgram": {
+                "type": "Github Program",
+                "name": "New Github Program",
+                "config": "{}",
+                "project": "Governance",
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "6b6e8f22-ba57-4c8a-844e-a2ae162ec374",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3633.158502447215,
+                            "y": 23113.25291584204
+                        },
+                        "targetPosition": {
+                            "x": 3359.094865154435,
+                            "y": 23235.27390876478
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "2278fdc0-c90c-4c9f-8878-a1ce03cfb78b",
+                "savedPayload": {
+                    "position": {
+                        "x": 3359.094865154435,
+                        "y": 23235.27390876478
+                    },
+                    "targetPosition": {
+                        "x": 3085.0312278616548,
+                        "y": 23357.294901687517
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "1a47b296-7aed-422f-9422-a8b82d78a53c",
+            "savedPayload": {
+                "position": {
+                    "x": 3058.695652173913,
+                    "y": 23340.192378864667
+                },
+                "targetPosition": {
+                    "x": 2908.695652173913,
+                    "y": 23600
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": true,
+                    "angleToParent": 2,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "communityBuildingPrograms": {
+            "type": "Community Building Programs",
+            "name": "New Community Building Programs",
+            "config": "{}",
+            "project": "Governance",
+            "referralProgram": {
+                "type": "Referral Program",
+                "name": "New Referral Program",
+                "config": "{}",
+                "project": "Governance",
+                "userReferrers": [
+                    {
+                        "type": "User Referrer",
+                        "name": "mARTin-B78",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "f746116b-fd65-402d-b31d-5cbda5714ec0",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3541.703069196333,
+                                "y": 23121.145523154893
+                            },
+                            "targetPosition": {
+                                "x": 3479.3295619510054,
+                                "y": 23414.589803375035
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "mARTin-B78",
+                                "id": "6b027e4e-32c9-4847-8f74-90aac9c738c0"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "mARTin-B78",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "type": "User Referrer",
+                        "name": "Luis-Fernando-Molina",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "434fa0ea-8b7b-45b1-84fa-c333c6e460fe",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3680.068743858663,
+                                "y": 23191.646355731817
+                            },
+                            "targetPosition": {
+                                "x": 3479.3295619510054,
+                                "y": 23414.589803375035
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "Luis-Fernando-Molina",
+                                "id": "a8de78f0-c3e4-4a2a-b7e8-f659073969db"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Luis-Fernando-Molina",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "type": "User Referrer",
+                        "name": "Julian-Molina",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "0113e776-a466-4a0a-9c04-6ff5e1ad0c5a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3764.6465168395516,
+                                "y": 23321.88470506255
+                            },
+                            "targetPosition": {
+                                "x": 3479.3295619510054,
+                                "y": 23414.589803375035
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "Julian-Molina",
+                                "id": "1beb2eb4-f4fa-4d0f-a466-e3df634df6d9"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Julian-Molina",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    }
+                ],
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "9a4d45d2-1544-4539-bb09-fdf0fcc423c5",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3772.773842171147,
+                            "y": 23476.963310620362
+                        },
+                        "targetPosition": {
+                            "x": 3479.3295619510054,
+                            "y": 23414.589803375035
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "bf04ad60-baaf-4948-9c4b-40e328771ebf",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3702.273009594224,
+                            "y": 23615.328985282693
+                        },
+                        "targetPosition": {
+                            "x": 3479.3295619510054,
+                            "y": 23414.589803375035
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "a2c381e3-6d00-4c00-9f89-2ace8a420144",
+                "savedPayload": {
+                    "position": {
+                        "x": 3246.1489868400004,
+                        "y": 23160.22225211328
+                    },
+                    "targetPosition": {
+                        "x": 3168.5032733092444,
+                        "y": 23450
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "supportProgram": {
+                "type": "Support Program",
+                "name": "New Support Program",
+                "config": "{}",
+                "project": "Governance",
+                "userSupporters": [
+                    {
+                        "type": "User Supporter",
+                        "name": "gitforkgit",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "d971df3b-4eb1-4868-8f76-e79bc96c99b2",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3505.9566079753317,
+                                "y": 23010.22225211328
+                            },
+                            "targetPosition": {
+                                "x": 3428.3108944445758,
+                                "y": 23300
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "gitforkgit",
+                                "id": "a600818b-6702-4be1-94ea-46478a914cb4"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "gitforkgit",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    }
+                ],
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "ac3c4d42-de7b-448d-9878-a2f5d92f633d",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3688.118515579907,
+                            "y": 23150
+                        },
+                        "targetPosition": {
+                            "x": 3428.3108944445758,
+                            "y": 23300
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "08d7c3e5-df24-4b02-b70d-9b29b998473d",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3718.0886423312963,
+                            "y": 23377.645713530757
+                        },
+                        "targetPosition": {
+                            "x": 3428.3108944445758,
+                            "y": 23300
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "b20df120-f298-476b-894a-067474af67ec",
+                "savedPayload": {
+                    "position": {
+                        "x": 3428.3108944445758,
+                        "y": 23300
+                    },
+                    "targetPosition": {
+                        "x": 3168.5032733092444,
+                        "y": 23450
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "mentorshipProgram": {
+                "type": "Mentorship Program",
+                "name": "New Mentorship Program",
+                "config": "{}",
+                "project": "Governance",
+                "userMentors": [
+                    {
+                        "type": "User Mentor",
+                        "name": "mARTin-B78",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "568166fa-06dc-4ead-8992-5104f82f1ae9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3746.631519207516,
+                                "y": 23550.786953296898
+                            },
+                            "targetPosition": {
+                                "x": 3461.3145643189696,
+                                "y": 23643.49205160938
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "mARTin-B78",
+                                "id": "6b027e4e-32c9-4847-8f74-90aac9c738c0"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "mARTin-B78",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    }
+                ],
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "30559f9e-2ed7-4cf3-bcae-77b428956721",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3728.61652157548,
+                            "y": 23779.689201531244
+                        },
+                        "targetPosition": {
+                            "x": 3461.3145643189696,
+                            "y": 23643.49205160938
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "cb23bcc3-2171-4157-9356-f5111045271c",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3554.0196626314537,
+                            "y": 23928.809006497926
+                        },
+                        "targetPosition": {
+                            "x": 3461.3145643189696,
+                            "y": 23643.49205160938
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "3b9a3100-59a9-4e95-90bc-31ed6f80ac7f",
+                "savedPayload": {
+                    "position": {
+                        "x": 3458.281021195965,
+                        "y": 23527.645713530757
+                    },
+                    "targetPosition": {
+                        "x": 3168.5032733092444,
+                        "y": 23450
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "f97c704c-4d78-4d11-8ac7-18991e9cdccc",
+            "savedPayload": {
+                "position": {
+                    "x": 3168.5032733092444,
+                    "y": 23450
+                },
+                "targetPosition": {
+                    "x": 2908.695652173913,
+                    "y": 23600
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": true,
+                    "angleToParent": 2,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "votesAndClaimsPrograms": {
+            "type": "Votes And Claims Programs",
+            "name": "New Votes And Claims Programs",
+            "config": "{}",
+            "project": "Governance",
+            "votingProgram": {
+                "type": "Voting Program",
+                "name": "New Voting Program",
+                "config": "{}",
+                "project": "Governance",
+                "votesSwitch": [
+                    {
+                        "type": "Votes Switch",
+                        "name": "New Votes Switch",
+                        "config": "{}",
+                        "project": "Governance",
+                        "votesSwitch": [],
+                        "claimVotesSwitch": [
+                            {
+                                "type": "Claim Votes Switch",
+                                "name": "Teams @ April 2022 Position Class",
+                                "config": "{\r\n    \"percentage\": 25\r\n}",
+                                "project": "Governance",
+                                "claimVotesSwitch": [
+                                    {
+                                        "type": "Claim Votes Switch",
+                                        "name": "Teams With PoV Reports Position Class",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "claimVotesSwitch": [
+                                            {
+                                                "type": "Claim Votes Switch",
+                                                "name": "Translations Position Class",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "claimVotesSwitch": [],
+                                                "positionClaimVotes": [
+                                                    {
+                                                        "type": "Position Claim Vote",
+                                                        "name": "Superalgos-Tutorials Translations Translations",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "04e2f3b1-b389-4699-9032-31f9c25eb5b1",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 3307.9204191862204,
+                                                                "y": 22031.081387317783
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 3385.5661327169764,
+                                                                "y": 22320.859135204504
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position Contribution Claim",
+                                                                "name": "Translations Translations",
+                                                                "id": "c4d3e425-8d8e-470c-b8a0-2161d53bb519"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos-Tutorials",
+                                                                    "User Profile"
+                                                                ],
+                                                                [
+                                                                    "New Token Power Switch",
+                                                                    "Token Power Switch"
+                                                                ],
+                                                                [
+                                                                    "New Votes And Claims Programs",
+                                                                    "Votes And Claims Programs"
+                                                                ],
+                                                                [
+                                                                    "New Claims Program",
+                                                                    "Claims Program"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022 Position Class",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports Position Class",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Translations Position Class",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Translations Translations",
+                                                                    "Position Contribution Claim"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "assetClaimVotes": [],
+                                                "featureClaimVotes": [],
+                                                "id": "143aeb10-ee8a-4746-93eb-e8c42d917013",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 3385.5661327169764,
+                                                        "y": 22320.859135204504
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3463.2118462477324,
+                                                        "y": 22610.636883091225
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Claims Folder",
+                                                        "name": "Translations Position Class",
+                                                        "id": "7a13b3f7-475b-40fd-bf4d-c9c488b49a0b"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos-Tutorials",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022 Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Translations Position Class",
+                                                            "Position Claims Folder"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "positionClaimVotes": [],
+                                        "assetClaimVotes": [],
+                                        "featureClaimVotes": [],
+                                        "id": "0e3f8c6b-9011-440b-9c7f-e5ef8217f46e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 3463.2118462477324,
+                                                "y": 22610.636883091225
+                                            },
+                                            "targetPosition": {
+                                                "x": 3540.8575597784884,
+                                                "y": 22900.414630977946
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Claims Folder",
+                                                "name": "Teams With PoV Reports Position Class",
+                                                "id": "015c6ed6-e176-4529-9a79-3c6e05314fe2"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Superalgos-Tutorials",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "Teams @ April 2022 Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Teams With PoV Reports Position Class",
+                                                    "Position Claims Folder"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "positionClaimVotes": [],
+                                "assetClaimVotes": [],
+                                "featureClaimVotes": [],
+                                "id": "93261448-3a97-41c5-b242-49eeee8894ac",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 3540.8575597784884,
+                                        "y": 22900.414630977946
+                                    },
+                                    "targetPosition": {
+                                        "x": 3618.5032733092444,
+                                        "y": 23190.192378864667
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position Claims Folder",
+                                        "name": "Teams @ April 2022 Position Class",
+                                        "id": "5453c651-29fb-42ec-bcd3-ba05847547db"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Superalgos-Tutorials",
+                                            "User Profile"
+                                        ],
+                                        [
+                                            "New Token Power Switch",
+                                            "Token Power Switch"
+                                        ],
+                                        [
+                                            "New Votes And Claims Programs",
+                                            "Votes And Claims Programs"
+                                        ],
+                                        [
+                                            "New Claims Program",
+                                            "Claims Program"
+                                        ],
+                                        [
+                                            "Teams @ April 2022 Position Class",
+                                            "Position Claims Folder"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "weightVotesSwitch": [
+                            {
+                                "type": "Weight Votes Switch",
+                                "name": "Teams @ April 2022",
+                                "config": "{}",
+                                "project": "Governance",
+                                "weightVotesSwitch": [
+                                    {
+                                        "type": "Weight Votes Switch",
+                                        "name": "Teams With PoV Reports",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "weightVotesSwitch": [
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "gitforkgit",
+                                                "config": "{\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "gitforkgit gitforkgit",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "19e62ae5-7cee-448d-a44b-bf569002d019",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 3553.2464159040114,
+                                                                "y": 22194.56513241926
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 3735.874844606628,
+                                                                "y": 22432.57113450663
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "gitforkgit",
+                                                                "id": "465c1399-bab1-43d4-94a0-486ee34d7b57"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "gitforkgit",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "gitforkgit",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "04847c3c-6d72-4e0f-95a6-0f3e7a3de3db",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 3735.874844606628,
+                                                        "y": 22432.57113450663
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "gitforkgit",
+                                                        "id": "9c7c54e2-7d7f-47e4-94f3-b7247009f71e"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "gitforkgit",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Elves and Fairies",
+                                                "config": "{\r\n    \"percentage\": 5\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Elves and Fairies Elves and Fairies",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "2a4736f6-a726-48e6-a9f3-18321190b78f",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 3763.2118462477324,
+                                                                "y": 22091.02164082056
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 3840.8575597784884,
+                                                                "y": 22380.79938870728
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Elves and Fairies",
+                                                                "id": "82bfe3aa-d3ce-48fc-b351-bf8748bc9a2c"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Elves and Fairies",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Elves and Fairies",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "4e1a1e1b-5bff-4da8-b4f0-b4d5e83f6bf0",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 3840.8575597784884,
+                                                        "y": 22380.79938870728
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "Elves and Fairies",
+                                                        "id": "fe1e5af1-8423-49f5-a17b-e9cf25b0761a"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Elves and Fairies",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Luis",
+                                                "config": "{\r\n    \"percentage\": 5\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Luis Luis",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "685d77a0-a24a-4b76-9b0c-030ed271dba8",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 3996.818988641275,
+                                                                "y": 22075.710219769717
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 3957.6611309752598,
+                                                                "y": 22373.14367818186
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Luis",
+                                                                "id": "d9065fd1-c605-48dd-8f3c-07871b30973f"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Luis",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Luis",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "e0dbac1a-a177-456f-8f4f-9a41e2dd3661",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 3957.6611309752598,
+                                                        "y": 22373.14367818186
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "Luis",
+                                                        "id": "47733d37-232d-4859-9d9d-3d2d16eed056"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Luis",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Alexandru",
+                                                "config": "{\r\n    \"percentage\": 5\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Alexandru Alexandru",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "e7544ca2-a81f-4890-8e6a-d44e155301ad",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 4218.503273309245,
+                                                                "y": 22150.961894323336
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 4068.5032733092444,
+                                                                "y": 22410.76951545867
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Alexandru",
+                                                                "id": "c12a37f3-8ed6-4eef-8336-2cbaf54624c2"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Alexandru",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Alexandru",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "4d149341-7761-4922-a70f-8d0351eee5b5",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 4068.5032733092444,
+                                                        "y": 22410.76951545867
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "Alexandru",
+                                                        "id": "6829f8f9-eca7-455c-a140-25482b96a203"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Alexandru",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Translations",
+                                                "config": "{\r\n    \"percentage\": 0\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Translations Translations",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "252debfd-f0ae-4e5c-80c5-7a88ebbe30ae",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 4394.515277483985,
+                                                                "y": 22305.320279188767
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 4156.509275396615,
+                                                                "y": 22487.948707891384
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Translations",
+                                                                "id": "d32b4af9-b68f-474f-8f3a-8591577fa176"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Translations",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Translations",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "2474b5d8-4269-4edd-b02e-2242fdd052f5",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 4156.509275396615,
+                                                        "y": 22487.948707891384
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "Translations",
+                                                        "id": "0d2934e1-21a8-428e-91c4-023e44ec6193"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Translations",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Data Mining",
+                                                "config": "{\r\n    \"percentage\": 5\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Data Mining Data Mining",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "a9edb81c-6e9a-4d80-8fc2-bbe9395a80ba",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 4498.058769082685,
+                                                                "y": 22515.285709532487
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 4208.281021195965,
+                                                                "y": 22592.931423063244
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Data Mining",
+                                                                "id": "483e4432-c5ec-4ef5-9db5-31d7d817ffab"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Data Mining",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Data Mining",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "dd4c263d-a130-418f-9530-ee69d469b5ce",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 4208.281021195965,
+                                                        "y": 22592.931423063244
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "Data Mining",
+                                                        "id": "0a432358-83f2-45e3-ab52-d1ff5fbeee8b"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Data Mining",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "UX-UI",
+                                                "config": "{\r\n    \"percentage\": 25\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "UX-UI UX-UI",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "6f6c862b-9788-45e6-8132-97aa13ee1fb7",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 4513.370190133531,
+                                                                "y": 22748.89285192603
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 4215.936731721387,
+                                                                "y": 22709.734994260016
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "UX-UI",
+                                                                "id": "e4400c25-1c8f-479e-a4cd-b2717cc9ec14"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "Teams @ April 2022",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Teams With PoV Reports",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "UX-UI",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "UX-UI",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "id": "e06b4713-bdbd-4745-8983-6cfac994f2bd",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 4215.936731721387,
+                                                        "y": 22709.734994260016
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 3918.5032733092444,
+                                                        "y": 22670.577136594
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Class",
+                                                        "name": "UX-UI",
+                                                        "id": "f0c5965a-3fd4-44d8-871d-ee9ec0c80180"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "UX-UI",
+                                                            "Position Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "poolWeightVotes": [],
+                                        "assetWeightVotes": [],
+                                        "featureWeightVotes": [],
+                                        "positionWeightVotes": [],
+                                        "id": "87c069bb-149e-4040-8a75-603488e2fb46",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 3918.5032733092444,
+                                                "y": 22670.577136594
+                                            },
+                                            "targetPosition": {
+                                                "x": 3768.5032733092444,
+                                                "y": 22930.384757729335
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Class",
+                                                "name": "Teams With PoV Reports",
+                                                "id": "44e89e0c-6c8e-4c14-9453-15f37f3e7958"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "poolWeightVotes": [],
+                                "assetWeightVotes": [],
+                                "featureWeightVotes": [],
+                                "positionWeightVotes": [],
+                                "id": "8a3f3ee9-e34c-4402-9660-ecc0d71e75a0",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 3768.5032733092444,
+                                        "y": 22930.384757729335
+                                    },
+                                    "targetPosition": {
+                                        "x": 3618.5032733092444,
+                                        "y": 23190.192378864667
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position Class",
+                                        "name": "Teams @ April 2022",
+                                        "id": "e99a3fc9-5b76-47c5-8e8f-03cb79c9269f"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Teams of Contributors",
+                                            "Positions"
+                                        ],
+                                        [
+                                            "Teams @ April 2022",
+                                            "Position Class"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "userProfileVotesSwitch": [
+                            {
+                                "type": "User Profile Votes Switch",
+                                "name": "New User Profile Votes Switch",
+                                "config": "{}",
+                                "project": "Governance",
+                                "userProfileVotesSwitch": [],
+                                "userProfileVote": [
+                                    {
+                                        "type": "User Profile Vote",
+                                        "name": "mARTin-B78",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "a96efadc-9286-47c4-b860-e1ee4bade881",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 4198.058769082685,
+                                                "y": 23034.900951803153
+                                            },
+                                            "targetPosition": {
+                                                "x": 3908.281021195965,
+                                                "y": 23112.54666533391
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "User Profile",
+                                                "name": "mARTin-B78",
+                                                "id": "6b027e4e-32c9-4847-8f74-90aac9c738c0"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "mARTin-B78",
+                                                    "User Profile"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "ac31afde-a192-4165-8eea-e579a65fb1de",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 3908.281021195965,
+                                        "y": 23112.54666533391
+                                    },
+                                    "targetPosition": {
+                                        "x": 3618.5032733092444,
+                                        "y": 23190.192378864667
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "85f9e6d6-2f01-40d7-9538-2c00e6b000fa",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3618.5032733092444,
+                                "y": 23190.192378864667
+                            },
+                            "targetPosition": {
+                                "x": 3468.5032733092444,
+                                "y": 23450
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "bd243d89-ad25-49ea-87ff-b0d6982c8b62",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3768.5032733092444,
+                            "y": 23450
+                        },
+                        "targetPosition": {
+                            "x": 3468.5032733092444,
+                            "y": 23450
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "063a95e5-7fdd-488e-8984-97bd324597ef",
+                "savedPayload": {
+                    "position": {
+                        "x": 3468.5032733092444,
+                        "y": 23450
+                    },
+                    "targetPosition": {
+                        "x": 3208.695652173913,
+                        "y": 23600
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "claimsProgram": {
+                "type": "Claims Program",
+                "name": "New Claims Program",
+                "config": "{}",
+                "project": "Governance",
+                "assetClaimsFolders": [],
+                "featureClaimsFolders": [],
+                "positionClaimsFolders": [
+                    {
+                        "type": "Position Claims Folder",
+                        "name": "Teams @ April 2022 Position Class",
+                        "config": "{}",
+                        "project": "Governance",
+                        "positionClaimsFolders": [
+                            {
+                                "type": "Position Claims Folder",
+                                "name": "Teams With PoV Reports Position Class",
+                                "config": "{}",
+                                "project": "Governance",
+                                "positionClaimsFolders": [
+                                    {
+                                        "type": "Position Claims Folder",
+                                        "name": "Translations Position Class",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "positionClaimsFolders": [],
+                                        "positionContributionClaims": [
+                                            {
+                                                "type": "Position Contribution Claim",
+                                                "name": "Translations Translations",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "c4d3e425-8d8e-470c-b8a0-2161d53bb519",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 4668.503273309245,
+                                                        "y": 23750
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 4368.503273309245,
+                                                        "y": 23750
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Translations",
+                                                        "id": "d32b4af9-b68f-474f-8f3a-8591577fa176"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams @ April 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Teams With PoV Reports",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Translations",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Translations",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "id": "7a13b3f7-475b-40fd-bf4d-c9c488b49a0b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 4368.503273309245,
+                                                "y": 23750
+                                            },
+                                            "targetPosition": {
+                                                "x": 4068.503273309245,
+                                                "y": 23750
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Class",
+                                                "name": "Translations",
+                                                "id": "0d2934e1-21a8-428e-91c4-023e44ec6193"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "Teams @ April 2022",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Teams With PoV Reports",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Translations",
+                                                    "Position Class"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "positionContributionClaims": [],
+                                "id": "015c6ed6-e176-4529-9a79-3c6e05314fe2",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 4068.503273309245,
+                                        "y": 23750
+                                    },
+                                    "targetPosition": {
+                                        "x": 3768.503273309245,
+                                        "y": 23750
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position Class",
+                                        "name": "Teams With PoV Reports",
+                                        "id": "44e89e0c-6c8e-4c14-9453-15f37f3e7958"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Teams of Contributors",
+                                            "Positions"
+                                        ],
+                                        [
+                                            "Teams @ April 2022",
+                                            "Position Class"
+                                        ],
+                                        [
+                                            "Teams With PoV Reports",
+                                            "Position Class"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "positionContributionClaims": [],
+                        "id": "5453c651-29fb-42ec-bcd3-ba05847547db",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3768.503273309245,
+                                "y": 23750
+                            },
+                            "targetPosition": {
+                                "x": 3468.503273309245,
+                                "y": 23750
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "Position Class",
+                                "name": "Teams @ April 2022",
+                                "id": "e99a3fc9-5b76-47c5-8e8f-03cb79c9269f"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Teams of Contributors",
+                                    "Positions"
+                                ],
+                                [
+                                    "Teams @ April 2022",
+                                    "Position Class"
+                                ]
+                            ]
+                        }
+                    }
+                ],
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "394eb754-2dd9-40ad-92ba-666d29522dc1",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3618.503273309245,
+                            "y": 24009.807621135333
+                        },
+                        "targetPosition": {
+                            "x": 3468.503273309245,
+                            "y": 23750
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "a426b83f-1d0d-4fe4-976d-5d651b3d8936",
+                "savedPayload": {
+                    "position": {
+                        "x": 3468.503273309245,
+                        "y": 23750
+                    },
+                    "targetPosition": {
+                        "x": 3208.695652173913,
+                        "y": 23600
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "63acbaea-dc22-400e-9810-042b6e21978c",
+            "savedPayload": {
+                "position": {
+                    "x": 3208.695652173913,
+                    "y": 23600
+                },
+                "targetPosition": {
+                    "x": 2908.695652173913,
+                    "y": 23600
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 2,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "financialPrograms": {
+            "type": "Financial Programs",
+            "name": "New Financial Programs",
+            "config": "{}",
+            "project": "Governance",
+            "stakingProgram": {
+                "type": "Staking Program",
+                "name": "New Staking Program",
+                "config": "{}",
+                "project": "Governance",
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "aff36bef-2c30-4448-bbde-01f4b8635aec",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3688.1185155799085,
+                            "y": 24050
+                        },
+                        "targetPosition": {
+                            "x": 3428.3108944445767,
+                            "y": 23900
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "06345e2b-3299-427b-8aaa-656b99b9278a",
+                "savedPayload": {
+                    "position": {
+                        "x": 3428.3108944445767,
+                        "y": 23900
+                    },
+                    "targetPosition": {
+                        "x": 3168.503273309245,
+                        "y": 23750
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -72,17 +2284,17 @@
             "id": "5da9204a-95a5-46bd-8e71-f0cef4630571",
             "savedPayload": {
                 "position": {
-                    "x": 13811.000000000002,
-                    "y": 6088.001499250375
+                    "x": 3168.503273309245,
+                    "y": 23750
                 },
                 "targetPosition": {
-                    "x": 13903.000000000002,
-                    "y": 6029.001499250375
+                    "x": 2908.695652173913,
+                    "y": 23600
                 },
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -110,12 +2322,12 @@
                         "id": "22260492-7da1-483a-8e55-9efb57e6da45",
                         "savedPayload": {
                             "position": {
-                                "x": 13772.000000000002,
-                                "y": 5995.001499250375
+                                "x": 3358.695652173913,
+                                "y": 24379.422863406
                             },
                             "targetPosition": {
-                                "x": 13850.000000000002,
-                                "y": 6059.001499250375
+                                "x": 3208.695652173913,
+                                "y": 24119.615242270665
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -133,12 +2345,12 @@
                     "id": "7c7addc7-4ea0-4750-9c24-34cd86e814a5",
                     "savedPayload": {
                         "position": {
-                            "x": 13850.000000000002,
-                            "y": 6059.001499250375
+                            "x": 3208.695652173913,
+                            "y": 24119.615242270665
                         },
                         "targetPosition": {
-                            "x": 13891.000000000002,
-                            "y": 6076.001499250375
+                            "x": 3058.695652173913,
+                            "y": 23859.807621135333
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -157,17 +2369,17 @@
             "id": "87926e43-d6e2-4ea2-ac0f-193a38c078da",
             "savedPayload": {
                 "position": {
-                    "x": 13891.000000000002,
-                    "y": 6076.001499250375
+                    "x": 3058.695652173913,
+                    "y": 23859.807621135333
                 },
                 "targetPosition": {
-                    "x": 13903.000000000002,
-                    "y": 6029.001499250375
+                    "x": 2908.695652173913,
+                    "y": 23600
                 },
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -180,12 +2392,12 @@
         "id": "9662be59-16d3-4ba8-a6a2-21423550b5e9",
         "savedPayload": {
             "position": {
-                "x": 13903.000000000002,
-                "y": 6029.001499250375
+                "x": 2908.695652173913,
+                "y": 23600
             },
             "targetPosition": {
-                "x": 13954.000000000002,
-                "y": 6042.001499250375
+                "x": 2608.695652173913,
+                "y": 23600
             },
             "floatingObject": {
                 "isPinned": false,
@@ -207,12 +2419,12 @@
         "id": "267dc1b3-e810-4cda-8335-6ef8cc3fb615",
         "savedPayload": {
             "position": {
-                "x": 13870.000000000002,
-                "y": 6052.001499250375
+                "x": 2308.695652173913,
+                "y": 23600
             },
             "targetPosition": {
-                "x": 13954.000000000002,
-                "y": 6042.001499250375
+                "x": 2608.695652173913,
+                "y": 23600
             },
             "floatingObject": {
                 "isPinned": false,
@@ -230,12 +2442,12 @@
     "id": "5e33227f-32f5-4638-9cd6-ec6e9ed1ed99",
     "savedPayload": {
         "position": {
-            "x": 13954.000000000002,
-            "y": 6042.001499250375
+            "x": 2608.695652173913,
+            "y": 23600
         },
         "targetPosition": {
-            "x": 13934.000000000002,
-            "y": 6094.001499250375
+            "x": 2608.695652173913,
+            "y": 23600
         },
         "floatingObject": {
             "isPinned": false,
