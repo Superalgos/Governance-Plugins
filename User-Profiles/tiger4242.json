@@ -3243,88 +3243,31 @@
                 "positionClaimsFolders": [
                     {
                         "type": "Position Claims Folder",
-                        "name": "Teams @ April 2022 Position Class",
+                        "name": "TURKISH TEAM Apr 2022",
                         "config": "{}",
                         "project": "Governance",
                         "positionClaimsFolders": [
                             {
                                 "type": "Position Claims Folder",
-                                "name": "Teams With PoV Reports Position Class",
-                                "config": "{}",
+                                "name": "Turkish Team Position Class",
+                                "config": "{\r\n    \"percentage\": 2\r\n}",
                                 "project": "Governance",
-                                "positionClaimsFolders": [
+                                "positionClaimsFolders": [],
+                                "positionContributionClaims": [
                                     {
-                                        "type": "Position Claims Folder",
-                                        "name": "Translations Position Class",
+                                        "type": "Position Contribution Claim",
+                                        "name": "",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "positionClaimsFolders": [],
-                                        "positionContributionClaims": [
-                                            {
-                                                "type": "Position Contribution Claim",
-                                                "name": "Translations Translations",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "76679a24-b93b-4a05-9d5b-f3670a451bc7",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4547.926136715239,
-                                                        "y": 27800
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4288.118515579908,
-                                                        "y": 27950
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Translations",
-                                                        "id": "d32b4af9-b68f-474f-8f3a-8591577fa176"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams @ April 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Teams With PoV Reports",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Translations",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Translations",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "8feff230-7238-4fce-91b0-4d72080c20ce",
+                                        "id": "6d5042c1-6230-46f0-a16f-cfd2ede1c1da",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4288.118515579908,
-                                                "y": 27950
+                                                "x": 4068.5032733092444,
+                                                "y": 27730.384757729335
                                             },
                                             "targetPosition": {
-                                                "x": 4028.3108944445758,
-                                                "y": 28100
+                                                "x": 3918.5032733092444,
+                                                "y": 27990.192378864667
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -3336,39 +3279,15 @@
                                             },
                                             "uiObject": {
                                                 "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Translations",
-                                                "id": "0d2934e1-21a8-428e-91c4-023e44ec6193"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "Teams @ April 2022",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Teams With PoV Reports",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Translations",
-                                                    "Position Class"
-                                                ]
-                                            ]
+                                            }
                                         }
                                     }
                                 ],
-                                "positionContributionClaims": [],
-                                "id": "efab41fa-b1bd-488b-87ff-e49a17f8d918",
+                                "id": "d9bb939d-c1e3-47e7-ba7e-aa735350994b",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 4028.3108944445758,
-                                        "y": 28100
+                                        "x": 3918.5032733092444,
+                                        "y": 27990.192378864667
                                     },
                                     "targetPosition": {
                                         "x": 3768.5032733092444,
@@ -3387,8 +3306,8 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position Class",
-                                        "name": "Teams With PoV Reports",
-                                        "id": "44e89e0c-6c8e-4c14-9453-15f37f3e7958"
+                                        "name": "Teams @ April 2022",
+                                        "id": "e99a3fc9-5b76-47c5-8e8f-03cb79c9269f"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -3398,9 +3317,79 @@
                                         [
                                             "Teams @ April 2022",
                                             "Position Class"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Position Claims Folder",
+                                "name": "Translations Team Position Class",
+                                "config": "{}",
+                                "project": "Governance",
+                                "positionClaimsFolders": [],
+                                "positionContributionClaims": [
+                                    {
+                                        "type": "Position Contribution Claim",
+                                        "name": "",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "a9f2a6d4-39d4-4878-8f5c-244c45c16a55",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 4368.503273309245,
+                                                "y": 28250
+                                            },
+                                            "targetPosition": {
+                                                "x": 4068.5032733092444,
+                                                "y": 28250
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    }
+                                ],
+                                "id": "eb2cd1e3-4abc-42e5-9e43-64485447a212",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 4068.5032733092444,
+                                        "y": 28250
+                                    },
+                                    "targetPosition": {
+                                        "x": 3768.5032733092444,
+                                        "y": 28250
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position Class",
+                                        "name": "Teams @ April 2022",
+                                        "id": "e99a3fc9-5b76-47c5-8e8f-03cb79c9269f"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Teams of Contributors",
+                                            "Positions"
                                         ],
                                         [
-                                            "Teams With PoV Reports",
+                                            "Teams @ April 2022",
                                             "Position Class"
                                         ]
                                     ]
@@ -3408,7 +3397,7 @@
                             }
                         ],
                         "positionContributionClaims": [],
-                        "id": "3b19bfb1-042d-49f3-9817-150a1a868d6e",
+                        "id": "0bd34717-b007-41ac-b990-7e7d88db1c2e",
                         "savedPayload": {
                             "position": {
                                 "x": 3768.5032733092444,
