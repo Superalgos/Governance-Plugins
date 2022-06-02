@@ -127,11 +127,11 @@
             "id": "f4d39b02-4324-438d-9f74-2bea2b7272ef",
             "savedPayload": {
                 "position": {
-                    "x": 21319.5652173913,
+                    "x": 23928.260869565212,
                     "y": 23340.192378864667
                 },
                 "targetPosition": {
-                    "x": 21169.5652173913,
+                    "x": 23778.260869565212,
                     "y": 23600
                 },
                 "floatingObject": {
@@ -516,11 +516,11 @@
             "id": "b6e3c87d-a11b-4b2a-b6a6-edc96375f5da",
             "savedPayload": {
                 "position": {
-                    "x": 21429.372838526633,
+                    "x": 24038.068490700545,
                     "y": 23450
                 },
                 "targetPosition": {
-                    "x": 21169.5652173913,
+                    "x": 23778.260869565212,
                     "y": 23600
                 },
                 "floatingObject": {
@@ -565,11 +565,11 @@
                                 "id": "2571cea1-2b6d-40f5-9331-8786bf57c184",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 22096.79629994411,
+                                        "x": 24705.491952118024,
                                         "y": 23082.57653858252
                                     },
                                     "targetPosition": {
-                                        "x": 22019.150586413354,
+                                        "x": 24627.846238587266,
                                         "y": 23372.354286469243
                                     },
                                     "floatingObject": {
@@ -590,7 +590,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\n    \"percentage\": 50\n}",
+                                "config": "{\n \n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [
                                     {
@@ -605,11 +605,11 @@
                                         "id": "94e9ee8d-7c75-4848-8b4f-b5ee438167f6",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 22428.958207548687,
+                                                "x": 25037.6538597226,
                                                 "y": 22962.54666533391
                                             },
                                             "targetPosition": {
-                                                "x": 22278.958207548687,
+                                                "x": 24887.6538597226,
                                                 "y": 23222.354286469243
                                             },
                                             "floatingObject": {
@@ -635,16 +635,16 @@
                                             {
                                                 "type": "Position Claim Vote",
                                                 "name": "",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 5\r\n}",
                                                 "project": "Governance",
                                                 "id": "aa81cb8f-1cac-4adf-8276-849521483928",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 22878.958207548687,
+                                                        "x": 25487.6538597226,
                                                         "y": 23222.354286469243
                                                     },
                                                     "targetPosition": {
-                                                        "x": 22578.958207548687,
+                                                        "x": 25187.6538597226,
                                                         "y": 23222.354286469243
                                                     },
                                                     "floatingObject": {
@@ -697,11 +697,11 @@
                                         "id": "142ae6c7-d91c-48c9-91ed-31bde0fee9dd",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 22578.958207548687,
+                                                "x": 25187.6538597226,
                                                 "y": 23222.354286469243
                                             },
                                             "targetPosition": {
-                                                "x": 22278.958207548687,
+                                                "x": 24887.6538597226,
                                                 "y": 23222.354286469243
                                             },
                                             "floatingObject": {
@@ -724,17 +724,17 @@
                                 "id": "75487f1d-1ec0-4431-8693-ce9653018e81",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 22278.958207548687,
+                                        "x": 24887.6538597226,
                                         "y": 23222.354286469243
                                     },
                                     "targetPosition": {
-                                        "x": 22019.150586413354,
+                                        "x": 24627.846238587266,
                                         "y": 23372.354286469243
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -749,7 +749,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "New Weight Votes Switch",
-                                "config": "{\n    \"percentage\": 50\n}",
+                                "config": "{\n    \"percentage\": 75\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -779,7 +779,7 @@
                                                                 "poolWeightVotes": [
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Referrals Rewards Pool",
                                                                         "config": "{}",
                                                                         "project": "Governance",
                                                                         "id": "98072057-96d6-4942-82ba-60a4f7f26f1b",
@@ -834,7 +834,7 @@
                                                                     },
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Referrals Bonus Pool",
                                                                         "config": "{\r\n    \"percentage\": 5\r\n}",
                                                                         "project": "Governance",
                                                                         "id": "07209169-5a7d-42f4-aab8-7e0776491b7b",
@@ -946,7 +946,7 @@
                                                                 "poolWeightVotes": [
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Support Rewards Pool",
                                                                         "config": "{}",
                                                                         "project": "Governance",
                                                                         "id": "a152a14c-8e6a-4d16-8c9d-0e34471708bf",
@@ -1001,7 +1001,7 @@
                                                                     },
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Support Bonus Pool",
                                                                         "config": "{\r\n    \"percentage\": 5\r\n}",
                                                                         "project": "Governance",
                                                                         "id": "f08d0ca9-87a4-49ae-8c95-d8fe05c7cd00",
@@ -1113,7 +1113,7 @@
                                                                 "poolWeightVotes": [
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Mentorship Rewards Pool",
                                                                         "config": "{}",
                                                                         "project": "Governance",
                                                                         "id": "00ecd8fa-0443-49b4-a39f-e66c0979c4be",
@@ -1168,7 +1168,7 @@
                                                                     },
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Mentorship Bonus Pool",
                                                                         "config": "{\r\n    \"percentage\": 5\r\n}",
                                                                         "project": "Governance",
                                                                         "id": "4f466356-a505-4abe-8a9f-07904132858d",
@@ -1279,12 +1279,12 @@
                                                         "id": "2a0afdb8-2f7f-4cba-8599-0aaa9a5865ff",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 22671.06036865604,
-                                                                "y": 37222.76891744719
+                                                                "x": 25279.75602082995,
+                                                                "y": 22822.76891744719
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22748.706082186796,
-                                                                "y": 37512.54666533391
+                                                                "x": 25357.40173436071,
+                                                                "y": 23112.54666533391
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1503,12 +1503,12 @@
                                                                 "id": "e5a3c536-cdd8-4d0d-a034-b6e336b2d123",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23048.706082186796,
-                                                                        "y": 36992.931423063244
+                                                                        "x": 25657.40173436071,
+                                                                        "y": 22592.931423063244
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 22898.706082186796,
-                                                                        "y": 37252.73904419858
+                                                                        "x": 25507.40173436071,
+                                                                        "y": 22852.739044198577
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -1554,12 +1554,12 @@
                                                         "id": "db65d5b8-2be6-4831-838b-41f35ad92d1f",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 22898.706082186796,
-                                                                "y": 37252.73904419858
+                                                                "x": 25507.40173436071,
+                                                                "y": 22852.739044198577
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22748.706082186796,
-                                                                "y": 37512.54666533391
+                                                                "x": 25357.40173436071,
+                                                                "y": 23112.54666533391
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1608,7 +1608,7 @@
                                                                 "poolWeightVotes": [
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Staking Rewards Pool",
                                                                         "config": "{}",
                                                                         "project": "Governance",
                                                                         "id": "0f1a6a3a-e3b7-467f-a9cd-f78230986e71",
@@ -1668,12 +1668,12 @@
                                                                 "id": "ee6433e7-5198-46bc-8bde-79872699f7dc",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23250.61586442948,
-                                                                        "y": 37222.76891744719
+                                                                        "x": 25859.311516603393,
+                                                                        "y": 22822.76891744719
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 23038.483830073517,
-                                                                        "y": 37434.90095180315
+                                                                        "x": 25647.17948224743,
+                                                                        "y": 23034.900951803153
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -1720,7 +1720,7 @@
                                                                 "poolWeightVotes": [
                                                                     {
                                                                         "type": "Pool Weight Vote",
-                                                                        "name": "",
+                                                                        "name": "Delegation Bonus Pool",
                                                                         "config": "{}",
                                                                         "project": "Governance",
                                                                         "id": "392ff6f6-495d-4792-a6d8-a3307868c267",
@@ -1780,12 +1780,12 @@
                                                                 "id": "ddc1eb66-7173-4eac-ad4d-9f3769428202",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23328.26157796024,
-                                                                        "y": 37512.54666533391
+                                                                        "x": 25936.95723013415,
+                                                                        "y": 23112.54666533391
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 23038.483830073517,
-                                                                        "y": 37434.90095180315
+                                                                        "x": 25647.17948224743,
+                                                                        "y": 23034.900951803153
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -1831,12 +1831,12 @@
                                                         "id": "e411cabc-d674-44ae-8d4e-dafd14a1a40a",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 23038.483830073517,
-                                                                "y": 37434.90095180315
+                                                                "x": 25647.17948224743,
+                                                                "y": 23034.900951803153
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22748.706082186796,
-                                                                "y": 37512.54666533391
+                                                                "x": 25357.40173436071,
+                                                                "y": 23112.54666533391
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1878,17 +1878,17 @@
                                                 "id": "48167723-7a2b-4acd-bd1d-a2a9490e473d",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 22748.706082186796,
-                                                        "y": 37512.54666533391
+                                                        "x": 25314.9121192243,
+                                                        "y": 23092.280158520083
                                                     },
                                                     "targetPosition": {
-                                                        "x": 22598.706082186796,
-                                                        "y": 37772.35428646924
+                                                        "x": 25207.40173436071,
+                                                        "y": 23372.354286469243
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -1916,13 +1916,13 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Teams Work ",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 10\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [],
                                                 "poolWeightVotes": [
                                                     {
                                                         "type": "Pool Weight Vote",
-                                                        "name": "",
+                                                        "name": "Team Positions Pool",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "90338461-c094-4f19-ba8a-8656db3536cd",
@@ -1974,12 +1974,12 @@
                                                 "id": "5e7fda90-6871-43aa-9cf1-ed5b682db41b",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 22888.483830073517,
-                                                        "y": 37694.708572938485
+                                                        "x": 25459.002904744335,
+                                                        "y": 23208.962575964735
                                                     },
                                                     "targetPosition": {
-                                                        "x": 22598.706082186796,
-                                                        "y": 37772.35428646924
+                                                        "x": 25207.40173436071,
+                                                        "y": 23372.354286469243
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -2018,18 +2018,18 @@
                                                 "poolWeightVotes": [
                                                     {
                                                         "type": "Pool Weight Vote",
-                                                        "name": "",
+                                                        "name": "Reserve For Future Distributions Pool",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "c28a8388-cf67-41e2-97ea-6105fce11b51",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 23118.32132445746,
-                                                                "y": 38072.35428646924
+                                                                "x": 25727.016976631374,
+                                                                "y": 23672.354286469243
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22858.51370332213,
-                                                                "y": 37922.35428646924
+                                                                "x": 25467.20935549604,
+                                                                "y": 23522.354286469243
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2070,17 +2070,17 @@
                                                 "id": "95c11ac1-19ff-49d9-931f-7f916bf3d26c",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 22858.51370332213,
-                                                        "y": 37922.35428646924
+                                                        "x": 25506.99059478708,
+                                                        "y": 23388.055073342126
                                                     },
                                                     "targetPosition": {
-                                                        "x": 22598.706082186796,
-                                                        "y": 37772.35428646924
+                                                        "x": 25207.40173436071,
+                                                        "y": 23372.354286469243
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -2104,6 +2104,110 @@
                                                         ]
                                                     ]
                                                 }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Bitcoin Factory Incentives",
+                                                "config": "{\r\n    \"percentage\": 55\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [
+                                                    {
+                                                        "type": "Pool Weight Vote",
+                                                        "name": "Bitcoin Factory Rewards Pool",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "de48a3b7-390a-4086-b217-f007d236925e",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 25673.689311234888,
+                                                                "y": 23749.946521099148
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 25440.5455227978,
+                                                                "y": 23561.150403784195
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Pool",
+                                                                "name": "Bitcoin Factory Rewards",
+                                                                "id": "bd53a3b4-89fc-431d-b8dd-4887382f1741"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos",
+                                                                    "Pools"
+                                                                ],
+                                                                [
+                                                                    "Governance Programs ",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Bitcoin Factory Incentives",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Bitcoin Factory Rewards",
+                                                                    "Pool"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [],
+                                                "id": "aea02cab-82dd-455a-a72e-b8dc3ade46f0",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 25440.5455227978,
+                                                        "y": 23561.150403784195
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 25207.40173436071,
+                                                        "y": 23372.354286469243
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Pool Class",
+                                                        "name": "Bitcoin Factory Incentives",
+                                                        "id": "b57f4fec-3799-447f-80b8-1c5b5848ffb8"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos",
+                                                            "Pools"
+                                                        ],
+                                                        [
+                                                            "Governance Programs ",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Bitcoin Factory Incentives",
+                                                            "Pool Class"
+                                                        ]
+                                                    ]
+                                                }
                                             }
                                         ],
                                         "poolWeightVotes": [],
@@ -2113,17 +2217,17 @@
                                         "id": "be49c5f0-b670-4343-b235-3bcf7cb04396",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 22598.706082186796,
+                                                "x": 25207.40173436071,
                                                 "y": 23372.354286469243
                                             },
                                             "targetPosition": {
-                                                "x": 22308.928334300075,
+                                                "x": 24917.623986473987,
                                                 "y": 23450
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": true,
+                                                "isCollapsed": false,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -2168,17 +2272,17 @@
                                                         "positionWeightVotes": [
                                                             {
                                                                 "type": "Position Weight Vote",
-                                                                "name": "",
+                                                                "name": "gitforkgit gitforkgit",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "7d853392-9da4-4f89-893c-1f98f983d077",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23299.522401197024,
+                                                                        "x": 25908.218053370936,
                                                                         "y": 23676.09663153883
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 23016.357402104513,
+                                                                        "x": 25625.053054278425,
                                                                         "y": 23775.180350125378
                                                                     },
                                                                     "floatingObject": {
@@ -2225,11 +2329,11 @@
                                                         "id": "f18160c1-b9a9-4481-bc03-14f52595bbb4",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 23016.357402104513,
+                                                                "x": 25625.053054278425,
                                                                 "y": 23775.180350125378
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22733.192403012003,
+                                                                "x": 25341.888055185915,
                                                                 "y": 23874.264068711927
                                                             },
                                                             "floatingObject": {
@@ -2280,17 +2384,17 @@
                                                         "positionWeightVotes": [
                                                             {
                                                                 "type": "Position Weight Vote",
-                                                                "name": "",
+                                                                "name": "Elves and Fairies Elves and Fairies",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "ab3ba8fa-43bc-4b2e-a463-5947d393ea0d",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23329.419728947945,
+                                                                        "x": 25938.115381121857,
                                                                         "y": 23941.442754373915
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 23031.306065979974,
+                                                                        "x": 25640.001718153886,
                                                                         "y": 23907.85341154292
                                                                     },
                                                                     "floatingObject": {
@@ -2337,11 +2441,11 @@
                                                         "id": "2204a40e-8ccd-4826-84b9-de22b628c51a",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 23031.306065979974,
+                                                                "x": 25640.001718153886,
                                                                 "y": 23907.85341154292
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22733.192403012003,
+                                                                "x": 25341.888055185915,
                                                                 "y": 23874.264068711927
                                                             },
                                                             "floatingObject": {
@@ -2392,17 +2496,17 @@
                                                         "positionWeightVotes": [
                                                             {
                                                                 "type": "Position Weight Vote",
-                                                                "name": "",
+                                                                "name": "Alexandru Alexandru",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "2c01be8c-a4b5-432e-ba86-915996b87085",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23241.226922548976,
+                                                                        "x": 25849.92257472289,
                                                                         "y": 24193.48331462113
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 22987.20966278049,
+                                                                        "x": 25595.9053149544,
                                                                         "y": 24033.87369166653
                                                                     },
                                                                     "floatingObject": {
@@ -2449,11 +2553,11 @@
                                                         "id": "90d45a6c-2509-43b2-8deb-d04cc12d567d",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 22987.20966278049,
+                                                                "x": 25595.9053149544,
                                                                 "y": 24033.87369166653
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22733.192403012003,
+                                                                "x": 25341.888055185915,
                                                                 "y": 23874.264068711927
                                                             },
                                                             "floatingObject": {
@@ -2504,17 +2608,17 @@
                                                         "positionWeightVotes": [
                                                             {
                                                                 "type": "Position Weight Vote",
-                                                                "name": "",
+                                                                "name": "Translations Translations",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "216d597a-1cbd-4af4-84e1-e8e5927a2c03",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 23052.411648921207,
+                                                                        "x": 25661.10730109512,
                                                                         "y": 24382.2985882489
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 22892.802025966605,
+                                                                        "x": 25501.497678140517,
                                                                         "y": 24128.281328480414
                                                                     },
                                                                     "floatingObject": {
@@ -2561,11 +2665,11 @@
                                                         "id": "cd1502f1-14af-4e95-b443-402c71be8911",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 22892.802025966605,
+                                                                "x": 25501.497678140517,
                                                                 "y": 24128.281328480414
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22733.192403012003,
+                                                                "x": 25341.888055185915,
                                                                 "y": 23874.264068711927
                                                             },
                                                             "floatingObject": {
@@ -2616,17 +2720,17 @@
                                                         "positionWeightVotes": [
                                                             {
                                                                 "type": "Position Weight Vote",
-                                                                "name": "",
+                                                                "name": "Data Mining Data Mining",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "05479304-db9d-434b-adf9-5eeb1c4a6a9d",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 22800.37108867399,
+                                                                        "x": 25409.066740847902,
                                                                         "y": 24470.49139464787
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 22766.781745842996,
+                                                                        "x": 25375.47739801691,
                                                                         "y": 24172.3777316799
                                                                     },
                                                                     "floatingObject": {
@@ -2673,11 +2777,11 @@
                                                         "id": "128c3738-4fc7-4801-a772-eccafe8f8464",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 22766.781745842996,
+                                                                "x": 25375.47739801691,
                                                                 "y": 24172.3777316799
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22733.192403012003,
+                                                                "x": 25341.888055185915,
                                                                 "y": 23874.264068711927
                                                             },
                                                             "floatingObject": {
@@ -2728,17 +2832,17 @@
                                                         "positionWeightVotes": [
                                                             {
                                                                 "type": "Position Weight Vote",
-                                                                "name": "",
+                                                                "name": "UX-UI UX-UI",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "40e3c71c-0276-48ea-a445-6111f98bb428",
                                                                 "savedPayload": {
                                                                     "position": {
-                                                                        "x": 22535.024965838904,
+                                                                        "x": 25143.720618012816,
                                                                         "y": 24440.59406689695
                                                                     },
                                                                     "targetPosition": {
-                                                                        "x": 22634.108684425453,
+                                                                        "x": 25242.804336599365,
                                                                         "y": 24157.429067804438
                                                                     },
                                                                     "floatingObject": {
@@ -2785,11 +2889,11 @@
                                                         "id": "a1afeb3c-bfa8-489d-8e54-4f42c07c1c8d",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 22634.108684425453,
+                                                                "x": 25242.804336599365,
                                                                 "y": 24157.429067804438
                                                             },
                                                             "targetPosition": {
-                                                                "x": 22733.192403012003,
+                                                                "x": 25341.888055185915,
                                                                 "y": 23874.264068711927
                                                             },
                                                             "floatingObject": {
@@ -2836,11 +2940,11 @@
                                                 "id": "a48d9920-7675-4524-8a32-a43d3ca20e6a",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 22733.192403012003,
+                                                        "x": 25341.888055185915,
                                                         "y": 23874.264068711927
                                                     },
                                                     "targetPosition": {
-                                                        "x": 22521.06036865604,
+                                                        "x": 25129.75602082995,
                                                         "y": 23662.132034355964
                                                     },
                                                     "floatingObject": {
@@ -2883,17 +2987,17 @@
                                         "id": "1e539341-baac-46e1-a82c-403fef85b008",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 22521.06036865604,
+                                                "x": 25129.75602082995,
                                                 "y": 23662.132034355964
                                             },
                                             "targetPosition": {
-                                                "x": 22308.928334300075,
+                                                "x": 24917.623986473987,
                                                 "y": 23450
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": false,
+                                                "isCollapsed": true,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -2926,11 +3030,11 @@
                                 "id": "1d398124-3f36-40a1-8b3b-6c77ad489b92",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 22308.928334300075,
+                                        "x": 24917.623986473987,
                                         "y": 23450
                                     },
                                     "targetPosition": {
-                                        "x": 22019.150586413354,
+                                        "x": 24627.846238587266,
                                         "y": 23372.354286469243
                                     },
                                     "floatingObject": {
@@ -2952,11 +3056,11 @@
                         "id": "2b8d3ce7-515c-44ad-8d80-3c2be6d7736f",
                         "savedPayload": {
                             "position": {
-                                "x": 22019.150586413354,
+                                "x": 24627.846238587266,
                                 "y": 23372.354286469243
                             },
                             "targetPosition": {
-                                "x": 21759.34296527802,
+                                "x": 24368.038617451934,
                                 "y": 23522.354286469243
                             },
                             "floatingObject": {
@@ -2980,11 +3084,11 @@
                     "id": "e9c0e495-7985-4381-bf75-865d87289038",
                     "savedPayload": {
                         "position": {
-                            "x": 22059.34296527802,
+                            "x": 24668.038617451934,
                             "y": 23522.354286469243
                         },
                         "targetPosition": {
-                            "x": 21759.34296527802,
+                            "x": 24368.038617451934,
                             "y": 23522.354286469243
                         },
                         "floatingObject": {
@@ -3003,11 +3107,11 @@
                 "id": "d5ed432e-78bf-432e-be3b-8649932f7a65",
                 "savedPayload": {
                     "position": {
-                        "x": 21759.34296527802,
+                        "x": 24368.038617451934,
                         "y": 23522.354286469243
                     },
                     "targetPosition": {
-                        "x": 21469.5652173913,
+                        "x": 24078.260869565212,
                         "y": 23600
                     },
                     "floatingObject": {
@@ -3040,17 +3144,17 @@
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "",
+                                "name": "Luis Luis",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "3797a2cb-8af4-41d1-8cb6-758a8dee5809",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 22359.34296527802,
+                                        "x": 24968.038617451934,
                                         "y": 23677.645713530757
                                     },
                                     "targetPosition": {
-                                        "x": 22059.34296527802,
+                                        "x": 24668.038617451934,
                                         "y": 23677.645713530757
                                     },
                                     "floatingObject": {
@@ -3097,11 +3201,11 @@
                         "id": "8322f017-27e1-4cc4-bcc8-a0a1b8a8e1bd",
                         "savedPayload": {
                             "position": {
-                                "x": 22059.34296527802,
+                                "x": 24668.038617451934,
                                 "y": 23677.645713530757
                             },
                             "targetPosition": {
-                                "x": 21759.34296527802,
+                                "x": 24368.038617451934,
                                 "y": 23677.645713530757
                             },
                             "floatingObject": {
@@ -3125,11 +3229,11 @@
                     "id": "5011109c-3f87-471a-b786-5fd371f53853",
                     "savedPayload": {
                         "position": {
-                            "x": 22019.150586413354,
+                            "x": 24627.846238587266,
                             "y": 23827.645713530757
                         },
                         "targetPosition": {
-                            "x": 21759.34296527802,
+                            "x": 24368.038617451934,
                             "y": 23677.645713530757
                         },
                         "floatingObject": {
@@ -3148,17 +3252,17 @@
                 "id": "796dd30f-c90d-4b8d-a63d-89867347407b",
                 "savedPayload": {
                     "position": {
-                        "x": 21759.34296527802,
+                        "x": 24368.038617451934,
                         "y": 23677.645713530757
                     },
                     "targetPosition": {
-                        "x": 21469.5652173913,
+                        "x": 24078.260869565212,
                         "y": 23600
                     },
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 3,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -3171,11 +3275,11 @@
             "id": "bb390957-b8a2-4a8a-9fbf-963ea20f6eaf",
             "savedPayload": {
                 "position": {
-                    "x": 21469.5652173913,
+                    "x": 24078.260869565212,
                     "y": 23600
                 },
                 "targetPosition": {
-                    "x": 21169.5652173913,
+                    "x": 23778.260869565212,
                     "y": 23600
                 },
                 "floatingObject": {
@@ -3211,7 +3315,7 @@
                         "userDelegates": [
                             {
                                 "type": "User Delegate",
-                                "name": "",
+                                "name": "tigers40",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "cbbee568-74a4-49d0-a7fb-0d20bb08d014",
@@ -3326,11 +3430,11 @@
             "id": "ed112539-01ea-4937-85cf-69612ee6115d",
             "savedPayload": {
                 "position": {
-                    "x": 21429.372838526633,
+                    "x": 24038.068490700545,
                     "y": 23750
                 },
                 "targetPosition": {
-                    "x": 21169.5652173913,
+                    "x": 23778.260869565212,
                     "y": 23600
                 },
                 "floatingObject": {
@@ -3521,11 +3625,11 @@
             "id": "ba3bc469-3c94-444d-a5d0-8ed851aa3778",
             "savedPayload": {
                 "position": {
-                    "x": 21319.5652173913,
+                    "x": 23928.260869565212,
                     "y": 23859.807621135333
                 },
                 "targetPosition": {
-                    "x": 21169.5652173913,
+                    "x": 23778.260869565212,
                     "y": 23600
                 },
                 "floatingObject": {
@@ -3544,11 +3648,11 @@
         "id": "f8182a9c-f830-4ec1-a238-ac3a5efd69e6",
         "savedPayload": {
             "position": {
-                "x": 21169.5652173913,
+                "x": 23778.260869565212,
                 "y": 23600
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -3571,11 +3675,11 @@
         "id": "9870ca2a-cefc-484b-b7fc-206d62782ebc",
         "savedPayload": {
             "position": {
-                "x": 21099.378550326994,
+                "x": 23708.074202500906,
                 "y": 23792.836282905962
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -4085,11 +4189,11 @@
         "id": "c23abadc-e125-4f63-91bc-da4b48f0e1dc",
         "savedPayload": {
             "position": {
-                "x": 20921.65967069138,
+                "x": 23530.355322865293,
                 "y": 23895.442325903663
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -5979,11 +6083,11 @@
         "id": "54ced611-b518-435f-a284-935666ef47db",
         "savedPayload": {
             "position": {
-                "x": 20719.5652173913,
+                "x": 23328.260869565212,
                 "y": 23859.807621135333
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -6385,11 +6489,11 @@
         "id": "e453990c-57e2-4886-9dc1-060cd2750467",
         "savedPayload": {
             "position": {
-                "x": 20587.657431155527,
+                "x": 23196.35308332944,
                 "y": 23702.6060429977
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -6424,11 +6528,11 @@
                     "id": "62ac21b6-e583-44b4-a3a3-9c7ea963222f",
                     "savedPayload": {
                         "position": {
-                            "x": 20057.038373153242,
+                            "x": 22665.734025327154,
                             "y": 23562.545785045822
                         },
                         "targetPosition": {
-                            "x": 20305.749644919753,
+                            "x": 22914.445297093665,
                             "y": 23394.7879140046
                         },
                         "floatingObject": {
@@ -6451,11 +6555,11 @@
                     "id": "f365a1bf-b51d-4314-ac4d-686237aa2ab3",
                     "savedPayload": {
                         "position": {
-                            "x": 20005.932396814023,
+                            "x": 22614.628048987935,
                             "y": 23384.318064993848
                         },
                         "targetPosition": {
-                            "x": 20305.749644919753,
+                            "x": 22914.445297093665,
                             "y": 23394.7879140046
                         },
                         "floatingObject": {
@@ -6495,11 +6599,11 @@
                         "id": "ebd9fcac-22c5-4abb-8b91-1a3b5fc0122b",
                         "savedPayload": {
                             "position": {
-                                "x": 19832.94319275572,
+                                "x": 22441.638844929632,
                                 "y": 23025.3910288092
                             },
                             "targetPosition": {
-                                "x": 20069.346418837737,
+                                "x": 22678.04207101165,
                                 "y": 23210.0894714069
                             },
                             "floatingObject": {
@@ -6518,11 +6622,11 @@
                     "id": "182399ca-4652-4acb-98f4-c1a9a655b407",
                     "savedPayload": {
                         "position": {
-                            "x": 20069.346418837737,
+                            "x": 22678.04207101165,
                             "y": 23210.0894714069
                         },
                         "targetPosition": {
-                            "x": 20305.749644919753,
+                            "x": 22914.445297093665,
                             "y": 23394.7879140046
                         },
                         "floatingObject": {
@@ -6551,11 +6655,11 @@
                         "id": "a83630e4-a6de-4942-9e1a-bf5614ff8031",
                         "savedPayload": {
                             "position": {
-                                "x": 20007.256498073057,
+                                "x": 22615.95215024697,
                                 "y": 22898.011894085404
                             },
                             "targetPosition": {
-                                "x": 20223.058438174652,
+                                "x": 22831.754090348564,
                                 "y": 23106.409405223105
                             },
                             "floatingObject": {
@@ -6579,11 +6683,11 @@
                         "id": "1adf2961-34d1-4c11-85f1-fa043e70c2f0",
                         "savedPayload": {
                             "position": {
-                                "x": 20295.63500685455,
+                                "x": 22904.330659028463,
                                 "y": 22815.320687340307
                             },
                             "targetPosition": {
-                                "x": 20223.058438174652,
+                                "x": 22831.754090348564,
                                 "y": 23106.409405223105
                             },
                             "floatingObject": {
@@ -6602,11 +6706,11 @@
                     "id": "be80006b-4351-435e-ac77-9ffee1c763db",
                     "savedPayload": {
                         "position": {
-                            "x": 20223.058438174652,
+                            "x": 22831.754090348564,
                             "y": 23106.409405223105
                         },
                         "targetPosition": {
-                            "x": 20305.749644919753,
+                            "x": 22914.445297093665,
                             "y": 23394.7879140046
                         },
                         "floatingObject": {
@@ -6625,11 +6729,11 @@
                 "id": "56cc0c90-4a58-4e25-a63f-4f9a6921d0f3",
                 "savedPayload": {
                     "position": {
-                        "x": 20305.749644919753,
+                        "x": 22914.445297093665,
                         "y": 23394.7879140046
                     },
                     "targetPosition": {
-                        "x": 20587.657431155527,
+                        "x": 23196.35308332944,
                         "y": 23497.3939570023
                     },
                     "floatingObject": {
@@ -6649,11 +6753,11 @@
         "id": "da779e56-cb36-4825-bcd5-06692175a982",
         "savedPayload": {
             "position": {
-                "x": 20587.657431155527,
+                "x": 23196.35308332944,
                 "y": 23497.3939570023
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -6768,11 +6872,11 @@
         "id": "eb6bc42b-6039-4981-ae93-0723ee86459e",
         "savedPayload": {
             "position": {
-                "x": 20719.5652173913,
+                "x": 23328.260869565212,
                 "y": 23340.192378864667
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -6910,11 +7014,11 @@
         "id": "70d2d75b-ad84-4386-93f5-13ad56c111f7",
         "savedPayload": {
             "position": {
-                "x": 20921.65967069138,
+                "x": 23530.355322865293,
                 "y": 23304.557674096337
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -7396,11 +7500,11 @@
         "id": "73afb54e-eff9-4c68-a744-3de69f422aa5",
         "savedPayload": {
             "position": {
-                "x": 21099.378550326994,
+                "x": 23708.074202500906,
                 "y": 23407.163717094038
             },
             "targetPosition": {
-                "x": 20869.5652173913,
+                "x": 23478.260869565212,
                 "y": 23600
             },
             "floatingObject": {
@@ -7419,11 +7523,11 @@
     "id": "a8de78f0-c3e4-4a2a-b7e8-f659073969db",
     "savedPayload": {
         "position": {
-            "x": 20869.5652173913,
+            "x": 23478.260869565212,
             "y": 23600
         },
         "targetPosition": {
-            "x": 20869.5652173913,
+            "x": 23478.260869565212,
             "y": 23600
         },
         "floatingObject": {
