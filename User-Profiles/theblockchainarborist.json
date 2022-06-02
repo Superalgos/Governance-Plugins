@@ -6,7 +6,7 @@
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
         "name": "New Token Power Switch",
-        "config": "{}",
+        "config": "{\r\n    \"percentage\": 100\r\n}",
         "project": "Governance",
         "tokenPowerSwitch": [],
         "onboardingPrograms": {
@@ -614,11 +614,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 8426.08695652174,
-                                        "y": 32380.384757729335
+                                        "y": 27580.384757729335
                                     },
                                     "targetPosition": {
                                         "x": 8576.08695652174,
-                                        "y": 32640.192378864667
+                                        "y": 27840.192378864667
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -641,7 +641,106 @@
                                 "config": "{}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
-                                "poolWeightVotes": [],
+                                "poolWeightVotes": [
+                                    {
+                                        "type": "Pool Weight Vote",
+                                        "name": "Bitcoin Factory Rewards Pool",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "2e87c875-0c41-475c-aef4-976c765477d6",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8726.08695652174,
+                                                "y": 27280.384757729335
+                                            },
+                                            "targetPosition": {
+                                                "x": 8726.08695652174,
+                                                "y": 27580.384757729335
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Pool",
+                                                "name": "Bitcoin Factory Rewards",
+                                                "id": "bd53a3b4-89fc-431d-b8dd-4887382f1741"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Superalgos",
+                                                    "Pools"
+                                                ],
+                                                [
+                                                    "Governance Programs ",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Bitcoin Factory Incentives",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Bitcoin Factory Rewards",
+                                                    "Pool"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Pool Weight Vote",
+                                        "name": "Team Positions Pool",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "c0281a25-685d-4e78-b271-73afd9366460",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8985.89457765707,
+                                                "y": 27430.384757729335
+                                            },
+                                            "targetPosition": {
+                                                "x": 8726.08695652174,
+                                                "y": 27580.384757729335
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Pool",
+                                                "name": "Team Positions",
+                                                "id": "74f6ea9f-b42e-4be2-9686-ac7b6f9ad603"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Superalgos",
+                                                    "Pools"
+                                                ],
+                                                [
+                                                    "Teams Work ",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Team Positions",
+                                                    "Pool"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
                                 "assetWeightVotes": [],
                                 "featureWeightVotes": [],
                                 "positionWeightVotes": [],
@@ -649,11 +748,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 8726.08695652174,
-                                        "y": 32380.384757729335
+                                        "y": 27580.384757729335
                                     },
                                     "targetPosition": {
                                         "x": 8576.08695652174,
-                                        "y": 32640.192378864667
+                                        "y": 27840.192378864667
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -674,11 +773,11 @@
                         "savedPayload": {
                             "position": {
                                 "x": 8576.08695652174,
-                                "y": 32640.192378864667
+                                "y": 27840.192378864667
                             },
                             "targetPosition": {
                                 "x": 8576.08695652174,
-                                "y": 32940.19237886467
+                                "y": 28140.192378864667
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -702,11 +801,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 8876.08695652174,
-                            "y": 32940.19237886467
+                            "y": 28140.192378864667
                         },
                         "targetPosition": {
                             "x": 8576.08695652174,
-                            "y": 32940.19237886467
+                            "y": 28140.192378864667
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -725,11 +824,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 8576.08695652174,
-                        "y": 32940.19237886467
+                        "y": 28140.192378864667
                     },
                     "targetPosition": {
                         "x": 8426.08695652174,
-                        "y": 33200
+                        "y": 28400
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -747,7 +846,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\": 40\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -760,11 +859,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 8726.08695652174,
-                            "y": 33719.615242270665
+                            "y": 28919.615242270665
                         },
                         "targetPosition": {
                             "x": 8576.08695652174,
-                            "y": 33459.80762113533
+                            "y": 28659.807621135333
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -783,11 +882,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 8576.08695652174,
-                        "y": 33459.80762113533
+                        "y": 28659.807621135333
                     },
                     "targetPosition": {
                         "x": 8426.08695652174,
-                        "y": 33200
+                        "y": 28400
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -815,7 +914,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 1,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -1101,7 +1200,7 @@
     "userApps": {
         "type": "User Apps",
         "name": "New User Apps",
-        "config": "{\r\n    \"percentage\": 1\r\n}",
+        "config": "{\r\n    \"percentage\": 0\r\n}",
         "project": "User-Apps",
         "serverApps": {
             "type": "Server Apps",
@@ -2280,7 +2379,7 @@
     "forecastsProviders": {
         "type": "Forecasts Providers",
         "name": "New Forecasts Providers",
-        "config": "{\r\n    \"percentage\": 1\r\n}",
+        "config": "{\r\n    \"percentage\": 0\r\n}",
         "project": "Governance",
         "bitcoinFactoryForecasts": [
             {
