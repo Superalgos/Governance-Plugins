@@ -761,7 +761,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 1,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -776,7 +776,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Pool Weight Votes",
-                                "config": "{\r\n    \"percentage\": 100\r\n}",
+                                "config": "{\r\n    \"percentage\": 50\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [
@@ -1014,7 +1014,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Position Weight Votes",
-                                "config": "{\r\n    \"percentage\": 0\r\n}",
+                                "config": "{\r\n    \"percentage\": 50\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [],
@@ -1023,7 +1023,7 @@
                                 "positionWeightVotes": [
                                     {
                                         "type": "Position Weight Vote",
-                                        "name": "",
+                                        "name": "Translations Translations",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "17c97e80-f0f5-44dc-a8b4-509eb32d0d13",
@@ -1049,8 +1049,8 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position",
-                                                "name": "Translations Team",
-                                                "id": "c0757900-de73-436a-b32b-9340296d3fe8"
+                                                "name": "Translations",
+                                                "id": "d32b4af9-b68f-474f-8f3a-8591577fa176"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -1066,11 +1066,11 @@
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Translations Team",
+                                                    "Translations",
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Translations Team",
+                                                    "Translations",
                                                     "Position"
                                                 ]
                                             ]
@@ -1179,7 +1179,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 100\r\n}",
+                "config": "{\r\n    \"percentage\": 0\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
