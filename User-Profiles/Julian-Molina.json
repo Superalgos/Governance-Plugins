@@ -765,7 +765,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\": 97\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -8407,11 +8407,121 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 0\r\n}",
+                "config": "{\r\n\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
-                "positionClaimsFolders": [],
+                "positionClaimsFolders": [
+                    {
+                        "type": "Position Claims Folder",
+                        "name": "Julian’s Team Position Class",
+                        "config": "{}",
+                        "project": "Governance",
+                        "positionClaimsFolders": [],
+                        "positionContributionClaims": [
+                            {
+                                "type": "Position Contribution Claim",
+                                "name": "Julian’s Team Julian’s Team",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "746bb101-f4bc-49fd-82a6-d15cb5c880d2",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 27321.876586652575,
+                                        "y": 23750
+                                    },
+                                    "targetPosition": {
+                                        "x": 27021.876586652575,
+                                        "y": 23750
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position",
+                                        "name": "Julian’s Team",
+                                        "id": "a8df83a1-5695-4172-8c2a-ab7d1d29c9fe"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Teams of Contributors",
+                                            "Positions"
+                                        ],
+                                        [
+                                            "Teams @ May 2022",
+                                            "Position Class"
+                                        ],
+                                        [
+                                            "Teams With PoV Reports",
+                                            "Position Class"
+                                        ],
+                                        [
+                                            "Julian’s Team",
+                                            "Position Class"
+                                        ],
+                                        [
+                                            "Julian’s Team",
+                                            "Position"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "id": "d3f27c0d-ed86-409a-878a-fc87d13f51a8",
+                        "savedPayload": {
+                            "position": {
+                                "x": 27021.876586652575,
+                                "y": 23750
+                            },
+                            "targetPosition": {
+                                "x": 26721.876586652575,
+                                "y": 23750
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "Position Class",
+                                "name": "Julian’s Team",
+                                "id": "2506f9b6-4500-4979-8125-5bc0816a6d68"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Teams of Contributors",
+                                    "Positions"
+                                ],
+                                [
+                                    "Teams @ May 2022",
+                                    "Position Class"
+                                ],
+                                [
+                                    "Teams With PoV Reports",
+                                    "Position Class"
+                                ],
+                                [
+                                    "Julian’s Team",
+                                    "Position Class"
+                                ]
+                            ]
+                        }
+                    }
+                ],
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
@@ -8419,8 +8529,8 @@
                     "id": "f246375b-a7d1-4fcd-9a96-d95d5493bdeb",
                     "savedPayload": {
                         "position": {
-                            "x": 26981.68420778791,
-                            "y": 23900
+                            "x": 26871.876586652575,
+                            "y": 24009.807621135333
                         },
                         "targetPosition": {
                             "x": 26721.876586652575,
