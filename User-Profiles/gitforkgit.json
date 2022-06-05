@@ -128,11 +128,11 @@
             "savedPayload": {
                 "position": {
                     "x": 31604.34782608695,
-                    "y": 37700
+                    "y": 32900
                 },
                 "targetPosition": {
                     "x": 31604.34782608695,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -646,7 +646,7 @@
                 },
                 "targetPosition": {
                     "x": 31604.34782608695,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": true,
@@ -677,92 +677,29 @@
                         "name": "New Votes Switch",
                         "config": "{}",
                         "project": "Governance",
-                        "votesSwitch": [
+                        "votesSwitch": [],
+                        "claimVotesSwitch": [
                             {
-                                "type": "Votes Switch",
-                                "name": "New Votes Switch",
-                                "config": "{\n    \"percentage\": 13\n}",
+                                "type": "Claim Votes Switch",
+                                "name": "New Claim Votes Switch",
+                                "config": "{}",
                                 "project": "Governance",
-                                "votesSwitch": [],
-                                "claimVotesSwitch": [
+                                "claimVotesSwitch": [],
+                                "positionClaimVotes": [
                                     {
-                                        "type": "Claim Votes Switch",
-                                        "name": "New Claim Votes Switch",
+                                        "type": "Position Claim Vote",
+                                        "name": "",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "claimVotesSwitch": [],
-                                        "positionClaimVotes": [
-                                            {
-                                                "type": "Position Claim Vote",
-                                                "name": "lindersi Translations Translations",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "3e9619fc-9ecb-4806-ac29-b7da90c7ee44",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 36148.130043437835,
-                                                        "y": 37890.19237886467
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 36407.93766457317,
-                                                        "y": 38040.19237886467
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 1,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position Contribution Claim",
-                                                        "name": "Translations Translations",
-                                                        "id": "5690528f-0026-4c2b-8a19-039229f08f22"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "lindersi",
-                                                            "User Profile"
-                                                        ],
-                                                        [
-                                                            "New Token Power Switch",
-                                                            "Token Power Switch"
-                                                        ],
-                                                        [
-                                                            "New Votes And Claims Programs",
-                                                            "Votes And Claims Programs"
-                                                        ],
-                                                        [
-                                                            "New Claims Program",
-                                                            "Claims Program"
-                                                        ],
-                                                        [
-                                                            "New Position Claims Folder",
-                                                            "Position Claims Folder"
-                                                        ],
-                                                        [
-                                                            "Translations Translations",
-                                                            "Position Contribution Claim"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "assetClaimVotes": [],
-                                        "featureClaimVotes": [],
-                                        "id": "949733f9-c4fa-4da6-b7e8-a4a485d20fc8",
+                                        "id": "3c089051-1a99-43de-93de-17c9c06d1a80",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 36407.93766457317,
-                                                "y": 38040.19237886467
+                                                "x": 37210.55290684383,
+                                                "y": 32361.577136594
                                             },
                                             "targetPosition": {
-                                                "x": 36667.7452857085,
-                                                "y": 38190.19237886467
+                                                "x": 37360.55290684383,
+                                                "y": 32621.384757729335
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -778,17 +715,17 @@
                                         }
                                     }
                                 ],
-                                "weightVotesSwitch": [],
-                                "userProfileVotesSwitch": [],
-                                "id": "2a922bfc-9a39-443e-91a0-65e013c699ed",
+                                "assetClaimVotes": [],
+                                "featureClaimVotes": [],
+                                "id": "fe354dc0-f973-45e2-9465-1acf71df0bb7",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 36667.7452857085,
-                                        "y": 38190.19237886467
+                                        "x": 37360.55290684383,
+                                        "y": 32621.384757729335
                                     },
                                     "targetPosition": {
-                                        "x": 36927.55290684383,
-                                        "y": 38340.19237886467
+                                        "x": 37510.55290684383,
+                                        "y": 32881.19237886467
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -802,9 +739,7 @@
                                         "isRunning": false
                                     }
                                 }
-                            }
-                        ],
-                        "claimVotesSwitch": [
+                            },
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
@@ -814,18 +749,18 @@
                                 "positionClaimVotes": [
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "harrellbm ",
+                                        "name": "lindersi Translation Team Translation Team",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "id": "f7dd223e-9204-438f-906e-73a2e8e8e5ab",
+                                        "id": "098f5b25-1e1c-4cf6-bde1-b5d60858981c",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 37227.55290684383,
-                                                "y": 37820.577136594
+                                                "x": 38110.55290684383,
+                                                "y": 32881.19237886467
                                             },
                                             "targetPosition": {
-                                                "x": 37077.55290684383,
-                                                "y": 38080.384757729335
+                                                "x": 37810.55290684383,
+                                                "y": 32881.19237886467
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -840,12 +775,12 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "",
-                                                "id": "a8b06573-eec1-4837-b25f-46ea5fd7754b"
+                                                "name": "Translation Team Translation Team",
+                                                "id": "5690528f-0026-4c2b-8a19-039229f08f22"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "harrellbm",
+                                                    "lindersi",
                                                     "User Profile"
                                                 ],
                                                 [
@@ -861,11 +796,11 @@
                                                     "Claims Program"
                                                 ],
                                                 [
-                                                    "Harrellbm Team PoW Report Position Class",
+                                                    "New Position Claims Folder",
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "",
+                                                    "Translation Team Translation Team",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -874,15 +809,15 @@
                                 ],
                                 "assetClaimVotes": [],
                                 "featureClaimVotes": [],
-                                "id": "fe354dc0-f973-45e2-9465-1acf71df0bb7",
+                                "id": "3069dafa-2812-4171-a636-3d801ee2a02a",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 37077.55290684383,
-                                        "y": 38080.384757729335
+                                        "x": 37810.55290684383,
+                                        "y": 32881.19237886467
                                     },
                                     "targetPosition": {
-                                        "x": 36927.55290684383,
-                                        "y": 38340.19237886467
+                                        "x": 37510.55290684383,
+                                        "y": 32881.19237886467
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -899,90 +834,19 @@
                             }
                         ],
                         "weightVotesSwitch": [],
-                        "userProfileVotesSwitch": [
-                            {
-                                "type": "User Profile Votes Switch",
-                                "name": "New User Profile Votes Switch",
-                                "config": "{\n    \"percentage\": 30\n}",
-                                "project": "Governance",
-                                "userProfileVotesSwitch": [],
-                                "userProfileVote": [
-                                    {
-                                        "type": "User Profile Vote",
-                                        "name": "lindersi",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "d74ef580-4131-4c23-ab75-05e2001b1490",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 37447.1681491145,
-                                                "y": 38640.19237886467
-                                            },
-                                            "targetPosition": {
-                                                "x": 37187.36052797917,
-                                                "y": 38490.19237886467
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 1,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "User Profile",
-                                                "name": "lindersi",
-                                                "id": "a64e6f62-835a-4bbf-a091-9cd3b0196ab0"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "lindersi",
-                                                    "User Profile"
-                                                ]
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "id": "1f8bf58a-dace-45d8-be1f-0b36936e5ab9",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 37187.36052797917,
-                                        "y": 38490.19237886467
-                                    },
-                                    "targetPosition": {
-                                        "x": 36927.55290684383,
-                                        "y": 38340.19237886467
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 1,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    }
-                                }
-                            }
-                        ],
+                        "userProfileVotesSwitch": [],
                         "id": "49dbc627-1c76-474b-8664-980f9082c484",
                         "savedPayload": {
                             "position": {
-                                "x": 36927.55290684383,
-                                "y": 38340.19237886467
+                                "x": 37510.55290684383,
+                                "y": 32881.19237886467
                             },
                             "targetPosition": {
                                 "x": 36777.55290684383,
-                                "y": 38600
+                                "y": 33800
                             },
                             "floatingObject": {
-                                "isPinned": false,
+                                "isPinned": true,
                                 "isFrozen": false,
                                 "isCollapsed": false,
                                 "angleToParent": 1,
@@ -1024,11 +888,11 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 37816.783391385165,
-                                                        "y": 38300
+                                                        "y": 33500
                                                     },
                                                     "targetPosition": {
                                                         "x": 37556.97577024983,
-                                                        "y": 38450
+                                                        "y": 33650
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -1070,11 +934,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 37556.97577024983,
-                                                "y": 38450
+                                                "y": 33650
                                             },
                                             "targetPosition": {
                                                 "x": 37297.1681491145,
-                                                "y": 38600
+                                                "y": 33800
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1110,11 +974,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 37297.1681491145,
-                                        "y": 38600
+                                        "y": 33800
                                     },
                                     "targetPosition": {
                                         "x": 37037.36052797917,
-                                        "y": 38750
+                                        "y": 33950
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1148,11 +1012,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 37297.1681491145,
-                                                "y": 39200
+                                                "y": 34400
                                             },
                                             "targetPosition": {
                                                 "x": 37037.36052797917,
-                                                "y": 39050
+                                                "y": 34250
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1203,11 +1067,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 36777.55290684383,
-                                                "y": 39200
+                                                "y": 34400
                                             },
                                             "targetPosition": {
                                                 "x": 37037.36052797917,
-                                                "y": 39050
+                                                "y": 34250
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1257,11 +1121,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 37037.36052797917,
-                                        "y": 39050
+                                        "y": 34250
                                     },
                                     "targetPosition": {
                                         "x": 37037.36052797917,
-                                        "y": 38750
+                                        "y": 33950
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1305,11 +1169,11 @@
                         "savedPayload": {
                             "position": {
                                 "x": 37037.36052797917,
-                                "y": 38750
+                                "y": 33950
                             },
                             "targetPosition": {
                                 "x": 36777.55290684383,
-                                "y": 38600
+                                "y": 33800
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1333,11 +1197,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 36627.55290684383,
-                            "y": 38859.80762113533
+                            "y": 34059.80762113533
                         },
                         "targetPosition": {
                             "x": 36777.55290684383,
-                            "y": 38600
+                            "y": 33800
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1356,11 +1220,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 36777.55290684383,
-                        "y": 38600
+                        "y": 33800
                     },
                     "targetPosition": {
                         "x": 36604.347826086945,
-                        "y": 38300
+                        "y": 33500
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1385,25 +1249,25 @@
                 "positionClaimsFolders": [
                     {
                         "type": "Position Claims Folder",
-                        "name": "gitforkgit Position Class",
+                        "name": "gitforkgit's Team Position Class",
                         "config": "{}",
                         "project": "Governance",
                         "positionClaimsFolders": [],
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "gitforkgit gitforkgit",
+                                "name": "gitforkgit's Team gitforkgit's Team",
                                 "config": "{}",
                                 "project": "Governance",
-                                "id": "e8a6ed69-5bff-4978-a89d-f01203db44e2",
+                                "id": "7a50670a-e189-49d6-8087-cec033314ad0",
                                 "savedPayload": {
                                     "position": {
                                         "x": 36344.54020495161,
-                                        "y": 39050
+                                        "y": 34250
                                     },
                                     "targetPosition": {
                                         "x": 36344.54020495161,
-                                        "y": 38750
+                                        "y": 33950
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1418,8 +1282,8 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position",
-                                        "name": "gitforkgit",
-                                        "id": "465c1399-bab1-43d4-94a0-486ee34d7b57"
+                                        "name": "gitforkgit's Team",
+                                        "id": "8366e90d-0939-4217-a503-e97b633c9b4b"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -1427,7 +1291,7 @@
                                             "Positions"
                                         ],
                                         [
-                                            "Teams @ April 2022",
+                                            "Teams @ May 2022",
                                             "Position Class"
                                         ],
                                         [
@@ -1435,26 +1299,26 @@
                                             "Position Class"
                                         ],
                                         [
-                                            "gitforkgit",
+                                            "gitforkgit's Team",
                                             "Position Class"
                                         ],
                                         [
-                                            "gitforkgit",
+                                            "gitforkgit's Team",
                                             "Position"
                                         ]
                                     ]
                                 }
                             }
                         ],
-                        "id": "60d56013-8fa4-4828-8022-50ee64bf6ddf",
+                        "id": "18566258-9439-4434-be4c-2751ec1ccb27",
                         "savedPayload": {
                             "position": {
                                 "x": 36344.54020495161,
-                                "y": 38750
+                                "y": 33950
                             },
                             "targetPosition": {
                                 "x": 36344.54020495161,
-                                "y": 38450
+                                "y": 33650
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1469,8 +1333,8 @@
                             },
                             "referenceParent": {
                                 "type": "Position Class",
-                                "name": "gitforkgit",
-                                "id": "9c7c54e2-7d7f-47e4-94f3-b7247009f71e"
+                                "name": "gitforkgit's Team",
+                                "id": "000dcb59-ee32-496d-b25d-37c8b57cbf5a"
                             },
                             "referenceParentCombinedNodePath": [
                                 [
@@ -1478,7 +1342,7 @@
                                     "Positions"
                                 ],
                                 [
-                                    "Teams @ April 2022",
+                                    "Teams @ May 2022",
                                     "Position Class"
                                 ],
                                 [
@@ -1486,7 +1350,7 @@
                                     "Position Class"
                                 ],
                                 [
-                                    "gitforkgit",
+                                    "gitforkgit's Team",
                                     "Position Class"
                                 ]
                             ]
@@ -1501,11 +1365,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 36084.73258381628,
-                            "y": 38300
+                            "y": 33500
                         },
                         "targetPosition": {
                             "x": 36344.54020495161,
-                            "y": 38450
+                            "y": 33650
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1524,11 +1388,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 36344.54020495161,
-                        "y": 38450
+                        "y": 33650
                     },
                     "targetPosition": {
                         "x": 36604.347826086945,
-                        "y": 38300
+                        "y": 33500
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1547,11 +1411,11 @@
             "savedPayload": {
                 "position": {
                     "x": 36604.347826086945,
-                    "y": 38300
+                    "y": 33500
                 },
                 "targetPosition": {
                     "x": 31604.34782608695,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1570,11 +1434,11 @@
         "savedPayload": {
             "position": {
                 "x": 31604.34782608695,
-                "y": 38000
+                "y": 33200
             },
             "targetPosition": {
                 "x": 31304.34782608695,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -1597,11 +1461,11 @@
         "savedPayload": {
             "position": {
                 "x": 31004.34782608695,
-                "y": 38000
+                "y": 33200
             },
             "targetPosition": {
                 "x": 31304.34782608695,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -1620,11 +1484,11 @@
     "savedPayload": {
         "position": {
             "x": 31304.34782608695,
-            "y": 38000
+            "y": 33200
         },
         "targetPosition": {
             "x": 31304.34782608695,
-            "y": 38000
+            "y": 33200
         },
         "floatingObject": {
             "isPinned": false,
