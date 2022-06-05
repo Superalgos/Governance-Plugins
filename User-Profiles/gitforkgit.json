@@ -26,12 +26,12 @@
                     "id": "067a4281-671a-449a-9b72-14c42cae1ae8",
                     "savedPayload": {
                         "position": {
-                            "x": 34658.50240478815,
-                            "y": 27849
+                            "x": 30463.732583816283,
+                            "y": 32532
                         },
                         "targetPosition": {
-                            "x": 34918.310025923485,
-                            "y": 27999
+                            "x": 30723.540204951616,
+                            "y": 32682
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -49,12 +49,12 @@
                 "id": "68045aea-e5ec-4e9f-8cd7-e5008a86412c",
                 "savedPayload": {
                     "position": {
-                        "x": 34918.310025923485,
-                        "y": 27999
+                        "x": 30723.540204951616,
+                        "y": 32682
                     },
                     "targetPosition": {
-                        "x": 35178.11764705882,
-                        "y": 28149
+                        "x": 30983.34782608695,
+                        "y": 32832
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -81,12 +81,12 @@
                     "id": "da3f58c5-3bb3-455b-9544-550dee2d9fbc",
                     "savedPayload": {
                         "position": {
-                            "x": 35697.73288932948,
-                            "y": 27849
+                            "x": 31502.963068357614,
+                            "y": 32532
                         },
                         "targetPosition": {
-                            "x": 35437.92526819415,
-                            "y": 27999
+                            "x": 31243.15544722228,
+                            "y": 32682
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -104,12 +104,12 @@
                 "id": "ccd566d0-4fa9-4be0-bb81-179e6303522b",
                 "savedPayload": {
                     "position": {
-                        "x": 35437.92526819415,
-                        "y": 27999
+                        "x": 31243.15544722228,
+                        "y": 32682
                     },
                     "targetPosition": {
-                        "x": 35178.11764705882,
-                        "y": 28149
+                        "x": 30983.34782608695,
+                        "y": 32832
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -150,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\n    \"percentage\": 70\n}",
+            "config": "{\n    \"percentage\": 85\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -669,7 +669,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\n    \"percentage\": 55\n}",
+                "config": "{\n    \"percentage\": 30\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -682,7 +682,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{}",
+                                "config": "{\n    \"percentage\": 30\n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
                                 "positionClaimVotes": [
@@ -773,7 +773,7 @@
                             },
                             {
                                 "type": "Claim Votes Switch",
-                                "name": "New Claim Votes Switch",
+                                "name": "Harrellbm Team PoW Report Position Class",
                                 "config": "{}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
@@ -800,7 +800,34 @@
                                     },
                                     "uiObject": {
                                         "isRunning": false
-                                    }
+                                    },
+                                    "referenceParent": {
+                                        "type": "Position Claims Folder",
+                                        "name": "Harrellbm Team PoW Report Position Class",
+                                        "id": "bbdeebc0-b2d4-4b91-8f2b-768631f49094"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "harrellbm",
+                                            "User Profile"
+                                        ],
+                                        [
+                                            "New Token Power Switch",
+                                            "Token Power Switch"
+                                        ],
+                                        [
+                                            "New Votes And Claims Programs",
+                                            "Votes And Claims Programs"
+                                        ],
+                                        [
+                                            "New Claims Program",
+                                            "Claims Program"
+                                        ],
+                                        [
+                                            "Harrellbm Team PoW Report Position Class",
+                                            "Position Claims Folder"
+                                        ]
+                                    ]
                                 }
                             }
                         ],
