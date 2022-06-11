@@ -7633,7 +7633,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "",
+                    "name": "Testnet",
                     "project": "Network",
                     "id": "c2cd76d2-d914-4a8d-8bf2-daff7235af40",
                     "savedPayload": {
@@ -7655,7 +7655,26 @@
                         },
                         "uiObject": {
                             "isRunning": false
-                        }
+                        },
+                        "referenceParent": {
+                            "type": "P2P Network",
+                            "name": "Testnet",
+                            "id": "f6f8d32c-61a1-4dc7-920f-aae6a79a7fbc"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Bitcoin-Factory-MBP2016",
+                                "Workspace"
+                            ],
+                            [
+                                "New Network Project",
+                                "Network Project"
+                            ],
+                            [
+                                "Testnet",
+                                "P2P Network"
+                            ]
+                        ]
                     }
                 },
                 "networkServices": {
