@@ -1929,7 +1929,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Community Building Programs",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [
                                                     {
@@ -1948,11 +1948,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 39248.51932923794,
-                                                                        "y": 36833.28607733334
+                                                                        "y": 27233.286077333327
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 39535.19117097378,
-                                                                        "y": 36744.85952501006
+                                                                        "y": 27144.859525010055
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2003,11 +2003,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 39315.27560942483,
-                                                                        "y": 36540.80770367879
+                                                                        "y": 26940.80770367878
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 39535.19117097378,
-                                                                        "y": 36744.85952501006
+                                                                        "y": 27144.859525010055
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2057,11 +2057,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 39535.19117097378,
-                                                                "y": 36744.85952501006
+                                                                "y": 27144.859525010055
                                                             },
                                                             "targetPosition": {
                                                                 "x": 39827.669544628334,
-                                                                "y": 36811.615805196954
+                                                                "y": 27211.61580519695
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2115,11 +2115,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 39519.32743075611,
-                                                                        "y": 36320.89214212984
+                                                                        "y": 26720.892142129833
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 39739.24299230506,
-                                                                        "y": 36524.94396346111
+                                                                        "y": 26924.943963461108
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2170,11 +2170,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 39805.99927249195,
-                                                                        "y": 36232.46558980656
+                                                                        "y": 26632.46558980656
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 39739.24299230506,
-                                                                        "y": 36524.94396346111
+                                                                        "y": 26924.943963461108
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2224,11 +2224,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 39739.24299230506,
-                                                                "y": 36524.94396346111
+                                                                "y": 26924.943963461108
                                                             },
                                                             "targetPosition": {
                                                                 "x": 39827.669544628334,
-                                                                "y": 36811.615805196954
+                                                                "y": 27211.61580519695
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2265,6 +2265,173 @@
                                                                 ]
                                                             ]
                                                         }
+                                                    },
+                                                    {
+                                                        "type": "Weight Votes Switch",
+                                                        "name": "Mentorship Program",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "weightVotesSwitch": [],
+                                                        "poolWeightVotes": [
+                                                            {
+                                                                "type": "Pool Weight Vote",
+                                                                "name": "Mentorship Rewards Pool",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "id": "c2033be2-76cd-42f0-a2c1-50bfd6aa772c",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 39908.669544628334,
+                                                                        "y": 27280.61580519695
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 39867.669544628334,
+                                                                        "y": 27236.61580519695
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool",
+                                                                        "name": "Mentorship Rewards",
+                                                                        "id": "4260da96-6e52-4b4a-bf96-486954e5ef71"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Community Building Programs",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Mentorship Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Mentorship Rewards",
+                                                                            "Pool"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "Pool Weight Vote",
+                                                                "name": "Mentorship Bonus Pool",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "id": "26ae4e58-f7a3-4421-8f39-6b92dd2d5da1",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 39825.669544628334,
+                                                                        "y": 27253.61580519695
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 39867.669544628334,
+                                                                        "y": 27236.61580519695
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool",
+                                                                        "name": "Mentorship Bonus",
+                                                                        "id": "17e75e86-d145-4f9a-8004-c5b5c151d0e7"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Community Building Programs",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Mentorship Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Mentorship Bonus",
+                                                                            "Pool"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ],
+                                                        "assetWeightVotes": [],
+                                                        "featureWeightVotes": [],
+                                                        "positionWeightVotes": [],
+                                                        "id": "92a6a7a1-f00e-4ea6-90e0-bbc08e7479a6",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 39867.669544628334,
+                                                                "y": 27236.61580519695
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 39827.669544628334,
+                                                                "y": 27211.61580519695
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Pool Class",
+                                                                "name": "Mentorship Program",
+                                                                "id": "52d08702-16a1-4fb6-9c1f-65392324b8f7"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos",
+                                                                    "Pools"
+                                                                ],
+                                                                [
+                                                                    "Governance Programs ",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Community Building Programs",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Mentorship Program",
+                                                                    "Pool Class"
+                                                                ]
+                                                            ]
+                                                        }
                                                     }
                                                 ],
                                                 "poolWeightVotes": [],
@@ -2275,16 +2442,16 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 39827.669544628334,
-                                                        "y": 36811.615805196954
+                                                        "y": 27211.61580519695
                                                     },
                                                     "targetPosition": {
                                                         "x": 40047.585106177285,
-                                                        "y": 37015.66762652823
+                                                        "y": 27415.667626528226
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -2316,7 +2483,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Onboarding Programs",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [
                                                     {
@@ -2335,11 +2502,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 39468.88390938654,
-                                                                        "y": 36362.311620819724
+                                                                        "y": 26762.311620819728
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 39703.43335412695,
-                                                                        "y": 36549.35856137735
+                                                                        "y": 26949.358561377347
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2389,11 +2556,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 39703.43335412695,
-                                                                "y": 36549.35856137735
+                                                                "y": 26949.358561377347
                                                             },
                                                             "targetPosition": {
                                                                 "x": 39937.982798867364,
-                                                                "y": 36736.40550193497
+                                                                "y": 27136.405501934965
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2447,11 +2614,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40027.408158573075,
-                                                                        "y": 36143.1070061999
+                                                                        "y": 26543.107006199887
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 39982.69547872022,
-                                                                        "y": 36439.75625406743
+                                                                        "y": 26839.756254067426
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2501,11 +2668,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 39982.69547872022,
-                                                                "y": 36439.75625406743
+                                                                "y": 26839.756254067426
                                                             },
                                                             "targetPosition": {
                                                                 "x": 39937.982798867364,
-                                                                "y": 36736.40550193497
+                                                                "y": 27136.405501934965
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2552,16 +2719,16 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 39937.982798867364,
-                                                        "y": 36736.40550193497
+                                                        "y": 27136.405501934965
                                                     },
                                                     "targetPosition": {
                                                         "x": 40047.585106177285,
-                                                        "y": 37015.66762652823
+                                                        "y": 27415.667626528226
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -2612,11 +2779,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40114.84219040507,
-                                                                        "y": 36118.18420906516
+                                                                        "y": 26518.18420906516
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 40092.42316232914,
-                                                                        "y": 36417.34534821952
+                                                                        "y": 26817.345348219515
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2666,11 +2833,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 40092.42316232914,
-                                                                "y": 36417.34534821952
+                                                                "y": 26817.345348219515
                                                             },
                                                             "targetPosition": {
                                                                 "x": 40070.00413425321,
-                                                                "y": 36716.506487373874
+                                                                "y": 27116.50648737387
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2717,11 +2884,11 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 40070.00413425321,
-                                                        "y": 36716.506487373874
+                                                        "y": 27116.50648737387
                                                     },
                                                     "targetPosition": {
                                                         "x": 40047.585106177285,
-                                                        "y": 37015.66762652823
+                                                        "y": 27415.667626528226
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -2758,7 +2925,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Incentives for Providing Liquidity to SA Markets",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [
                                                     {
@@ -2783,11 +2950,11 @@
                                                                         "savedPayload": {
                                                                             "position": {
                                                                                 "x": 40057.80735829056,
-                                                                                "y": 35994.14260201488
+                                                                                "y": 26394.142602014876
                                                                             },
                                                                             "targetPosition": {
                                                                                 "x": 40269.93939264653,
-                                                                                "y": 36206.27463637084
+                                                                                "y": 26606.27463637084
                                                                             },
                                                                             "floatingObject": {
                                                                                 "isPinned": false,
@@ -2842,11 +3009,11 @@
                                                                         "savedPayload": {
                                                                             "position": {
                                                                                 "x": 40347.585106177285,
-                                                                                "y": 35916.49688848412
+                                                                                "y": 26316.49688848412
                                                                             },
                                                                             "targetPosition": {
                                                                                 "x": 40269.93939264653,
-                                                                                "y": 36206.27463637084
+                                                                                "y": 26606.27463637084
                                                                             },
                                                                             "floatingObject": {
                                                                                 "isPinned": false,
@@ -2900,11 +3067,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40269.93939264653,
-                                                                        "y": 36206.27463637084
+                                                                        "y": 26606.27463637084
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 40347.585106177285,
-                                                                        "y": 36496.052384257564
+                                                                        "y": 26896.05238425756
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -2962,11 +3129,11 @@
                                                                         "savedPayload": {
                                                                             "position": {
                                                                                 "x": 40497.585106177285,
-                                                                                "y": 35936.24476312223
+                                                                                "y": 26336.244763122228
                                                                             },
                                                                             "targetPosition": {
                                                                                 "x": 40497.585106177285,
-                                                                                "y": 36236.24476312223
+                                                                                "y": 26636.244763122228
                                                                             },
                                                                             "floatingObject": {
                                                                                 "isPinned": false,
@@ -3021,11 +3188,11 @@
                                                                         "savedPayload": {
                                                                             "position": {
                                                                                 "x": 40757.39272731262,
-                                                                                "y": 36086.24476312223
+                                                                                "y": 26486.244763122228
                                                                             },
                                                                             "targetPosition": {
                                                                                 "x": 40497.585106177285,
-                                                                                "y": 36236.24476312223
+                                                                                "y": 26636.244763122228
                                                                             },
                                                                             "floatingObject": {
                                                                                 "isPinned": false,
@@ -3079,11 +3246,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40497.585106177285,
-                                                                        "y": 36236.24476312223
+                                                                        "y": 26636.244763122228
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 40347.585106177285,
-                                                                        "y": 36496.052384257564
+                                                                        "y": 26896.05238425756
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -3141,11 +3308,11 @@
                                                                         "savedPayload": {
                                                                             "position": {
                                                                                 "x": 40927.14060195073,
-                                                                                "y": 36340.76095719605
+                                                                                "y": 26740.760957196046
                                                                             },
                                                                             "targetPosition": {
                                                                                 "x": 40637.362854064006,
-                                                                                "y": 36418.40667072681
+                                                                                "y": 26818.406670726803
                                                                             },
                                                                             "floatingObject": {
                                                                                 "isPinned": false,
@@ -3199,11 +3366,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40637.362854064006,
-                                                                        "y": 36418.40667072681
+                                                                        "y": 26818.406670726803
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 40347.585106177285,
-                                                                        "y": 36496.052384257564
+                                                                        "y": 26896.05238425756
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -3254,11 +3421,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 40347.585106177285,
-                                                                "y": 36496.052384257564
+                                                                "y": 26896.05238425756
                                                             },
                                                             "targetPosition": {
                                                                 "x": 40197.585106177285,
-                                                                "y": 36755.8600053929
+                                                                "y": 27155.860005392893
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3305,16 +3472,16 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 40197.585106177285,
-                                                        "y": 36755.8600053929
+                                                        "y": 27155.860005392893
                                                     },
                                                     "targetPosition": {
                                                         "x": 40047.585106177285,
-                                                        "y": 37015.66762652823
+                                                        "y": 27415.667626528226
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -3346,7 +3513,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Incentives for Staking & Delegating SA Tokens",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [
                                                     {
@@ -3365,11 +3532,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40555.78698194262,
-                                                                        "y": 36306.0902883677
+                                                                        "y": 26706.090288367686
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 40425.62186020735,
-                                                                        "y": 36576.38094873842
+                                                                        "y": 26976.380948738413
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -3419,11 +3586,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 40425.62186020735,
-                                                                "y": 36576.38094873842
+                                                                "y": 26976.380948738413
                                                             },
                                                             "targetPosition": {
                                                                 "x": 40295.45673847208,
-                                                                "y": 36846.671609109144
+                                                                "y": 27246.67160910914
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3477,11 +3644,11 @@
                                                                 "savedPayload": {
                                                                     "position": {
                                                                         "x": 40893.77901678079,
-                                                                        "y": 36801.83355295729
+                                                                        "y": 27201.833552957283
                                                                     },
                                                                     "targetPosition": {
                                                                         "x": 40594.617877626435,
-                                                                        "y": 36824.252581033215
+                                                                        "y": 27224.25258103321
                                                                     },
                                                                     "floatingObject": {
                                                                         "isPinned": false,
@@ -3531,11 +3698,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 40594.617877626435,
-                                                                "y": 36824.252581033215
+                                                                "y": 27224.25258103321
                                                             },
                                                             "targetPosition": {
                                                                 "x": 40295.45673847208,
-                                                                "y": 36846.671609109144
+                                                                "y": 27246.67160910914
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3582,16 +3749,16 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 40295.45673847208,
-                                                        "y": 36846.671609109144
+                                                        "y": 27246.67160910914
                                                     },
                                                     "targetPosition": {
                                                         "x": 40047.585106177285,
-                                                        "y": 37015.66762652823
+                                                        "y": 27415.667626528226
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -3623,7 +3790,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Bitcoin Factory Incentives",
-                                                "config": "{}",
+                                                "config": "{\r\n    \"percentage\": 80\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [],
                                                 "poolWeightVotes": [
@@ -3636,11 +3803,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 40640.883601912356,
-                                                                "y": 36926.24226682252
+                                                                "y": 27326.242266822523
                                                             },
                                                             "targetPosition": {
                                                                 "x": 40344.23435404482,
-                                                                "y": 36970.954946675374
+                                                                "y": 27370.954946675374
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3686,11 +3853,11 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 40344.23435404482,
-                                                        "y": 36970.954946675374
+                                                        "y": 27370.954946675374
                                                     },
                                                     "targetPosition": {
                                                         "x": 40047.585106177285,
-                                                        "y": 37015.66762652823
+                                                        "y": 27415.667626528226
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3733,11 +3900,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 40047.585106177285,
-                                                "y": 37015.66762652823
+                                                "y": 27415.667626528226
                                             },
                                             "targetPosition": {
                                                 "x": 39959.15855385402,
-                                                "y": 37302.33946826407
+                                                "y": 27702.33946826407
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -3770,7 +3937,7 @@
                                     {
                                         "type": "Weight Votes Switch",
                                         "name": "Teams Work ",
-                                        "config": "{}",
+                                        "config": "{\r\n    \"percentage\": 70\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [
@@ -3783,11 +3950,11 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 40489.62778995679,
-                                                        "y": 37021.978291300235
+                                                        "y": 27421.97829130023
                                                     },
                                                     "targetPosition": {
                                                         "x": 40224.3931719054,
-                                                        "y": 37162.15887978215
+                                                        "y": 27562.15887978215
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3829,11 +3996,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 40224.3931719054,
-                                                "y": 37162.15887978215
+                                                "y": 27562.15887978215
                                             },
                                             "targetPosition": {
                                                 "x": 39959.15855385402,
-                                                "y": 37302.33946826407
+                                                "y": 27702.33946826407
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -3866,7 +4033,7 @@
                                     {
                                         "type": "Weight Votes Switch",
                                         "name": "Do Not Distribute",
-                                        "config": "{}",
+                                        "config": "{\r\n    \"percentage\": 0\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [
@@ -3879,11 +4046,11 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 40532.5022373257,
-                                                        "y": 37479.19257291061
+                                                        "y": 27879.19257291061
                                                     },
                                                     "targetPosition": {
                                                         "x": 40245.83039558986,
-                                                        "y": 37390.76602058734
+                                                        "y": 27790.76602058734
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -3925,11 +4092,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 40245.83039558986,
-                                                "y": 37390.76602058734
+                                                "y": 27790.76602058734
                                             },
                                             "targetPosition": {
                                                 "x": 39959.15855385402,
-                                                "y": 37302.33946826407
+                                                "y": 27702.33946826407
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -4658,11 +4825,11 @@
                         "id": "9f9d5d19-0111-48fd-ab15-880725289b1a",
                         "savedPayload": {
                             "position": {
-                                "x": 7191.382831282415,
+                                "x": 39923.880218952225,
                                 "y": 28519.86825489563
                             },
                             "targetPosition": {
-                                "x": 6893.269168314442,
+                                "x": 39625.76655598425,
                                 "y": 28553.457597726625
                             },
                             "floatingObject": {
@@ -4681,11 +4848,11 @@
                     "id": "c8af9e9a-d329-4513-9dbc-d02918018a30",
                     "savedPayload": {
                         "position": {
-                            "x": 6893.269168314442,
+                            "x": 39625.76655598425,
                             "y": 28553.457597726625
                         },
                         "targetPosition": {
-                            "x": 6595.155505346469,
+                            "x": 39327.652893016275,
                             "y": 28587.04694055762
                         },
                         "floatingObject": {
@@ -4713,11 +4880,11 @@
                         "id": "8a911f84-1a9a-4b8a-9e63-6bfdab6c3402",
                         "savedPayload": {
                             "position": {
-                                "x": 7064.254394827287,
+                                "x": 39796.7517824971,
                                 "y": 28961.140821672856
                             },
                             "targetPosition": {
-                                "x": 6829.704950086878,
+                                "x": 39562.20233775669,
                                 "y": 28774.093881115237
                             },
                             "floatingObject": {
@@ -4736,11 +4903,11 @@
                     "id": "c4cf723a-6d11-47da-8203-1435039489f0",
                     "savedPayload": {
                         "position": {
-                            "x": 6829.704950086878,
+                            "x": 39562.20233775669,
                             "y": 28774.093881115237
                         },
                         "targetPosition": {
-                            "x": 6595.155505346469,
+                            "x": 39327.652893016275,
                             "y": 28587.04694055762
                         },
                         "floatingObject": {
@@ -4768,11 +4935,11 @@
                         "id": "9702e0a7-9251-4b44-bab8-d97043e5ba58",
                         "savedPayload": {
                             "position": {
-                                "x": 6662.334191008455,
+                                "x": 39394.83157867826,
                                 "y": 29183.27426649356
                             },
                             "targetPosition": {
-                                "x": 6628.744848177462,
+                                "x": 39361.24223584727,
                                 "y": 28885.16060352559
                             },
                             "floatingObject": {
@@ -4791,11 +4958,11 @@
                     "id": "fb6686b3-d194-4183-9c73-2bf9cea7591e",
                     "savedPayload": {
                         "position": {
-                            "x": 6628.744848177462,
+                            "x": 39361.24223584727,
                             "y": 28885.16060352559
                         },
                         "targetPosition": {
-                            "x": 6595.155505346469,
+                            "x": 39327.652893016275,
                             "y": 28587.04694055762
                         },
                         "floatingObject": {
@@ -5337,7 +5504,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
