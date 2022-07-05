@@ -468,7 +468,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\": 100\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -481,7 +481,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\r\n    \"percentage\": 100\r\n}",
+                                "config": "{}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
                                 "positionClaimVotes": [
@@ -891,7 +891,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 1,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -906,14 +906,14 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Pool Weight Votes",
-                                "config": "{\r\n    \"percentage\": 0\r\n}",
+                                "config": "{\r\n    \"percentage\":100\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [
                                     {
                                         "type": "Pool Weight Vote",
                                         "name": "Team Positions Pool",
-                                        "config": "{\r\n    \"percentage\": 20\r\n}",
+                                        "config": "{\r\n    \"percentage\": 0\r\n}",
                                         "project": "Governance",
                                         "id": "427193ba-a54e-42e6-af49-cf6151cc142f",
                                         "savedPayload": {
@@ -960,7 +960,7 @@
                                     {
                                         "type": "Pool Weight Vote",
                                         "name": "Incentives for Providing Liquidity to SA Markets Pool Class",
-                                        "config": "{\r\n    \"percentage\": 80\r\n}",
+                                        "config": "{\r\n    \"percentage\": 100\r\n}",
                                         "project": "Governance",
                                         "id": "e68e4d0c-9b10-4793-879c-427c24bf79a3",
                                         "savedPayload": {
@@ -1144,7 +1144,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Position Weight Votes",
-                                "config": "{\r\n    \"percentage\": 0\r\n}",
+                                "config": "{}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [],
@@ -1309,7 +1309,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 100\r\n}",
+                "config": "{\r\n    \"percentage\": 0\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
