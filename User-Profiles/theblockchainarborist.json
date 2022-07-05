@@ -604,7 +604,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{}",
+                                "config": "{\r\n    \"percentage\": 25\r\n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
                                 "positionClaimVotes": [],
@@ -637,17 +637,991 @@
                         "weightVotesSwitch": [
                             {
                                 "type": "Weight Votes Switch",
-                                "name": "Pools",
+                                "name": "Superalgos",
                                 "config": "{}",
                                 "project": "Governance",
-                                "weightVotesSwitch": [],
-                                "poolWeightVotes": [
+                                "weightVotesSwitch": [
                                     {
-                                        "type": "Pool Weight Vote",
-                                        "name": "Bitcoin Factory Rewards Pool",
+                                        "type": "Weight Votes Switch",
+                                        "name": "Governance Programs ",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "id": "2e87c875-0c41-475c-aef4-976c765477d6",
+                                        "weightVotesSwitch": [
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Incentives for Providing Liquidity to SA Markets",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [
+                                                    {
+                                                        "type": "Weight Votes Switch",
+                                                        "name": "Liquidity Program",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "weightVotesSwitch": [
+                                                            {
+                                                                "type": "Weight Votes Switch",
+                                                                "name": "Liquidity Program BTCB",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "weightVotesSwitch": [],
+                                                                "poolWeightVotes": [
+                                                                    {
+                                                                        "type": "Pool Weight Vote",
+                                                                        "name": "Liquidity Rewards BTCB (Pancake) Pool",
+                                                                        "config": "{}",
+                                                                        "project": "Governance",
+                                                                        "id": "f9a35f85-fbc3-4f7c-9a3a-6a4e5bec5d3e",
+                                                                        "savedPayload": {
+                                                                            "position": {
+                                                                                "x": 7369.2575727464,
+                                                                                "y": 32334.900951803153
+                                                                            },
+                                                                            "targetPosition": {
+                                                                                "x": 7519.2575727464,
+                                                                                "y": 32075.09333066782
+                                                                            },
+                                                                            "floatingObject": {
+                                                                                "isPinned": false,
+                                                                                "isFrozen": false,
+                                                                                "isCollapsed": false,
+                                                                                "angleToParent": 2,
+                                                                                "distanceToParent": 3,
+                                                                                "arrangementStyle": 0
+                                                                            },
+                                                                            "uiObject": {
+                                                                                "isRunning": false
+                                                                            },
+                                                                            "referenceParent": {
+                                                                                "type": "Pool",
+                                                                                "name": "Liquidity Rewards BTCB (Pancake)",
+                                                                                "id": "fff13c2d-9109-4384-b861-3dd2027e7970"
+                                                                            },
+                                                                            "referenceParentCombinedNodePath": [
+                                                                                [
+                                                                                    "Superalgos",
+                                                                                    "Pools"
+                                                                                ],
+                                                                                [
+                                                                                    "Governance Programs ",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program BTCB",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Rewards BTCB (Pancake)",
+                                                                                    "Pool"
+                                                                                ]
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "Pool Weight Vote",
+                                                                        "name": "Liquidity Rewards BTCB (1inch) Pool",
+                                                                        "config": "{}",
+                                                                        "project": "Governance",
+                                                                        "id": "280f046c-844e-474b-b34e-9c7b865c162e",
+                                                                        "savedPayload": {
+                                                                            "position": {
+                                                                                "x": 7219.2575727464,
+                                                                                "y": 32075.09333066782
+                                                                            },
+                                                                            "targetPosition": {
+                                                                                "x": 7519.2575727464,
+                                                                                "y": 32075.09333066782
+                                                                            },
+                                                                            "floatingObject": {
+                                                                                "isPinned": false,
+                                                                                "isFrozen": false,
+                                                                                "isCollapsed": false,
+                                                                                "angleToParent": 2,
+                                                                                "distanceToParent": 3,
+                                                                                "arrangementStyle": 0
+                                                                            },
+                                                                            "uiObject": {
+                                                                                "isRunning": false
+                                                                            },
+                                                                            "referenceParent": {
+                                                                                "type": "Pool",
+                                                                                "name": "Liquidity Rewards BTCB (1inch)",
+                                                                                "id": "37e2f1b5-6d11-45e6-8d97-1d1e31627148"
+                                                                            },
+                                                                            "referenceParentCombinedNodePath": [
+                                                                                [
+                                                                                    "Superalgos",
+                                                                                    "Pools"
+                                                                                ],
+                                                                                [
+                                                                                    "Governance Programs ",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program BTCB",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Rewards BTCB (1inch)",
+                                                                                    "Pool"
+                                                                                ]
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "assetWeightVotes": [],
+                                                                "featureWeightVotes": [],
+                                                                "positionWeightVotes": [],
+                                                                "id": "fabc3fc5-63af-4ca4-b12d-0517450e9f32",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 7519.2575727464,
+                                                                        "y": 32075.09333066782
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 7779.065193881732,
+                                                                        "y": 31925.09333066782
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool Class",
+                                                                        "name": "Liquidity Program BTCB",
+                                                                        "id": "63e89c0a-0b23-40e1-94b5-a413de44beb6"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Incentives for Providing Liquidity to SA Markets",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Liquidity Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Liquidity Program BTCB",
+                                                                            "Pool Class"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "Weight Votes Switch",
+                                                                "name": "Liquidity Program BNB",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "weightVotesSwitch": [],
+                                                                "poolWeightVotes": [
+                                                                    {
+                                                                        "type": "Pool Weight Vote",
+                                                                        "name": "Liquidity Rewards BNB (Pancake) Pool",
+                                                                        "config": "{}",
+                                                                        "project": "Governance",
+                                                                        "id": "f2836b5b-3950-4217-9b1a-ffb91962b1a8",
+                                                                        "savedPayload": {
+                                                                            "position": {
+                                                                                "x": 7199.509698108292,
+                                                                                "y": 31925.09333066782
+                                                                            },
+                                                                            "targetPosition": {
+                                                                                "x": 7489.287445995012,
+                                                                                "y": 31847.447617137062
+                                                                            },
+                                                                            "floatingObject": {
+                                                                                "isPinned": false,
+                                                                                "isFrozen": false,
+                                                                                "isCollapsed": false,
+                                                                                "angleToParent": 2,
+                                                                                "distanceToParent": 3,
+                                                                                "arrangementStyle": 0
+                                                                            },
+                                                                            "uiObject": {
+                                                                                "isRunning": false
+                                                                            },
+                                                                            "referenceParent": {
+                                                                                "type": "Pool",
+                                                                                "name": "Liquidity Rewards BNB (Pancake)",
+                                                                                "id": "3e641160-fdaa-46ad-8379-e478677d14a9"
+                                                                            },
+                                                                            "referenceParentCombinedNodePath": [
+                                                                                [
+                                                                                    "Superalgos",
+                                                                                    "Pools"
+                                                                                ],
+                                                                                [
+                                                                                    "Governance Programs ",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program BNB",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Rewards BNB (Pancake)",
+                                                                                    "Pool"
+                                                                                ]
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "Pool Weight Vote",
+                                                                        "name": "Liquidity Rewards BNB (Biswap) Pool",
+                                                                        "config": "{}",
+                                                                        "project": "Governance",
+                                                                        "id": "a46e03f0-8a14-452b-a698-df82848d7df4",
+                                                                        "savedPayload": {
+                                                                            "position": {
+                                                                                "x": 7277.155411639047,
+                                                                                "y": 31635.3155827811
+                                                                            },
+                                                                            "targetPosition": {
+                                                                                "x": 7489.287445995012,
+                                                                                "y": 31847.447617137062
+                                                                            },
+                                                                            "floatingObject": {
+                                                                                "isPinned": false,
+                                                                                "isFrozen": false,
+                                                                                "isCollapsed": false,
+                                                                                "angleToParent": 2,
+                                                                                "distanceToParent": 3,
+                                                                                "arrangementStyle": 0
+                                                                            },
+                                                                            "uiObject": {
+                                                                                "isRunning": false
+                                                                            },
+                                                                            "referenceParent": {
+                                                                                "type": "Pool",
+                                                                                "name": "Liquidity Rewards BNB (Biswap)",
+                                                                                "id": "ef870525-1b0a-463c-b8ee-a05c505b890c"
+                                                                            },
+                                                                            "referenceParentCombinedNodePath": [
+                                                                                [
+                                                                                    "Superalgos",
+                                                                                    "Pools"
+                                                                                ],
+                                                                                [
+                                                                                    "Governance Programs ",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program BNB",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Rewards BNB (Biswap)",
+                                                                                    "Pool"
+                                                                                ]
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "assetWeightVotes": [],
+                                                                "featureWeightVotes": [],
+                                                                "positionWeightVotes": [],
+                                                                "id": "1e14e66f-712c-482b-9da3-c11cb6e6a4fc",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 7489.287445995012,
+                                                                        "y": 31847.447617137062
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 7779.065193881732,
+                                                                        "y": 31925.09333066782
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool Class",
+                                                                        "name": "Liquidity Program BNB",
+                                                                        "id": "de34ae95-9177-46f2-8486-cf72143c347e"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Incentives for Providing Liquidity to SA Markets",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Liquidity Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Liquidity Program BNB",
+                                                                            "Pool Class"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            },
+                                                            {
+                                                                "type": "Weight Votes Switch",
+                                                                "name": "Liquidity Program BUSD",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "weightVotesSwitch": [],
+                                                                "poolWeightVotes": [
+                                                                    {
+                                                                        "type": "Pool Weight Vote",
+                                                                        "name": "Liquidity Rewards BUSD (Pancake) Pool",
+                                                                        "config": "{}",
+                                                                        "project": "Governance",
+                                                                        "id": "987fa3e0-49cc-4747-977d-6804fa395333",
+                                                                        "savedPayload": {
+                                                                            "position": {
+                                                                                "x": 7479.065193881732,
+                                                                                "y": 31405.478088397154
+                                                                            },
+                                                                            "targetPosition": {
+                                                                                "x": 7629.065193881732,
+                                                                                "y": 31665.285709532487
+                                                                            },
+                                                                            "floatingObject": {
+                                                                                "isPinned": false,
+                                                                                "isFrozen": false,
+                                                                                "isCollapsed": false,
+                                                                                "angleToParent": 2,
+                                                                                "distanceToParent": 3,
+                                                                                "arrangementStyle": 0
+                                                                            },
+                                                                            "uiObject": {
+                                                                                "isRunning": false
+                                                                            },
+                                                                            "referenceParent": {
+                                                                                "type": "Pool",
+                                                                                "name": "Liquidity Rewards BUSD (Pancake)",
+                                                                                "id": "dea6736d-86f0-4bdf-8160-a6b5387b971e"
+                                                                            },
+                                                                            "referenceParentCombinedNodePath": [
+                                                                                [
+                                                                                    "Superalgos",
+                                                                                    "Pools"
+                                                                                ],
+                                                                                [
+                                                                                    "Governance Programs ",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Program BUSD",
+                                                                                    "Pool Class"
+                                                                                ],
+                                                                                [
+                                                                                    "Liquidity Rewards BUSD (Pancake)",
+                                                                                    "Pool"
+                                                                                ]
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ],
+                                                                "assetWeightVotes": [],
+                                                                "featureWeightVotes": [],
+                                                                "positionWeightVotes": [],
+                                                                "id": "ad0e79be-99fe-440d-b6a1-9952a709f716",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 7629.065193881732,
+                                                                        "y": 31665.285709532487
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 7779.065193881732,
+                                                                        "y": 31925.09333066782
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool Class",
+                                                                        "name": "Liquidity Program BUSD",
+                                                                        "id": "7940ce17-0dd9-4144-af90-a6fa1dcf8a02"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Incentives for Providing Liquidity to SA Markets",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Liquidity Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Liquidity Program BUSD",
+                                                                            "Pool Class"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ],
+                                                        "poolWeightVotes": [],
+                                                        "assetWeightVotes": [],
+                                                        "featureWeightVotes": [],
+                                                        "positionWeightVotes": [],
+                                                        "id": "d5cf316c-e185-4d19-8d36-ab5e5a62a7f2",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 7779.065193881732,
+                                                                "y": 31925.09333066782
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 8068.842941768452,
+                                                                "y": 32002.739044198577
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Pool Class",
+                                                                "name": "Liquidity Program",
+                                                                "id": "be148ab7-4c5b-4e1c-ba01-a287e56c8dd8"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos",
+                                                                    "Pools"
+                                                                ],
+                                                                [
+                                                                    "Governance Programs ",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Liquidity Program",
+                                                                    "Pool Class"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [],
+                                                "id": "c6346dc2-cb1b-42ab-b2d6-dd2bb563a8ca",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 8068.842941768452,
+                                                        "y": 32002.739044198577
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 8358.620689655172,
+                                                        "y": 32080.384757729335
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Pool Class",
+                                                        "name": "Incentives for Providing Liquidity to SA Markets",
+                                                        "id": "c810bbd2-c839-4f4c-aa49-898d00b4dbe7"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos",
+                                                            "Pools"
+                                                        ],
+                                                        [
+                                                            "Governance Programs ",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Incentives for Providing Liquidity to SA Markets",
+                                                            "Pool Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Incentives for Staking & Delegating SA Tokens",
+                                                "config": "{\r\n    \"percentage\": 25\r\n}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [
+                                                    {
+                                                        "type": "Weight Votes Switch",
+                                                        "name": "Staking Program",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "weightVotesSwitch": [],
+                                                        "poolWeightVotes": [
+                                                            {
+                                                                "type": "Pool Weight Vote",
+                                                                "name": "Staking Rewards Pool",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "id": "847044ef-3ee0-43cb-8d2f-b91fda5c68aa",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 7689.005447384508,
+                                                                        "y": 31520.577136594
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 7948.81306851984,
+                                                                        "y": 31670.577136594
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool",
+                                                                        "name": "Staking Rewards",
+                                                                        "id": "8f736dc2-5d74-49ef-aedb-173575ca939d"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Incentives for Staking & Delegating SA Tokens",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Staking Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Staking Rewards",
+                                                                            "Pool"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ],
+                                                        "assetWeightVotes": [],
+                                                        "featureWeightVotes": [],
+                                                        "positionWeightVotes": [],
+                                                        "id": "fa67a060-d6f1-460e-be03-d8f725d7fb4f",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 7948.81306851984,
+                                                                "y": 31670.577136594
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 8208.620689655172,
+                                                                "y": 31820.577136594
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Pool Class",
+                                                                "name": "Staking Program",
+                                                                "id": "04c8caa2-c9e3-4ed7-9b7f-4c2c32142ac6"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos",
+                                                                    "Pools"
+                                                                ],
+                                                                [
+                                                                    "Governance Programs ",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Incentives for Staking & Delegating SA Tokens",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Staking Program",
+                                                                    "Pool Class"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Weight Votes Switch",
+                                                        "name": "Delegation Program",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "weightVotesSwitch": [],
+                                                        "poolWeightVotes": [
+                                                            {
+                                                                "type": "Pool Weight Vote",
+                                                                "name": "Delegation Bonus Pool",
+                                                                "config": "{}",
+                                                                "project": "Governance",
+                                                                "id": "3510eaac-c158-4fcf-953e-6a680989cc4f",
+                                                                "savedPayload": {
+                                                                    "position": {
+                                                                        "x": 8208.620689655172,
+                                                                        "y": 31220.577136594
+                                                                    },
+                                                                    "targetPosition": {
+                                                                        "x": 8208.620689655172,
+                                                                        "y": 31520.577136594
+                                                                    },
+                                                                    "floatingObject": {
+                                                                        "isPinned": false,
+                                                                        "isFrozen": false,
+                                                                        "isCollapsed": false,
+                                                                        "angleToParent": 2,
+                                                                        "distanceToParent": 3,
+                                                                        "arrangementStyle": 0
+                                                                    },
+                                                                    "uiObject": {
+                                                                        "isRunning": false
+                                                                    },
+                                                                    "referenceParent": {
+                                                                        "type": "Pool",
+                                                                        "name": "Delegation Bonus",
+                                                                        "id": "8a0e35d4-ed37-45cf-8e6b-c86ce300c4d0"
+                                                                    },
+                                                                    "referenceParentCombinedNodePath": [
+                                                                        [
+                                                                            "Superalgos",
+                                                                            "Pools"
+                                                                        ],
+                                                                        [
+                                                                            "Governance Programs ",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Incentives for Staking & Delegating SA Tokens",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Delegation Program",
+                                                                            "Pool Class"
+                                                                        ],
+                                                                        [
+                                                                            "Delegation Bonus",
+                                                                            "Pool"
+                                                                        ]
+                                                                    ]
+                                                                }
+                                                            }
+                                                        ],
+                                                        "assetWeightVotes": [],
+                                                        "featureWeightVotes": [],
+                                                        "positionWeightVotes": [],
+                                                        "id": "096e82e1-c996-4788-b898-7e40f634ab3f",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 8208.620689655172,
+                                                                "y": 31520.577136594
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 8208.620689655172,
+                                                                "y": 31820.577136594
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Pool Class",
+                                                                "name": "Delegation Program",
+                                                                "id": "d0fa8867-9c9d-4540-ae28-9851022f112f"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos",
+                                                                    "Pools"
+                                                                ],
+                                                                [
+                                                                    "Governance Programs ",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Incentives for Staking & Delegating SA Tokens",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Delegation Program",
+                                                                    "Pool Class"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "poolWeightVotes": [],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [],
+                                                "id": "94e5d93a-df07-4524-82ac-741aa6a369f7",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 8208.620689655172,
+                                                        "y": 31820.577136594
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 8358.620689655172,
+                                                        "y": 32080.384757729335
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Pool Class",
+                                                        "name": "Incentives for Staking & Delegating SA Tokens",
+                                                        "id": "d3e8b4e0-e3eb-47ae-b303-a424d2c50cbf"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos",
+                                                            "Pools"
+                                                        ],
+                                                        [
+                                                            "Governance Programs ",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Incentives for Staking & Delegating SA Tokens",
+                                                            "Pool Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Weight Votes Switch",
+                                                "name": "Bitcoin Factory Incentives",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "weightVotesSwitch": [],
+                                                "poolWeightVotes": [
+                                                    {
+                                                        "type": "Pool Weight Vote",
+                                                        "name": "Bitcoin Factory Rewards Pool",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "c3f79b09-7e11-4e98-bfbb-3313f9bb9f5b",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 8513.912116716683,
+                                                                "y": 31500.829261955892
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 8436.266403185928,
+                                                                "y": 31790.607009842613
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Pool",
+                                                                "name": "Bitcoin Factory Rewards",
+                                                                "id": "bd53a3b4-89fc-431d-b8dd-4887382f1741"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Superalgos",
+                                                                    "Pools"
+                                                                ],
+                                                                [
+                                                                    "Governance Programs ",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Bitcoin Factory Incentives",
+                                                                    "Pool Class"
+                                                                ],
+                                                                [
+                                                                    "Bitcoin Factory Rewards",
+                                                                    "Pool"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "assetWeightVotes": [],
+                                                "featureWeightVotes": [],
+                                                "positionWeightVotes": [],
+                                                "id": "df6cd535-143b-4a51-8b6b-a9fff9447105",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 8436.266403185928,
+                                                        "y": 31790.607009842613
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 8358.620689655172,
+                                                        "y": 32080.384757729335
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Pool Class",
+                                                        "name": "Bitcoin Factory Incentives",
+                                                        "id": "b57f4fec-3799-447f-80b8-1c5b5848ffb8"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos",
+                                                            "Pools"
+                                                        ],
+                                                        [
+                                                            "Governance Programs ",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Bitcoin Factory Incentives",
+                                                            "Pool Class"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "poolWeightVotes": [],
+                                        "assetWeightVotes": [],
+                                        "featureWeightVotes": [],
+                                        "positionWeightVotes": [],
+                                        "id": "caee0f40-08b4-4884-ae47-0abcc8903b50",
                                         "savedPayload": {
                                             "position": {
                                                 "x": 8358.620689655172,
@@ -669,9 +1643,9 @@
                                                 "isRunning": false
                                             },
                                             "referenceParent": {
-                                                "type": "Pool",
-                                                "name": "Bitcoin Factory Rewards",
-                                                "id": "bd53a3b4-89fc-431d-b8dd-4887382f1741"
+                                                "type": "Pool Class",
+                                                "name": "Governance Programs ",
+                                                "id": "ff13cb08-878c-4568-a28b-a7e09739f37f"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -681,24 +1655,69 @@
                                                 [
                                                     "Governance Programs ",
                                                     "Pool Class"
-                                                ],
-                                                [
-                                                    "Bitcoin Factory Incentives",
-                                                    "Pool Class"
-                                                ],
-                                                [
-                                                    "Bitcoin Factory Rewards",
-                                                    "Pool"
                                                 ]
                                             ]
                                         }
                                     },
                                     {
-                                        "type": "Pool Weight Vote",
-                                        "name": "Team Positions Pool",
+                                        "type": "Weight Votes Switch",
+                                        "name": "Teams Work ",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "id": "c0281a25-685d-4e78-b271-73afd9366460",
+                                        "weightVotesSwitch": [],
+                                        "poolWeightVotes": [
+                                            {
+                                                "type": "Pool Weight Vote",
+                                                "name": "Team Positions Pool",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "023de762-f7be-4dda-a76a-998bc3c96c82",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 8808.620689655172,
+                                                        "y": 31820.577136594
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 8658.620689655172,
+                                                        "y": 32080.384757729335
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Pool",
+                                                        "name": "Team Positions",
+                                                        "id": "74f6ea9f-b42e-4be2-9686-ac7b6f9ad603"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos",
+                                                            "Pools"
+                                                        ],
+                                                        [
+                                                            "Teams Work ",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Team Positions",
+                                                            "Pool"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "assetWeightVotes": [],
+                                        "featureWeightVotes": [],
+                                        "positionWeightVotes": [],
+                                        "id": "4f28a73f-8a24-4325-a73a-5b8ad5becd52",
                                         "savedPayload": {
                                             "position": {
                                                 "x": 8658.620689655172,
@@ -720,9 +1739,9 @@
                                                 "isRunning": false
                                             },
                                             "referenceParent": {
-                                                "type": "Pool",
-                                                "name": "Team Positions",
-                                                "id": "74f6ea9f-b42e-4be2-9686-ac7b6f9ad603"
+                                                "type": "Pool Class",
+                                                "name": "Teams Work ",
+                                                "id": "f54a0460-4482-4234-b3a4-010629af26f6"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -732,15 +1751,12 @@
                                                 [
                                                     "Teams Work ",
                                                     "Pool Class"
-                                                ],
-                                                [
-                                                    "Team Positions",
-                                                    "Pool"
                                                 ]
                                             ]
                                         }
                                     }
                                 ],
+                                "poolWeightVotes": [],
                                 "assetWeightVotes": [],
                                 "featureWeightVotes": [],
                                 "positionWeightVotes": [],
@@ -781,7 +1797,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Teams of Contributors",
-                                "config": "{}",
+                                "config": "{}\r\n",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -1486,7 +2502,7 @@
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": false,
+                                                        "isCollapsed": true,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -1676,7 +2692,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 40\r\n}",
+                "config": "{\r\n    \"percentage\": 30\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -2173,7 +3189,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 1,
                     "distanceToParent": 4,
                     "arrangementStyle": 0
@@ -4046,7 +5062,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": false,
+            "isCollapsed": true,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
