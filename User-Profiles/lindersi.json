@@ -1069,7 +1069,7 @@
                                     },
                                     {
                                         "type": "Pool Weight Vote",
-                                        "name": "",
+                                        "name": "Liquidity Rewards BUSD (Pancake) Pool",
                                         "config": "{\r\n    \"percentage\":100\r\n}",
                                         "project": "Governance",
                                         "id": "dc31b792-8cf6-41a7-b565-4ff073d5354f",
@@ -1092,7 +1092,38 @@
                                             },
                                             "uiObject": {
                                                 "isRunning": false
-                                            }
+                                            },
+                                            "referenceParent": {
+                                                "type": "Pool",
+                                                "name": "Liquidity Rewards BUSD (Pancake)",
+                                                "id": "dea6736d-86f0-4bdf-8160-a6b5387b971e"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Superalgos",
+                                                    "Pools"
+                                                ],
+                                                [
+                                                    "Governance Programs ",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Liquidity Program",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Liquidity Program BUSD",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Liquidity Rewards BUSD (Pancake)",
+                                                    "Pool"
+                                                ]
+                                            ]
                                         }
                                     }
                                 ],
