@@ -853,9 +853,37 @@
             "taskServerApps": [
                 {
                     "type": "Task Server App",
-                    "name": "New Task Server App",
-                    "config": "{ \n\"codeName\": \"\"\n}",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xf7bc7a38f664730c2daacb772cbf6f87113ff14504636d78722e86a2aafef4c4\",\n        \"s\": \"0x370b107c1bc6f1da9e3c24f10567d2963bc3c931291a67a4ddafefc9a7031f5e\",\n        \"signature\": \"0xf7bc7a38f664730c2daacb772cbf6f87113ff14504636d78722e86a2aafef4c4370b107c1bc6f1da9e3c24f10567d2963bc3c931291a67a4ddafefc9a7031f5e1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "29505b98-e872-4a8e-b137-d10ef731b982",
+                        "savedPayload": {
+                            "position": {
+                                "x": 1598,
+                                "y": 18786
+                            },
+                            "targetPosition": {
+                                "x": 1600,
+                                "y": 18800
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "17bd4d36-8739-4033-9736-cc29a01bd4ef",
                     "savedPayload": {
                         "position": {
@@ -935,9 +963,37 @@
         "p2pNetworkNodes": [
             {
                 "type": "P2P Network Node",
-                "name": "New P2P Network Node",
-                "config": "{ \n\"codeName\": \"\", \n\"host\": \"localhost\" \n}",
+                "name": "P2P Network Node #1",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"192.168.1.203\"\n}",
                 "project": "Network",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x360c2d67124c75fa22cb349607fa7b28d011cd008a1a96382e42619a6003c94a\",\n        \"s\": \"0x3e513d65466b3c674c6c7c77147c487e7c9f122e0a3e76acd1fa3cb7167c9fd0\",\n        \"signature\": \"0x360c2d67124c75fa22cb349607fa7b28d011cd008a1a96382e42619a6003c94a3e513d65466b3c674c6c7c77147c487e7c9f122e0a3e76acd1fa3cb7167c9fd01c\"\n    }\n}",
+                    "project": "Governance",
+                    "id": "4a93e0ae-99de-4214-9c1e-aba412d9a405",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2563,
+                            "y": 18157
+                        },
+                        "targetPosition": {
+                            "x": 2500,
+                            "y": 18200
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
                     "name": "",
@@ -970,6 +1026,34 @@
                     "name": "New Network Services",
                     "config": "{}",
                     "project": "Network",
+                    "machineLearning": {
+                        "type": "Machine Learning",
+                        "name": "New Machine Learning",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "975fa565-ad5f-4571-b2bd-958cde1cb482",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2500,
+                                "y": 17600
+                            },
+                            "targetPosition": {
+                                "x": 2500,
+                                "y": 17900
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "479b318d-656e-4132-982c-3716d9ed730c",
                     "savedPayload": {
                         "position": {
@@ -998,6 +1082,62 @@
                     "name": "New Network Interfaces",
                     "config": "{}",
                     "project": "Network",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{ \n\"webSocketsPort\": \"18042\"\n}",
+                        "project": "Network",
+                        "id": "97e2af47-1d53-4443-8704-be61c5a4f637",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2950,
+                                "y": 17940.192378864667
+                            },
+                            "targetPosition": {
+                                "x": 2800,
+                                "y": 18200
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "httpNetworkInterface": {
+                        "type": "Http Network Interface",
+                        "name": "New Http Network Interface",
+                        "config": "{ \n\"httpPort\": \"31248\"\n}",
+                        "project": "Network",
+                        "id": "c7f0a184-8063-4bc9-ac33-baed6d699b4a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2950,
+                                "y": 18459.807621135333
+                            },
+                            "targetPosition": {
+                                "x": 2800,
+                                "y": 18200
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "7f121861-b1d9-4c85-8c33-bb1b2c69c0ee",
                     "savedPayload": {
                         "position": {
