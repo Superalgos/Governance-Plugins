@@ -959,61 +959,14 @@
                                     },
                                     {
                                         "type": "Pool Weight Vote",
-                                        "name": "Incentives for Providing Liquidity to SA Markets Pool Class",
-                                        "config": "{\r\n    \"percentage\": 100\r\n}",
-                                        "project": "Governance",
-                                        "id": "e68e4d0c-9b10-4793-879c-427c24bf79a3",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 27084.250093897903,
-                                                "y": 27436.940477509193
-                                            },
-                                            "targetPosition": {
-                                                "x": 27021.876586652575,
-                                                "y": 27730.384757729335
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Pool Class",
-                                                "name": "Incentives for Providing Liquidity to SA Markets",
-                                                "id": "c810bbd2-c839-4f4c-aa49-898d00b4dbe7"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Superalgos",
-                                                    "Pools"
-                                                ],
-                                                [
-                                                    "Governance Programs ",
-                                                    "Pool Class"
-                                                ],
-                                                [
-                                                    "Incentives for Providing Liquidity to SA Markets",
-                                                    "Pool Class"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Pool Weight Vote",
                                         "name": "Support Rewards Pool",
                                         "config": "{\r\n    \"percentage\": 0\r\n}",
                                         "project": "Governance",
                                         "id": "6246f7a6-fe38-44c9-bac1-a1e7ce5227df",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 27244.820034295793,
-                                                "y": 27529.645575821676
+                                                "x": 27084.250093897903,
+                                                "y": 27436.940477509193
                                             },
                                             "targetPosition": {
                                                 "x": 27021.876586652575,
@@ -1067,8 +1020,8 @@
                                         "id": "eccb48fd-a0b1-49f0-9e87-a1c63db25ae4",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 27320.233155263057,
-                                                "y": 27699.026218749037
+                                                "x": 27244.820034295793,
+                                                "y": 27529.645575821676
                                             },
                                             "targetPosition": {
                                                 "x": 27021.876586652575,
@@ -1109,6 +1062,65 @@
                                                 ],
                                                 [
                                                     "Voting Bonus",
+                                                    "Pool"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Pool Weight Vote",
+                                        "name": "Liquidity Rewards BUSD (Pancake) Pool",
+                                        "config": "{\r\n    \"percentage\":100\r\n}",
+                                        "project": "Governance",
+                                        "id": "dc31b792-8cf6-41a7-b565-4ff073d5354f",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 27320.233155263057,
+                                                "y": 27699.026218749037
+                                            },
+                                            "targetPosition": {
+                                                "x": 27021.876586652575,
+                                                "y": 27730.384757729335
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Pool",
+                                                "name": "Liquidity Rewards BUSD (Pancake)",
+                                                "id": "dea6736d-86f0-4bdf-8160-a6b5387b971e"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Superalgos",
+                                                    "Pools"
+                                                ],
+                                                [
+                                                    "Governance Programs ",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Incentives for Providing Liquidity to SA Markets",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Liquidity Program",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Liquidity Program BUSD",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Liquidity Rewards BUSD (Pancake)",
                                                     "Pool"
                                                 ]
                                             ]
