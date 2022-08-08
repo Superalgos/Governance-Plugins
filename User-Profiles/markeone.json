@@ -842,7 +842,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -1366,7 +1366,67 @@
         "name": "New Forecasts Providers",
         "config": "{}",
         "project": "Governance",
-        "bitcoinFactoryForecasts": [],
+        "bitcoinFactoryForecasts": [
+            {
+                "type": "Bitcoin Factory Forecasts",
+                "name": "Testnet",
+                "config": "{}",
+                "project": "Governance",
+                "testClientInstances": [
+                    {
+                        "type": "Test Client Instance",
+                        "name": "aspire",
+                        "config": "{\n    \"codename\": \"aspire\"\n}",
+                        "project": "Governance",
+                        "id": "3c864b55-e90c-41a6-a126-4058f9b31d44",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3189.43999880708,
+                                "y": 27821.491151282113
+                            },
+                            "targetPosition": {
+                                "x": 2959.6266658713866,
+                                "y": 28014.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "forecastClientInstances": [],
+                "id": "2621dd7d-1a0b-4415-b5ad-a6331f066572",
+                "savedPayload": {
+                    "position": {
+                        "x": 2959.6266658713866,
+                        "y": 28014.327434188075
+                    },
+                    "targetPosition": {
+                        "x": 2729.8133329356933,
+                        "y": 28207.163717094038
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
         "id": "c8cf4003-2cb6-41a1-9118-6a1d247be79a",
         "savedPayload": {
             "position": {
