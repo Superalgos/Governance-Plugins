@@ -5923,9 +5923,9 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x1ec7168b030d457d7a2b41dd8f094214062145806901a14fea1a91b125958d32\",\n        \"s\": \"0x0a7c256eb4ad2a6d95ee3d35e69a5e36be0629db8c532ccbe260e08161c5c1d3\",\n        \"signature\": \"0x1ec7168b030d457d7a2b41dd8f094214062145806901a14fea1a91b125958d320a7c256eb4ad2a6d95ee3d35e69a5e36be0629db8c532ccbe260e08161c5c1d31b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x68464f3b8b186f305175124e394ab86a943aca499bed360def9f9df469bed772\",\n        \"s\": \"0x0c54cfa386f5e839e8d98c2f2a92b1acf7adb97aa12253107aa67418b7dd1dd1\",\n        \"signature\": \"0x68464f3b8b186f305175124e394ab86a943aca499bed360def9f9df469bed7720c54cfa386f5e839e8d98c2f2a92b1acf7adb97aa12253107aa67418b7dd1dd11c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "470ca124-77ac-4739-94a4-fdfea83ae5c0",
+                        "id": "0cb7d445-2667-4a1e-8ed6-857210c22b93",
                         "savedPayload": {
                             "position": {
                                 "x": 10335.687530129406,
@@ -5975,9 +5975,37 @@
             "algoTradesPlatformApp": [
                 {
                     "type": "Algo Traders Platform App",
-                    "name": "New Algo Traders Platform App",
+                    "name": "Algo Traders Platform #1",
                     "config": "{\n    \"codeName\": \"Algo-Traders-Platform-1\",\n    \"host\": \"46.197.120.6\",\n    \"webPort\": \"34248\",\n    \"webSocketsPort\": \"18041\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Algo-Traders-Platform-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x742de88d4a37516670e991a9c23a382145ad87febd35346fb54d63b20354fdca\",\n        \"s\": \"0x7db57a830e70a7965b9d0d84750816fa93cf8ca2687c236925741352b13e5f33\",\n        \"signature\": \"0x742de88d4a37516670e991a9c23a382145ad87febd35346fb54d63b20354fdca7db57a830e70a7965b9d0d84750816fa93cf8ca2687c236925741352b13e5f331c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "19442e6e-df48-4e17-8bda-01c500119549",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9911.423461417475,
+                                "y": 19496.687530129406
+                            },
+                            "targetPosition": {
+                                "x": 9833.77774788672,
+                                "y": 19206.909782242685
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "fc7b6b98-05bf-422c-919d-28e64cf05c30",
                     "savedPayload": {
                         "position": {
@@ -6033,9 +6061,37 @@
             "socialTradingMobileApps": [
                 {
                     "type": "Social Trading Mobile App",
-                    "name": "New Social Trading Mobile App",
+                    "name": "Social Trading Mobile App #1",
                     "config": "{\n    \"codeName\": \"Social-Trading-Mobile-App-1\",\n    \"host\": \"46.197.120.6\",\n    \"webSocketsPort\": \"15042\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Mobile-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x7d397782668015a52010b7650cf56d3acf93a27d8aa95d3ce2cb885e868fa81e\",\n        \"s\": \"0x1fdd20db17746464b1cff5da5d238eb5633832a833fec0cee1cb3693124aae56\",\n        \"signature\": \"0x7d397782668015a52010b7650cf56d3acf93a27d8aa95d3ce2cb885e868fa81e1fdd20db17746464b1cff5da5d238eb5633832a833fec0cee1cb3693124aae561c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "a73952b7-0b5d-48f8-bc6b-dde1e2a2e90b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9544,
+                                "y": 19605
+                            },
+                            "targetPosition": {
+                                "x": 9544,
+                                "y": 19305
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "6f846312-9098-48eb-af1f-07cc7c5dbd53",
                     "savedPayload": {
                         "position": {
@@ -6097,17 +6153,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xf6465fb70f9da684da823a58d51f4afe7f70b2e462a1b9d0931acbf376b9521b\",\n        \"s\": \"0x54f9039c35eb88eb0b0d7b27f4aa25570e602d28095d812b70ab0c633f21c9fd\",\n        \"signature\": \"0xf6465fb70f9da684da823a58d51f4afe7f70b2e462a1b9d0931acbf376b9521b54f9039c35eb88eb0b0d7b27f4aa25570e602d28095d812b70ab0c633f21c9fd1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x98a817bbfe6813167b788036c7a8c0eb2e29f637297ac844dfb9de8c3b63f34a\",\n        \"s\": \"0x330c58f57712beeaf8ffcafbec6ef7f783c0d55098c041dbebc46935d61f93be\",\n        \"signature\": \"0x98a817bbfe6813167b788036c7a8c0eb2e29f637297ac844dfb9de8c3b63f34a330c58f57712beeaf8ffcafbec6ef7f783c0d55098c041dbebc46935d61f93be1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "4f886d54-f1bc-4080-a0f9-cc8a171fa330",
+                        "id": "5452699e-8f5d-4f1c-852f-7d8212cccd5c",
                         "savedPayload": {
                             "position": {
-                                "x": 10059.665576736541,
-                                "y": 20084.320056524186
+                                "x": 9475.477588598638,
+                                "y": 19129.14929412445
                             },
                             "targetPosition": {
-                                "x": 10107.665576736541,
-                                "y": 20014.320056524186
+                                "x": 9491.477588598638,
+                                "y": 19171.14929412445
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6153,17 +6209,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x01f08ee0325e85719c22ca5d31ef7b1d37e3aa9e09f650e83cb362f6cb1dcf75\",\n        \"s\": \"0x5e7df8510e0f068e7006050568eb4b6abb02f9fa80b31d83f4acbb2a01e0cf94\",\n        \"signature\": \"0x01f08ee0325e85719c22ca5d31ef7b1d37e3aa9e09f650e83cb362f6cb1dcf755e7df8510e0f068e7006050568eb4b6abb02f9fa80b31d83f4acbb2a01e0cf941b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x531a04b3a62348fed104565a832400f86619fbf3fd135b3ac3bae3f9cc89fd85\",\n        \"s\": \"0x3249c8a6b9c353f645c97c4a55ace40e302def8c019530d95491fc770487267a\",\n        \"signature\": \"0x531a04b3a62348fed104565a832400f86619fbf3fd135b3ac3bae3f9cc89fd853249c8a6b9c353f645c97c4a55ace40e302def8c019530d95491fc770487267a1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "2d018af9-b42f-4ead-bf6e-6c294ff415dc",
+                        "id": "266827f1-8bc8-41b4-ac10-fdf4f7522b9d",
                         "savedPayload": {
                             "position": {
-                                "x": 10083.17465419337,
-                                "y": 20022.706277617315
+                                "x": 9366.951684230586,
+                                "y": 19246.297033448474
                             },
                             "targetPosition": {
-                                "x": 10009.17465419337,
-                                "y": 20105.706277617315
+                                "x": 9430.951684230586,
+                                "y": 19200.297033448474
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6209,17 +6265,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x153beb3cbf42e9b02576f242a7004b96840c4775d9037a6a09bcd563fa13af79\",\n        \"s\": \"0x39621260e76050806b91077ef1c4a3688703dfd09452d5e2075e199425acd2d3\",\n        \"signature\": \"0x153beb3cbf42e9b02576f242a7004b96840c4775d9037a6a09bcd563fa13af7939621260e76050806b91077ef1c4a3688703dfd09452d5e2075e199425acd2d31b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x0394a722d2f488de6f5b50f9ab04840a613b17a5fb4128aa959af182b056bed6\",\n        \"s\": \"0x271802163c02af32cafd5db1e1711740caf28312048ab67f95bc99ad309a5779\",\n        \"signature\": \"0x0394a722d2f488de6f5b50f9ab04840a613b17a5fb4128aa959af182b056bed6271802163c02af32cafd5db1e1711740caf28312048ab67f95bc99ad309a57791c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "e7885a48-d844-4a00-ba12-977c1946379f",
+                        "id": "559f1b8f-0f48-4c34-85fa-777a3591cc05",
                         "savedPayload": {
                             "position": {
-                                "x": 9875.817757441113,
-                                "y": 20237.8849632793
+                                "x": 9383.457308475028,
+                                "y": 19203.245697323935
                             },
                             "targetPosition": {
-                                "x": 9892.817757441113,
-                                "y": 20172.8849632793
+                                "x": 9365.457308475028,
+                                "y": 19215.245697323935
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6265,17 +6321,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x620cf7601950116f43624b0622bf83d0658c3e2e9915db5225bc10c0227bbf07\",\n        \"s\": \"0x051b7dd6d3fd5765f4da205b472a617bbcad0787fdd48bbb86a0d5401ae29c46\",\n        \"signature\": \"0x620cf7601950116f43624b0622bf83d0658c3e2e9915db5225bc10c0227bbf07051b7dd6d3fd5765f4da205b472a617bbcad0787fdd48bbb86a0d5401ae29c461b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x7da3a2c7318e39b71496380a1ac839d2af947ed18394e7e67a8f079b7dd3a6cf\",\n        \"s\": \"0x1e3a79d0a62be2b6a23ed8667cddc9adeead06481e3383fe46ff6001a197dfcf\",\n        \"signature\": \"0x7da3a2c7318e39b71496380a1ac839d2af947ed18394e7e67a8f079b7dd3a6cf1e3a79d0a62be2b6a23ed8667cddc9adeead06481e3383fe46ff6001a197dfcf1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "af6b5291-5d6c-4d1d-bac4-934c55ec0f9f",
+                        "id": "895b1a01-19c7-4c17-8864-65406cea7ce4",
                         "savedPayload": {
                             "position": {
-                                "x": 9765.429507147017,
-                                "y": 20153.487493697285
+                                "x": 9348.278622813044,
+                                "y": 19199.245697323935
                             },
                             "targetPosition": {
-                                "x": 9764.429507147017,
-                                "y": 20212.487493697285
+                                "x": 9298.278622813044,
+                                "y": 19215.245697323935
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6321,17 +6377,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-5\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xc10900105dc8a7441d23825d2fcd52dce3f93538cdc9d7ee65fac01e6d7376ec\",\n        \"s\": \"0x5e73807c6df6ee7f285a188f06f0a80103d2b4ff002c7ecfef63eeebf293763f\",\n        \"signature\": \"0xc10900105dc8a7441d23825d2fcd52dce3f93538cdc9d7ee65fac01e6d7376ec5e73807c6df6ee7f285a188f06f0a80103d2b4ff002c7ecfef63eeebf293763f1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-5\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x9e802f6b931f8150ba1fcb135e38884b8ae273004e332941d24c621bbfa8fbaf\",\n        \"s\": \"0x5e5e1c7583b3f60f7a61a6ff15c1c1bd894452eade6e11f9e69c054bf23f8b52\",\n        \"signature\": \"0x9e802f6b931f8150ba1fcb135e38884b8ae273004e332941d24c621bbfa8fbaf5e5e1c7583b3f60f7a61a6ff15c1c1bd894452eade6e11f9e69c054bf23f8b521b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "33488c33-6c29-47b8-939a-12dfcb7d9a61",
+                        "id": "f3515200-8da8-4102-87c5-5cf618eda233",
                         "savedPayload": {
                             "position": {
-                                "x": 9657.447826283473,
-                                "y": 20207.52803263035
+                                "x": 9154.784247057487,
+                                "y": 19199.297033448474
                             },
                             "targetPosition": {
-                                "x": 9630.447826283473,
-                                "y": 20222.52803263035
+                                "x": 9232.784247057487,
+                                "y": 19200.297033448474
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6377,17 +6433,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-6\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x55e43bd887ef7f9372ea18f1a5a56b8cf79eb4079a1c1ebf8b4a84dd0f039128\",\n        \"s\": \"0x008565c9ba69200694a8caa505f08f01b5b06326d578fb867526a1fdce28e3ba\",\n        \"signature\": \"0x55e43bd887ef7f9372ea18f1a5a56b8cf79eb4079a1c1ebf8b4a84dd0f039128008565c9ba69200694a8caa505f08f01b5b06326d578fb867526a1fdce28e3ba1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-6\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xf419aa817c79efaa56da1c4e659b8c9ad02c5bfb8c4e9ca177eff2b1ab2f4f8d\",\n        \"s\": \"0x716025b718b33db0645b05fdbb582b031ec9d9e0c3e84a1b8ccc0c33cec828e9\",\n        \"signature\": \"0xf419aa817c79efaa56da1c4e659b8c9ad02c5bfb8c4e9ca177eff2b1ab2f4f8d716025b718b33db0645b05fdbb582b031ec9d9e0c3e84a1b8ccc0c33cec828e91b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "08a8c702-d7c2-4ef8-9f3d-862a667d8389",
+                        "id": "8aa4ad7c-58c2-4cea-9a8d-5265fbf7759d",
                         "savedPayload": {
                             "position": {
-                                "x": 9402.591115787756,
-                                "y": 20114.503105530755
+                                "x": 9188.258342689436,
+                                "y": 19173.14929412445
                             },
                             "targetPosition": {
-                                "x": 9497.591115787756,
-                                "y": 20202.503105530755
+                                "x": 9172.258342689436,
+                                "y": 19171.14929412445
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6433,17 +6489,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-7\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x782b8a4ab1abfff361ba647026e5c69ef9330f48cee30c94a025118c3722c4aa\",\n        \"s\": \"0x63fca5f5783e7cffbce2149f11076c2f61f273b686e961c12abe9139a3b6800c\",\n        \"signature\": \"0x782b8a4ab1abfff361ba647026e5c69ef9330f48cee30c94a025118c3722c4aa63fca5f5783e7cffbce2149f11076c2f61f273b686e961c12abe9139a3b6800c1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-7\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xed19dd74dc069ea996b00a98de427568a286b2f313600b5ef61572bf2606e485\",\n        \"s\": \"0x1bcd9aee19fc34c23af26336120b76b9833b02347475e4c2df56ae7830cf7ccf\",\n        \"signature\": \"0xed19dd74dc069ea996b00a98de427568a286b2f313600b5ef61572bf2606e4851bcd9aee19fc34c23af26336120b76b9833b02347475e4c2df56ae7830cf7ccf1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7cea8cd4-d746-4fc5-a8b3-6b270c4fb9fc",
+                        "id": "c28f53f0-939a-4a12-b8fd-a12873427a2e",
                         "savedPayload": {
                             "position": {
-                                "x": 9464.521365885432,
-                                "y": 20100.41684586008
+                                "x": 9213.735931288073,
+                                "y": 19203.264068711927
                             },
                             "targetPosition": {
-                                "x": 9372.521365885432,
-                                "y": 20153.41684586008
+                                "x": 9119.735931288073,
+                                "y": 19129.264068711927
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6489,17 +6545,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-8\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x5ec2167a47cc3b764d0edcad9dcaa98d907f84cde696c3e4c366fb2c21a69d75\",\n        \"s\": \"0x00fa311f1e3d9efa6704d0084a946ca0deba06400a0601b463788f87ddb0533a\",\n        \"signature\": \"0x5ec2167a47cc3b764d0edcad9dcaa98d907f84cde696c3e4c366fb2c21a69d7500fa311f1e3d9efa6704d0084a946ca0deba06400a0601b463788f87ddb0533a1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-8\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x66589f595e6725aae60c74b2b5da9c9b6985a7cff719b11de5a136515fd85d41\",\n        \"s\": \"0x388add1547cfad345cc93dafbd556613e02c2fbe116eacfdd4438b91079cafc6\",\n        \"signature\": \"0x66589f595e6725aae60c74b2b5da9c9b6985a7cff719b11de5a136515fd85d41388add1547cfad345cc93dafbd556613e02c2fbe116eacfdd4438b91079cafc61b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "b3620cfa-2a81-4f1e-9869-58a78e460ddf",
+                        "id": "52351931-694e-4c17-8659-2ed758a701f0",
                         "savedPayload": {
                             "position": {
-                                "x": 9243.510096082397,
-                                "y": 20107.730643644583
+                                "x": 9042.850705875551,
+                                "y": 19002.741657310566
                             },
                             "targetPosition": {
-                                "x": 9261.510096082397,
-                                "y": 20077.730643644583
+                                "x": 9077.850705875551,
+                                "y": 19076.741657310566
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6545,17 +6601,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-9\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x79e1844028f909bc29c3683449453a72028fee865fb2cd74458fec4534d36ae6\",\n        \"s\": \"0x2f93ea1251423f8cb226d456dd3f03bd54a2fc118beeaa9e88fb697c2e326eb9\",\n        \"signature\": \"0x79e1844028f909bc29c3683449453a72028fee865fb2cd74458fec4534d36ae62f93ea1251423f8cb226d456dd3f03bd54a2fc118beeaa9e88fb697c2e326eb91c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-9\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x5be0cf5b77b42df54df827fa8feadba3ce7902e7e260128a23187d7b89147e3b\",\n        \"s\": \"0x2b6cf85379bd0310e57503093b2e82b6bd65b3230f0e562ea93ed42c3ad5cdeb\",\n        \"signature\": \"0x5be0cf5b77b42df54df827fa8feadba3ce7902e7e260128a23187d7b89147e3b2b6cf85379bd0310e57503093b2e82b6bd65b3230f0e562ea93ed42c3ad5cdeb1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "c7c107fa-a70e-4114-95df-ef325720bb19",
+                        "id": "06329aa5-70eb-4792-9437-a666defeba5e",
                         "savedPayload": {
                             "position": {
-                                "x": 9140.123874989267,
-                                "y": 20059.239721101414
+                                "x": 9119.702966551526,
+                                "y": 18973.215752942513
                             },
                             "targetPosition": {
-                                "x": 9170.123874989267,
-                                "y": 19979.239721101414
+                                "x": 9048.702966551526,
+                                "y": 19016.215752942513
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6601,17 +6657,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-10\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xed635c11f6ffe38f68a72407959bb184f7f7a0ad945d066fa7598857340dc6da\",\n        \"s\": \"0x13779f81d445030570679009a3d5c0eb3aa12b9c4b855e88d0afdd9b42b0b591\",\n        \"signature\": \"0xed635c11f6ffe38f68a72407959bb184f7f7a0ad945d066fa7598857340dc6da13779f81d445030570679009a3d5c0eb3aa12b9c4b855e88d0afdd9b42b0b5911c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-10\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xab436bd14031f9795393dd37d6874303254dad5823b1e5c81e06fd1a403e61e1\",\n        \"s\": \"0x04cc2b03fb70ec76f1d94de70e63be8ef4b8c0487d6eb1cce029be27783622b6\",\n        \"signature\": \"0xab436bd14031f9795393dd37d6874303254dad5823b1e5c81e06fd1a403e61e104cc2b03fb70ec76f1d94de70e63be8ef4b8c0487d6eb1cce029be27783622b61b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "79dca0f0-4a83-4450-8639-a266104f805b",
+                        "id": "aa957b13-972b-4fc5-9141-71f45f21f0ae",
                         "savedPayload": {
                             "position": {
-                                "x": 9154.945189327284,
-                                "y": 19936.88282434916
+                                "x": 8983.754302676063,
+                                "y": 18909.721377186957
                             },
                             "targetPosition": {
-                                "x": 9102.945189327284,
-                                "y": 19862.88282434916
+                                "x": 9033.754302676063,
+                                "y": 18950.721377186957
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6657,17 +6713,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-11\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x9d555c7d9d874397cd449d66306f754e195227737307f1494fe7394490968cec\",\n        \"s\": \"0x48914bb4e590210f2399164624dc9885bb17ff1f119af27a513890310dd3d253\",\n        \"signature\": \"0x9d555c7d9d874397cd449d66306f754e195227737307f1494fe7394490968cec48914bb4e590210f2399164624dc9885bb17ff1f119af27a513890310dd3d2531b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-11\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x8f41fd11d205fe78d19f9b85b584f3f2aaf57a5454ff563fe812996c96b46f0b\",\n        \"s\": \"0x31594ac49d0752a9f9b719336372161f1a8fedf22116272551882cf676a32020\",\n        \"signature\": \"0x8f41fd11d205fe78d19f9b85b584f3f2aaf57a5454ff563fe812996c96b46f0b31594ac49d0752a9f9b719336372161f1a8fedf22116272551882cf676a320201c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "873d4921-a231-4547-b113-fccc920c2f21",
+                        "id": "83e6e457-1eb8-4fa0-b7ef-ac2a998af4ed",
                         "savedPayload": {
                             "position": {
-                                "x": 9106.342658909296,
-                                "y": 19722.49457405506
+                                "x": 9125.754302676063,
+                                "y": 18925.54269152497
                             },
                             "targetPosition": {
-                                "x": 9063.342658909296,
-                                "y": 19734.49457405506
+                                "x": 9033.754302676063,
+                                "y": 18883.54269152497
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6713,17 +6769,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-12\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xda0fdb41e603574c7b71788088974819879f584bf25d39f40cf81aac47ccd908\",\n        \"s\": \"0x63a4844a25fcc55e26b08f87383cde7f4184b51646937199d6d671d26e1e0556\",\n        \"signature\": \"0xda0fdb41e603574c7b71788088974819879f584bf25d39f40cf81aac47ccd90863a4844a25fcc55e26b08f87383cde7f4184b51646937199d6d671d26e1e05561c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-12\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x1ea9159f6bad628b34e3d36c1aa671c61f34bad6a382b5acc9b76f8c6bc5da10\",\n        \"s\": \"0x406497173ecfe131c9219f3f8db002ada72ce496e6caa9e523d782bd5ac4fac9\",\n        \"signature\": \"0x1ea9159f6bad628b34e3d36c1aa671c61f34bad6a382b5acc9b76f8c6bc5da10406497173ecfe131c9219f3f8db002ada72ce496e6caa9e523d782bd5ac4fac91b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "ae0b5dbb-e597-4f75-a86d-9abb7dc007f8",
+                        "id": "669d821f-328c-44f7-a506-5b681eaf7960",
                         "savedPayload": {
                             "position": {
-                                "x": 9115.30211997623,
-                                "y": 19605.512893191517
+                                "x": 9134.702966551526,
+                                "y": 18722.048315769414
                             },
                             "targetPosition": {
-                                "x": 9053.30211997623,
-                                "y": 19600.512893191517
+                                "x": 9048.702966551526,
+                                "y": 18818.048315769414
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6765,9 +6821,37 @@
             "socialTradingServerApps": [
                 {
                     "type": "Social Trading Server App",
-                    "name": "New Social Trading Server App",
+                    "name": "Social Trading Server App #1",
                     "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"host\": \"46.197.120.6\",\n    \"webSocketsPort\": \"18042\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x2665634f55d5aedfea1e86c7e6ec759602d7aff9124da3ca2765d75db28bd670\",\n        \"s\": \"0x7f5257daf38007a69ce158590697e9d4c1698fa16b9cd00cc98e70bf1c584db6\",\n        \"signature\": \"0x2665634f55d5aedfea1e86c7e6ec759602d7aff9124da3ca2765d75db28bd6707f5257daf38007a69ce158590697e9d4c1698fa16b9cd00cc98e70bf1c584db61c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "02fe002d-0c3a-4453-85b4-b8c2f34c49f5",
+                        "savedPayload": {
+                            "position": {
+                                "x": 8823.833446107066,
+                                "y": 18597.91278844676
+                            },
+                            "targetPosition": {
+                                "x": 9077.850705875551,
+                                "y": 18757.52241140136
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "a42cb05d-f52c-45da-9e42-c2dba673ad6d",
                     "savedPayload": {
                         "position": {
@@ -6781,7 +6865,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -6805,7 +6889,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -6851,9 +6935,37 @@
             "socialTradingBots": [
                 {
                     "type": "Social Trading Bot",
-                    "name": "New Social Trading Bot",
-                    "config": "{\r\n    \"codeName\": \"Social-Trading-Bot-1\",\r\n    \"handle\": \"Tiger40-Social-Trading-Bot-1\"\r\n}",
+                    "name": "Social Trading Bot #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"tigers40-Social-Trading-Bot-1\"\n}",
                     "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xedbdc9a825e1fbd89260b1896746e492695284bcf6fad29e5fc4654296a6767e\",\n        \"s\": \"0x4373fbd7a9012fd3575ed49fabae9abc540abf541bf5c5c2237e86dffc6089c8\",\n        \"signature\": \"0xedbdc9a825e1fbd89260b1896746e492695284bcf6fad29e5fc4654296a6767e4373fbd7a9012fd3575ed49fabae9abc540abf541bf5c5c2237e86dffc6089c81b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "0fb4e4c2-0cda-41c7-b848-10c7fbb58437",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9192.090217757317,
+                                "y": 19378.84943773398
+                            },
+                            "targetPosition": {
+                                "x": 9042.090217757317,
+                                "y": 19119.04181659865
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "availableSignals": {
                         "type": "Available Signals",
                         "name": "New Available Signals",
@@ -7164,12 +7276,12 @@
                                         "id": "2f561972-14e0-47d5-bbad-af07d055cf8a",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9709.513679174792,
-                                                "y": 19910.729346728054
+                                                "x": 9224.252125361892,
+                                                "y": 20138.37506025881
                                             },
                                             "targetPosition": {
-                                                "x": 9409.513679174792,
-                                                "y": 19910.729346728054
+                                                "x": 8964.444504226562,
+                                                "y": 19988.37506025881
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -7424,12 +7536,12 @@
                                         "id": "b1c5861b-837e-4dc6-8113-8d0b91875807",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9621.645713530756,
-                                                "y": 20122.861381084018
+                                                "x": 9042.090217757317,
+                                                "y": 20278.152808145533
                                             },
                                             "targetPosition": {
-                                                "x": 9409.513679174792,
-                                                "y": 19910.729346728054
+                                                "x": 8964.444504226562,
+                                                "y": 19988.37506025881
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -8354,12 +8466,12 @@
                                         "id": "49a8d0f8-36b4-4317-8075-160e7dcf25e1",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9409.513679174792,
-                                                "y": 20210.729346728054
+                                                "x": 8814.444504226562,
+                                                "y": 20248.182681394144
                                             },
                                             "targetPosition": {
-                                                "x": 9409.513679174792,
-                                                "y": 19910.729346728054
+                                                "x": 8964.444504226562,
+                                                "y": 19988.37506025881
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -8377,11 +8489,11 @@
                                     "id": "454e3216-555d-4cdd-9a01-fb002f91f5f1",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 9409.513679174792,
-                                            "y": 19910.729346728054
+                                            "x": 8964.444504226562,
+                                            "y": 19988.37506025881
                                         },
                                         "targetPosition": {
-                                            "x": 9197.381644818828,
+                                            "x": 8886.798790695806,
                                             "y": 19698.59731237209
                                         },
                                         "floatingObject": {
@@ -8406,11 +8518,11 @@
                                 "id": "f2020786-a806-4994-91d2-a33cb4e2f133",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 9119.735931288073,
-                                        "y": 19988.37506025881
+                                        "x": 8674.666756339842,
+                                        "y": 19910.729346728054
                                     },
                                     "targetPosition": {
-                                        "x": 9197.381644818828,
+                                        "x": 8886.798790695806,
                                         "y": 19698.59731237209
                                     },
                                     "floatingObject": {
@@ -8429,11 +8541,11 @@
                             "id": "b936bd2e-457c-48ef-b8ae-c137023d212a",
                             "savedPayload": {
                                 "position": {
-                                    "x": 9197.381644818828,
+                                    "x": 8886.798790695806,
                                     "y": 19698.59731237209
                                 },
                                 "targetPosition": {
-                                    "x": 9119.735931288073,
+                                    "x": 8964.444504226562,
                                     "y": 19408.81956448537
                                 },
                                 "floatingObject": {
@@ -8452,7 +8564,7 @@
                         "id": "708f5e59-5407-4c65-a214-3b3520e10016",
                         "savedPayload": {
                             "position": {
-                                "x": 9119.735931288073,
+                                "x": 8964.444504226562,
                                 "y": 19408.81956448537
                             },
                             "targetPosition": {
@@ -8486,12 +8598,12 @@
                                 "id": "53ca0b20-bc79-44c3-800e-72a3e3d73c8a",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 8617.82614904539,
-                                        "y": 19543.305885310576
+                                        "x": 8522.474975486655,
+                                        "y": 19419.04181659865
                                     },
                                     "targetPosition": {
-                                        "x": 8829.958183401353,
-                                        "y": 19331.173850954612
+                                        "x": 8782.282596621986,
+                                        "y": 19269.04181659865
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -8510,8 +8622,8 @@
                         "id": "95b41f39-93ec-4ac7-8f16-318f0c8a7b66",
                         "savedPayload": {
                             "position": {
-                                "x": 8829.958183401353,
-                                "y": 19331.173850954612
+                                "x": 8782.282596621986,
+                                "y": 19269.04181659865
                             },
                             "targetPosition": {
                                 "x": 9042.090217757317,
@@ -8555,9 +8667,37 @@
                 },
                 {
                     "type": "Social Trading Bot",
-                    "name": "New Social Trading Bot",
-                    "config": "{\r\n    \"codeName\": \"Social-Trading-Bot-2\",\r\n    \"handle\": \"Tiger40-Social-Trading-Bot-2\"\r\n}",
+                    "name": "Social Trading Bot #2",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"handle\": \"tigers40-Social-Trading-Bot-2\"\n}",
                     "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x164a0bd845f21ae2c896ce0f888111c8cbd8ac22ba831f2c5998072e15379a0e\",\n        \"s\": \"0x0225cf2d6a98baec08c95f7738853230498cf6e6a2f9c947bfd6ec4e0de50eda\",\n        \"signature\": \"0x164a0bd845f21ae2c896ce0f888111c8cbd8ac22ba831f2c5998072e15379a0e0225cf2d6a98baec08c95f7738853230498cf6e6a2f9c947bfd6ec4e0de50eda1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "ad50da6f-d428-40cb-ad82-bc549be7004f",
+                        "savedPayload": {
+                            "position": {
+                                "x": 8617.826149045388,
+                                "y": 19119.04181659865
+                            },
+                            "targetPosition": {
+                                "x": 8829.958183401352,
+                                "y": 18906.909782242685
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "availableSignals": {
                         "type": "Available Signals",
                         "name": "New Available Signals",
@@ -8567,7 +8707,7 @@
                         "savedPayload": {
                             "position": {
                                 "x": 8540.18043551463,
-                                "y": 18984.555495773442
+                                "y": 18829.264068711927
                             },
                             "targetPosition": {
                                 "x": 8829.958183401352,
@@ -8670,9 +8810,9 @@
                 "signingAccount": {
                     "type": "Signing Account",
                     "name": "New Signing Account",
-                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xdc8e9668a77d4b5a186f9c3f30b9721266bfa369cc354717debc9d951fc52544\",\n        \"s\": \"0x714148274ba088f06f81835dd2d2d20dd9f54581c7a6f7233eaffddaabc488d6\",\n        \"signature\": \"0xdc8e9668a77d4b5a186f9c3f30b9721266bfa369cc354717debc9d951fc52544714148274ba088f06f81835dd2d2d20dd9f54581c7a6f7233eaffddaabc488d61c\"\n    }\n}",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x2b49ca7cbd264980a8e707985e87aeb2a8c5167c901cbebf294183f204c18ed3\",\n        \"s\": \"0x5d99ccea0af3650a33cfd988c160c625b5d36d4e774dc0df7f480efc50bb5eb9\",\n        \"signature\": \"0x2b49ca7cbd264980a8e707985e87aeb2a8c5167c901cbebf294183f204c18ed35d99ccea0af3650a33cfd988c160c625b5d36d4e774dc0df7f480efc50bb5eb91c\"\n    }\n}",
                     "project": "Governance",
-                    "id": "344884bd-6b04-493c-9a33-4b6de204995e",
+                    "id": "545c28a4-d427-4e49-9030-2885b63700c2",
                     "savedPayload": {
                         "position": {
                             "x": 8952.833839884373,
@@ -8957,6 +9097,34 @@
                 "name": "P2P Network Node #2",
                 "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"46.197.120.6\"\n}",
                 "project": "Network",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"signature\": {\n        \"message\": \"tigers40\",\n        \"messageHash\": \"0x70bd1da142790e4ecdf437b8b57f08d9eb448189094f61007a14441870f454b2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x19e8c819b4c854634e0796d826bc1791ca14743f0b99409037234ac465a5697e\",\n        \"s\": \"0x0632eee67e7406d29b881da890853165c426605874ecb1b133f42a60b8c6ed1f\",\n        \"signature\": \"0x19e8c819b4c854634e0796d826bc1791ca14743f0b99409037234ac465a5697e0632eee67e7406d29b881da890853165c426605874ecb1b133f42a60b8c6ed1f1b\"\n    }\n}",
+                    "project": "Governance",
+                    "id": "ceeef3c2-22e6-4a73-a4a6-960f1bd41a1b",
+                    "savedPayload": {
+                        "position": {
+                            "x": 8710.128741571889,
+                            "y": 18377.02099292274
+                        },
+                        "targetPosition": {
+                            "x": 8984.192378864669,
+                            "y": 18255
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
                     "name": "",
@@ -8964,8 +9132,8 @@
                     "id": "9f951b72-d60d-4741-ab6a-f381a50037cd",
                     "savedPayload": {
                         "position": {
-                            "x": 8694.414630977948,
-                            "y": 18332.645713530757
+                            "x": 8690.748098644528,
+                            "y": 18192.626492754673
                         },
                         "targetPosition": {
                             "x": 8984.192378864669,
@@ -8997,12 +9165,12 @@
                         "id": "68e80578-d8c3-4161-954d-900f705022a5",
                         "savedPayload": {
                             "position": {
-                                "x": 8424.384757729338,
-                                "y": 18105
+                                "x": 8498.136242068467,
+                                "y": 17939.3514540443
                             },
                             "targetPosition": {
-                                "x": 8724.384757729338,
-                                "y": 18105
+                                "x": 8783.453196957013,
+                                "y": 18032.056552356782
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -9025,12 +9193,12 @@
                         "id": "ec76c9e3-ad71-4384-8f7b-8c2ee60c1f76",
                         "savedPayload": {
                             "position": {
-                                "x": 8574.384757729338,
-                                "y": 17845.192378864667
+                                "x": 8721.079689711685,
+                                "y": 17738.61227213664
                             },
                             "targetPosition": {
-                                "x": 8724.384757729338,
-                                "y": 18105
+                                "x": 8783.453196957013,
+                                "y": 18032.056552356782
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -9048,8 +9216,8 @@
                     "id": "a2b1eb5b-7ba6-4a83-8440-ae3e90a3bd85",
                     "savedPayload": {
                         "position": {
-                            "x": 8724.384757729338,
-                            "y": 18105
+                            "x": 8783.453196957013,
+                            "y": 18032.056552356782
                         },
                         "targetPosition": {
                             "x": 8984.192378864669,
@@ -9081,12 +9249,12 @@
                         "id": "fda5320b-3c78-4d9a-a5c2-201cbd287fa1",
                         "savedPayload": {
                             "position": {
-                                "x": 8694.41463097795,
-                                "y": 17753.090217757315
+                                "x": 8776.49826419663,
+                                "y": 17713.938333077036
                             },
                             "targetPosition": {
-                                "x": 8906.546665333914,
-                                "y": 17965.22225211328
+                                "x": 8952.833839884373,
+                                "y": 17956.64343138952
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -9109,12 +9277,12 @@
                         "id": "300118a3-0163-4a23-80f1-558bc3c16377",
                         "savedPayload": {
                             "position": {
-                                "x": 8984.192378864669,
-                                "y": 17675.444504226558
+                                "x": 9074.854832807114,
+                                "y": 17682.57979409674
                             },
                             "targetPosition": {
-                                "x": 8906.546665333914,
-                                "y": 17965.22225211328
+                                "x": 8952.833839884373,
+                                "y": 17956.64343138952
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -9132,8 +9300,8 @@
                     "id": "25d814f5-b7f0-4124-a938-8ae6cff4f948",
                     "savedPayload": {
                         "position": {
-                            "x": 8906.546665333914,
-                            "y": 17965.22225211328
+                            "x": 8952.833839884373,
+                            "y": 17956.64343138952
                         },
                         "targetPosition": {
                             "x": 8984.192378864669,
