@@ -8683,7 +8683,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "P2P Network Node #1",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"46.197.120.6\",\n    \"clientMinimunBalance\": 10000000,\n    \"peerMinimunBalance\": 10000000\n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"46.197.120.6\",\n    \"clientMinimunBalance\": 0,\n    \"peerMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
@@ -8715,7 +8715,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "Testnet",
+                    "name": "",
                     "project": "Network",
                     "id": "44133e8a-79be-4d3b-b418-f1231a0a62fc",
                     "savedPayload": {
