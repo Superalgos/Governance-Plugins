@@ -306,7 +306,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\n    \"percentage\": 54\n}",
+                "config": "{\n    \"percentage\": 40\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -320,14 +320,14 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "New Weight Votes Switch",
-                                "config": "{}",
+                                "config": "{\n    \"percentage\": 80\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [
                                     {
                                         "type": "Pool Weight Vote",
                                         "name": "Team Positions Pool",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 70\n}",
                                         "project": "Governance",
                                         "id": "0f9ed9cb-aa21-4667-900b-58d819f0d12f",
                                         "savedPayload": {
@@ -374,7 +374,7 @@
                                     {
                                         "type": "Pool Weight Vote",
                                         "name": "Liquidity Rewards Pool",
-                                        "config": "{\n    \"percentage\": 50\n}",
+                                        "config": "{}",
                                         "project": "Governance",
                                         "id": "fcc0273c-f6b0-480a-88ec-13a1e7f47ad0",
                                         "savedPayload": {
@@ -452,14 +452,14 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "New Weight Votes Switch",
-                                "config": "{\n    \"percentage\": 20\n}",
+                                "config": "{}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [],
                                 "assetWeightVotes": [],
                                 "featureWeightVotes": [],
                                 "positionWeightVotes": [],
-                                "id": "b53a5ac8-9a4e-4ae6-826c-3a947111bea8",
+                                "id": "d8715ba2-aa46-44e3-a87d-98cd6a5d1f2b",
                                 "savedPayload": {
                                     "position": {
                                         "x": 43977.87890621858,
@@ -575,7 +575,7 @@
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "Elves and Fairies Team (Bastian) Teams",
+                                "name": "Team Elves & Fairies Teams",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "1dfaa8d3-154d-4330-8ccb-587739b2cd6a",
@@ -601,8 +601,8 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position",
-                                        "name": "Elves and Fairies Team (Bastian)",
-                                        "id": "901f1fc8-80bb-4bae-8cf4-8a90c01674b2"
+                                        "name": "Team Elves & Fairies",
+                                        "id": "13ae786e-915b-4363-af0c-bd536ed3ab05"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -610,7 +610,7 @@
                                             "Positions"
                                         ],
                                         [
-                                            "Teams @ July 2022",
+                                            "August 2022 Teams",
                                             "Position Class"
                                         ],
                                         [
@@ -618,7 +618,7 @@
                                             "Position Class"
                                         ],
                                         [
-                                            "Elves and Fairies Team (Bastian)",
+                                            "Team Elves & Fairies",
                                             "Position"
                                         ]
                                     ]
