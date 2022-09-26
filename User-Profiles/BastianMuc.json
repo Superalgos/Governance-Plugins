@@ -306,7 +306,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\n    \"percentage\": 40\n}",
+                "config": "{\n    \"percentage\": 15\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -315,7 +315,108 @@
                         "config": "{}",
                         "project": "Governance",
                         "votesSwitch": [],
-                        "claimVotesSwitch": [],
+                        "claimVotesSwitch": [
+                            {
+                                "type": "Claim Votes Switch",
+                                "name": "New Claim Votes Switch",
+                                "config": "{}",
+                                "project": "Governance",
+                                "claimVotesSwitch": [],
+                                "positionClaimVotes": [
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "tigers40 Turkish Team Teams",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "bb1c59ac-4a98-4eaa-a526-4c1c45c76f92",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 43624.45078429585,
+                                                "y": 36857.56330943689
+                                            },
+                                            "targetPosition": {
+                                                "x": 43691.20706448274,
+                                                "y": 37150.04168309144
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "Turkish Team Teams",
+                                                "id": "c3b16f8a-07db-4d53-9824-0e52d5e0f102"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "tigers40",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "Teams @ August 2022 Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Teams With PoV Reports Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Turkish Team Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Turkish Team Teams",
+                                                    "Position Contribution Claim"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "assetClaimVotes": [],
+                                "featureClaimVotes": [],
+                                "id": "efcd30ae-3907-4e12-8b22-e7022b5f1758",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 43691.20706448274,
+                                        "y": 37150.04168309144
+                                    },
+                                    "targetPosition": {
+                                        "x": 43757.96334466963,
+                                        "y": 37442.52005674599
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
                         "weightVotesSwitch": [
                             {
                                 "type": "Weight Votes Switch",
@@ -332,12 +433,12 @@
                                         "id": "0f9ed9cb-aa21-4667-900b-58d819f0d12f",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 43487.155243151465,
-                                                "y": 36930.12612154249
+                                                "x": 44066.30545854185,
+                                                "y": 36951.79639367887
                                             },
                                             "targetPosition": {
-                                                "x": 43691.20706448274,
-                                                "y": 37150.04168309144
+                                                "x": 43977.87890621858,
+                                                "y": 37238.468235414715
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -379,12 +480,12 @@
                                         "id": "fcc0273c-f6b0-480a-88ec-13a1e7f47ad0",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 43779.63361680601,
-                                                "y": 36863.3698413556
+                                                "x": 44270.35727987313,
+                                                "y": 37171.71195522782
                                             },
                                             "targetPosition": {
-                                                "x": 43691.20706448274,
-                                                "y": 37150.04168309144
+                                                "x": 43977.87890621858,
+                                                "y": 37238.468235414715
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -427,39 +528,6 @@
                                 "featureWeightVotes": [],
                                 "positionWeightVotes": [],
                                 "id": "423b04dc-e0f6-4585-8e6b-6609a0878b90",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 43691.20706448274,
-                                        "y": 37150.04168309144
-                                    },
-                                    "targetPosition": {
-                                        "x": 43757.96334466963,
-                                        "y": 37442.52005674599
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 2,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    }
-                                }
-                            },
-                            {
-                                "type": "Weight Votes Switch",
-                                "name": "New Weight Votes Switch",
-                                "config": "{}",
-                                "project": "Governance",
-                                "weightVotesSwitch": [],
-                                "poolWeightVotes": [],
-                                "assetWeightVotes": [],
-                                "featureWeightVotes": [],
-                                "positionWeightVotes": [],
-                                "id": "d8715ba2-aa46-44e3-a87d-98cd6a5d1f2b",
                                 "savedPayload": {
                                     "position": {
                                         "x": 43977.87890621858,
@@ -1047,12 +1115,12 @@
                         "id": "9ebb17a4-a4bd-4903-8ab2-5926f5b60774",
                         "savedPayload": {
                             "position": {
-                                "x": 41315.1304347826,
-                                "y": 13278.577136594009
+                                "x": 41657.14285714286,
+                                "y": 38000
                             },
                             "targetPosition": {
-                                "x": 41289.1304347826,
-                                "y": 13220.577136594009
+                                "x": 41957.14285714286,
+                                "y": 38000
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1070,12 +1138,12 @@
                     "id": "c3381d3d-a8dc-4ea9-b561-494c61d250c4",
                     "savedPayload": {
                         "position": {
-                            "x": 41289.1304347826,
-                            "y": 13220.577136594009
+                            "x": 41957.14285714286,
+                            "y": 38000
                         },
                         "targetPosition": {
-                            "x": 41439.1304347826,
-                            "y": 13480.38475772934
+                            "x": 42257.14285714286,
+                            "y": 38000
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1095,12 +1163,12 @@
             "id": "22567cd4-d075-482a-9fb9-96db71d0460b",
             "savedPayload": {
                 "position": {
-                    "x": 41439.1304347826,
-                    "y": 13480.38475772934
+                    "x": 42257.14285714286,
+                    "y": 38000
                 },
                 "targetPosition": {
-                    "x": 41589.1304347826,
-                    "y": 13740.19237886467
+                    "x": 42557.14285714286,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1128,7 +1196,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -1152,14 +1220,70 @@
                 "testClientInstances": [
                     {
                         "type": "Test Client Instance",
-                        "name": "New Test Client Instance",
+                        "name": "WorkFromHome",
                         "config": "{\n    \"codeName\": \"WorkFromHome\"\n}",
                         "project": "Governance",
                         "id": "43bc2026-c743-4896-a706-c54e187162a4",
                         "savedPayload": {
                             "position": {
+                                "x": 42557.14285714286,
+                                "y": 37400
+                            },
+                            "targetPosition": {
+                                "x": 42857.14285714286,
+                                "y": 37400
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Test Client Instance",
+                        "name": "Garfield",
+                        "config": "{\n    \"codeName\": \"Garfield\"\n}",
+                        "project": "Governance",
+                        "id": "396bc0e0-423f-4350-acde-60e5cec8b7bf",
+                        "savedPayload": {
+                            "position": {
                                 "x": 42857.14285714286,
                                 "y": 37100
+                            },
+                            "targetPosition": {
+                                "x": 42857.14285714286,
+                                "y": 37400
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Test Client Instance",
+                        "name": "Snoopy",
+                        "config": "{\n    \"codeName\": \"Snoopy\"\n}",
+                        "project": "Governance",
+                        "id": "96673306-bea8-4505-9feb-9801b37872e9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 43157.14285714286,
+                                "y": 37400
                             },
                             "targetPosition": {
                                 "x": 42857.14285714286,
