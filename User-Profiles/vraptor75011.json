@@ -4828,23 +4828,23 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"vraptor75011\",\n        \"messageHash\": \"0x924fbad94ad0fe94a114b351c17d1fb5e4b771cc38f8d3dcf50f5bfde4e29f0a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x57825e56c5cc1fe4d1ecf62af0654b2742065017bf1d5d70020b091050c4426a\",\n        \"s\": \"0x2e10543c58205b1644adacee59d441e930d33ebf0e6e204c43d2dfbc997f362f\",\n        \"signature\": \"0x57825e56c5cc1fe4d1ecf62af0654b2742065017bf1d5d70020b091050c4426a2e10543c58205b1644adacee59d441e930d33ebf0e6e204c43d2dfbc997f362f1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"vraptor75011\",\n        \"messageHash\": \"0x924fbad94ad0fe94a114b351c17d1fb5e4b771cc38f8d3dcf50f5bfde4e29f0a\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x82dd4e8138cf528ceb1744fb73764ca692edf8b6c2009d50ea86292a5227fb13\",\n        \"s\": \"0x3791d299dfa5c0a74ee34cc2ce29d3c734c65c5b18fa95d68d0b72c92be5355d\",\n        \"signature\": \"0x82dd4e8138cf528ceb1744fb73764ca692edf8b6c2009d50ea86292a5227fb133791d299dfa5c0a74ee34cc2ce29d3c734c65c5b18fa95d68d0b72c92be5355d1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "93b7fc23-b78b-4f1d-bf00-83d2b7ae53ec",
+                        "id": "2a566682-d5ce-4bc5-a500-a12a195f19ec",
                         "savedPayload": {
                             "position": {
-                                "x": 6346.252777481769,
-                                "y": 14705.342302750973
+                                "x": 6683.641981183998,
+                                "y": 14724.734788668267
                             },
                             "targetPosition": {
-                                "x": 6588.957875794254,
-                                "y": 14529.00672706323
+                                "x": 6709.641981183998,
+                                "y": 14626.734788668267
                             },
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
                                 "isCollapsed": false,
-                                "angleToParent": 1,
+                                "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
                             },
@@ -4856,8 +4856,8 @@
                     "id": "6e8f163e-7991-422f-bb18-7daaff5a2af8",
                     "savedPayload": {
                         "position": {
-                            "x": 6588.957875794254,
-                            "y": 14529.00672706323
+                            "x": 6709.641981183998,
+                            "y": 14626.734788668267
                         },
                         "targetPosition": {
                             "x": 6831.662974106738,
@@ -4867,7 +4867,63 @@
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
-                            "angleToParent": 1,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #2",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-2\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"vraptor75011\",\n        \"messageHash\": \"0x924fbad94ad0fe94a114b351c17d1fb5e4b771cc38f8d3dcf50f5bfde4e29f0a\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xd1d765c1b86ddafa5d6847dd997fadb870e9c04d24a335a11d98db4b730be10b\",\n        \"s\": \"0x18be2f7724882674452792e8dd4f9e6295c585c66da1d2c64f85960a4ad5ac58\",\n        \"signature\": \"0xd1d765c1b86ddafa5d6847dd997fadb870e9c04d24a335a11d98db4b730be10b18be2f7724882674452792e8dd4f9e6295c585c66da1d2c64f85960a4ad5ac581c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "a44703f7-9515-41cc-9a93-fbfa888b6445",
+                        "savedPayload": {
+                            "position": {
+                                "x": 6597.306405496256,
+                                "y": 14296.029690355783
+                            },
+                            "targetPosition": {
+                                "x": 6533.306405496256,
+                                "y": 14384.029690355783
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "47b53ee4-1ee6-4d62-81c9-a3e0514fe129",
+                    "savedPayload": {
+                        "position": {
+                            "x": 6533.306405496256,
+                            "y": 14384.029690355783
+                        },
+                        "targetPosition": {
+                            "x": 6831.662974106738,
+                            "y": 14352.671151375487
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
                         },
@@ -4943,13 +4999,13 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"vraptor75011\",\n        \"messageHash\": \"0x924fbad94ad0fe94a114b351c17d1fb5e4b771cc38f8d3dcf50f5bfde4e29f0a\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xad9a46231da3d2503312ca140c9b757da2ba47054e370391dc4e7fa7040125e8\",\n        \"s\": \"0x3d0eb72ae1db5fce5fd7f1082760605786d4332dcc467dc7bb3785644b0ec4ef\",\n        \"signature\": \"0xad9a46231da3d2503312ca140c9b757da2ba47054e370391dc4e7fa7040125e83d0eb72ae1db5fce5fd7f1082760605786d4332dcc467dc7bb3785644b0ec4ef1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"vraptor75011\",\n        \"messageHash\": \"0x924fbad94ad0fe94a114b351c17d1fb5e4b771cc38f8d3dcf50f5bfde4e29f0a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x4427d931b247c7390409603f7b843d2cdcc266c7fa65429014e27d05e1388529\",\n        \"s\": \"0x33b8c80f10d0f4d7da5d4ba57e6a0323078cbbdc7f04806005f7470af7567938\",\n        \"signature\": \"0x4427d931b247c7390409603f7b843d2cdcc266c7fa65429014e27d05e138852933b8c80f10d0f4d7da5d4ba57e6a0323078cbbdc7f04806005f7470af75679381b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7234964f-85e5-4006-9f1e-5928607b795d",
+                        "id": "ee7ab61d-7bb2-4f12-b69d-f776aff17db1",
                         "savedPayload": {
                             "position": {
-                                "x": 6346.252777481769,
-                                "y": 13294.657697249031
+                                "x": 6561.957875794254,
+                                "y": 13565.993272936774
                             },
                             "targetPosition": {
                                 "x": 6588.957875794254,
