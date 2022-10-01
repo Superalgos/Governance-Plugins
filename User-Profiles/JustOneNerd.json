@@ -160,7 +160,7 @@
                 "userReferrers": [
                     {
                         "type": "User Referrer",
-                        "name": "theblockchainarborist",
+                        "name": "",
                         "config": "{}",
                         "project": "Governance",
                         "id": "e93739b2-d732-4ddc-b033-547e5b8ebd51",
@@ -341,7 +341,7 @@
                                                 "positionWeightVotes": [
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "Teams Team P-PL",
+                                                        "name": "",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "5a2a7305-4bf4-4880-9e61-48f59c3ee3fa",
@@ -392,7 +392,7 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "Teams Turkish Team",
+                                                        "name": "",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "a3ae74e0-cf19-4527-a3c4-f4d8654d5187",
@@ -443,7 +443,7 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "Teams Team Elves & Fairies",
+                                                        "name": "",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "e4c47844-c41b-415d-87e5-128ca9f68e56",
@@ -494,7 +494,7 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "Teams Team VEX",
+                                                        "name": "",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "7452e335-2c96-4ae7-a1e8-b93e78ea1dad",
@@ -545,7 +545,7 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "Teams Team theblokchainarborist",
+                                                        "name": "",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "4f8d95f6-9e7a-4642-bfec-698754277172",
@@ -596,7 +596,7 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "Teams Data Mining Team",
+                                                        "name": "",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "b7bbbfb7-2b89-4e42-a5fe-0b030cd6926c",
@@ -2086,7 +2086,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "",
+                    "name": "Testnet",
                     "project": "Network",
                     "id": "44f261ea-47cd-49e3-8cd9-569eda2ce72a",
                     "savedPayload": {
@@ -2108,7 +2108,18 @@
                         },
                         "uiObject": {
                             "isRunning": false
-                        }
+                        },
+                        "referenceParent": {
+                            "type": "P2P Network",
+                            "name": "Testnet",
+                            "id": "8cf3c984-f2ce-4ed5-9bfe-49255ed8a9e3"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Testnet",
+                                "P2P Network"
+                            ]
+                        ]
                     }
                 },
                 "networkServices": {
