@@ -1059,7 +1059,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\n    \"percentage\": 80\n}",
+                "config": "{\n    \"percentage\": 100\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -1441,7 +1441,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -1504,7 +1504,7 @@
                             {
                                 "type": "Votes Switch",
                                 "name": "Data Mining & Marketing",
-                                "config": "{\r\n    \"percentage\": 40\r\n}",
+                                "config": "{\r\n    \"percentage\": 100\r\n}",
                                 "project": "Governance",
                                 "votesSwitch": [],
                                 "claimVotesSwitch": [
@@ -1523,12 +1523,12 @@
                                                 "id": "cc69a1db-5721-4062-b8d4-0f89233762e5",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 18187.49454691647,
-                                                        "y": 22460.636883091225
+                                                        "x": 18607.885022174833,
+                                                        "y": 32170.444504226558
                                                     },
                                                     "targetPosition": {
-                                                        "x": 18265.140260447228,
-                                                        "y": 22750.414630977946
+                                                        "x": 18530.239308644075,
+                                                        "y": 32460.22225211328
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -1584,12 +1584,12 @@
                                         "id": "828dbfd3-47bc-4b0d-a782-7e2f2b1372ea",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 18265.140260447228,
-                                                "y": 22750.414630977946
+                                                "x": 18530.239308644075,
+                                                "y": 32460.22225211328
                                             },
                                             "targetPosition": {
-                                                "x": 18342.785973977985,
-                                                "y": 23040.192378864667
+                                                "x": 18452.593595113318,
+                                                "y": 32750
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1633,25 +1633,25 @@
                                     },
                                     {
                                         "type": "Claim Votes Switch",
-                                        "name": "BlaaSwe",
-                                        "config": "{\r\n    \"percentage\": 0\r\n}",
+                                        "name": "My claims",
+                                        "config": "{\r\n    \"percentage\": 100\r\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [],
                                         "positionClaimVotes": [
                                             {
                                                 "type": "Position Claim Vote",
                                                 "name": "BlaaSwe Team Data Mining Positions (Teams)",
-                                                "config": "{\r\n}",
+                                                "config": "{\r\n    \"percentage\": 70\r\n}",
                                                 "project": "Governance",
                                                 "id": "ea2936fc-9781-4ce3-a483-7146399d4879",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 18642.785973977985,
-                                                        "y": 22520.577136594
+                                                        "x": 18862.40121624865,
+                                                        "y": 32340.192378864667
                                                     },
                                                     "targetPosition": {
-                                                        "x": 18492.785973977985,
-                                                        "y": 22780.384757729335
+                                                        "x": 18712.40121624865,
+                                                        "y": 32600
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -1696,6 +1696,65 @@
                                                         ]
                                                     ]
                                                 }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "BlaaSwe Team VEX Positions (Teams)",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "c69a2ce0-9362-4cc7-9652-33dd7f8f992c",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 19012.40121624865,
+                                                        "y": 32600
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 18712.40121624865,
+                                                        "y": 32600
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "Team VEX Positions (Teams)",
+                                                        "id": "e3d7a4a3-3371-47a9-90fe-54adbccd60de"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "BlaaSwe",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "My claims",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Team VEX Positions (Teams)",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
                                             }
                                         ],
                                         "assetClaimVotes": [],
@@ -1703,12 +1762,12 @@
                                         "id": "66682850-9d83-4f1c-9d01-885a650ff8f3",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 18492.785973977985,
-                                                "y": 22780.384757729335
+                                                "x": 18712.40121624865,
+                                                "y": 32600
                                             },
                                             "targetPosition": {
-                                                "x": 18342.785973977985,
-                                                "y": 23040.192378864667
+                                                "x": 18452.593595113318,
+                                                "y": 32750
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1753,24 +1812,24 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "9808us",
-                                        "config": "{\r\n    \"percentage\": 35\r\n}",
+                                        "config": "{\r\n    \"percentage\": 0\r\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [],
                                         "positionClaimVotes": [
                                             {
                                                 "type": "Position Claim Vote",
                                                 "name": "",
-                                                "config": "{\r\n    \"percentage\": 100\r\n}",
+                                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                                 "project": "Governance",
                                                 "id": "f6274c1c-681a-495b-acfa-dc9e4e149207",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 18922.341469751427,
-                                                        "y": 22884.900951803153
+                                                        "x": 19032.14909088676,
+                                                        "y": 32905.291427061515
                                                     },
                                                     "targetPosition": {
-                                                        "x": 18632.563721864706,
-                                                        "y": 22962.54666533391
+                                                        "x": 18742.37134300004,
+                                                        "y": 32827.64571353076
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -1830,12 +1889,12 @@
                                         "id": "e4815345-b7d6-4783-904a-8d525f8989b3",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 18632.563721864706,
-                                                "y": 22962.54666533391
+                                                "x": 18742.37134300004,
+                                                "y": 32827.64571353076
                                             },
                                             "targetPosition": {
-                                                "x": 18342.785973977985,
-                                                "y": 23040.192378864667
+                                                "x": 18452.593595113318,
+                                                "y": 32750
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1856,164 +1915,12 @@
                                 "id": "8c5ca23f-e217-4757-9df7-ee3f490265c6",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 18342.785973977985,
-                                        "y": 23040.192378864667
+                                        "x": 18452.593595113318,
+                                        "y": 32750
                                     },
                                     "targetPosition": {
                                         "x": 18192.785973977985,
-                                        "y": 23300
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 2,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    }
-                                }
-                            },
-                            {
-                                "type": "Votes Switch",
-                                "name": "Support Others Claims",
-                                "config": "{}",
-                                "project": "Governance",
-                                "votesSwitch": [],
-                                "claimVotesSwitch": [
-                                    {
-                                        "type": "Claim Votes Switch",
-                                        "name": "Luis",
-                                        "config": "{\r\n    \r\n}",
-                                        "project": "Governance",
-                                        "claimVotesSwitch": [],
-                                        "positionClaimVotes": [
-                                            {
-                                                "type": "Position Claim Vote",
-                                                "name": "Luis-Fernando-Molina ",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "98af882b-2123-4a5d-ab02-6763d05b4575",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 19092.785973977985,
-                                                        "y": 23300
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 18792.785973977985,
-                                                        "y": 23300
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position Contribution Claim",
-                                                        "name": "",
-                                                        "id": "3797a2cb-8af4-41d1-8cb6-758a8dee5809"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Luis-Fernando-Molina",
-                                                            "User Profile"
-                                                        ],
-                                                        [
-                                                            "New Token Power Switch",
-                                                            "Token Power Switch"
-                                                        ],
-                                                        [
-                                                            "New Votes And Claims Programs",
-                                                            "Votes And Claims Programs"
-                                                        ],
-                                                        [
-                                                            "New Claims Program",
-                                                            "Claims Program"
-                                                        ],
-                                                        [
-                                                            "New Position Claims Folder",
-                                                            "Position Claims Folder"
-                                                        ],
-                                                        [
-                                                            "",
-                                                            "Position Contribution Claim"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "assetClaimVotes": [],
-                                        "featureClaimVotes": [],
-                                        "id": "551c7043-708e-4ee1-8e23-209638f741b0",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 18792.785973977985,
-                                                "y": 23300
-                                            },
-                                            "targetPosition": {
-                                                "x": 18492.785973977985,
-                                                "y": 23300
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position Claims Folder",
-                                                "name": "New Position Claims Folder",
-                                                "id": "8322f017-27e1-4cc4-bcc8-a0a1b8a8e1bd"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Luis-Fernando-Molina",
-                                                    "User Profile"
-                                                ],
-                                                [
-                                                    "New Token Power Switch",
-                                                    "Token Power Switch"
-                                                ],
-                                                [
-                                                    "New Votes And Claims Programs",
-                                                    "Votes And Claims Programs"
-                                                ],
-                                                [
-                                                    "New Claims Program",
-                                                    "Claims Program"
-                                                ],
-                                                [
-                                                    "New Position Claims Folder",
-                                                    "Position Claims Folder"
-                                                ]
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "weightVotesSwitch": [],
-                                "userProfileVotesSwitch": [],
-                                "id": "fbc1cd17-f184-46e4-a36d-39d37b3aa9dc",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 18492.785973977985,
-                                        "y": 23300
-                                    },
-                                    "targetPosition": {
-                                        "x": 18192.785973977985,
-                                        "y": 23300
+                                        "y": 32900
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -2045,7 +1952,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": true,
+                                "isCollapsed": false,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
