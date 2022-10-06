@@ -552,7 +552,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\r\n    \"percentage\": 25\r\n}",
+                "config": "{\r\n    \"percentage\": 15\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -890,8 +890,8 @@
                     "id": "4cd69c0a-7e55-48fe-9b23-e55bbff2d1aa",
                     "savedPayload": {
                         "position": {
-                            "x": 6204.926563629763,
-                            "y": 32864.56109192669
+                            "x": 6314.605953750218,
+                            "y": 32839.527486856605
                         },
                         "targetPosition": {
                             "x": 6095.247173509308,
@@ -902,7 +902,7 @@
                             "isFrozen": false,
                             "isCollapsed": false,
                             "angleToParent": 3,
-                            "distanceToParent": 1,
+                            "distanceToParent": 2,
                             "arrangementStyle": 0
                         },
                         "uiObject": {
@@ -936,7 +936,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 75\r\n}",
+                "config": "{\r\n    \"percentage\": 85\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -1020,7 +1020,22 @@
                             },
                             "uiObject": {
                                 "isRunning": false
-                            }
+                            },
+                            "referenceParent": {
+                                "type": "Position Class",
+                                "name": "September 2022 Teams",
+                                "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "Teams of Contributors",
+                                    "Positions"
+                                ],
+                                [
+                                    "September 2022 Teams",
+                                    "Position Class"
+                                ]
+                            ]
                         }
                     }
                 ],
