@@ -3194,8 +3194,8 @@
                 "id": "c3e6a33a-93bd-4a99-a5b3-b9d830a7a3e8",
                 "savedPayload": {
                     "position": {
-                        "x": 42456.68707503687,
-                        "y": 33340.12553863545
+                        "x": 42338.98056447734,
+                        "y": 33238.830895683815
                     },
                     "targetPosition": {
                         "x": 42586.85219677214,
@@ -3249,7 +3249,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "Mainnet",
+                    "name": "Fishnet",
                     "project": "Network",
                     "id": "ad9a4622-8064-4e5f-b6c2-cf46d553f39f",
                     "savedPayload": {
@@ -3274,12 +3274,12 @@
                         },
                         "referenceParent": {
                             "type": "P2P Network",
-                            "name": "Mainnet",
-                            "id": "f614fedc-e405-4260-9e17-90c863482c8d"
+                            "name": "Fishnet",
+                            "id": "a499578b-e64a-4a0b-b8be-f5b885b5202b"
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Mainnet",
+                                "Fishnet",
                                 "P2P Network"
                             ]
                         ]
@@ -3456,242 +3456,8 @@
                 "id": "fe761774-4abd-40a2-b97e-da0882086b43",
                 "savedPayload": {
                     "position": {
-                        "x": 42316.561536401416,
-                        "y": 32939.66975652946
-                    },
-                    "targetPosition": {
-                        "x": 42586.85219677214,
-                        "y": 33069.83487826473
-                    },
-                    "floatingObject": {
-                        "isPinned": false,
-                        "isFrozen": false,
-                        "isCollapsed": true,
-                        "angleToParent": 1,
-                        "distanceToParent": 3,
-                        "arrangementStyle": 0
-                    },
-                    "uiObject": {
-                        "isRunning": false
-                    }
-                }
-            },
-            {
-                "type": "P2P Network Node",
-                "name": "P2P Network Node #3",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"node1.sa-network-node.cloudns.ph\",\n    \"clientMinimunBalance\": 0\n}",
-                "project": "Network",
-                "p2pNetworkReference": {
-                    "type": "P2P Network Reference",
-                    "name": "Fishnet",
-                    "project": "Network",
-                    "id": "2c9f18a4-9d22-43c3-8380-5b4887c3e6e8",
-                    "savedPayload": {
-                        "position": {
-                            "x": 42446.726658136686,
-                            "y": 32669.37909615874
-                        },
-                        "targetPosition": {
-                            "x": 42717.01731850741,
-                            "y": 32799.54421789401
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 1,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        },
-                        "referenceParent": {
-                            "type": "P2P Network",
-                            "name": "Fishnet",
-                            "id": "a499578b-e64a-4a0b-b8be-f5b885b5202b"
-                        },
-                        "referenceParentCombinedNodePath": [
-                            [
-                                "Fishnet",
-                                "P2P Network"
-                            ]
-                        ]
-                    }
-                },
-                "networkServices": {
-                    "type": "Network Services",
-                    "name": "New Network Services",
-                    "config": "{}",
-                    "project": "Network",
-                    "socialGraph": {
-                        "type": "Social Graph",
-                        "name": "New Social Graph",
-                        "config": "{}",
-                        "project": "Network",
-                        "id": "e10e9311-9efc-41a2-8356-cac1895d8d40",
-                        "savedPayload": {
-                            "position": {
-                                "x": 42678.18642282359,
-                                "y": 32281.38192522848
-                            },
-                            "targetPosition": {
-                                "x": 42847.18244024268,
-                                "y": 32529.25355752328
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 1,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "tradingSignals": {
-                        "type": "Trading Signals",
-                        "name": "New Trading Signals",
-                        "config": "{}",
-                        "project": "Network",
-                        "id": "2ec2c8fb-e3bc-4a9c-90cf-f7b0fbeb0a6d",
-                        "savedPayload": {
-                            "position": {
-                                "x": 43146.343579397035,
-                                "y": 32506.83452944735
-                            },
-                            "targetPosition": {
-                                "x": 42847.18244024268,
-                                "y": 32529.25355752328
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 1,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "cc99dc56-ffa4-4483-a612-147e6aa7fb2d",
-                    "savedPayload": {
-                        "position": {
-                            "x": 42847.18244024268,
-                            "y": 32529.25355752328
-                        },
-                        "targetPosition": {
-                            "x": 42717.01731850741,
-                            "y": 32799.54421789401
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": true,
-                            "angleToParent": 1,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "networkInterfaces": {
-                    "type": "Network Interfaces",
-                    "name": "New Network Interfaces",
-                    "config": "{}",
-                    "project": "Network",
-                    "websocketsNetworkInterface": {
-                        "type": "Websockets Network Interface",
-                        "name": "New Websockets Network Interface",
-                        "config": "{ \n\"webSocketsPort\": \"18042\"\n}",
-                        "project": "Network",
-                        "id": "de5a721a-14cd-49b9-b7a5-5513514f19f3",
-                        "savedPayload": {
-                            "position": {
-                                "x": 43235.179611172935,
-                                "y": 32760.71332221019
-                            },
-                            "targetPosition": {
-                                "x": 42987.30797887813,
-                                "y": 32929.70933962928
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 1,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "httpNetworkInterface": {
-                        "type": "Http Network Interface",
-                        "name": "New Http Network Interface",
-                        "config": "{ \n\"httpPort\": \"31248\"\n}",
-                        "project": "Network",
-                        "id": "98176d41-b847-4f77-9694-7fcc4b1512fd",
-                        "savedPayload": {
-                            "position": {
-                                "x": 43009.72700695406,
-                                "y": 33228.87047878363
-                            },
-                            "targetPosition": {
-                                "x": 42987.30797887813,
-                                "y": 32929.70933962928
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 1,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "34d61610-a990-4c4b-8205-35b8aa74adb1",
-                    "savedPayload": {
-                        "position": {
-                            "x": 42987.30797887813,
-                            "y": 32929.70933962928
-                        },
-                        "targetPosition": {
-                            "x": 42717.01731850741,
-                            "y": 32799.54421789401
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 1,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "id": "63dbf7c0-4086-4167-83b3-6a472a14b51e",
-                "savedPayload": {
-                    "position": {
-                        "x": 42717.01731850741,
-                        "y": 32799.54421789401
+                        "x": 42564.43316869621,
+                        "y": 32770.673739110374
                     },
                     "targetPosition": {
                         "x": 42586.85219677214,
