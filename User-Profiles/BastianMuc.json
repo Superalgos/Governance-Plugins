@@ -3216,7 +3216,7 @@
             },
             {
                 "type": "P2P Network Node",
-                "name": "P2P Network Node - BastianMuc Mainnet",
+                "name": "P2P Network Node - BastianMuc Fishnet",
                 "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"node1.sa-network-node.cloudns.ph\",\n    \"clientMinimunBalance\": 750000,\n    \"peerMinimunBalance\": 750000\n}",
                 "project": "Network",
                 "signingAccount": {
@@ -3249,7 +3249,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "Mainnet",
+                    "name": "Fishnet",
                     "project": "Network",
                     "id": "ad9a4622-8064-4e5f-b6c2-cf46d553f39f",
                     "savedPayload": {
@@ -3274,12 +3274,12 @@
                         },
                         "referenceParent": {
                             "type": "P2P Network",
-                            "name": "Mainnet",
-                            "id": "f614fedc-e405-4260-9e17-90c863482c8d"
+                            "name": "Fishnet",
+                            "id": "a499578b-e64a-4a0b-b8be-f5b885b5202b"
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Mainnet",
+                                "Fishnet",
                                 "P2P Network"
                             ]
                         ]
