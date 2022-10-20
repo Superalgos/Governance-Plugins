@@ -608,7 +608,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -664,16 +664,16 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x90062c5941bced1ccbc54e9a1578ae4ae6d20e187fb435623adaa4823e0e0a93\",\n        \"s\": \"0x22f108e81f0ff39d263d3b30497bccbf73fb2191581fe2da75a70d0447b2082d\",\n        \"signature\": \"0x90062c5941bced1ccbc54e9a1578ae4ae6d20e187fb435623adaa4823e0e0a9322f108e81f0ff39d263d3b30497bccbf73fb2191581fe2da75a70d0447b2082d1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x85043d1f152da84711396a6eb33b00f1a8b19bae8011da9be3d8e5ffc62c780b\",\n        \"s\": \"0x1dfcc448ead3444d4464959291d153885ab540316683c1efe92a2fd3e353a355\",\n        \"signature\": \"0x85043d1f152da84711396a6eb33b00f1a8b19bae8011da9be3d8e5ffc62c780b1dfcc448ead3444d4464959291d153885ab540316683c1efe92a2fd3e353a3551c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7801c95d-0a19-4ea9-825c-efcf1e3e4114",
+                        "id": "9c61485d-f4f2-47c1-bf5e-b6cc5981d78b",
                         "savedPayload": {
                             "position": {
-                                "x": 29029.17960675007,
+                                "x": 30000,
                                 "y": 29105.34230275097
                             },
                             "targetPosition": {
-                                "x": 29271.88470506255,
+                                "x": 29757.294901687517,
                                 "y": 28929.006727063228
                             },
                             "floatingObject": {
@@ -692,8 +692,176 @@
                     "id": "24e5a734-360d-45d3-8447-f97b9c9e7de8",
                     "savedPayload": {
                         "position": {
-                            "x": 29271.88470506255,
+                            "x": 29757.294901687517,
                             "y": 28929.006727063228
+                        },
+                        "targetPosition": {
+                            "x": 29514.589803375035,
+                            "y": 28752.671151375485
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #2",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-2\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xcbabd7a1cd1f8bd47f849040d78bed18351336f7e715f24d38179b7040d6c9cc\",\n        \"s\": \"0x1bcb7dcc65e61605a6779a26c7858ea63569de4811696f2552b0cee2083d161b\",\n        \"signature\": \"0xcbabd7a1cd1f8bd47f849040d78bed18351336f7e715f24d38179b7040d6c9cc1bcb7dcc65e61605a6779a26c7858ea63569de4811696f2552b0cee2083d161b1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "843558e5-de12-40fd-98f0-e398d8fdeac1",
+                        "savedPayload": {
+                            "position": {
+                                "x": 29329.17960675007,
+                                "y": 29323.305061152576
+                            },
+                            "targetPosition": {
+                                "x": 29421.88470506255,
+                                "y": 29037.98810626403
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "47a8f584-cd91-4273-8baa-147f58ba9dc0",
+                    "savedPayload": {
+                        "position": {
+                            "x": 29421.88470506255,
+                            "y": 29037.98810626403
+                        },
+                        "targetPosition": {
+                            "x": 29514.589803375035,
+                            "y": 28752.671151375485
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #3",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-3\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xad73a69e92112e17491d6f37ddf80a54ac8010638898860c7cace7164c5b5a18\",\n        \"s\": \"0x1e54ec0ebc47d5f1c3f0ebd23959ec6e2731f2470d2c668d9f55a42c4ab7a780\",\n        \"signature\": \"0xad73a69e92112e17491d6f37ddf80a54ac8010638898860c7cace7164c5b5a181e54ec0ebc47d5f1c3f0ebd23959ec6e2731f2470d2c668d9f55a42c4ab7a7801c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "39464583-4f39-474a-8a28-af5db8905892",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28914.589803375035,
+                                "y": 28752.671151375485
+                            },
+                            "targetPosition": {
+                                "x": 29214.589803375035,
+                                "y": 28752.671151375485
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "a3a44f73-8ac0-49a5-a171-ce1ea7696fb2",
+                    "savedPayload": {
+                        "position": {
+                            "x": 29214.589803375035,
+                            "y": 28752.671151375485
+                        },
+                        "targetPosition": {
+                            "x": 29514.589803375035,
+                            "y": 28752.671151375485
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #4",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-4\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x51d41c2f98e1367c71b84d2a1acddf42906b6a0133ce56eafa80f803ad604d15\",\n        \"s\": \"0x53c426012a74d8b5b04c31ad4e8d088e048d347b415d2d151f2b4d917d3bd565\",\n        \"signature\": \"0x51d41c2f98e1367c71b84d2a1acddf42906b6a0133ce56eafa80f803ad604d1553c426012a74d8b5b04c31ad4e8d088e048d347b415d2d151f2b4d917d3bd5651b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "cf3e2a75-4b30-4cf8-9243-cbe8e0f54b40",
+                        "savedPayload": {
+                            "position": {
+                                "x": 29329.17960675007,
+                                "y": 28182.037241598395
+                            },
+                            "targetPosition": {
+                                "x": 29421.88470506255,
+                                "y": 28467.35419648694
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "4591f7c9-eb5f-46b4-aba3-28653f4b0c40",
+                    "savedPayload": {
+                        "position": {
+                            "x": 29421.88470506255,
+                            "y": 28467.35419648694
                         },
                         "targetPosition": {
                             "x": 29514.589803375035,
@@ -727,7 +895,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 1,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -779,13 +947,13 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xed85f0884adc61773d7c060c54362b8f6d4f0637b0bc4440897406112b5b4ed5\",\n        \"s\": \"0x1ea0d1ddb0b7bccab7f5dcf55d949731b4a5671b251cfa504b977a79f78508a4\",\n        \"signature\": \"0xed85f0884adc61773d7c060c54362b8f6d4f0637b0bc4440897406112b5b4ed51ea0d1ddb0b7bccab7f5dcf55d949731b4a5671b251cfa504b977a79f78508a41b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x2f7ca09957a3525552fdc1f509ae83e137388f73ffaa6e88bac10988d98486dd\",\n        \"s\": \"0x7f97485d8ca6e519a10a63e4053282c0401a345ffc8ad26304a6d9ff40a91a78\",\n        \"signature\": \"0x2f7ca09957a3525552fdc1f509ae83e137388f73ffaa6e88bac10988d98486dd7f97485d8ca6e519a10a63e4053282c0401a345ffc8ad26304a6d9ff40a91a781c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "3277c56b-e651-4fb7-9b5a-de7071f70457",
+                        "id": "869d4937-0f4d-4df2-962a-f9685a5ded36",
                         "savedPayload": {
                             "position": {
-                                "x": 32671.21803839588,
-                                "y": 23123.993272936772
+                                "x": 32660.21803839588,
+                                "y": 23099.993272936772
                             },
                             "targetPosition": {
                                 "x": 32605.21803839588,
@@ -888,14 +1056,98 @@
                 "testClientInstances": [
                     {
                         "type": "Test Client Instance",
-                        "name": "Py-Way",
-                        "config": "{\r\n    \"codeName\": \"Py-Way\"\r\n}",
+                        "name": "Py-Way-1",
+                        "config": "{\r\n    \"codeName\": \"Py-Way-1\"\r\n}",
                         "project": "Governance",
                         "id": "5e2d1b06-6665-4a41-aa4b-0875e9bdec8d",
                         "savedPayload": {
                             "position": {
-                                "x": 30278.11529493745,
+                                "x": 29885.410196624965,
+                                "y": 27829.36609022291
+                            },
+                            "targetPosition": {
+                                "x": 30185.410196624965,
+                                "y": 27829.36609022291
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Test Client Instance",
+                        "name": "Py-Way-2",
+                        "config": "{\r\n    \"codeName\": \"Py-Way-2\"\r\n}",
+                        "project": "Governance",
+                        "id": "0d5d5246-4e32-47d9-9552-4af028906add",
+                        "savedPayload": {
+                            "position": {
+                                "x": 30092.705098312483,
                                 "y": 27544.049135334364
+                            },
+                            "targetPosition": {
+                                "x": 30185.410196624965,
+                                "y": 27829.36609022291
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Test Client Instance",
+                        "name": "Py-Way-3",
+                        "config": "{\r\n    \"codeName\": \"Py-Way-3\"\r\n}",
+                        "project": "Governance",
+                        "id": "4592fde0-0235-4d83-a5b4-6782ca088d77",
+                        "savedPayload": {
+                            "position": {
+                                "x": 30428.11529493745,
+                                "y": 27653.030514535167
+                            },
+                            "targetPosition": {
+                                "x": 30185.410196624965,
+                                "y": 27829.36609022291
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Test Client Instance",
+                        "name": "Py-Way-4",
+                        "config": "{\r\n    \"codeName\": \"Py-Way-4\"\r\n}",
+                        "project": "Governance",
+                        "id": "b7a991b9-831f-4f92-ad7d-834dd15931dc",
+                        "savedPayload": {
+                            "position": {
+                                "x": 30428.11529493745,
+                                "y": 28005.701665910652
                             },
                             "targetPosition": {
                                 "x": 30185.410196624965,
