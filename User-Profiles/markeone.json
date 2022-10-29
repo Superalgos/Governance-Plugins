@@ -567,7 +567,40 @@
                                 "name": "New Claim Votes Switch",
                                 "config": "{}",
                                 "project": "Governance",
-                                "claimVotesSwitch": [],
+                                "claimVotesSwitch": [
+                                    {
+                                        "type": "Claim Votes Switch",
+                                        "name": "New Claim Votes Switch",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "claimVotesSwitch": [],
+                                        "positionClaimVotes": [],
+                                        "assetClaimVotes": [],
+                                        "featureClaimVotes": [],
+                                        "id": "3686293d-9690-4e6f-a11b-e02d6a8601d0",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 3478.781721470228,
+                                                "y": 32139.46544868966
+                                            },
+                                            "targetPosition": {
+                                                "x": 3467.5643631873304,
+                                                "y": 32439.255660126182
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    }
+                                ],
                                 "positionClaimVotes": [],
                                 "assetClaimVotes": [],
                                 "featureClaimVotes": [],
@@ -802,7 +835,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 3,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -1212,7 +1245,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 3,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -1542,7 +1575,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -1565,7 +1598,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -1621,17 +1654,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xe59d7f533bad00251859445039e45ec94cc9364638689fe2991b6cf97da828a8\",\n        \"s\": \"0x67a299ec1c6d71848429456b1cc63246ee1567108487b6d25a1dc052abb2821c\",\n        \"signature\": \"0xe59d7f533bad00251859445039e45ec94cc9364638689fe2991b6cf97da828a867a299ec1c6d71848429456b1cc63246ee1567108487b6d25a1dc052abb2821c1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x70912e8b3ded3a1975adaca966f1767c4b0e95399d0b031a29e0048104223470\",\n        \"s\": \"0x2e13233a60530a33f8f192cc2864a9899bc4696427d0d461b4d181e46f076c97\",\n        \"signature\": \"0x70912e8b3ded3a1975adaca966f1767c4b0e95399d0b031a29e00481042234702e13233a60530a33f8f192cc2864a9899bc4696427d0d461b4d181e46f076c971c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "c5f9a7cd-644a-424d-b3f5-2f71b2fdd0c0",
+                        "id": "8782a301-9077-4dc5-8eaf-073f1afc3f8f",
                         "savedPayload": {
                             "position": {
-                                "x": 3141.861951953436,
-                                "y": 33831.13123844193
+                                "x": 2771.200639699555,
+                                "y": 33775.12890753391
                             },
                             "targetPosition": {
-                                "x": 2842.5376243987484,
-                                "y": 33811.00794512463
+                                "x": 2843.200639699555,
+                                "y": 33788.12890753391
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1649,8 +1682,8 @@
                     "id": "17bd4d36-8739-4033-9736-cc29a01bd4ef",
                     "savedPayload": {
                         "position": {
-                            "x": 2842.5376243987484,
-                            "y": 33811.00794512463
+                            "x": 2843.200639699555,
+                            "y": 33788.12890753391
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -1677,17 +1710,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xf3c67697f1142b49a8ede339ef0550f4aade4723dddf9b2d8f09e317f9cfcf85\",\n        \"s\": \"0x1223a3e23fbb2c50423a9f96be91ef87278160425c0eddc8cd7e381879d30f5f\",\n        \"signature\": \"0xf3c67697f1142b49a8ede339ef0550f4aade4723dddf9b2d8f09e317f9cfcf851223a3e23fbb2c50423a9f96be91ef87278160425c0eddc8cd7e381879d30f5f1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x83646a55d5c8653a74ad8a35540e69226b6cda3993d28d43605b931ff36f9509\",\n        \"s\": \"0x012d33d13b4fa86974aef673554b782f78a77650ee57c6f729309a93018eebb0\",\n        \"signature\": \"0x83646a55d5c8653a74ad8a35540e69226b6cda3993d28d43605b931ff36f9509012d33d13b4fa86974aef673554b782f78a77650ee57c6f729309a93018eebb01b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "0c7a1f7c-2b73-429f-bfa7-2ace92658da3",
+                        "id": "61969c83-f08a-480a-b4ce-a92bd5fc9e5e",
                         "savedPayload": {
                             "position": {
-                                "x": 3114.8346714198533,
-                                "y": 33973.22774635187
+                                "x": 2887.562783946927,
+                                "y": 33847.54278608066
                             },
                             "targetPosition": {
-                                "x": 2829.023984131957,
-                                "y": 33882.0561990796
+                                "x": 2839.562783946927,
+                                "y": 33837.54278608066
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1705,8 +1738,8 @@
                     "id": "7e8649a3-c7a0-4922-bf84-1e675b6cf0e3",
                     "savedPayload": {
                         "position": {
-                            "x": 2829.023984131957,
-                            "y": 33882.0561990796
+                            "x": 2839.562783946927,
+                            "y": 33837.54278608066
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -1733,17 +1766,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x9ff8d488c74549c5b855b4ff7ec256da04078e09829b671ccd5f34e7623fd6ec\",\n        \"s\": \"0x0119e0600d42431502169d5fb6ec7b9f9924e435fc9f3265a29612fbb2a6794f\",\n        \"signature\": \"0x9ff8d488c74549c5b855b4ff7ec256da04078e09829b671ccd5f34e7623fd6ec0119e0600d42431502169d5fb6ec7b9f9924e435fc9f3265a29612fbb2a6794f1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x0b5b592df577ef1abed4dfdc6056e3eeb9c0bedec5ac3ec875140376820b5bbd\",\n        \"s\": \"0x4b070a98ab08574b224ebde3eac51ad9d7c5ae676ab13f0dc73d6adb76f9dcf9\",\n        \"signature\": \"0x0b5b592df577ef1abed4dfdc6056e3eeb9c0bedec5ac3ec875140376820b5bbd4b070a98ab08574b224ebde3eac51ad9d7c5ae676ab13f0dc73d6adb76f9dcf91c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "6b12e882-571d-45c8-8999-26bc784a0009",
+                        "id": "b9ae55b6-13b3-45bf-bdd5-999aa87dfda0",
                         "savedPayload": {
                             "position": {
-                                "x": 3054.586834355081,
-                                "y": 34104.72713639708
+                                "x": 2887.8412867115894,
+                                "y": 33909.68395235311
                             },
                             "targetPosition": {
-                                "x": 2798.900065599571,
-                                "y": 33947.8058941022
+                                "x": 2827.8412867115894,
+                                "y": 33885.68395235311
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1761,8 +1794,8 @@
                     "id": "56a7ca3d-55be-45f5-a847-c633a28d718d",
                     "savedPayload": {
                         "position": {
-                            "x": 2798.900065599571,
-                            "y": 33947.8058941022
+                            "x": 2827.8412867115894,
+                            "y": 33885.68395235311
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -1789,17 +1822,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xba06ce2bd5868a306df994fe617469ec190668af950ef4e826a06ca600025006\",\n        \"s\": \"0x150cb35009aec6f22cdb0d48adc863ef3a9033a2a0fd64483faa17c651c350af\",\n        \"signature\": \"0xba06ce2bd5868a306df994fe617469ec190668af950ef4e826a06ca600025006150cb35009aec6f22cdb0d48adc863ef3a9033a2a0fd64483faa17c651c350af1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xaf93baea26bc21f96d32d69f8c63f6f292680dcd991e1ca1ff701e74bd743272\",\n        \"s\": \"0x517b5835ef1a91eeb3fc9cf84a2352f1c5ad4b80ac0113fbe7a5ab59caa91d9a\",\n        \"signature\": \"0xaf93baea26bc21f96d32d69f8c63f6f292680dcd991e1ca1ff701e74bd743272517b5835ef1a91eeb3fc9cf84a2352f1c5ad4b80ac0113fbe7a5ab59caa91d9a1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "79cb364e-9160-4338-aaf5-f4c25eb7d5a8",
+                        "id": "9247cc4c-c515-4abf-b2e1-402a7e58d1dd",
                         "savedPayload": {
                             "position": {
-                                "x": 2964.6198260573474,
-                                "y": 34217.98714200893
+                                "x": 2822.3558798824592,
+                                "y": 33909.23924083001
                             },
                             "targetPosition": {
-                                "x": 2753.916561450704,
-                                "y": 34004.43589690813
+                                "x": 2808.3558798824592,
+                                "y": 33931.23924083001
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1817,8 +1850,8 @@
                     "id": "17e83391-3963-4a5b-9641-f95567ca0c5e",
                     "savedPayload": {
                         "position": {
-                            "x": 2753.916561450704,
-                            "y": 34004.43589690813
+                            "x": 2808.3558798824592,
+                            "y": 33931.23924083001
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -1845,17 +1878,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-5\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xb7bb6ac9e573fdd5836ff8f162e85a920321b46a4e45a2e268b0e0cc9fed3c2c\",\n        \"s\": \"0x73de956eeb578273dd1fb2c7c91a595ad9dde68e07f11e4398d91c4f9ee7507d\",\n        \"signature\": \"0xb7bb6ac9e573fdd5836ff8f162e85a920321b46a4e45a2e268b0e0cc9fed3c2c73de956eeb578273dd1fb2c7c91a595ad9dde68e07f11e4398d91c4f9ee7507d1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-5\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x457347fbc12ce1cb5345d1148bbe4c45c0376c78f0c48e4d1a93491137e0eb26\",\n        \"s\": \"0x7a75fde0fd7218c44f9d261f53c5c239215bf3e8bd8e5a93d2d5889a52748949\",\n        \"signature\": \"0x457347fbc12ce1cb5345d1148bbe4c45c0376c78f0c48e4d1a93491137e0eb267a75fde0fd7218c44f9d261f53c5c239215bf3e8bd8e5a93d2d5889a527489491b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "5e32c441-99b2-42f5-af5b-083e29c0eaab",
+                        "id": "47e8f9b5-5c65-4435-8278-0dceaeb8360d",
                         "savedPayload": {
                             "position": {
-                                "x": 2850.1622020321474,
-                                "y": 34306.42550334465
+                                "x": 2681.638074563171,
+                                "y": 33884.966021995475
                             },
                             "targetPosition": {
-                                "x": 2696.687749438104,
-                                "y": 34048.65507757599
+                                "x": 2781.638074563171,
+                                "y": 33972.966021995475
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1873,8 +1906,8 @@
                     "id": "03fa9566-6db9-4d68-9938-1dcba01269de",
                     "savedPayload": {
                         "position": {
-                            "x": 2696.687749438104,
-                            "y": 34048.65507757599
+                            "x": 2781.638074563171,
+                            "y": 33972.966021995475
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -1901,17 +1934,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-6\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xe10c3a65d5fcb9266ae6ef758c713949987525a235f0d95d0987eb13bc721c57\",\n        \"s\": \"0x544fb47c9017529238fdd40c8668994701410cf5d591722c695332a01fc2fbba\",\n        \"signature\": \"0xe10c3a65d5fcb9266ae6ef758c713949987525a235f0d95d0987eb13bc721c57544fb47c9017529238fdd40c8668994701410cf5d591722c695332a01fc2fbba1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-6\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x49b9cfb1ed86b0ae870b43be96e87c7e4c98019a154dd2e8c93695eddabe8fcb\",\n        \"s\": \"0x42994343c199c336e1bdb13e5d4491625a6a208c0775b722f91becc904d3d2ef\",\n        \"signature\": \"0x49b9cfb1ed86b0ae870b43be96e87c7e4c98019a154dd2e8c93695eddabe8fcb42994343c199c336e1bdb13e5d4491625a6a208c0775b722f91becc904d3d2ef1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "f933ddb3-afce-4ab8-86b5-7acb9dabe2e2",
+                        "id": "4e2ec7e4-87b1-4a3e-a20d-54d540b4c2c6",
                         "savedPayload": {
                             "position": {
-                                "x": 2717.865823351289,
-                                "y": 34364.902504303784
+                                "x": 2757.416662834714,
+                                "y": 34002.726098032916
                             },
                             "targetPosition": {
-                                "x": 2630.539560097675,
-                                "y": 34077.893578055555
+                                "x": 2748.416662834714,
+                                "y": 34009.726098032916
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1929,8 +1962,8 @@
                     "id": "8d1504fb-5a77-48b3-8e44-85c5fc39611d",
                     "savedPayload": {
                         "position": {
-                            "x": 2630.539560097675,
-                            "y": 34077.893578055555
+                            "x": 2748.416662834714,
+                            "y": 34009.726098032916
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -1957,17 +1990,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-7\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x83775f8814f2afa87e6c49aaa900dedfda419ee1ed27e6d38c1c6cc251a3f4a4\",\n        \"s\": \"0x0c1a6be008dcbaa94ce79ec881cf654158611f5616be5b8a9e07b5f24d4f901c\",\n        \"signature\": \"0x83775f8814f2afa87e6c49aaa900dedfda419ee1ed27e6d38c1c6cc251a3f4a40c1a6be008dcbaa94ce79ec881cf654158611f5616be5b8a9e07b5f24d4f901c1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-7\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x1471e57b8032d6951c3835ebbe063fb58168b7749c26f71b817516c20704a597\",\n        \"s\": \"0x4c45fe7821bd07c637142773a877f4d1a9172ca4f893edb13a39a4e662fe48c9\",\n        \"signature\": \"0x1471e57b8032d6951c3835ebbe063fb58168b7749c26f71b817516c20704a5974c45fe7821bd07c637142773a877f4d1a9172ca4f893edb13a39a4e662fe48c91b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "0877da8d-fa70-4bf5-beee-dc103af46b2d",
+                        "id": "ac58a2e7-d5b5-4a2c-ae6c-2f26bf4176ce",
                         "savedPayload": {
                             "position": {
-                                "x": 2575.4192746659346,
-                                "y": 34390.019674145806
+                                "x": 2651.5978382072835,
+                                "y": 34120.51674989439
                             },
                             "targetPosition": {
-                                "x": 2559.316285754998,
-                                "y": 34090.452162976566
+                                "x": 2709.5978382072835,
+                                "y": 34040.51674989439
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1985,8 +2018,8 @@
                     "id": "09cfcb08-960d-4ca1-bdb0-f597df7b53ec",
                     "savedPayload": {
                         "position": {
-                            "x": 2559.316285754998,
-                            "y": 34090.452162976566
+                            "x": 2709.5978382072835,
+                            "y": 34040.51674989439
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -2013,17 +2046,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-8\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xffd4ca5d499432f8158e440d8b9b7fc8bebb344d8950b6107cb7050fdda71e9a\",\n        \"s\": \"0x09e1dcc21c8d3e4273e9f4c3fedece30b027fdae9417e9329bfbb73552d40409\",\n        \"signature\": \"0xffd4ca5d499432f8158e440d8b9b7fc8bebb344d8950b6107cb7050fdda71e9a09e1dcc21c8d3e4273e9f4c3fedece30b027fdae9417e9329bfbb73552d404091c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-8\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xff4a4b1c033313721d25eefcdcce34581a7c1eb506247f12a9a3f020d7456941\",\n        \"s\": \"0x35fa3bb8dcb2a5e0ef338ce547db97c8df408c93ed43aafbb6e1eeeb60a04af4\",\n        \"signature\": \"0xff4a4b1c033313721d25eefcdcce34581a7c1eb506247f12a9a3f020d745694135fa3bb8dcb2a5e0ef338ce547db97c8df408c93ed43aafbb6e1eeeb60a04af41b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "1f12f1cf-904f-46db-aba0-964a90aee4ea",
+                        "id": "8f38b482-4a01-4372-8a93-9e868e92fd9b",
                         "savedPayload": {
                             "position": {
-                                "x": 2431.101031613538,
-                                "y": 34380.31729425672
+                                "x": 2671.240477023593,
+                                "y": 33973.49808886237
                             },
                             "targetPosition": {
-                                "x": 2487.1571642287995,
-                                "y": 34085.60097303202
+                                "x": 2666.240477023593,
+                                "y": 34064.49808886237
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2041,8 +2074,8 @@
                     "id": "4124d8d4-54d2-4dbf-b548-c775d589eed8",
                     "savedPayload": {
                         "position": {
-                            "x": 2487.1571642287995,
-                            "y": 34085.60097303202
+                            "x": 2666.240477023593,
+                            "y": 34064.49808886237
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -2069,17 +2102,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-9\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xc96fafe89e5ede4e59c3b4124ca8faf3da22f80b2f5349f0f65b215924dca98e\",\n        \"s\": \"0x5434b75d8ba46b9bbb0e6f04efc3534fd2b1743e63f6a032922edd47c2beb003\",\n        \"signature\": \"0xc96fafe89e5ede4e59c3b4124ca8faf3da22f80b2f5349f0f65b215924dca98e5434b75d8ba46b9bbb0e6f04efc3534fd2b1743e63f6a032922edd47c2beb0031c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-9\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x7b27db5a7b3c585923931e8289a963304022873a1f74c2b21917100573c87489\",\n        \"s\": \"0x1dbd678bd444d4791ccc96b92b8f2318d6cf66ba57052c181c6678329be79cc6\",\n        \"signature\": \"0x7b27db5a7b3c585923931e8289a963304022873a1f74c2b21917100573c874891dbd678bd444d4791ccc96b92b8f2318d6cf66ba57052c181c6678329be79cc61b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "9c8333d9-24b1-40e6-95c8-181a0e043c71",
+                        "id": "bdace2c4-c46e-4f80-a13c-645489ec739d",
                         "savedPayload": {
                             "position": {
-                                "x": 2293.2983459048364,
-                                "y": 34336.359231688955
+                                "x": 2531.527255072528,
+                                "y": 34168.01596652448
                             },
                             "targetPosition": {
-                                "x": 2418.2558213744487,
-                                "y": 34063.62194174814
+                                "x": 2619.527255072528,
+                                "y": 34081.01596652448
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2097,8 +2130,8 @@
                     "id": "9ff4efc3-6cb0-49fe-b9f2-fd79364f66b2",
                     "savedPayload": {
                         "position": {
-                            "x": 2418.2558213744487,
-                            "y": 34063.62194174814
+                            "x": 2619.527255072528,
+                            "y": 34081.01596652448
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -2125,17 +2158,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-10\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x92a00b50194fed1ade138b05e2e47b2d4ee9e217886d4c1c3e140f2bc45ee1f5\",\n        \"s\": \"0x36074e76b92615b258a970bda53f2f1a7e09fffc4bb7749ebbba6c10189b925f\",\n        \"signature\": \"0x92a00b50194fed1ade138b05e2e47b2d4ee9e217886d4c1c3e140f2bc45ee1f536074e76b92615b258a970bda53f2f1a7e09fffc4bb7749ebbba6c10189b925f1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-10\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x311a0f036be905b47647e5b58a65d797c87b74ea4c60c5ccbf451e0b1675c860\",\n        \"s\": \"0x3cb86cd8534977494d20068ec467bf695fcd746ac6fc297bcd68a242c55c1a5c\",\n        \"signature\": \"0x311a0f036be905b47647e5b58a65d797c87b74ea4c60c5ccbf451e0b1675c8603cb86cd8534977494d20068ec467bf695fcd746ac6fc297bcd68a242c55c1a5c1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7fa5c765-e1d4-4abf-89ba-1c9a1c239b69",
+                        "id": "be10f4dd-66bd-46ae-84fe-fb9922014bed",
                         "savedPayload": {
                             "position": {
-                                "x": 2170.019808740839,
-                                "y": 34260.70016925789
+                                "x": 2550.7323872766324,
+                                "y": 34012.619818237
                             },
                             "targetPosition": {
-                                "x": 2356.61655279245,
-                                "y": 34025.79241053261
+                                "x": 2570.7323872766324,
+                                "y": 34089.619818237
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2153,8 +2186,8 @@
                     "id": "44094518-43ac-4a14-a51b-5483ec0f79ee",
                     "savedPayload": {
                         "position": {
-                            "x": 2356.61655279245,
-                            "y": 34025.79241053261
+                            "x": 2570.7323872766324,
+                            "y": 34089.619818237
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -2181,17 +2214,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-11\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x4b497c3ed27b9aa099be9df6f1f0054dff7be9b14a3fc75aa322d0ba10ba8a45\",\n        \"s\": \"0x62a4ec3b53b8e91ca310bfe9eae15de3d034e36527c5604bd040b172dd329466\",\n        \"signature\": \"0x4b497c3ed27b9aa099be9df6f1f0054dff7be9b14a3fc75aa322d0ba10ba8a4562a4ec3b53b8e91ca310bfe9eae15de3d034e36527c5604bd040b172dd3294661c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-11\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x4266de45d987692685c94d0396285afc2723d38106a799309c9ada996d48a0a4\",\n        \"s\": \"0x42303ad92c5b5d94520f6ce98bc069d0e23ea6d9e441d500f2ddc3b25387b825\",\n        \"signature\": \"0x4266de45d987692685c94d0396285afc2723d38106a799309c9ada996d48a0a442303ad92c5b5d94520f6ce98bc069d0e23ea6d9e441d500f2ddc3b25387b8251c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "15343575-533a-456e-bc9c-0428f8f49ed1",
+                        "id": "c219a8b4-fcb6-47ef-bf1e-613f5a04e17d",
                         "savedPayload": {
                             "position": {
-                                "x": 2068.4299206022633,
-                                "y": 34157.73713666253
+                                "x": 2471.1868704306503,
+                                "y": 34122.074953353775
                             },
                             "targetPosition": {
-                                "x": 2305.821608723162,
-                                "y": 33974.31089423493
+                                "x": 2521.1868704306503,
+                                "y": 34090.074953353775
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2209,8 +2242,8 @@
                     "id": "49894ae5-f96a-4cd9-98ae-474cd39ccec9",
                     "savedPayload": {
                         "position": {
-                            "x": 2305.821608723162,
-                            "y": 33974.31089423493
+                            "x": 2521.1868704306503,
+                            "y": 34090.074953353775
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -2237,17 +2270,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-12\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x95d3eb0205253572a0b82b8b3d7730b40af3e0cacc8ff557992efedf0cf53407\",\n        \"s\": \"0x01fdf39151b68bde3ae327d898d285ff5197a0c0b29c9a61843da0ec272881bc\",\n        \"signature\": \"0x95d3eb0205253572a0b82b8b3d7730b40af3e0cacc8ff557992efedf0cf5340701fdf39151b68bde3ae327d898d285ff5197a0c0b29c9a61843da0ec272881bc1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-12\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xedc2988b524400b03da084a4b0ccc6ec8fce23c4a366ad6fe8e9a9d610da9063\",\n        \"s\": \"0x6a0fc4bb5c4c95dab6c41f707142df19fe5b965830f44f473e78b04c0396c129\",\n        \"signature\": \"0xedc2988b524400b03da084a4b0ccc6ec8fce23c4a366ad6fe8e9a9d610da90636a0fc4bb5c4c95dab6c41f707142df19fe5b965830f44f473e78b04c0396c1291b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "a4335a37-9d99-40b2-8b6d-eca6ff9b64de",
+                        "id": "586bb295-bd6c-4669-beb3-4cf2e8991be7",
                         "savedPayload": {
                             "position": {
-                                "x": 1994.4327165235081,
-                                "y": 34033.4539711019
+                                "x": 2495.242177078618,
+                                "y": 34097.36895697527
                             },
                             "targetPosition": {
-                                "x": 2268.8230066837846,
-                                "y": 33912.169311454614
+                                "x": 2472.242177078618,
+                                "y": 34082.36895697527
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -2265,8 +2298,344 @@
                     "id": "9529d6a8-231a-4e5e-b49b-e2ed1f477567",
                     "savedPayload": {
                         "position": {
-                            "x": 2268.8230066837846,
-                            "y": 33912.169311454614
+                            "x": 2472.242177078618,
+                            "y": 34082.36895697527
+                        },
+                        "targetPosition": {
+                            "x": 2543.213296844061,
+                            "y": 33790.884651807326
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #13",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-13\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-13\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x9504b888dfb23638c4607e06d2c1e65ff1040ca6a99af8c4ca970ea150daa4ec\",\n        \"s\": \"0x5568c27aa74154c892a3ecc735211a9c7d76575bcf758011aab96d1f57048b6f\",\n        \"signature\": \"0x9504b888dfb23638c4607e06d2c1e65ff1040ca6a99af8c4ca970ea150daa4ec5568c27aa74154c892a3ecc735211a9c7d76575bcf758011aab96d1f57048b6f1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "e38af095-49b8-403b-bfae-43420d56e768",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2372.233390865886,
+                                "y": 34028.71202859466
+                            },
+                            "targetPosition": {
+                                "x": 2425.233390865886,
+                                "y": 34066.71202859466
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "7a369bda-762d-4d7a-872e-7012214a092b",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2425.233390865886,
+                            "y": 34066.71202859466
+                        },
+                        "targetPosition": {
+                            "x": 2543.213296844061,
+                            "y": 33790.884651807326
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #14",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-14\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-14\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x58b725825163cf5812a93dadf9a4144e0586e24df76253ec4b8511af14089de6\",\n        \"s\": \"0x15c42283f08bf4275fc8c67d72324bccc83c73c92b5f3c0d7becd80412b070cf\",\n        \"signature\": \"0x58b725825163cf5812a93dadf9a4144e0586e24df76253ec4b8511af14089de615c42283f08bf4275fc8c67d72324bccc83c73c92b5f3c0d7becd80412b070cf1c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "0de344c5-9373-4ef8-a05a-2edede9a21b5",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2365.442788937577,
+                                "y": 34080.5312484036
+                            },
+                            "targetPosition": {
+                                "x": 2381.442788937577,
+                                "y": 34043.5312484036
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "c5f712aa-45d3-4990-8209-fee069eeb95c",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2381.442788937577,
+                            "y": 34043.5312484036
+                        },
+                        "targetPosition": {
+                            "x": 2543.213296844061,
+                            "y": 33790.884651807326
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #15",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-15\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-15\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xafda50317dac3801007a6f59fdf1920c549ff4acd99cbfcf8380929016aa5a79\",\n        \"s\": \"0x7a8eb0ced69a42ae0c64c26fbbd8063c70ca75e473bf42f93af2a6b574231b62\",\n        \"signature\": \"0xafda50317dac3801007a6f59fdf1920c549ff4acd99cbfcf8380929016aa5a797a8eb0ced69a42ae0c64c26fbbd8063c70ca75e473bf42f93af2a6b574231b621b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "83c69e2a-6166-4968-b264-1fbd986fc567",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2329.0648647607163,
+                                "y": 33995.45892765791
+                            },
+                            "targetPosition": {
+                                "x": 2342.0648647607163,
+                                "y": 34013.45892765791
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "5cc9b73c-bdd9-496b-82aa-a4569675c165",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2342.0648647607163,
+                            "y": 34013.45892765791
+                        },
+                        "targetPosition": {
+                            "x": 2543.213296844061,
+                            "y": 33790.884651807326
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #16",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-16\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-16\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x7c9bba709c85a7d6ddac6c15e27c51aa17c0324004e363b2d949278f2ced515a\",\n        \"s\": \"0x391fa23634252374bf6d58565c185dbc131fff662d527d7646f71e5d581bac9a\",\n        \"signature\": \"0x7c9bba709c85a7d6ddac6c15e27c51aa17c0324004e363b2d949278f2ced515a391fa23634252374bf6d58565c185dbc131fff662d527d7646f71e5d581bac9a1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "45a89f46-fb31-4702-8882-b8ad3115c01a",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2309.1737454562613,
+                                "y": 33905.315360874854
+                            },
+                            "targetPosition": {
+                                "x": 2308.1737454562613,
+                                "y": 33977.315360874854
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "2c7ea7aa-7e9d-42db-8461-544141d9437e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2308.1737454562613,
+                            "y": 33977.315360874854
+                        },
+                        "targetPosition": {
+                            "x": 2543.213296844061,
+                            "y": 33790.884651807326
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #17",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-17\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-17\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x4f9a9ce3f152f491f737bedde243f9757687e36d6e825ea08dbec453b9beb760\",\n        \"s\": \"0x5653badd62f29ffdc132b38249a8ad585cc7882b08e6f704dd8e104970430755\",\n        \"signature\": \"0x4f9a9ce3f152f491f737bedde243f9757687e36d6e825ea08dbec453b9beb7605653badd62f29ffdc132b38249a8ad585cc7882b08e6f704dd8e1049704307551c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "458098f6-5e83-49f2-b088-e94fe6132082",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2287.693892411283,
+                                "y": 33892.086450337025
+                            },
+                            "targetPosition": {
+                                "x": 2280.693892411283,
+                                "y": 33936.086450337025
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "f7acdc59-49c1-4692-8a08-d3a1137fd903",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2280.693892411283,
+                            "y": 33936.086450337025
+                        },
+                        "targetPosition": {
+                            "x": 2543.213296844061,
+                            "y": 33790.884651807326
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #18",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-18\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-18\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x0077004595c954678417ab1f125607daa0ba576680ef0805f32f42fe175eb1ee\",\n        \"s\": \"0x3ecc4ac0dd460905655201f1bbc1eb9bf45f0a1d2a3d95cdf02c964b3e42193f\",\n        \"signature\": \"0x0077004595c954678417ab1f125607daa0ba576680ef0805f32f42fe175eb1ee3ecc4ac0dd460905655201f1bbc1eb9bf45f0a1d2a3d95cdf02c964b3e42193f1c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "a39be26a-79c9-4e70-9cab-897471924e12",
+                        "savedPayload": {
+                            "position": {
+                                "x": 2183.374884382218,
+                                "y": 33917.896813248146
+                            },
+                            "targetPosition": {
+                                "x": 2260.374884382218,
+                                "y": 33890.896813248146
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "0f70a906-7334-437b-b182-86a15c1316ba",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2260.374884382218,
+                            "y": 33890.896813248146
                         },
                         "targetPosition": {
                             "x": 2543.213296844061,
@@ -2490,13 +2859,13 @@
                 "signingAccount": {
                     "type": "Signing Account",
                     "name": "New Signing Account",
-                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x38e5a6a9229f6d9c1b8d02400e512ff427bc19e747e11253475c21e40ab9537e\",\n        \"s\": \"0x343dc69dc02f9047ffdf7db841e8b530eebddf65fe080eb87c6baea314d83302\",\n        \"signature\": \"0x38e5a6a9229f6d9c1b8d02400e512ff427bc19e747e11253475c21e40ab9537e343dc69dc02f9047ffdf7db841e8b530eebddf65fe080eb87c6baea314d833021b\"\n    }\n}",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"markeone\",\n        \"messageHash\": \"0x7cbbda61fbb167e64679cc9821865e80cdefff75a55d96293ab4cb618d5ce69f\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x011e99f5e967f30eca217cb7c5b5a0162098f615618a65d13e1a2ac5075a0e1d\",\n        \"s\": \"0x0830231f1649109172fa557c0ddc907a305b83f467e4a65070871eb4070c14e1\",\n        \"signature\": \"0x011e99f5e967f30eca217cb7c5b5a0162098f615618a65d13e1a2ac5075a0e1d0830231f1649109172fa557c0ddc907a305b83f467e4a65070871eb4070c14e11c\"\n    }\n}",
                     "project": "Governance",
-                    "id": "e606bf8d-21fe-4eeb-8b27-88318c37c843",
+                    "id": "bf6e5a47-45f7-4b74-810f-f3544b1559b9",
                     "savedPayload": {
                         "position": {
-                            "x": 1877.2088177723572,
-                            "y": 28288.7879140046
+                            "x": 1817.2088177723572,
+                            "y": 28248.7879140046
                         },
                         "targetPosition": {
                             "x": 1875.2088177723572,
@@ -2907,8 +3276,8 @@
                         "id": "3c864b55-e90c-41a6-a126-4058f9b31d44",
                         "savedPayload": {
                             "position": {
-                                "x": 2766.4161755585333,
-                                "y": 32545.04331589637
+                                "x": 2746.2708401404293,
+                                "y": 32555.908646598135
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -2935,8 +3304,8 @@
                         "id": "27040005-7905-45f5-ad47-31548d3f06b3",
                         "savedPayload": {
                             "position": {
-                                "x": 2834.7025885114645,
-                                "y": 32521.22234468753
+                                "x": 2790.883442137748,
+                                "y": 32534.352182821836
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -2963,8 +3332,8 @@
                         "id": "440b3a13-b594-4d66-8fd1-90cbbc696ba4",
                         "savedPayload": {
                             "position": {
-                                "x": 2906.7054539583073,
-                                "y": 32514.435575886808
+                                "x": 2838.4356637151714,
+                                "y": 32520.432714061804
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -2991,8 +3360,8 @@
                         "id": "28025668-5bef-4b58-a22e-f82a96682233",
                         "savedPayload": {
                             "position": {
-                                "x": 2978.2402270790594,
-                                "y": 32525.077431828006
+                                "x": 2887.630404227457,
+                                "y": 32514.529927140455
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3019,8 +3388,8 @@
                         "id": "0a5cb4e4-1348-44aa-90cc-f622a3e6e089",
                         "savedPayload": {
                             "position": {
-                                "x": 3045.1495668782627,
-                                "y": 32552.52944652539
+                                "x": 2937.125759394548,
+                                "y": 32516.804834697596
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3047,8 +3416,8 @@
                         "id": "a0ae5d6a-0acf-4a4a-810e-0ad524399dcf",
                         "savedPayload": {
                             "position": {
-                                "x": 3103.5449457323416,
-                                "y": 32595.196208668764
+                                "x": 2985.5716249522466,
+                                "y": 32527.195383185302
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3075,8 +3444,8 @@
                         "id": "28e67901-66ca-4018-a365-be461cc43714",
                         "savedPayload": {
                             "position": {
-                                "x": 3150.0326364808634,
-                                "y": 32650.598081129723
+                                "x": 3031.6465239770846,
+                                "y": 32545.418145526968
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3103,8 +3472,8 @@
                         "id": "04b992bc-b40e-4cc9-868e-741110ba566b",
                         "savedPayload": {
                             "position": {
-                                "x": 3181.910943513404,
-                                "y": 32715.515308458453
+                                "x": 3074.093653331963,
+                                "y": 32570.976052269114
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3125,14 +3494,14 @@
                     },
                     {
                         "type": "Test Client Instance",
-                        "name": "New Test Client Instance",
+                        "name": "rig1-2",
                         "config": "{}",
                         "project": "Governance",
                         "id": "84cae2d4-2ea4-4a10-8cd5-57c195856ed8",
                         "savedPayload": {
                             "position": {
-                                "x": 3197.3272154981646,
-                                "y": 32786.17513736712
+                                "x": 3111.7551659794885,
+                                "y": 32603.1719503403
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3153,14 +3522,14 @@
                     },
                     {
                         "type": "Test Client Instance",
-                        "name": "New Test Client Instance",
+                        "name": "rig1-3",
                         "config": "{}",
                         "project": "Governance",
                         "id": "d8209b09-1a32-45a0-a97d-e75565db073a",
                         "savedPayload": {
                             "position": {
-                                "x": 3195.3855147432587,
-                                "y": 32858.47107543759
+                                "x": 3143.6037540308716,
+                                "y": 32641.12761956959
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3187,8 +3556,8 @@
                         "id": "70cad7ab-518c-4cae-a290-e98eec90d46c",
                         "savedPayload": {
                             "position": {
-                                "x": 3176.198685838766,
-                                "y": 32928.20154553424
+                                "x": 3168.770671027145,
+                                "y": 32683.807728243453
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3215,8 +3584,8 @@
                         "id": "4d47ab03-f618-4f97-b648-6b8fa6a0ee17",
                         "savedPayload": {
                             "position": {
-                                "x": 3140.881797539331,
-                                "y": 32991.31406619501
+                                "x": 3186.5694290779056,
+                                "y": 32730.048074256003
                             },
                             "targetPosition": {
                                 "x": 2898.651056115289,
@@ -3236,7 +3605,176 @@
                         }
                     }
                 ],
-                "forecastClientInstances": [],
+                "forecastClientInstances": [
+                    {
+                        "type": "Forecast Client Instance",
+                        "name": "New Forecast Client Instance",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "3ea4b2a3-c6a5-4399-a5c8-543582628dbf",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3196.5145244614287,
+                                "y": 32778.587341507606
+                            },
+                            "targetPosition": {
+                                "x": 2898.651056115289,
+                                "y": 32814.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Forecast Client Instance",
+                        "name": "New Forecast Client Instance",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "53975105-0093-4400-bcfd-6a20ce99d7ea",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3198.3346809005798,
+                                "y": 32828.10150532007
+                            },
+                            "targetPosition": {
+                                "x": 2898.651056115289,
+                                "y": 32814.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Forecast Client Instance",
+                        "name": "New Forecast Client Instance",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "67d52264-b07c-4c6f-b50a-1a5f25220bfb",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3191.980249272493,
+                                "y": 32877.23994837837
+                            },
+                            "targetPosition": {
+                                "x": 2898.651056115289,
+                                "y": 32814.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Forecast Client Instance",
+                        "name": "New Forecast Client Instance",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "1eee2565-1d3d-489a-a1ef-1ba0f36e1a80",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3177.624561907215,
+                                "y": 32924.662302050245
+                            },
+                            "targetPosition": {
+                                "x": 2898.651056115289,
+                                "y": 32814.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Forecast Client Instance",
+                        "name": "New Forecast Client Instance",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "f79b3992-6fed-4986-841f-465ff47e7eed",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3155.6592045335883,
+                                "y": 32969.07500814837
+                            },
+                            "targetPosition": {
+                                "x": 2898.651056115289,
+                                "y": 32814.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    {
+                        "type": "Forecast Client Instance",
+                        "name": "New Forecast Client Instance",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "2a9556d6-9add-4034-a2c4-79f46b22c3c5",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3126.68333484135,
+                                "y": 33009.26660382568
+                            },
+                            "targetPosition": {
+                                "x": 2898.651056115289,
+                                "y": 32814.327434188075
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
                 "id": "2621dd7d-1a0b-4415-b5ad-a6331f066572",
                 "savedPayload": {
                     "position": {
@@ -3250,7 +3788,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 1,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -3288,16 +3826,16 @@
     "savedPayload": {
         "position": {
             "x": 2439.0243902439024,
-            "y": 23600
+            "y": 33200
         },
         "targetPosition": {
             "x": 2439.0243902439024,
-            "y": 23600
+            "y": 33200
         },
         "floatingObject": {
             "isPinned": true,
             "isFrozen": true,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
