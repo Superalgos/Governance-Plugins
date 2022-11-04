@@ -2556,7 +2556,7 @@
         "liquidityPrograms": {
             "type": "Liquidity Programs",
             "name": "New Liquidity Programs",
-            "config": "{}",
+            "config": "{}{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "liquidityProgram": [
                 {
@@ -5012,7 +5012,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 5,
             "arrangementStyle": 0
