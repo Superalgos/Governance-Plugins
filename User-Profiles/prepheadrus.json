@@ -2320,7 +2320,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\r\n    \"percentage\": 100\r\n}",
+                "config": "{\r\n    \"percentage\": 70\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -6335,45 +6335,45 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 0\r\n}",
+                "config": "{\r\n    \"percentage\": 30\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
                 "positionClaimsFolders": [
                     {
                         "type": "Position Claims Folder",
-                        "name": "Teams @ September 2022 Position Class",
+                        "name": "October 2022 Teams Position Class",
                         "config": "{}",
                         "project": "Governance",
                         "positionClaimsFolders": [
                             {
                                 "type": "Position Claims Folder",
-                                "name": "Turkish Team Position Class",
-                                "config": "{\r\n    \"percentage\": 47\r\n}",
+                                "name": "Team Positions Position Class",
+                                "config": "{}",
                                 "project": "Governance",
                                 "positionClaimsFolders": [],
                                 "positionContributionClaims": [
                                     {
                                         "type": "Position Contribution Claim",
-                                        "name": "",
+                                        "name": "Turkish Team Positions",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "id": "11c156d1-0725-4e43-9b1f-7e65d3b34375",
+                                        "id": "d9ca9dc6-48cc-4cfd-8a91-4dcc57cb4630",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 22291.562222095094,
-                                                "y": 37882.68599999876
+                                                "x": 22371.993653290705,
+                                                "y": 37943.97056842183
                                             },
                                             "targetPosition": {
-                                                "x": 22072.203441854184,
-                                                "y": 37932.75321013893
+                                                "x": 21933.276092808883,
+                                                "y": 38044.10498870217
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
                                                 "angleToParent": 3,
-                                                "distanceToParent": 2,
+                                                "distanceToParent": 4,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
@@ -6381,8 +6381,8 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position",
-                                                "name": "Team Turkish",
-                                                "id": "f6954b25-3cb1-4903-9174-3bcd2f6bc105"
+                                                "name": "Turkish",
+                                                "id": "501d462b-c84b-4aa8-a6f2-9bd3be8f5534"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -6390,26 +6390,77 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "September 2022 Teams",
+                                                    "October 2022 Teams",
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Positions (Teams)",
+                                                    "Team Positions",
                                                     "Position Class"
                                                 ],
                                                 [
-                                                    "Team Turkish",
+                                                    "Turkish",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Contribution Claim",
+                                        "name": "VEX Team Positions",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "8d19b027-cec5-40a3-a771-603b896f28d2",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 22363.283855412647,
+                                                "y": 38176.74481718708
+                                            },
+                                            "targetPosition": {
+                                                "x": 21933.276092808883,
+                                                "y": 38044.10498870217
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 3,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "VEX",
+                                                "id": "cf50e887-98a5-454f-bafc-fc008bbe4979"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "October 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Team Positions",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "VEX",
                                                     "Position"
                                                 ]
                                             ]
                                         }
                                     }
                                 ],
-                                "id": "06e91a01-1f44-458c-b0cc-dc1b28b248d7",
+                                "id": "d9c64011-56d3-4165-ba45-8195b4a59248",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 22072.203441854184,
-                                        "y": 37932.75321013893
+                                        "x": 21933.276092808883,
+                                        "y": 38044.10498870217
                                     },
                                     "targetPosition": {
                                         "x": 21633.485881372362,
@@ -6420,7 +6471,7 @@
                                         "isFrozen": false,
                                         "isCollapsed": false,
                                         "angleToParent": 3,
-                                        "distanceToParent": 4,
+                                        "distanceToParent": 3,
                                         "arrangementStyle": 0
                                     },
                                     "uiObject": {
@@ -6428,109 +6479,8 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position Class",
-                                        "name": "Teams",
-                                        "id": "aee3e8e7-6e62-4533-a1c7-0ce22626a4ed"
-                                    },
-                                    "referenceParentCombinedNodePath": [
-                                        [
-                                            "Teams of Contributors",
-                                            "Positions"
-                                        ],
-                                        [
-                                            "August 2022 Teams",
-                                            "Position Class"
-                                        ],
-                                        [
-                                            "Teams",
-                                            "Position Class"
-                                        ]
-                                    ]
-                                }
-                            },
-                            {
-                                "type": "Position Claims Folder",
-                                "name": "New Position Claims Folder",
-                                "config": "{\r\n    \"percentage\": 48\r\n}",
-                                "project": "Governance",
-                                "positionClaimsFolders": [],
-                                "positionContributionClaims": [
-                                    {
-                                        "type": "Position Contribution Claim",
-                                        "name": "",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "e1c407d9-657b-40f5-b0d8-940f3b875252",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 22493.50140657989,
-                                                "y": 38298.167287389086
-                                            },
-                                            "targetPosition": {
-                                                "x": 22063.493643976126,
-                                                "y": 38165.52745890418
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 3,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Team VEX",
-                                                "id": "4fc7aa29-606b-44a3-813c-29c9ad84af16"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "September 2022 Teams",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Positions (Teams)",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Team VEX",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    }
-                                ],
-                                "id": "9a2ac771-67fa-42d1-b8ba-3951bf368698",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 22063.493643976126,
-                                        "y": 38165.52745890418
-                                    },
-                                    "targetPosition": {
-                                        "x": 21633.485881372362,
-                                        "y": 38032.887630419275
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 3,
-                                        "distanceToParent": 4,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    },
-                                    "referenceParent": {
-                                        "type": "Position Class",
-                                        "name": "October 2022 Teams",
-                                        "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
+                                        "name": "Team Positions",
+                                        "id": "1cb9c635-09cb-49c4-9f95-4bf693eed51a"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -6539,6 +6489,10 @@
                                         ],
                                         [
                                             "October 2022 Teams",
+                                            "Position Class"
+                                        ],
+                                        [
+                                            "Team Positions",
                                             "Position Class"
                                         ]
                                     ]
