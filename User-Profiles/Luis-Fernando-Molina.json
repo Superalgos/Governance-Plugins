@@ -590,7 +590,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\n \n}",
+                                "config": "{}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [
                                     {
@@ -916,7 +916,7 @@
                                                         "positionClaimVotes": [
                                                             {
                                                                 "type": "Position Claim Vote",
-                                                                "name": "prepheadrus ",
+                                                                "name": "",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "3ed93da0-e14b-4271-8470-f8fccbe7c275",
@@ -1404,7 +1404,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "New Weight Votes Switch",
-                                "config": "{\n    \"percentage\": 75\n}",
+                                "config": "{\n    \"percentage\": 85\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -2905,13 +2905,13 @@
                                     },
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "September 2022 Teams",
+                                        "name": "October 2022 Teams",
                                         "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [
                                             {
                                                 "type": "Weight Votes Switch",
-                                                "name": "Positions (Teams)",
+                                                "name": "Team Positions",
                                                 "config": "{}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [],
@@ -2921,18 +2921,18 @@
                                                 "positionWeightVotes": [
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "",
-                                                        "config": "{\r\n    \"percentage\": 20\r\n}",
+                                                        "name": "Team Positions Elves & Fairies",
+                                                        "config": "{\r\n    \"percentage\": 30\r\n}",
                                                         "project": "Governance",
-                                                        "id": "8a737610-4dc3-49f2-8be4-23a1311cbdfe",
+                                                        "id": "03128df1-0da5-4bba-88fe-ebf5c163f306",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 29395.04356144571,
-                                                                "y": 18535.339475754397
+                                                                "x": 29836.46188543605,
+                                                                "y": 18454.793468434684
                                                             },
                                                             "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -2947,8 +2947,8 @@
                                                             },
                                                             "referenceParent": {
                                                                 "type": "Position",
-                                                                "name": "Team P-PL",
-                                                                "id": "fabc9082-fd7c-455e-b373-a2994963997e"
+                                                                "name": "Elves & Fairies",
+                                                                "id": "f0da0f12-4c40-4e76-9c55-664a001c665b"
                                                             },
                                                             "referenceParentCombinedNodePath": [
                                                                 [
@@ -2956,15 +2956,15 @@
                                                                     "Positions"
                                                                 ],
                                                                 [
-                                                                    "September 2022 Teams",
+                                                                    "October 2022 Teams",
                                                                     "Position Class"
                                                                 ],
                                                                 [
-                                                                    "Positions (Teams)",
+                                                                    "Team Positions",
                                                                     "Position Class"
                                                                 ],
                                                                 [
-                                                                    "Team P-PL",
+                                                                    "Elves & Fairies",
                                                                     "Position"
                                                                 ]
                                                             ]
@@ -2972,222 +2972,18 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "",
-                                                        "config": "{\r\n    \"percentage\": 10\r\n}",
-                                                        "project": "Governance",
-                                                        "id": "433c28a7-4b7d-4beb-b6e5-380f380facf8",
-                                                        "savedPayload": {
-                                                            "position": {
-                                                                "x": 29443.727768914036,
-                                                                "y": 18627.454491912013
-                                                            },
-                                                            "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
-                                                            },
-                                                            "floatingObject": {
-                                                                "isPinned": false,
-                                                                "isFrozen": false,
-                                                                "isCollapsed": false,
-                                                                "angleToParent": 2,
-                                                                "distanceToParent": 3,
-                                                                "arrangementStyle": 0
-                                                            },
-                                                            "uiObject": {
-                                                                "isRunning": false
-                                                            },
-                                                            "referenceParent": {
-                                                                "type": "Position",
-                                                                "name": "Team Carl",
-                                                                "id": "035f2f37-b388-4189-afe2-a4e033cbfd47"
-                                                            },
-                                                            "referenceParentCombinedNodePath": [
-                                                                [
-                                                                    "Teams of Contributors",
-                                                                    "Positions"
-                                                                ],
-                                                                [
-                                                                    "September 2022 Teams",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Positions (Teams)",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Team Carl",
-                                                                    "Position"
-                                                                ]
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "Position Weight Vote",
-                                                        "name": "",
-                                                        "config": "{\r\n    \"percentage\": 10\r\n}",
-                                                        "project": "Governance",
-                                                        "id": "00441de8-3bf7-4b50-b9e3-9a8b6710e22b",
-                                                        "savedPayload": {
-                                                            "position": {
-                                                                "x": 29457.97076839216,
-                                                                "y": 18730.66527247491
-                                                            },
-                                                            "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
-                                                            },
-                                                            "floatingObject": {
-                                                                "isPinned": false,
-                                                                "isFrozen": false,
-                                                                "isCollapsed": false,
-                                                                "angleToParent": 2,
-                                                                "distanceToParent": 3,
-                                                                "arrangementStyle": 0
-                                                            },
-                                                            "uiObject": {
-                                                                "isRunning": false
-                                                            },
-                                                            "referenceParent": {
-                                                                "type": "Position",
-                                                                "name": "Team Turkish",
-                                                                "id": "f6954b25-3cb1-4903-9174-3bcd2f6bc105"
-                                                            },
-                                                            "referenceParentCombinedNodePath": [
-                                                                [
-                                                                    "Teams of Contributors",
-                                                                    "Positions"
-                                                                ],
-                                                                [
-                                                                    "September 2022 Teams",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Positions (Teams)",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Team Turkish",
-                                                                    "Position"
-                                                                ]
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "Position Weight Vote",
-                                                        "name": "",
-                                                        "config": "{\r\n    \"percentage\": 15\r\n}",
-                                                        "project": "Governance",
-                                                        "id": "e497b532-bc0e-4a25-a3ff-8ebce2e5184a",
-                                                        "savedPayload": {
-                                                            "position": {
-                                                                "x": 29436.054643938733,
-                                                                "y": 18832.523074078315
-                                                            },
-                                                            "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
-                                                            },
-                                                            "floatingObject": {
-                                                                "isPinned": false,
-                                                                "isFrozen": false,
-                                                                "isCollapsed": false,
-                                                                "angleToParent": 2,
-                                                                "distanceToParent": 3,
-                                                                "arrangementStyle": 0
-                                                            },
-                                                            "uiObject": {
-                                                                "isRunning": false
-                                                            },
-                                                            "referenceParent": {
-                                                                "type": "Position",
-                                                                "name": "Team drcryptokiller",
-                                                                "id": "c4ee7dbe-bee5-49fa-b3f6-ecfcf952a1fa"
-                                                            },
-                                                            "referenceParentCombinedNodePath": [
-                                                                [
-                                                                    "Teams of Contributors",
-                                                                    "Positions"
-                                                                ],
-                                                                [
-                                                                    "September 2022 Teams",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Positions (Teams)",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Team drcryptokiller",
-                                                                    "Position"
-                                                                ]
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "Position Weight Vote",
-                                                        "name": "",
-                                                        "config": "{\r\n    \"percentage\": 15\r\n}",
-                                                        "project": "Governance",
-                                                        "id": "6fb56df2-3685-44d3-81b8-899be7a80a4b",
-                                                        "savedPayload": {
-                                                            "position": {
-                                                                "x": 29380.622803610386,
-                                                                "y": 18920.742342587804
-                                                            },
-                                                            "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
-                                                            },
-                                                            "floatingObject": {
-                                                                "isPinned": false,
-                                                                "isFrozen": false,
-                                                                "isCollapsed": false,
-                                                                "angleToParent": 2,
-                                                                "distanceToParent": 3,
-                                                                "arrangementStyle": 0
-                                                            },
-                                                            "uiObject": {
-                                                                "isRunning": false
-                                                            },
-                                                            "referenceParent": {
-                                                                "type": "Position",
-                                                                "name": "Team VEX",
-                                                                "id": "4fc7aa29-606b-44a3-813c-29c9ad84af16"
-                                                            },
-                                                            "referenceParentCombinedNodePath": [
-                                                                [
-                                                                    "Teams of Contributors",
-                                                                    "Positions"
-                                                                ],
-                                                                [
-                                                                    "September 2022 Teams",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Positions (Teams)",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Team VEX",
-                                                                    "Position"
-                                                                ]
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "Position Weight Vote",
-                                                        "name": "",
+                                                        "name": "Team Positions Harrellbm",
                                                         "config": "{}",
                                                         "project": "Governance",
-                                                        "id": "82c3bb7f-9105-4f45-811d-3ee1f737e388",
+                                                        "id": "13d1fb3a-ee17-4870-9a36-cc149824bff8",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 29298.361145437557,
-                                                                "y": 18984.682532243394
+                                                                "x": 29920.23233626109,
+                                                                "y": 18559.838291237407
                                                             },
                                                             "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3202,8 +2998,8 @@
                                                             },
                                                             "referenceParent": {
                                                                 "type": "Position",
-                                                                "name": "Team Julian",
-                                                                "id": "b68aaa72-4db0-479e-b41e-02bd43c44332"
+                                                                "name": "Harrellbm",
+                                                                "id": "239d7250-2fb6-4ecf-b1e5-f7d3fcb3d868"
                                                             },
                                                             "referenceParentCombinedNodePath": [
                                                                 [
@@ -3211,15 +3007,15 @@
                                                                     "Positions"
                                                                 ],
                                                                 [
-                                                                    "September 2022 Teams",
+                                                                    "October 2022 Teams",
                                                                     "Position Class"
                                                                 ],
                                                                 [
-                                                                    "Positions (Teams)",
+                                                                    "Team Positions",
                                                                     "Position Class"
                                                                 ],
                                                                 [
-                                                                    "Team Julian",
+                                                                    "Harrellbm",
                                                                     "Position"
                                                                 ]
                                                             ]
@@ -3227,69 +3023,18 @@
                                                     },
                                                     {
                                                         "type": "Position Weight Vote",
-                                                        "name": "",
-                                                        "config": "{\r\n    \"percentage\": 20\r\n}",
-                                                        "project": "Governance",
-                                                        "id": "030dc748-4823-41b2-8ebc-247e60279c3e",
-                                                        "savedPayload": {
-                                                            "position": {
-                                                                "x": 29199.19163944866,
-                                                                "y": 19016.631512515927
-                                                            },
-                                                            "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
-                                                            },
-                                                            "floatingObject": {
-                                                                "isPinned": false,
-                                                                "isFrozen": false,
-                                                                "isCollapsed": false,
-                                                                "angleToParent": 2,
-                                                                "distanceToParent": 3,
-                                                                "arrangementStyle": 0
-                                                            },
-                                                            "uiObject": {
-                                                                "isRunning": false
-                                                            },
-                                                            "referenceParent": {
-                                                                "type": "Position",
-                                                                "name": "Team Elves & Fairies",
-                                                                "id": "061585b2-b1d8-4ece-bc06-0fa1a3fc9a15"
-                                                            },
-                                                            "referenceParentCombinedNodePath": [
-                                                                [
-                                                                    "Teams of Contributors",
-                                                                    "Positions"
-                                                                ],
-                                                                [
-                                                                    "September 2022 Teams",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Positions (Teams)",
-                                                                    "Position Class"
-                                                                ],
-                                                                [
-                                                                    "Team Elves & Fairies",
-                                                                    "Position"
-                                                                ]
-                                                            ]
-                                                        }
-                                                    },
-                                                    {
-                                                        "type": "Position Weight Vote",
-                                                        "name": "",
+                                                        "name": "Team Positions Turkish",
                                                         "config": "{}",
                                                         "project": "Governance",
-                                                        "id": "f9592b9e-5515-4ea3-989f-dfceeb121ec3",
+                                                        "id": "bc64c778-1c8a-4a7e-8e5c-ab65d6cc674e",
                                                         "savedPayload": {
                                                             "position": {
-                                                                "x": 29095.07559165199,
-                                                                "y": 19012.735764867804
+                                                                "x": 29978.527814909143,
+                                                                "y": 18680.89009997351
                                                             },
                                                             "targetPosition": {
-                                                                "x": 29158.180556955638,
-                                                                "y": 18719.447914192013
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -3304,8 +3049,8 @@
                                                             },
                                                             "referenceParent": {
                                                                 "type": "Position",
-                                                                "name": "Team Data Mining",
-                                                                "id": "60c91a20-8cf5-4187-802f-f276450cc382"
+                                                                "name": "Turkish",
+                                                                "id": "501d462b-c84b-4aa8-a6f2-9bd3be8f5534"
                                                             },
                                                             "referenceParentCombinedNodePath": [
                                                                 [
@@ -3313,26 +3058,536 @@
                                                                     "Positions"
                                                                 ],
                                                                 [
-                                                                    "September 2022 Teams",
+                                                                    "October 2022 Teams",
                                                                     "Position Class"
                                                                 ],
                                                                 [
-                                                                    "Positions (Teams)",
+                                                                    "Team Positions",
                                                                     "Position Class"
                                                                 ],
                                                                 [
-                                                                    "Team Data Mining",
+                                                                    "Turkish",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions Tiger40",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "79860b78-ff95-4619-bd29-af8bcb27e9ab",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 30008.425142660068,
+                                                                "y": 18811.878851484627
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Tiger40",
+                                                                "id": "e5a22252-3f68-4f01-85a6-d8f0ad4f2e5c"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Tiger40",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions Translation",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "38234267-ac93-4fb5-8ef8-70935e590ea3",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 30008.425142660068,
+                                                                "y": 18946.236222808595
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Translation",
+                                                                "id": "eef111be-da49-47a2-a7b8-9b486521e3cd"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Translation",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions VEX",
+                                                        "config": "{\r\n    \"percentage\": 2\r\n}",
+                                                        "project": "Governance",
+                                                        "id": "6777d2a8-7ed0-4698-b7c9-5321b994a6b2",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29978.527814909143,
+                                                                "y": 19077.22497431971
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "VEX",
+                                                                "id": "cf50e887-98a5-454f-bafc-fc008bbe4979"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "VEX",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions drcryptokiller",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "26dc0de8-5a22-4a33-85ef-c94d94ad3e5b",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29920.23233626109,
+                                                                "y": 19198.27678305581
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "drcryptokiller",
+                                                                "id": "dd758f95-0227-43cc-9813-5c49f0e90ecc"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "drcryptokiller",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions Data Mining",
+                                                        "config": "{\r\n    \"percentage\": 3\r\n}",
+                                                        "project": "Governance",
+                                                        "id": "bbfb274e-7b80-4747-b29f-c9da17e5736f",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29836.46188543605,
+                                                                "y": 19303.32160585854
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Data Mining",
+                                                                "id": "37c51391-b9cb-465a-bcbc-1ea8aa366366"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Data Mining",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions p-pl",
+                                                        "config": "{\r\n    \"percentage\": 25\r\n}",
+                                                        "project": "Governance",
+                                                        "id": "8c9e7201-6513-4942-8ae2-0b894c0705bc",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29731.41706263332,
+                                                                "y": 19387.09205668358
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "p-pl",
+                                                                "id": "96810d0e-90c4-492d-8815-127958e8aba9"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "p-pl",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions Signalytic",
+                                                        "config": "{\r\n    \"percentage\": 30\r\n}",
+                                                        "project": "Governance",
+                                                        "id": "e91a9351-3778-4999-b8a2-00cf69ae7eb0",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29610.365253897224,
+                                                                "y": 19445.387535331633
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Signalytic",
+                                                                "id": "8b93ac51-b08f-4130-b547-50e7b9d146d7"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Signalytic",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions vraptor75011",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "533c1445-9d1a-4333-98f7-e06f5ef2bb4c",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29479.376502386105,
+                                                                "y": 19475.284863082557
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "vraptor75011",
+                                                                "id": "94fa3dfc-8209-42c3-9606-5b6fb088624b"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "vraptor75011",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions Quantum/arborist (QA)",
+                                                        "config": "{\r\n    \"percentage\": 3\r\n}",
+                                                        "project": "Governance",
+                                                        "id": "2394be1b-179e-4721-9cdb-a6ff7018ac76",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29345.019131062138,
+                                                                "y": 19475.284863082557
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "Quantum/arborist (QA)",
+                                                                "id": "7717ac05-587a-4386-84e6-98e8328687dc"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Quantum/arborist (QA)",
+                                                                    "Position"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Position Weight Vote",
+                                                        "name": "Team Positions theblockchainarborist",
+                                                        "config": "{\r\n    \"percentage\": 2\r\n}",
+                                                        "project": "Governance",
+                                                        "id": "2e44a2a6-d2a7-4840-acdd-4ce65efe49a3",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 29214.030379551023,
+                                                                "y": 19445.387535331633
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 29412.19781672412,
+                                                                "y": 18879.05753714661
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position",
+                                                                "name": "theblockchainarborist",
+                                                                "id": "6d6549b4-722a-4a8e-850b-87a037e5a0f5"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "Teams of Contributors",
+                                                                    "Positions"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "Team Positions",
+                                                                    "Position Class"
+                                                                ],
+                                                                [
+                                                                    "theblockchainarborist",
                                                                     "Position"
                                                                 ]
                                                             ]
                                                         }
                                                     }
                                                 ],
-                                                "id": "ef0acd28-a1f1-423f-ac43-84e10ac72ed4",
+                                                "id": "9de8fe87-22e1-46ab-997d-8742a08c736a",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 29158.180556955638,
-                                                        "y": 18719.447914192013
+                                                        "x": 29412.19781672412,
+                                                        "y": 18879.05753714661
                                                     },
                                                     "targetPosition": {
                                                         "x": 28904.16329718715,
@@ -3341,9 +3596,9 @@
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": true,
+                                                        "isCollapsed": false,
                                                         "angleToParent": 2,
-                                                        "distanceToParent": 3,
+                                                        "distanceToParent": 5,
                                                         "arrangementStyle": 0
                                                     },
                                                     "uiObject": {
