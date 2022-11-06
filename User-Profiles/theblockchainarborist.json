@@ -3401,7 +3401,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 35\r\n}",
+                "config": "{\r\n    \"percentage\": 18\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -3473,7 +3473,7 @@
                                     {
                                         "type": "Position Contribution Claim",
                                         "name": "theblockchainarborist Team Positions",
-                                        "config": "{}",
+                                        "config": "{\r\n    \"percentage\": 66\r\n}",
                                         "project": "Governance",
                                         "id": "5a2cfef6-4eca-48da-b123-12d8387ec968",
                                         "savedPayload": {
@@ -6542,7 +6542,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": false,
+            "isCollapsed": true,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
