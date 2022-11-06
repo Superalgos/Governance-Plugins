@@ -128,11 +128,11 @@
             "savedPayload": {
                 "position": {
                     "x": 43611.98330355345,
-                    "y": 37729.70933962928
+                    "y": 32929.70933962928
                 },
                 "targetPosition": {
                     "x": 43481.81818181818,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -362,11 +362,11 @@
             "savedPayload": {
                 "position": {
                     "x": 43716.36762655858,
-                    "y": 37812.95305944238
+                    "y": 33012.95305944238
                 },
                 "targetPosition": {
                     "x": 43481.81818181818,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -389,7 +389,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\n    \"percentage\": 50\n}",
+                "config": "{\n    \"percentage\": 57\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -404,27 +404,774 @@
                                 "name": "New Claim Votes Switch",
                                 "config": "{}",
                                 "project": "Governance",
-                                "claimVotesSwitch": [],
-                                "positionClaimVotes": [
+                                "claimVotesSwitch": [
                                     {
-                                        "type": "Position Claim Vote",
-                                        "name": "Julian-Molina ",
+                                        "type": "Claim Votes Switch",
+                                        "name": "VEX",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "id": "9b8c4dcc-c790-4243-ab35-89c09dd0e8bf",
+                                        "claimVotesSwitch": [],
+                                        "positionClaimVotes": [
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "prepheadrus VEX Team Positions",
+                                                "config": "{\n    \"percentage\": 30.6\n}",
+                                                "project": "Governance",
+                                                "id": "b161598f-8c80-45e7-b499-ce8b692545cb",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43461.58956083691,
+                                                        "y": 32343.82227111585
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43740.02405739262,
+                                                        "y": 32232.134173595266
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "VEX Team Positions",
+                                                        "id": "8d19b027-cec5-40a3-a771-603b896f28d2"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "prepheadrus",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "October 2022 Teams Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Team Positions Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "VEX Team Positions",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "tigers40 VEX Team Positions",
+                                                "config": "{\n    \"percentage\": 20\n}",
+                                                "project": "Governance",
+                                                "id": "b3891c7c-ec34-4157-9f91-53195ac92efd",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43464.16572562719,
+                                                        "y": 32114.22666409909
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43740.02405739262,
+                                                        "y": 32232.134173595266
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "VEX Team Positions",
+                                                        "id": "793b5ec2-f7b8-4c0a-b8e4-c770dd5eafb9"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "tigers40",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "October 2022 Teams",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "VEX Team Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "VEX Team Positions",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "BlaaSwe VEX Team Positions",
+                                                "config": "{\n    \"percentage\": 49.4\n}",
+                                                "project": "Governance",
+                                                "id": "555a072e-0f27-4d15-9a25-636eeddff221",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43628.335959872034,
+                                                        "y": 31953.699677039556
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43740.02405739262,
+                                                        "y": 32232.134173595266
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "VEX Team Positions",
+                                                        "id": "08e1d8af-478d-435f-9ebb-d2c4ed4fbdd1"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "BlaaSwe",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "My claims",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "VEX Team Positions",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "assetClaimVotes": [],
+                                        "featureClaimVotes": [],
+                                        "id": "d2dcca56-dee1-40cc-9f4f-e877a232a249",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 43949.12610897116,
-                                                "y": 36857.56330943689
+                                                "x": 43729.21054742221,
+                                                "y": 32261.615130768172
                                             },
                                             "targetPosition": {
                                                 "x": 44015.882389158054,
-                                                "y": 37150.04168309144
+                                                "y": 32350.041683091444
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": false,
+                                                "isCollapsed": true,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Claim Votes Switch",
+                                        "name": "Translation",
+                                        "config": "{\n    \"percentage\": 13\n}",
+                                        "project": "Governance",
+                                        "claimVotesSwitch": [],
+                                        "positionClaimVotes": [
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "VarletNL Translation Team Positions",
+                                                "config": "{\n    \"percentage\": 49.8\n}",
+                                                "project": "Governance",
+                                                "id": "31283c1b-ea2b-4895-a8e0-1c2cbb40f7af",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43525.15872609094,
+                                                        "y": 32218.552673865768
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43811.83056782678,
+                                                        "y": 32130.126121542497
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "Translation Team Positions",
+                                                        "id": "a47518a9-8e52-4645-bdfa-2a9236acdcbb"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "VarletNL",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "October 2022 Teams Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Team Positions Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Translation Team Positions",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "tigers40 Translation Team Positions",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "f2c5b813-ccb3-48ef-8589-5b0b09949d42",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43515.18131995924,
+                                                        "y": 32085.413441689645
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43811.83056782678,
+                                                        "y": 32130.126121542497
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Contribution Claim",
+                                                        "name": "Translation Team Positions",
+                                                        "id": "c50db1a3-bc48-4e58-8be6-9df49b3004fa"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "tigers40",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "October 2022 Teams",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Translation Team Position Class",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Translation Team Positions",
+                                                            "Position Contribution Claim"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "95fcfd39-a3ee-4407-9155-a4a695fd8ac3",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43563.95893553198,
+                                                        "y": 31961.13010412341
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43811.83056782678,
+                                                        "y": 32130.126121542497
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "5b1b39d5-f4fb-4d3a-9783-a91b5022d07d",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43661.83056782678,
+                                                        "y": 31870.318500407164
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43811.83056782678,
+                                                        "y": 32130.126121542497
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "db8b65fb-c2f4-46e8-9090-b2da0fcef3fe",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43789.41153975085,
+                                                        "y": 31830.96498238814
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43811.83056782678,
+                                                        "y": 32130.126121542497
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Claim Vote",
+                                                "name": "",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "9410354c-cafc-4bac-9df2-21a380e4eb5e",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43921.4328751367,
+                                                        "y": 31850.863996949236
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43811.83056782678,
+                                                        "y": 32130.126121542497
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "assetClaimVotes": [],
+                                        "featureClaimVotes": [],
+                                        "id": "ad31dd36-bc49-49c1-b3b2-22a203f2bb1f",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 43811.83056782678,
+                                                "y": 32130.126121542497
+                                            },
+                                            "targetPosition": {
+                                                "x": 44015.882389158054,
+                                                "y": 32350.041683091444
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": true,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "Claim Votes Switch",
+                                        "name": "Tigers40",
+                                        "config": "{\n    \"percentage\": 20\n}",
+                                        "project": "Governance",
+                                        "claimVotesSwitch": [
+                                            {
+                                                "type": "Claim Votes Switch",
+                                                "name": "Tiger40 Team Position Class",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "claimVotesSwitch": [],
+                                                "positionClaimVotes": [
+                                                    {
+                                                        "type": "Position Claim Vote",
+                                                        "name": "tigers40 Tiger40 Team Positions",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "9574b070-997e-4a6a-bbae-5cce77660e94",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 43541.02246630861,
+                                                                "y": 31617.732186339003
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 43745.07428763989,
+                                                                "y": 31837.64774788795
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position Contribution Claim",
+                                                                "name": "Tiger40 Team Positions",
+                                                                "id": "4fdb328e-589f-42f1-947a-ed864a07245b"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "tigers40",
+                                                                    "User Profile"
+                                                                ],
+                                                                [
+                                                                    "New Token Power Switch",
+                                                                    "Token Power Switch"
+                                                                ],
+                                                                [
+                                                                    "New Votes And Claims Programs",
+                                                                    "Votes And Claims Programs"
+                                                                ],
+                                                                [
+                                                                    "New Claims Program",
+                                                                    "Claims Program"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Tiger40 Team Position Class",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Tiger40 Team Positions",
+                                                                    "Position Contribution Claim"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "assetClaimVotes": [],
+                                                "featureClaimVotes": [],
+                                                "id": "b811539d-fb98-4b85-a3c7-25ea593d517e",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 43745.07428763989,
+                                                        "y": 31837.64774788795
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43949.12610897116,
+                                                        "y": 32057.563309436897
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Claims Folder",
+                                                        "name": "Tiger40 Team Position Class",
+                                                        "id": "3195165c-5354-4287-89aa-25a88d9e61da"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "tigers40",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "October 2022 Teams",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Tiger40 Team Position Class",
+                                                            "Position Claims Folder"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Claim Votes Switch",
+                                                "name": "Turkish Team Position Class",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "claimVotesSwitch": [],
+                                                "positionClaimVotes": [
+                                                    {
+                                                        "type": "Position Claim Vote",
+                                                        "name": "tigers40 Turkish Team Positions",
+                                                        "config": "{}",
+                                                        "project": "Governance",
+                                                        "id": "2dad0869-b3db-4ac4-8b6d-a4ead3c1646d",
+                                                        "savedPayload": {
+                                                            "position": {
+                                                                "x": 44125.9792136177,
+                                                                "y": 31484.219625965212
+                                                            },
+                                                            "targetPosition": {
+                                                                "x": 44037.55266129443,
+                                                                "y": 31770.891467701054
+                                                            },
+                                                            "floatingObject": {
+                                                                "isPinned": false,
+                                                                "isFrozen": false,
+                                                                "isCollapsed": false,
+                                                                "angleToParent": 2,
+                                                                "distanceToParent": 3,
+                                                                "arrangementStyle": 0
+                                                            },
+                                                            "uiObject": {
+                                                                "isRunning": false
+                                                            },
+                                                            "referenceParent": {
+                                                                "type": "Position Contribution Claim",
+                                                                "name": "Turkish Team Positions",
+                                                                "id": "21caa315-8ab9-4d6e-8eb1-a11faeaae339"
+                                                            },
+                                                            "referenceParentCombinedNodePath": [
+                                                                [
+                                                                    "tigers40",
+                                                                    "User Profile"
+                                                                ],
+                                                                [
+                                                                    "New Token Power Switch",
+                                                                    "Token Power Switch"
+                                                                ],
+                                                                [
+                                                                    "New Votes And Claims Programs",
+                                                                    "Votes And Claims Programs"
+                                                                ],
+                                                                [
+                                                                    "New Claims Program",
+                                                                    "Claims Program"
+                                                                ],
+                                                                [
+                                                                    "October 2022 Teams",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Turkish Team Position Class",
+                                                                    "Position Claims Folder"
+                                                                ],
+                                                                [
+                                                                    "Turkish Team Positions",
+                                                                    "Position Contribution Claim"
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ],
+                                                "assetClaimVotes": [],
+                                                "featureClaimVotes": [],
+                                                "id": "59a55af6-ff25-4608-b3b0-6d72a8492a72",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 44037.55266129443,
+                                                        "y": 31770.891467701054
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 43949.12610897116,
+                                                        "y": 32057.563309436897
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position Claims Folder",
+                                                        "name": "Turkish Team Position Class",
+                                                        "id": "3d9e0e95-69c5-4e4f-95a1-bd34fbe1cf05"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "tigers40",
+                                                            "User Profile"
+                                                        ],
+                                                        [
+                                                            "New Token Power Switch",
+                                                            "Token Power Switch"
+                                                        ],
+                                                        [
+                                                            "New Votes And Claims Programs",
+                                                            "Votes And Claims Programs"
+                                                        ],
+                                                        [
+                                                            "New Claims Program",
+                                                            "Claims Program"
+                                                        ],
+                                                        [
+                                                            "October 2022 Teams",
+                                                            "Position Claims Folder"
+                                                        ],
+                                                        [
+                                                            "Turkish Team Position Class",
+                                                            "Position Claims Folder"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
+                                        "positionClaimVotes": [],
+                                        "assetClaimVotes": [],
+                                        "featureClaimVotes": [],
+                                        "id": "c706a7d4-b73c-47e3-a9f8-50d14767bca3",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 43949.12610897116,
+                                                "y": 32057.563309436897
+                                            },
+                                            "targetPosition": {
+                                                "x": 44015.882389158054,
+                                                "y": 32350.041683091444
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": true,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -433,13 +1180,13 @@
                                                 "isRunning": false
                                             },
                                             "referenceParent": {
-                                                "type": "Position Contribution Claim",
-                                                "name": "",
-                                                "id": "9c146aa9-b675-4c57-8a2c-80f604a90ac4"
+                                                "type": "Position Claims Folder",
+                                                "name": "October 2022 Teams",
+                                                "id": "f0321a75-98e1-4e88-9225-320409cadb04"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
-                                                    "Julian-Molina",
+                                                    "tigers40",
                                                     "User Profile"
                                                 ],
                                                 [
@@ -455,11 +1202,131 @@
                                                     "Claims Program"
                                                 ],
                                                 [
-                                                    "New Position Claims Folder",
+                                                    "October 2022 Teams",
+                                                    "Position Claims Folder"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "positionClaimVotes": [
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "vraptor75011 vraptor75011 Team Positions",
+                                        "config": "{\n    \"percentage\": 18\n}",
+                                        "project": "Governance",
+                                        "id": "864ca67d-de7a-402a-b2ab-65f60efae802",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 44104.30894148132,
+                                                "y": 32063.3698413556
+                                            },
+                                            "targetPosition": {
+                                                "x": 44015.882389158054,
+                                                "y": 32350.041683091444
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "vraptor75011 Team Positions",
+                                                "id": "7c13bb42-dd02-4adb-a6d6-443b9aad7480"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "vraptor75011",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "vraptor75011 Claims",
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "",
+                                                    "vraptor75011 Team Positions",
+                                                    "Position Contribution Claim"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "harrellbm Harrellbm Team Positions",
+                                        "config": "{\n    \"percentage\": 19\n}",
+                                        "project": "Governance",
+                                        "id": "b4d46c8a-eccd-40f5-8f15-037e111f2692",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 44235.797950707005,
+                                                "y": 32145.98986176017
+                                            },
+                                            "targetPosition": {
+                                                "x": 44015.882389158054,
+                                                "y": 32350.041683091444
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "Harrellbm Team Positions",
+                                                "id": "9cd5816c-b7b9-481f-afd2-53521e2e214c"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "harrellbm",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "Harrellbm Team Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Team Positions Position Class",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Harrellbm Team Positions",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -472,11 +1339,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 44015.882389158054,
-                                        "y": 37150.04168309144
+                                        "y": 32350.041683091444
                                     },
                                     "targetPosition": {
                                         "x": 44082.638669344946,
-                                        "y": 37442.52005674599
+                                        "y": 32642.52005674599
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -496,7 +1363,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "New Weight Votes Switch",
-                                "config": "{\n    \"percentage\": 80\n}",
+                                "config": "{\n    \"percentage\": 75\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -524,11 +1391,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44035.21119957297,
-                                                                "y": 36561.24209901092
+                                                                "y": 31761.242099010917
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -575,11 +1442,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44059.75432940831,
-                                                                "y": 36498.707224059755
+                                                                "y": 31698.707224059755
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -626,11 +1493,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44097.597430516056,
-                                                                "y": 36443.20158915824
+                                                                "y": 31643.201589158238
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -677,11 +1544,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44146.842891787644,
-                                                                "y": 36397.50847861167
+                                                                "y": 31597.508478611675
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -728,11 +1595,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44205.021340163774,
-                                                                "y": 36363.91913578068
+                                                                "y": 31563.91913578068
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -779,11 +1646,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44269.215465310815,
-                                                                "y": 36344.11787057169
+                                                                "y": 31544.11787057169
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -830,11 +1697,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44336.20630574259,
-                                                                "y": 36339.09760110515
+                                                                "y": 31539.097601105153
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -881,11 +1748,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44402.63466099045,
-                                                                "y": 36349.11006465495
+                                                                "y": 31549.110064654953
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -932,11 +1799,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44465.16953594161,
-                                                                "y": 36373.65319449029
+                                                                "y": 31573.653194490293
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -983,11 +1850,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44520.675170843126,
-                                                                "y": 36411.49629559804
+                                                                "y": 31611.496295598037
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1034,11 +1901,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44566.368281389696,
-                                                                "y": 36460.741756869626
+                                                                "y": 31660.741756869622
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1085,11 +1952,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44599.95762422068,
-                                                                "y": 36518.920205245755
+                                                                "y": 31718.92020524575
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1136,11 +2003,11 @@
                                                         "savedPayload": {
                                                             "position": {
                                                                 "x": 44619.75888942968,
-                                                                "y": 36583.1143303928
+                                                                "y": 31783.1143303928
                                                             },
                                                             "targetPosition": {
                                                                 "x": 44324.98894745969,
-                                                                "y": 36638.887812541674
+                                                                "y": 31838.887812541674
                                                             },
                                                             "floatingObject": {
                                                                 "isPinned": false,
@@ -1183,11 +2050,11 @@
                                                 "savedPayload": {
                                                     "position": {
                                                         "x": 44324.98894745969,
-                                                        "y": 36638.887812541674
+                                                        "y": 31838.887812541674
                                                     },
                                                     "targetPosition": {
                                                         "x": 44313.771589176795,
-                                                        "y": 36938.678023978195
+                                                        "y": 32138.678023978195
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -1230,11 +2097,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 44313.771589176795,
-                                                "y": 36938.678023978195
+                                                "y": 32138.678023978195
                                             },
                                             "targetPosition": {
                                                 "x": 44302.5542308939,
-                                                "y": 37238.468235414715
+                                                "y": 32438.468235414715
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1275,11 +2142,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 44522.46979244285,
-                                                "y": 37034.41641408344
+                                                "y": 32234.41641408344
                                             },
                                             "targetPosition": {
                                                 "x": 44302.5542308939,
-                                                "y": 37238.468235414715
+                                                "y": 32438.468235414715
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1322,11 +2189,11 @@
                                         "savedPayload": {
                                             "position": {
                                                 "x": 44602.34444233042,
-                                                "y": 37249.68559369761
+                                                "y": 32449.685593697614
                                             },
                                             "targetPosition": {
                                                 "x": 44302.5542308939,
-                                                "y": 37238.468235414715
+                                                "y": 32438.468235414715
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -1372,11 +2239,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 44302.5542308939,
-                                        "y": 37238.468235414715
+                                        "y": 32438.468235414715
                                     },
                                     "targetPosition": {
                                         "x": 44082.638669344946,
-                                        "y": 37442.52005674599
+                                        "y": 32642.52005674599
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1397,11 +2264,11 @@
                         "savedPayload": {
                             "position": {
                                 "x": 44082.638669344946,
-                                "y": 37442.52005674599
+                                "y": 32642.52005674599
                             },
                             "targetPosition": {
                                 "x": 43994.21211702168,
-                                "y": 37729.19189848183
+                                "y": 32929.19189848183
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1425,11 +2292,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 44286.69049067623,
-                            "y": 37662.43561829494
+                            "y": 32862.43561829494
                         },
                         "targetPosition": {
                             "x": 43994.21211702168,
-                            "y": 37729.19189848183
+                            "y": 32929.19189848183
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1448,11 +2315,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 43994.21211702168,
-                        "y": 37729.19189848183
+                        "y": 32929.19189848183
                     },
                     "targetPosition": {
                         "x": 43774.29655547273,
-                        "y": 37933.24371981311
+                        "y": 33133.24371981311
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1491,11 +2358,11 @@
                                 "savedPayload": {
                                     "position": {
                                         "x": 44645.92514451767,
-                                        "y": 37888.15771176259
+                                        "y": 33088.15771176259
                                     },
                                     "targetPosition": {
                                         "x": 44353.44677086312,
-                                        "y": 37954.913991949485
+                                        "y": 33154.913991949485
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -1538,11 +2405,11 @@
                         "savedPayload": {
                             "position": {
                                 "x": 44353.44677086312,
-                                "y": 37954.913991949485
+                                "y": 33154.913991949485
                             },
                             "targetPosition": {
                                 "x": 44060.96839720857,
-                                "y": 38021.670272136376
+                                "y": 33221.670272136376
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1566,11 +2433,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 44265.020218539845,
-                            "y": 38241.58583368533
+                            "y": 33441.58583368533
                         },
                         "targetPosition": {
                             "x": 44060.96839720857,
-                            "y": 38021.670272136376
+                            "y": 33221.670272136376
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1589,11 +2456,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 44060.96839720857,
-                        "y": 38021.670272136376
+                        "y": 33221.670272136376
                     },
                     "targetPosition": {
                         "x": 43774.29655547273,
-                        "y": 37933.24371981311
+                        "y": 33133.24371981311
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1612,11 +2479,11 @@
             "savedPayload": {
                 "position": {
                     "x": 43774.29655547273,
-                    "y": 37933.24371981311
+                    "y": 33133.24371981311
                 },
                 "targetPosition": {
                     "x": 43481.81818181818,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1695,11 +2562,11 @@
             "savedPayload": {
                 "position": {
                     "x": 43774.29655547273,
-                    "y": 38066.75628018689
+                    "y": 33266.75628018689
                 },
                 "targetPosition": {
                     "x": 43481.81818181818,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1733,11 +2600,11 @@
                         "savedPayload": {
                             "position": {
                                 "x": 44185.466516039414,
-                                "y": 38561.14082167287
+                                "y": 33761.14082167287
                             },
                             "targetPosition": {
                                 "x": 43950.917071299,
-                                "y": 38374.093881115245
+                                "y": 33574.093881115245
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1756,11 +2623,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 43950.917071299,
-                            "y": 38374.093881115245
+                            "y": 33574.093881115245
                         },
                         "targetPosition": {
                             "x": 43716.36762655859,
-                            "y": 38187.04694055762
+                            "y": 33387.04694055762
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1780,11 +2647,11 @@
             "savedPayload": {
                 "position": {
                     "x": 43716.36762655859,
-                    "y": 38187.04694055762
+                    "y": 33387.04694055762
                 },
                 "targetPosition": {
                     "x": 43481.81818181818,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1817,11 +2684,11 @@
                     "savedPayload": {
                         "position": {
                             "x": 43872.31354702399,
-                            "y": 38810.87198111217
+                            "y": 34010.87198111217
                         },
                         "targetPosition": {
                             "x": 43742.14842528872,
-                            "y": 38540.58132074145
+                            "y": 33740.58132074145
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1840,11 +2707,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 43742.14842528872,
-                        "y": 38540.58132074145
+                        "y": 33740.58132074145
                     },
                     "targetPosition": {
                         "x": 43611.98330355345,
-                        "y": 38270.29066037072
+                        "y": 33470.29066037072
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1863,11 +2730,11 @@
             "savedPayload": {
                 "position": {
                     "x": 43611.98330355345,
-                    "y": 38270.29066037072
+                    "y": 33470.29066037072
                 },
                 "targetPosition": {
                     "x": 43481.81818181818,
-                    "y": 38000
+                    "y": 33200
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1886,11 +2753,11 @@
         "savedPayload": {
             "position": {
                 "x": 43481.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -1913,11 +2780,11 @@
         "savedPayload": {
             "position": {
                 "x": 43368.8651223758,
-                "y": 38234.549444740405
+                "y": 33434.549444740405
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -2252,11 +3119,11 @@
         "savedPayload": {
             "position": {
                 "x": 43115.061901631285,
-                "y": 38292.47837365455
+                "y": 33492.47837365455
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3131,11 +3998,11 @@
         "savedPayload": {
             "position": {
                 "x": 42911.52752144745,
-                "y": 38130.16512173527
+                "y": 33330.16512173527
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3371,11 +4238,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 42781.36239971218,
-                        "y": 38140.12553863545
+                        "y": 33340.12553863545
                     },
                     "targetPosition": {
                         "x": 42911.52752144745,
-                        "y": 37869.83487826473
+                        "y": 33069.83487826473
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3633,11 +4500,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 42641.23686107673,
-                        "y": 37739.66975652946
+                        "y": 32939.66975652946
                     },
                     "targetPosition": {
                         "x": 42911.52752144745,
-                        "y": 37869.83487826473
+                        "y": 33069.83487826473
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3895,11 +4762,11 @@
                 "savedPayload": {
                     "position": {
                         "x": 43041.69264318272,
-                        "y": 37599.54421789401
+                        "y": 32799.54421789401
                     },
                     "targetPosition": {
                         "x": 42911.52752144745,
-                        "y": 37869.83487826473
+                        "y": 33069.83487826473
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3919,11 +4786,11 @@
         "savedPayload": {
             "position": {
                 "x": 42911.52752144745,
-                "y": 37869.83487826473
+                "y": 33069.83487826473
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4005,11 +4872,11 @@
         "savedPayload": {
             "position": {
                 "x": 43115.061901631285,
-                "y": 37707.52162634545
+                "y": 32907.52162634545
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4150,11 +5017,11 @@
         "savedPayload": {
             "position": {
                 "x": 43368.8651223758,
-                "y": 37765.45055525959
+                "y": 32965.45055525959
             },
             "targetPosition": {
                 "x": 43181.81818181818,
-                "y": 38000
+                "y": 33200
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4173,11 +5040,11 @@
     "savedPayload": {
         "position": {
             "x": 43181.81818181818,
-            "y": 38000
+            "y": 33200
         },
         "targetPosition": {
             "x": 43181.81818181818,
-            "y": 38000
+            "y": 33200
         },
         "floatingObject": {
             "isPinned": false,
