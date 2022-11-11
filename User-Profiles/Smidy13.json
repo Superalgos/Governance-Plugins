@@ -3106,7 +3106,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "P2P Network Node #1",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"localhost\"\n}",
+                "config": "{\n    \"codeName\": \"P2P-Smidy-Network-Node-1\",\n    \"host\": \"superalgos.smidy.com\",\n    \"clientMinimunBalance\": 0,\n    \"peerMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
@@ -3116,8 +3116,8 @@
                     "id": "72fd736a-1dae-4f4a-955f-4d42b5e6f2ae",
                     "savedPayload": {
                         "position": {
-                            "x": 34685.333333333336,
-                            "y": 22851.134757729335
+                            "x": 34445.97676472285,
+                            "y": 22773.776218749037
                         },
                         "targetPosition": {
                             "x": 34744.333333333336,
@@ -3179,6 +3179,34 @@
                     "name": "New Network Services",
                     "config": "{}",
                     "project": "Network",
+                    "socialGraph": {
+                        "type": "Social Graph",
+                        "name": "New Social Graph",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "a2bcecc3-8a95-47bc-a61e-a7b0a9b3bff9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 34430.35865570438,
+                                "y": 22348.298767004686
+                            },
+                            "targetPosition": {
+                                "x": 34681.95982608801,
+                                "y": 22511.690477509193
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "machineLearning": {
                         "type": "Machine Learning",
                         "name": "New Machine Learning",
@@ -3187,12 +3215,12 @@
                         "id": "f7a9ccec-9421-425e-a9ed-affff7194a35",
                         "savedPayload": {
                             "position": {
-                                "x": 34807.05041129393,
-                                "y": 22208.421620508372
+                                "x": 34619.58631884268,
+                                "y": 22218.246197289052
                             },
                             "targetPosition": {
-                                "x": 34775.69187231363,
-                                "y": 22506.778189118853
+                                "x": 34681.95982608801,
+                                "y": 22511.690477509193
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -3207,11 +3235,39 @@
                             }
                         }
                     },
+                    "tradingSignals": {
+                        "type": "Trading Signals",
+                        "name": "New Trading Signals",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "86e38fe5-155b-4830-8839-b50e0500f7df",
+                        "savedPayload": {
+                            "position": {
+                                "x": 34845.35153659252,
+                                "y": 22260.089307125567
+                            },
+                            "targetPosition": {
+                                "x": 34681.95982608801,
+                                "y": 22511.690477509193
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "d626fda2-66a5-4e4b-9635-3133110d4a59",
                     "savedPayload": {
                         "position": {
-                            "x": 34775.69187231363,
-                            "y": 22506.778189118853
+                            "x": 34681.95982608801,
+                            "y": 22511.690477509193
                         },
                         "targetPosition": {
                             "x": 34744.333333333336,
@@ -3221,7 +3277,7 @@
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
-                            "angleToParent": 1,
+                            "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
                         },
@@ -3327,7 +3383,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": true,
+                        "isCollapsed": false,
                         "angleToParent": 1,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
