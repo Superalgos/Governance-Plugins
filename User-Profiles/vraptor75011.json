@@ -6178,7 +6178,7 @@
             },
             {
                 "type": "P2P Network Node",
-                "name": "P2P Network Node #2",
+                "name": "ML-NoRewards",
                 "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"hz.cx11.neoteva.fr\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
@@ -6211,7 +6211,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "ML-NoRewards-TestNet",
+                    "name": "Testnet",
                     "project": "Network",
                     "id": "526a7020-0374-48ac-aad2-987e008ce1f1",
                     "savedPayload": {
@@ -6236,12 +6236,12 @@
                         },
                         "referenceParent": {
                             "type": "P2P Network",
-                            "name": "ML-NoRewards-TestNet",
-                            "id": "751d1832-15c9-4c7c-b5a2-eade62e7c3bc"
+                            "name": "Testnet",
+                            "id": "8cf3c984-f2ce-4ed5-9bfe-49255ed8a9e3"
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "ML-NoRewards-TestNet",
+                                "Testnet",
                                 "P2P Network"
                             ]
                         ]
@@ -6424,7 +6424,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
