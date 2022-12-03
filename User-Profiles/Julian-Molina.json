@@ -799,7 +799,7 @@
         "votesAndClaimsPrograms": {
             "type": "Votes And Claims Programs",
             "name": "New Votes And Claims Programs",
-            "config": "{\r\n    \"percentage\": 78\r\n}",
+            "config": "{\r\n    \"percentage\": 77\r\n}",
             "project": "Governance",
             "votingProgram": {
                 "type": "Voting Program",
@@ -823,7 +823,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "Nuno",
-                                        "config": "{\r\n    \"percentage\": 0\r\n}",
+                                        "config": "{\r\n    \r\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -3928,7 +3928,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "Sifiso",
-                                        "config": "{\r\n    \"percentage\": 0\r\n}",
+                                        "config": "{\r\n    \r\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -5010,7 +5010,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "The Blockchain Arborist",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 0\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -5170,7 +5170,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "Bastian Muc",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 0\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -5689,7 +5689,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "p-pl",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 0\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -5841,7 +5841,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "us9808",
-                                        "config": "{\n    \"percentage\": 4\n}",
+                                        "config": "{\n    \"percentage\": 0\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -6001,7 +6001,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "drcryptokiller",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 0\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -6221,7 +6221,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "vraptor",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 0\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -6373,7 +6373,7 @@
                                     {
                                         "type": "Claim Votes Switch",
                                         "name": "Alex White",
-                                        "config": "{}",
+                                        "config": "{\n    \"percentage\": 15\n}",
                                         "project": "Governance",
                                         "claimVotesSwitch": [
                                             {
@@ -6512,7 +6512,7 @@
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
-                                                "isCollapsed": false,
+                                                "isCollapsed": true,
                                                 "angleToParent": 2,
                                                 "distanceToParent": 3,
                                                 "arrangementStyle": 0
@@ -6539,7 +6539,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": true,
+                                        "isCollapsed": false,
                                         "angleToParent": 2,
                                         "distanceToParent": 5,
                                         "arrangementStyle": 0
@@ -8436,19 +8436,490 @@
                                 "weightVotesSwitch": [
                                     {
                                         "type": "Weight Votes Switch",
-                                        "name": "October 2022 Teams",
+                                        "name": "Teams November 2022",
                                         "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [],
                                         "assetWeightVotes": [],
                                         "featureWeightVotes": [],
-                                        "positionWeightVotes": [],
+                                        "positionWeightVotes": [
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Signalytic",
+                                                "config": "{\n    \"percentage\": 40\n}",
+                                                "project": "Governance",
+                                                "id": "89dbdafe-9093-40d9-b214-59e065aad631",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32403.364959683648,
+                                                        "y": 22094.308306138802
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Signalytic",
+                                                        "id": "d1ef9511-b9fe-4b96-9fdb-0dec099ab699"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Signalytic",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 End-debug",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "092c99be-10bd-4cc2-a47b-f4d27766a6af",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32592.829896122214,
+                                                        "y": 22126.16840114996
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "End-debug",
+                                                        "id": "3f3f2eed-3475-46c2-ac79-1740108209e3"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "End-debug",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 NAmorim",
+                                                "config": "{\n    \"percentage\": 5\n}",
+                                                "project": "Governance",
+                                                "id": "80966e64-f5d6-48da-9601-a1f4e76f4ae6",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32765.64414535263,
+                                                        "y": 22210.11637942649
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "NAmorim",
+                                                        "id": "508e8187-2867-403b-858f-63fcbc4fd0cd"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "NAmorim",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 VEX Team",
+                                                "config": "{\n    \"percentage\": 13\n}",
+                                                "project": "Governance",
+                                                "id": "e5b4d4f8-0e66-4ae2-92bb-66ee0f6c214f",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32907.80732466816,
+                                                        "y": 22339.35127502628
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "VEX Team",
+                                                        "id": "c0dcc246-5790-406b-8dae-257f03a7965d"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "VEX Team",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Tiger40",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "41c5ccf2-5d1c-444e-a56f-71d8400933aa",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 33007.80221875765,
+                                                        "y": 22503.403245297355
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Tiger40",
+                                                        "id": "eb3fff63-be2c-4ebf-8977-27df9623b19f"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Tiger40",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Turkish Team",
+                                                "config": "{\n \"percentage\": 10   \n}",
+                                                "project": "Governance",
+                                                "id": "e1b0417e-8f18-474c-af39-f200adff1049",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 33057.52783599449,
+                                                        "y": 22688.981775262982
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Turkish Team",
+                                                        "id": "17ba1cef-54a9-4e42-8936-8c6b77dbb134"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Turkish Team",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Documentation (Alex White)",
+                                                "config": "{\n    \"percentage\": 15\n}",
+                                                "project": "Governance",
+                                                "id": "1f4fcb4e-cae2-408d-9dc8-1cedf57c8bb6",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 33052.9557025998,
+                                                        "y": 22881.052396103365
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Documentation (Alex White)",
+                                                        "id": "c4528ad4-f4a2-42c3-b110-256ae794c2eb"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Documentation (Alex White)",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Translations",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "d0d041f5-d86d-423f-a523-ebff0d85096c",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32994.456225629685,
+                                                        "y": 23064.05468840598
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Translations",
+                                                        "id": "bca2b65b-282a-43ea-9ee7-012afe3b8bdc"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Translations",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Harrellbm",
+                                                "config": "{\n    \"percentage\": 5\n}",
+                                                "project": "Governance",
+                                                "id": "a8d79912-4e23-4951-8a22-72f6668a6655",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32886.76868479847,
+                                                        "y": 23223.16289480501
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Harrellbm",
+                                                        "id": "9eea93b0-0d2e-4edc-b0d5-9ff9860c7347"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Harrellbm",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "Position Weight Vote",
+                                                "name": "Teams November 2022 Data Mining",
+                                                "config": "{}",
+                                                "project": "Governance",
+                                                "id": "adddd1ce-0df8-4fb5-9408-40d4eb9330b2",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 32738.61728422185,
+                                                        "y": 23345.48701467094
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 32387.301513840026,
+                                                        "y": 22769.117142556664
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Position",
+                                                        "name": "Data Mining",
+                                                        "id": "3c924bb9-58e9-48fa-9db3-f13b93638bca"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Teams of Contributors",
+                                                            "Positions"
+                                                        ],
+                                                        [
+                                                            "Teams November 2022",
+                                                            "Position Class"
+                                                        ],
+                                                        [
+                                                            "Data Mining",
+                                                            "Position"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
                                         "id": "914a3eab-e034-462f-bc9c-9e89b2398e8e",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 32169.968202924985,
-                                                "y": 22827.35142770473
+                                                "x": 32387.301513840026,
+                                                "y": 22769.117142556664
                                             },
                                             "targetPosition": {
                                                 "x": 31735.301581094904,
@@ -8459,7 +8930,7 @@
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
                                                 "angleToParent": 2,
-                                                "distanceToParent": 3,
+                                                "distanceToParent": 4,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
@@ -8899,7 +9370,7 @@
                             {
                                 "type": "User Delegate",
                                 "name": "Awhiteweb",
-                                "config": "{\n    \"percentage\": 95\n}",
+                                "config": "{\n    \"percentage\": 98\n}",
                                 "project": "Governance",
                                 "id": "9a2e709d-ca19-4857-9694-0bcd10bb5743",
                                 "savedPayload": {
