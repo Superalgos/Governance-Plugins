@@ -12,7 +12,7 @@
         "onboardingPrograms": {
             "type": "Onboarding Programs",
             "name": "New Onboarding Programs",
-            "config": "{\n   \"percentage\": 0\n }",
+            "config": "{\n  \"percentage\": 0\n}",
             "project": "Governance",
             "airdropProgram": {
                 "type": "Airdrop Program",
@@ -150,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\r\n    \"percentage\": 0\r\n}",
+            "config": "{\r\n    \"percentage\": 10\r\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -764,12 +764,12 @@
                 "id": "b581c8d2-d3f1-4ac4-bbcf-d699ed61e2ef",
                 "savedPayload": {
                     "position": {
-                        "x": 15945.907831599956,
-                        "y": 27833.996636468382
+                        "x": 15676.052456636151,
+                        "y": 23114.83939647441
                     },
                     "targetPosition": {
-                        "x": 15945.907831599956,
-                        "y": 28283.996636468382
+                        "x": 15642.463113805159,
+                        "y": 23412.95305944238
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -787,7 +787,7 @@
             "supportProgram": {
                 "type": "Support Program",
                 "name": "Mods Team",
-                "config": "{\n    \"percentage\": 95\n}",
+                "config": "{\n    \"percentage\": \n}",
                 "project": "Governance",
                 "userSupporters": [
                     {
@@ -1394,19 +1394,19 @@
                 "id": "7feeb6ea-1098-48d3-a6d1-916f53764f36",
                 "savedPayload": {
                     "position": {
-                        "x": 16154.494302803045,
-                        "y": 27642.033487969155
+                        "x": 15877.012558545568,
+                        "y": 23225.906118884763
                     },
                     "targetPosition": {
-                        "x": 15945.907831599956,
-                        "y": 28283.996636468382
+                        "x": 15642.463113805159,
+                        "y": 23412.95305944238
                     },
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
                         "isCollapsed": true,
                         "angleToParent": 1,
-                        "distanceToParent": 4,
+                        "distanceToParent": 3,
                         "arrangementStyle": 0
                     },
                     "uiObject": {
@@ -1417,7 +1417,7 @@
             "mentorshipProgram": {
                 "type": "Mentorship Program",
                 "name": "New Mentorship Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\":\r\n}",
                 "project": "Governance",
                 "userMentors": [
                     {
@@ -2186,100 +2186,17 @@
                 "id": "1d712061-366d-4a08-babe-31caf1625812",
                 "savedPayload": {
                     "position": {
-                        "x": 16373.883263932776,
-                        "y": 28144.938988999656
+                        "x": 15940.576776773132,
+                        "y": 23446.542402273375
                     },
                     "targetPosition": {
-                        "x": 15945.907831599956,
-                        "y": 28283.996636468382
+                        "x": 15642.463113805159,
+                        "y": 23412.95305944238
                     },
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
                         "isCollapsed": true,
-                        "angleToParent": 2,
-                        "distanceToParent": 3,
-                        "arrangementStyle": 0
-                    },
-                    "uiObject": {
-                        "isRunning": false
-                    }
-                }
-            },
-            "influencerProgram": {
-                "type": "Influencer Program",
-                "name": "New Influencer Program",
-                "config": "{}",
-                "project": "Governance",
-                "userInfluencers": [],
-                "tokensAwarded": {
-                    "type": "Tokens Awarded",
-                    "name": "New Tokens Awarded",
-                    "project": "Governance",
-                    "id": "0791f230-ea86-463b-a2d6-001581c608db",
-                    "savedPayload": {
-                        "position": {
-                            "x": 16814.049684262987,
-                            "y": 28329.494023069117
-                        },
-                        "targetPosition": {
-                            "x": 16373.883263932776,
-                            "y": 28423.05428393711
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "tokensBonus": {
-                    "type": "Tokens Bonus",
-                    "name": "New Tokens Bonus",
-                    "project": "Governance",
-                    "id": "8b78080b-675c-4b0e-ba04-6b333acaa35f",
-                    "savedPayload": {
-                        "position": {
-                            "x": 16674.99203679426,
-                            "y": 28757.469455401933
-                        },
-                        "targetPosition": {
-                            "x": 16373.883263932776,
-                            "y": 28423.05428393711
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "id": "51245c72-5750-48ff-b3dd-f9de02d45865",
-                "savedPayload": {
-                    "position": {
-                        "x": 16373.883263932776,
-                        "y": 28423.05428393711
-                    },
-                    "targetPosition": {
-                        "x": 15945.907831599956,
-                        "y": 28283.996636468382
-                    },
-                    "floatingObject": {
-                        "isPinned": false,
-                        "isFrozen": false,
-                        "isCollapsed": false,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -2869,7 +2786,7 @@
                                                         "positionClaimVotes": [
                                                             {
                                                                 "type": "Position Claim Vote",
-                                                                "name": "prepheadrus ",
+                                                                "name": "prepheadrus VEX Team Teams November 2022",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "d0ab9f35-b3c7-48ef-8227-04a548a8b1a2",
@@ -2895,7 +2812,7 @@
                                                                     },
                                                                     "referenceParent": {
                                                                         "type": "Position Contribution Claim",
-                                                                        "name": "",
+                                                                        "name": "VEX Team Teams November 2022",
                                                                         "id": "d9ca9dc6-48cc-4cfd-8a91-4dcc57cb4630"
                                                                     },
                                                                     "referenceParentCombinedNodePath": [
@@ -2924,7 +2841,7 @@
                                                                             "Position Claims Folder"
                                                                         ],
                                                                         [
-                                                                            "",
+                                                                            "VEX Team Teams November 2022",
                                                                             "Position Contribution Claim"
                                                                         ]
                                                                     ]
@@ -2932,7 +2849,7 @@
                                                             },
                                                             {
                                                                 "type": "Position Claim Vote",
-                                                                "name": "prepheadrus ",
+                                                                "name": "prepheadrus Turkish Team Teams November 2022",
                                                                 "config": "{}",
                                                                 "project": "Governance",
                                                                 "id": "3f60f4dc-0828-4c64-ac8e-35ddd7b04ac8",
@@ -2958,7 +2875,7 @@
                                                                     },
                                                                     "referenceParent": {
                                                                         "type": "Position Contribution Claim",
-                                                                        "name": "",
+                                                                        "name": "Turkish Team Teams November 2022",
                                                                         "id": "8d19b027-cec5-40a3-a771-603b896f28d2"
                                                                     },
                                                                     "referenceParentCombinedNodePath": [
@@ -2987,7 +2904,7 @@
                                                                             "Position Claims Folder"
                                                                         ],
                                                                         [
-                                                                            "",
+                                                                            "Turkish Team Teams November 2022",
                                                                             "Position Contribution Claim"
                                                                         ]
                                                                     ]
@@ -3366,7 +3283,7 @@
                                                 "positionClaimVotes": [
                                                     {
                                                         "type": "Position Claim Vote",
-                                                        "name": "ViceReMix Translations Teams November 2022",
+                                                        "name": "ViceReMix ",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "27e5b3f2-6ce3-4fd8-bf01-e771b63bf2c3",
@@ -3392,7 +3309,7 @@
                                                             },
                                                             "referenceParent": {
                                                                 "type": "Position Contribution Claim",
-                                                                "name": "Translations Teams November 2022",
+                                                                "name": "",
                                                                 "id": "289786dc-ad29-4351-b540-c3e6c7ec28d6"
                                                             },
                                                             "referenceParentCombinedNodePath": [
@@ -4266,7 +4183,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": false,
+                                        "isCollapsed": true,
                                         "angleToParent": 2,
                                         "distanceToParent": 3,
                                         "arrangementStyle": 0
@@ -6785,7 +6702,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": true,
+                        "isCollapsed": false,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -7217,7 +7134,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 3,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -7240,7 +7157,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
