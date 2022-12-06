@@ -820,12 +820,12 @@
         "votesAndClaimsPrograms": {
             "type": "Votes And Claims Programs",
             "name": "New Votes And Claims Programs",
-            "config": "{\r\n    \"percentage\": 45\r\n}",
+            "config": "{}",
             "project": "Governance",
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{}",
+                "config": "{\"percentage\": 10}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -856,7 +856,7 @@
                                                 "positionClaimVotes": [
                                                     {
                                                         "type": "Position Claim Vote",
-                                                        "name": "Raplh2502 ",
+                                                        "name": "Raplh2502 Signalytic Teams November 2022",
                                                         "config": "{}",
                                                         "project": "Governance",
                                                         "id": "f5a2b391-06dc-49e3-8aa1-832b170f1c4e",
@@ -882,7 +882,7 @@
                                                             },
                                                             "referenceParent": {
                                                                 "type": "Position Contribution Claim",
-                                                                "name": "",
+                                                                "name": "Signalytic Teams November 2022",
                                                                 "id": "02839505-3caa-4b8a-8bda-d01a6a7a6984"
                                                             },
                                                             "referenceParentCombinedNodePath": [
@@ -911,7 +911,7 @@
                                                                     "Position Claims Folder"
                                                                 ],
                                                                 [
-                                                                    "",
+                                                                    "Signalytic Teams November 2022",
                                                                     "Position Contribution Claim"
                                                                 ]
                                                             ]
@@ -1164,7 +1164,7 @@
                                         "positionClaimVotes": [
                                             {
                                                 "type": "Position Claim Vote",
-                                                "name": "BlaaSwe ",
+                                                "name": "BlaaSwe Signalytic Teams November 2022",
                                                 "config": "{}",
                                                 "project": "Governance",
                                                 "id": "a16d1844-97c4-4aa5-bb7e-1b942defecac",
@@ -1190,7 +1190,7 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position Contribution Claim",
-                                                        "name": "",
+                                                        "name": "Signalytic Teams November 2022",
                                                         "id": "08e1d8af-478d-435f-9ebb-d2c4ed4fbdd1"
                                                     },
                                                     "referenceParentCombinedNodePath": [
@@ -1215,7 +1215,7 @@
                                                             "Position Claims Folder"
                                                         ],
                                                         [
-                                                            "",
+                                                            "Signalytic Teams November 2022",
                                                             "Position Contribution Claim"
                                                         ]
                                                     ]
@@ -1223,7 +1223,7 @@
                                             },
                                             {
                                                 "type": "Position Claim Vote",
-                                                "name": "BlaaSwe ",
+                                                "name": "BlaaSwe VEX Team Teams November 2022",
                                                 "config": "{}",
                                                 "project": "Governance",
                                                 "id": "57bb3cc8-7245-401e-9205-5344e7c5f8e8",
@@ -1249,7 +1249,7 @@
                                                     },
                                                     "referenceParent": {
                                                         "type": "Position Contribution Claim",
-                                                        "name": "",
+                                                        "name": "VEX Team Teams November 2022",
                                                         "id": "e3d7a4a3-3371-47a9-90fe-54adbccd60de"
                                                     },
                                                     "referenceParentCombinedNodePath": [
@@ -1274,7 +1274,7 @@
                                                             "Position Claims Folder"
                                                         ],
                                                         [
-                                                            "",
+                                                            "VEX Team Teams November 2022",
                                                             "Position Contribution Claim"
                                                         ]
                                                     ]
@@ -4873,7 +4873,7 @@
         "financialPrograms": {
             "type": "Financial Programs",
             "name": "New Financial Programs",
-            "config": "{}",
+            "config": "{\"percentage\": 5}",
             "project": "Governance",
             "stakingProgram": {
                 "type": "Staking Program",
@@ -4943,7 +4943,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -6376,12 +6376,12 @@
                     "id": "5c869d6e-a123-4593-8c39-f44b1ede7156",
                     "savedPayload": {
                         "position": {
-                            "x": 34938.638365714236,
-                            "y": 33609.96907614925
+                            "x": 23199.918287231565,
+                            "y": 38364.96907614925
                         },
                         "targetPosition": {
-                            "x": 34949.10821472498,
-                            "y": 33310.15182804353
+                            "x": 23210.388136242316,
+                            "y": 38065.15182804353
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6403,12 +6403,12 @@
                     "id": "983ca447-f19d-4dbf-b578-c4f716312353",
                     "savedPayload": {
                         "position": {
-                            "x": 34764.409772127285,
-                            "y": 33546.55505412554
+                            "x": 23025.689693644617,
+                            "y": 38301.55505412554
                         },
                         "targetPosition": {
-                            "x": 34949.10821472498,
-                            "y": 33310.15182804353
+                            "x": 23210.388136242316,
+                            "y": 38065.15182804353
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6447,6 +6447,34 @@
                     "name": "New Network Services",
                     "config": "{}",
                     "project": "Network",
+                    "socialGraph": {
+                        "type": "Social Graph",
+                        "name": "New Social Graph",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "014a03be-f53a-463c-a578-76382dc4ad75",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22776.56674138692,
+                                "y": 38410.228946930445
+                            },
+                            "targetPosition": {
+                                "x": 22922.009627460822,
+                                "y": 38147.843034788624
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "machineLearning": {
                         "type": "Machine Learning",
                         "name": "New Machine Learning",
@@ -6455,12 +6483,40 @@
                         "id": "f8bb92c7-521b-477c-856b-02907441e65c",
                         "savedPayload": {
                             "position": {
-                                "x": 34372.35119716199,
-                                "y": 33475.53424153372
+                                "x": 22633.63111867933,
+                                "y": 38230.53424153372
                             },
                             "targetPosition": {
-                                "x": 34660.729705943486,
-                                "y": 33392.843034788624
+                                "x": 22922.009627460822,
+                                "y": 38147.843034788624
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "tradingSignals": {
+                        "type": "Trading Signals",
+                        "name": "New Trading Signals",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "1eb3f827-95ab-491e-9b49-fd56aab0a0de",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22659.623715319005,
+                                "y": 38002.400148714725
+                            },
+                            "targetPosition": {
+                                "x": 22922.009627460822,
+                                "y": 38147.843034788624
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6478,12 +6534,12 @@
                     "id": "b89c30db-153f-44cf-b3c7-e594df843d9a",
                     "savedPayload": {
                         "position": {
-                            "x": 34660.729705943486,
-                            "y": 33392.843034788624
+                            "x": 22922.009627460822,
+                            "y": 38147.843034788624
                         },
                         "targetPosition": {
-                            "x": 34949.10821472498,
-                            "y": 33310.15182804353
+                            "x": 23210.388136242316,
+                            "y": 38065.15182804353
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6511,12 +6567,12 @@
                         "id": "a085cc2e-adae-4c43-b82c-2ddf38e275c5",
                         "savedPayload": {
                             "position": {
-                                "x": 34371.75810258555,
-                                "y": 33259.640238345906
+                                "x": 22633.03802410288,
+                                "y": 38014.640238345906
                             },
                             "targetPosition": {
-                                "x": 34667.20042848921,
-                                "y": 33207.545785045826
+                                "x": 22928.480350006543,
+                                "y": 37962.545785045826
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6539,12 +6595,12 @@
                         "id": "1102fc78-753f-4026-9eee-95f38c639ff9",
                         "savedPayload": {
                             "position": {
-                                "x": 34474.36414558325,
-                                "y": 32977.73245211013
+                                "x": 22735.64406710058,
+                                "y": 37732.73245211013
                             },
                             "targetPosition": {
-                                "x": 34667.20042848921,
-                                "y": 33207.545785045826
+                                "x": 22928.480350006543,
+                                "y": 37962.545785045826
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6562,12 +6618,12 @@
                     "id": "2e1254ad-ddb3-484a-bf1e-ec26fab80f14",
                     "savedPayload": {
                         "position": {
-                            "x": 34667.20042848921,
-                            "y": 33207.545785045826
+                            "x": 22928.480350006543,
+                            "y": 37962.545785045826
                         },
                         "targetPosition": {
-                            "x": 34949.10821472498,
-                            "y": 33310.15182804353
+                            "x": 23210.388136242316,
+                            "y": 38065.15182804353
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6618,12 +6674,12 @@
                     "id": "9ea9e7a4-4a0d-4c23-bc97-c0c90c899ade",
                     "savedPayload": {
                         "position": {
-                            "x": 26506.30379578807,
-                            "y": 33323.32733407357
+                            "x": 22974.5837173054,
+                            "y": 38123.32733407357
                         },
                         "targetPosition": {
-                            "x": 26691.00223838577,
-                            "y": 33086.92410799155
+                            "x": 23159.282159903098,
+                            "y": 37886.92410799155
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6645,12 +6701,12 @@
                     "id": "2d5f30b9-e3e8-4691-a5f2-590491bbec21",
                     "savedPayload": {
                         "position": {
-                            "x": 26402.623729604275,
-                            "y": 33169.61531473665
+                            "x": 22870.903651121604,
+                            "y": 37969.61531473665
                         },
                         "targetPosition": {
-                            "x": 26691.00223838577,
-                            "y": 33086.92410799155
+                            "x": 23159.282159903098,
+                            "y": 37886.92410799155
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6689,12 +6745,40 @@
                         "id": "fc9a5365-2764-4660-85b3-6844cb1960dd",
                         "savedPayload": {
                             "position": {
-                                "x": 26113.652126246332,
-                                "y": 33036.41251829393
+                                "x": 22605.48203755633,
+                                "y": 37911.10354351606
                             },
                             "targetPosition": {
-                                "x": 26409.094452149995,
-                                "y": 32984.31806499385
+                                "x": 22877.374373667324,
+                                "y": 37784.31806499385
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "machineLearning": {
+                        "type": "Machine Learning",
+                        "name": "New Machine Learning",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "185dd59b-bb53-4691-b50c-f8a8d8feb48d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 22595.46658743155,
+                                "y": 37681.71202199615
+                            },
+                            "targetPosition": {
+                                "x": 22877.374373667324,
+                                "y": 37784.31806499385
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6717,12 +6801,12 @@
                         "id": "9a751c75-9ed1-4636-a04d-8c1e434b7252",
                         "savedPayload": {
                             "position": {
-                                "x": 26216.258169244033,
-                                "y": 32754.504732058158
+                                "x": 22750.588895145116,
+                                "y": 37512.42572888286
                             },
                             "targetPosition": {
-                                "x": 26409.094452149995,
-                                "y": 32984.31806499385
+                                "x": 22877.374373667324,
+                                "y": 37784.31806499385
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6740,12 +6824,12 @@
                     "id": "ecab42ae-0749-45a7-a224-75c08fd954ee",
                     "savedPayload": {
                         "position": {
-                            "x": 26409.094452149995,
-                            "y": 32984.31806499385
+                            "x": 22877.374373667324,
+                            "y": 37784.31806499385
                         },
                         "targetPosition": {
-                            "x": 26691.00223838577,
-                            "y": 33086.92410799155
+                            "x": 23159.282159903098,
+                            "y": 37886.92410799155
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6773,12 +6857,12 @@
                         "id": "8b9e7ead-410b-4619-95ab-0bd0cc8d7a2f",
                         "savedPayload": {
                             "position": {
-                                "x": 26253.606153454795,
-                                "y": 32706.701492188313
+                                "x": 22721.886074972124,
+                                "y": 37506.70149218832
                             },
                             "targetPosition": {
-                                "x": 26523.244367344545,
-                                "y": 32838.21283622504
+                                "x": 22991.524288861874,
+                                "y": 37638.21283622504
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6801,12 +6885,12 @@
                         "id": "8c791286-66f7-4e96-852f-532102859b74",
                         "savedPayload": {
                             "position": {
-                                "x": 26502.317425221307,
-                                "y": 32538.94362114709
+                                "x": 22970.597346738636,
+                                "y": 37338.94362114709
                             },
                             "targetPosition": {
-                                "x": 26523.244367344545,
-                                "y": 32838.21283622504
+                                "x": 22991.524288861874,
+                                "y": 37638.21283622504
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -6824,12 +6908,12 @@
                     "id": "6c10f16e-ad01-4b18-aa4f-c343bf1b67b0",
                     "savedPayload": {
                         "position": {
-                            "x": 26523.244367344545,
-                            "y": 32838.21283622504
+                            "x": 22991.524288861874,
+                            "y": 37638.21283622504
                         },
                         "targetPosition": {
-                            "x": 26691.00223838577,
-                            "y": 33086.92410799155
+                            "x": 23159.282159903098,
+                            "y": 37886.92410799155
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -6857,7 +6941,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": true,
+                        "isCollapsed": false,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -7449,7 +7533,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
