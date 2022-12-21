@@ -457,7 +457,64 @@
             "name": "New Server Apps",
             "config": "{}",
             "project": "User-Apps",
-            "taskServerApps": [],
+            "taskServerApps": [
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x873ce92b5cb7b98bc74ea0729a5cee52f541ca3f377e5648add7b452fa61224e\",\n        \"s\": \"0x69137118b736ad27ac2be2655b50b7daa2d8c9b1970e3f1ef4c312b6d9a2bdd2\",\n        \"signature\": \"0x873ce92b5cb7b98bc74ea0729a5cee52f541ca3f377e5648add7b452fa61224e69137118b736ad27ac2be2655b50b7daa2d8c9b1970e3f1ef4c312b6d9a2bdd21c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "4f29c102-289f-4896-a722-8bdefaade184",
+                        "savedPayload": {
+                            "position": {
+                                "x": 36549.27338129497,
+                                "y": 32822.55762113533
+                            },
+                            "targetPosition": {
+                                "x": 36552.27338129497,
+                                "y": 32803.55762113533
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "6300d5ef-c6c5-4272-92a7-16d2d71961d2",
+                    "savedPayload": {
+                        "position": {
+                            "x": 36552.27338129497,
+                            "y": 32803.55762113533
+                        },
+                        "targetPosition": {
+                            "x": 36702.27338129497,
+                            "y": 32543.75
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
             "socialTradingServerApps": [
                 {
                     "type": "Social Trading Server App",
@@ -467,17 +524,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x7131d80c894cdf7361f4be79d3cb30fe1174fb74114fad4414ba1fcd477f0f71\",\n        \"s\": \"0x6ac2ddd3735faafff308551d9eb57d9137d885fabaab380145e8967d01b08b7b\",\n        \"signature\": \"0x7131d80c894cdf7361f4be79d3cb30fe1174fb74114fad4414ba1fcd477f0f716ac2ddd3735faafff308551d9eb57d9137d885fabaab380145e8967d01b08b7b1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x79163852f5e7c24db5198ee5c37817b84d96476e3bc0faff734efc476c70168f\",\n        \"s\": \"0x246696e28dc064aa20e42b2a16dec7fe69b2d47b7299311b84c7520cfb345959\",\n        \"signature\": \"0x79163852f5e7c24db5198ee5c37817b84d96476e3bc0faff734efc476c70168f246696e28dc064aa20e42b2a16dec7fe69b2d47b7299311b84c7520cfb3459591b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "6b612e15-22e9-4936-9e8b-9918c11f7249",
+                        "id": "35d23e44-bb7f-41e9-82c9-acded5783c95",
                         "savedPayload": {
                             "position": {
-                                "x": 36102.27338129497,
-                                "y": 32543.75
+                                "x": 36540.27338129497,
+                                "y": 32190.942378864667
                             },
                             "targetPosition": {
-                                "x": 36402.27338129497,
-                                "y": 32543.75
+                                "x": 36552.27338129497,
+                                "y": 32283.942378864667
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -495,8 +552,8 @@
                     "id": "98ee64d8-cdb0-44cf-9dfa-a91c4e620ebf",
                     "savedPayload": {
                         "position": {
-                            "x": 36402.27338129497,
-                            "y": 32543.75
+                            "x": 36552.27338129497,
+                            "y": 32283.942378864667
                         },
                         "targetPosition": {
                             "x": 36702.27338129497,
@@ -581,13 +638,13 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x71231a23f4caeb80fe5eca7307922b8c578a2ec787f7f90f33dbda0c4748a89a\",\n        \"s\": \"0x012aa1e29432d18fa393ab658b4cfdec6543e2c60312e02d5bc8e1a3f9015e74\",\n        \"signature\": \"0x71231a23f4caeb80fe5eca7307922b8c578a2ec787f7f90f33dbda0c4748a89a012aa1e29432d18fa393ab658b4cfdec6543e2c60312e02d5bc8e1a3f9015e741c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xfbb04043de82c54be298a959d8b3cc9cc534fd7033ffca829dadb8038ca8e61a\",\n        \"s\": \"0x479441db225b1e7081cca4be2259f6b2794ba4860c43e7a49ea71174bb37b956\",\n        \"signature\": \"0xfbb04043de82c54be298a959d8b3cc9cc534fd7033ffca829dadb8038ca8e61a479441db225b1e7081cca4be2259f6b2794ba4860c43e7a49ea71174bb37b9561b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "8dcefeee-a7fb-42b7-b179-d56cbf6ea984",
+                        "id": "e3a2271b-4dcd-438a-9af2-8c64d829ecff",
                         "savedPayload": {
                             "position": {
-                                "x": 37302.27338129497,
-                                "y": 31343.75
+                                "x": 37246.27338129497,
+                                "y": 31616.75
                             },
                             "targetPosition": {
                                 "x": 37302.27338129497,
