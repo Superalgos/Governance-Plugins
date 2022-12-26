@@ -534,7 +534,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -1598,7 +1598,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -3096,7 +3096,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "New P2P Network Node #RL-Net-Singnals",
-                "config": "{ \n\"codeName\": \"\", \n\"host\": \"localhost\", \n\"clientMinimunBalance\": 0, \n\"clientMinimunBalance\": 0 \n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"mecomputerservice.ddns.net\"\n}",
                 "project": "Network",
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
@@ -3366,7 +3366,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "New P2P Network Node #ML-Net",
-                "config": "{ \n\"codeName\": \"\", \n\"host\": \"localhost\", \n\"clientMinimunBalance\": 0, \n\"clientMinimunBalance\": 0 \n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"mecomputerservice.ddns.net\"\n}",
                 "project": "Network",
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
@@ -3580,7 +3580,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "New P2P Network Node #ML-Net-Signals",
-                "config": "{ \n\"codeName\": \"\", \n\"host\": \"localhost\", \n\"clientMinimunBalance\": 0, \n\"clientMinimunBalance\": 0 \n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-4\",\n    \"host\": \"mecomputerservice.ddns.net\"\n}",
                 "project": "Network",
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
@@ -3861,7 +3861,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
