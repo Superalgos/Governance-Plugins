@@ -466,9 +466,9 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xc9d8fb364bb5cd81182310bf2ef870b802259cf43085ea060305d30b2745338a\",\n        \"s\": \"0x6e9afbfc9cd0f49cbf14423b67462db5dcf49cbe1e3da1847dd082e01269305d\",\n        \"signature\": \"0xc9d8fb364bb5cd81182310bf2ef870b802259cf43085ea060305d30b2745338a6e9afbfc9cd0f49cbf14423b67462db5dcf49cbe1e3da1847dd082e01269305d1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x0c16705270ecfb06e833be5d6623b99c3af228f7c0b052a3571442c4d8e46db9\",\n        \"s\": \"0x760380f7bb1f434978b48bf9a5f53c60b70dcf59ecc30473f4d3924b83367c56\",\n        \"signature\": \"0x0c16705270ecfb06e833be5d6623b99c3af228f7c0b052a3571442c4d8e46db9760380f7bb1f434978b48bf9a5f53c60b70dcf59ecc30473f4d3924b83367c561b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "82c33202-0761-4bb7-90d9-c6583d805dde",
+                        "id": "1181e5ab-0a56-4be0-a379-ad43c15c3886",
                         "savedPayload": {
                             "position": {
                                 "x": 4080.64353973757,
@@ -518,15 +518,15 @@
             "socialTradingServerApps": [
                 {
                     "type": "Social Trading Server App",
-                    "name": "Local Social Trading Server App #1",
+                    "name": "Social Trading Server App #1",
                     "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"host\": \"192.168.0.132\",\n    \"webSocketsPort\": \"16042\"\n}",
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x375a95e9a2cba78e32ea2b6d4086f476c75d05317cab179738d3156976081856\",\n        \"s\": \"0x7565a0cc3e409f29d8c8118b761f2677bd2f017e63e06a2dd6b44a9c77a6053b\",\n        \"signature\": \"0x375a95e9a2cba78e32ea2b6d4086f476c75d05317cab179738d31569760818567565a0cc3e409f29d8c8118b761f2677bd2f017e63e06a2dd6b44a9c77a6053b1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x91bb97d8dbca31cd47449b9935e422b8cf57516b98fe3e84771436740dc4a382\",\n        \"s\": \"0x3a9a49d9f92b221c9d60a8a0b736ed891b0960e3e10cfd8f202811ff7e4b9ba8\",\n        \"signature\": \"0x91bb97d8dbca31cd47449b9935e422b8cf57516b98fe3e84771436740dc4a3823a9a49d9f92b221c9d60a8a0b736ed891b0960e3e10cfd8f202811ff7e4b9ba81c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "6edd8c02-d4e5-4ea7-8381-d4a4724bb347",
+                        "id": "a3b595ef-e091-4f68-b504-700bdb3e54be",
                         "savedPayload": {
                             "position": {
                                 "x": 3625.352112676057,
@@ -574,9 +574,37 @@
                 },
                 {
                     "type": "Social Trading Server App",
-                    "name": "Remote Social Trading Server App #1",
-                    "config": "{\n    \"codeName\": \"remoteHost\",\n    \"host\": \"52.214.84.63\",\n    \"webSocketsPort\": \"16042\"\n}",
+                    "name": "Social Trading Server App #2",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Server-App-2\",\n    \"host\": \"52.214.84.63\",\n    \"webSocketsPort\": \"16042\"\n}",
                     "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-2\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xd558598ef10e5079df676e9b51bee0d26b4172fa3a74cee531bcb047fa66c6d4\",\n        \"s\": \"0x7f0b994e74c89145cf1caaa31f8887349c44faeca4491cb5d3343ad6522ee38a\",\n        \"signature\": \"0xd558598ef10e5079df676e9b51bee0d26b4172fa3a74cee531bcb047fa66c6d47f0b994e74c89145cf1caaa31f8887349c44faeca4491cb5d3343ad6522ee38a1c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "d5ad8f9e-1a7d-4e7f-8dcc-cb6b2bd890e9",
+                        "savedPayload": {
+                            "position": {
+                                "x": 3345.796616902616,
+                                "y": 24274.90666933218
+                            },
+                            "targetPosition": {
+                                "x": 3635.5743647893364,
+                                "y": 24197.260955801423
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "id": "850b4dc3-efa6-41cf-8389-14744a6cc9f1",
                     "savedPayload": {
                         "position": {
@@ -666,13 +694,13 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x0732f682716eef6f526b336454455c67d50572587ea64f59c07eb958aafda4fa\",\n        \"s\": \"0x343c84dd8d82daddafa31898d4cd98743691cb96cef51d5f5c810da97a34d971\",\n        \"signature\": \"0x0732f682716eef6f526b336454455c67d50572587ea64f59c07eb958aafda4fa343c84dd8d82daddafa31898d4cd98743691cb96cef51d5f5c810da97a34d9711b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xcc63221502999f8b21a17a9b79a6dab73bbea92f30298026c7a09f47062a1952\",\n        \"s\": \"0x4c95d973d726e37208392f3823b95630a68499a475e194494d3c6e6229beee0d\",\n        \"signature\": \"0xcc63221502999f8b21a17a9b79a6dab73bbea92f30298026c7a09f47062a19524c95d973d726e37208392f3823b95630a68499a475e194494d3c6e6229beee0d1c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7217cda4-fd53-4f1f-8d12-5e569095787d",
+                        "id": "e7d9829c-bc93-4819-bd79-7413912ea740",
                         "savedPayload": {
                             "position": {
-                                "x": 3113.220078320093,
-                                "y": 23812.132034355964
+                                "x": 3267.352112676057,
+                                "y": 23525
                             },
                             "targetPosition": {
                                 "x": 3325.352112676057,
@@ -1422,15 +1450,15 @@
         "p2pNetworkNodes": [
             {
                 "type": "P2P Network Node",
-                "name": "Local P2P Network Node #1",
+                "name": "P2P Network Node #1",
                 "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"192.168.0.132\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
                     "name": "New Signing Account",
-                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xd57933db5d597dd0059e5e8c7f89e5f65249991f05bf0a6159db120d71d53646\",\n        \"s\": \"0x7d434f687d97d94322c0cd49ff8c172bef9e06d0dfdb319cfd24a4f678f2f729\",\n        \"signature\": \"0xd57933db5d597dd0059e5e8c7f89e5f65249991f05bf0a6159db120d71d536467d434f687d97d94322c0cd49ff8c172bef9e06d0dfdb319cfd24a4f678f2f7291b\"\n    }\n}",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x35481e0dfb9191b0890321e8138c7bea7879a72a689ea922a073937b897674da\",\n        \"s\": \"0x68f024a2b1c3a20fb403f770edb097fac98d0ed2dc00fa61a6471270113cf5ce\",\n        \"signature\": \"0x35481e0dfb9191b0890321e8138c7bea7879a72a689ea922a073937b897674da68f024a2b1c3a20fb403f770edb097fac98d0ed2dc00fa61a6471270113cf5ce1c\"\n    }\n}",
                     "project": "Governance",
-                    "id": "0199f575-8a74-446a-a30d-3bfbad9a7767",
+                    "id": "f481a6a9-a00f-4e74-992c-7d65faf894e1",
                     "savedPayload": {
                         "position": {
                             "x": 3599.0165369883152,
@@ -1684,9 +1712,37 @@
             },
             {
                 "type": "P2P Network Node",
-                "name": "Remote P2P Network Node #1",
-                "config": "{\n    \"codeName\": \"remoteTestHost\",\n    \"host\": \"52.214.84.63\",\n    \"clientMinimunBalance\": 0,\n    \"clientMinimunBalance\": 0\n}",
+                "name": "P2P Network Node #2",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"52.214.84.63\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"signature\": {\n        \"message\": \"Awhiteweb\",\n        \"messageHash\": \"0xf2265d4eba3c0e628d643eae400f60c031e19f74ab009f55f9dfc089b9a08146\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x7e8bc637aad86e153728bacfccd78834e65add7f3ef41853399b8e95f631e10e\",\n        \"s\": \"0x195bbfc3f5da014eaebc29f67aad7cea703679e6ae8651ebc1c8e472894841cb\",\n        \"signature\": \"0x7e8bc637aad86e153728bacfccd78834e65add7f3ef41853399b8e95f631e10e195bbfc3f5da014eaebc29f67aad7cea703679e6ae8651ebc1c8e472894841cb1b\"\n    }\n}",
+                    "project": "Governance",
+                    "id": "a340cc2a-5be5-4f3b-9356-bb33fa45dd4f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 3832.647014363573,
+                            "y": 22863.856803176925
+                        },
+                        "targetPosition": {
+                            "x": 4075.352112676057,
+                            "y": 23040.192378864667
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
                     "name": "Testnet",
@@ -1694,8 +1750,8 @@
                     "id": "d7abd746-3f59-4476-b45e-10c28bff08c7",
                     "savedPayload": {
                         "position": {
-                            "x": 3863.220078320093,
-                            "y": 22828.060344508704
+                            "x": 3982.647014363573,
+                            "y": 22754.875423976122
                         },
                         "targetPosition": {
                             "x": 4075.352112676057,
@@ -1738,12 +1794,12 @@
                         "id": "a085068f-63cf-4a6f-811d-ad01caedd86e",
                         "savedPayload": {
                             "position": {
-                                "x": 3925.352112676057,
-                                "y": 22480.384757729335
+                                "x": 4105.683703743213,
+                                "y": 22461.43114375598
                             },
                             "targetPosition": {
-                                "x": 4075.352112676057,
-                                "y": 22740.192378864667
+                                "x": 4168.057210988542,
+                                "y": 22754.875423976122
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1766,12 +1822,12 @@
                         "id": "7c5d2854-b718-4608-8b56-6ce0df1a3a1f",
                         "savedPayload": {
                             "position": {
-                                "x": 4225.352112676057,
-                                "y": 22480.384757729335
+                                "x": 4391.0006586317595,
+                                "y": 22554.136242068464
                             },
                             "targetPosition": {
-                                "x": 4075.352112676057,
-                                "y": 22740.192378864667
+                                "x": 4168.057210988542,
+                                "y": 22754.875423976122
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1789,8 +1845,8 @@
                     "id": "39dcafb9-cf9c-43c1-b675-ac15cc853d07",
                     "savedPayload": {
                         "position": {
-                            "x": 4075.352112676057,
-                            "y": 22740.192378864667
+                            "x": 4168.057210988542,
+                            "y": 22754.875423976122
                         },
                         "targetPosition": {
                             "x": 4075.352112676057,
@@ -1822,12 +1878,12 @@
                         "id": "78092589-0caa-41a1-a0a6-41ced0433696",
                         "savedPayload": {
                             "position": {
-                                "x": 4365.129860562778,
-                                "y": 22538.282596621983
+                                "x": 4440.078203911282,
+                                "y": 22589.793165884144
                             },
                             "targetPosition": {
-                                "x": 4287.484147032022,
-                                "y": 22828.060344508704
+                                "x": 4318.057210988542,
+                                "y": 22863.856803176925
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1850,12 +1906,12 @@
                         "id": "8bd9489c-fd74-41ea-8062-9cc902167b11",
                         "savedPayload": {
                             "position": {
-                                "x": 4577.261894918742,
-                                "y": 22750.414630977946
+                                "x": 4616.413779599024,
+                                "y": 22832.498264196627
                             },
                             "targetPosition": {
-                                "x": 4287.484147032022,
-                                "y": 22828.060344508704
+                                "x": 4318.057210988542,
+                                "y": 22863.856803176925
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1873,8 +1929,8 @@
                     "id": "157d4b6b-7625-45ea-a82e-10db00a8bb1d",
                     "savedPayload": {
                         "position": {
-                            "x": 4287.484147032022,
-                            "y": 22828.060344508704
+                            "x": 4318.057210988542,
+                            "y": 22863.856803176925
                         },
                         "targetPosition": {
                             "x": 4075.352112676057,
