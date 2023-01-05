@@ -518,8 +518,8 @@
             "socialTradingServerApps": [
                 {
                     "type": "Social Trading Server App",
-                    "name": "Social Trading Server App #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"host\": \"192.168.0.132\",\n    \"webSocketsPort\": \"16042\"\n}",
+                    "name": "Local Social Trading Server App #1",
+                    "config": "{\n    \"codeName\": \"Local-Social-Trading-Server-App-1\",\n    \"host\": \"192.168.0.132\",\n    \"webSocketsPort\": \"16042\"\n}",
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
@@ -574,8 +574,8 @@
                 },
                 {
                     "type": "Social Trading Server App",
-                    "name": "Social Trading Server App #2",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Server-App-2\",\n    \"host\": \"52.214.84.63\",\n    \"webSocketsPort\": \"16042\"\n}",
+                    "name": "Remote Social Trading Server App #2",
+                    "config": "{\n    \"codeName\": \"Remote-Social-Trading-Server-App\",\n    \"host\": \"52.214.84.63\",\n    \"webSocketsPort\": \"16042\"\n}",
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
@@ -1450,8 +1450,8 @@
         "p2pNetworkNodes": [
             {
                 "type": "P2P Network Node",
-                "name": "P2P Network Node #1",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"192.168.0.132\",\n    \"clientMinimunBalance\": 0\n}",
+                "name": "P2P Local Network Node #1",
+                "config": "{\n    \"codeName\": \"P2P-Local-Network-Node-1\",\n    \"host\": \"192.168.0.132\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
@@ -1712,8 +1712,8 @@
             },
             {
                 "type": "P2P Network Node",
-                "name": "P2P Network Node #2",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"52.214.84.63\",\n    \"clientMinimunBalance\": 0\n}",
+                "name": "P2P Remote Network Node",
+                "config": "{\n    \"codeName\": \"P2P-Remote-Network-Node\",\n    \"host\": \"52.214.84.63\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
