@@ -127,12 +127,12 @@
             "id": "7fc3bfe6-5d93-4e47-9331-8e93bb99b52d",
             "savedPayload": {
                 "position": {
-                    "x": 2812.2047244094488,
-                    "y": 28140.192378864667
+                    "x": 6788.0281690140855,
+                    "y": 13740.19237886467
                 },
                 "targetPosition": {
-                    "x": 2662.2047244094488,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 14000.000000000002
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1109,12 +1109,12 @@
             "id": "a1dd9c49-bcca-4927-96ff-ecbdd4347713",
             "savedPayload": {
                 "position": {
-                    "x": 2922.01234554478,
-                    "y": 28250
+                    "x": 6897.835790149417,
+                    "y": 13850.000000000002
                 },
                 "targetPosition": {
-                    "x": 2662.2047244094488,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 14000.000000000002
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1137,7 +1137,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\r\n    \"percentage\": 65\r\n}",
+                "config": "{\r\n    \"percentage\": 85\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -2994,12 +2994,12 @@
                                 "id": "5412bbdc-aaa3-4259-bede-54ae3498f691",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 3372.01234554478,
-                                        "y": 22890.192378864667
+                                        "x": 7347.835790149417,
+                                        "y": 13290.19237886467
                                     },
                                     "targetPosition": {
-                                        "x": 3372.01234554478,
-                                        "y": 23190.192378864667
+                                        "x": 7347.835790149417,
+                                        "y": 13590.19237886467
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -3027,516 +3027,44 @@
                             },
                             {
                                 "type": "Weight Votes Switch",
-                                "name": "Teams of Contributors",
+                                "name": "December 2022 Teams",
                                 "config": "{\r\n    \"percentage\": 90\r\n}",
                                 "project": "Governance",
-                                "weightVotesSwitch": [
+                                "weightVotesSwitch": [],
+                                "poolWeightVotes": [],
+                                "assetWeightVotes": [],
+                                "featureWeightVotes": [],
+                                "positionWeightVotes": [
                                     {
-                                        "type": "Weight Votes Switch",
-                                        "name": "Teams November 2022",
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams Signalytic Team",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
-                                        "assetWeightVotes": [],
-                                        "featureWeightVotes": [],
-                                        "positionWeightVotes": [
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Signalytic",
-                                                "config": "{\n    \"percentage\": 5\n}",
-                                                "project": "Governance",
-                                                "id": "e7863356-d0f3-4d67-9b29-581b1845d250",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 3915.439877403867,
-                                                        "y": 22377.87717311907
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Signalytic",
-                                                        "id": "d1ef9511-b9fe-4b96-9fdb-0dec099ab699"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Signalytic",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 End-debug",
-                                                "config": "{\r\n    \"percentage\": 5\r\n}",
-                                                "project": "Governance",
-                                                "id": "8433ba78-36ff-4fca-9329-7e8fb41c36c1",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4042.9432605037928,
-                                                        "y": 22365.702076232315
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "End-debug",
-                                                        "id": "3f3f2eed-3475-46c2-ac79-1740108209e3"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "End-debug",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 NAmorim",
-                                                "config": "{\n    \"percentage\": 5\n}",
-                                                "project": "Governance",
-                                                "id": "7a124981-8342-43e5-b633-0307e92f8086",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4168.711981875949,
-                                                        "y": 22389.94201044307
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "NAmorim",
-                                                        "id": "508e8187-2867-403b-858f-63fcbc4fd0cd"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "NAmorim",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 VEX Team",
-                                                "config": "{\n    \"percentage\": \n}",
-                                                "project": "Governance",
-                                                "id": "135fda90-d4a1-4412-b234-b885cad8b085",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4282.557007690149,
-                                                        "y": 22448.633200442015
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "VEX Team",
-                                                        "id": "c0dcc246-5790-406b-8dae-257f03a7965d"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "VEX Team",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Tiger40",
-                                                "config": "{}",
-                                                "project": "Governance",
-                                                "id": "bb6ef3eb-f162-45ac-9b5b-0a5bacc1264a",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4375.255291017363,
-                                                        "y": 22537.020835065396
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Tiger40",
-                                                        "id": "eb3fff63-be2c-4ebf-8977-27df9623b19f"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Tiger40",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Turkish Team",
-                                                "config": "{\n    \"percentage\":\n}",
-                                                "project": "Governance",
-                                                "id": "f7f3bac4-1969-4bd6-82b8-4542dc3d2549",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4439.296968240342,
-                                                        "y": 22647.94427381752
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Turkish Team",
-                                                        "id": "17ba1cef-54a9-4e42-8936-8c6b77dbb134"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Turkish Team",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Documentation (Alex White)",
-                                                "config": "{\n    \"percentage\": 5\n}",
-                                                "project": "Governance",
-                                                "id": "c21d3ae0-d5af-4507-a2f6-f9e7586b47ce",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4469.493763540997,
-                                                        "y": 22772.417159377786
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Documentation (Alex White)",
-                                                        "id": "c4528ad4-f4a2-42c3-b110-256ae794c2eb"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Documentation (Alex White)",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Translations",
-                                                "config": "{\r\n    \"percentage\": 5\r\n}",
-                                                "project": "Governance",
-                                                "id": "43e4da19-bc0d-44cb-b44a-fb34ac48f350",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4463.399312151327,
-                                                        "y": 22900.355438826853
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Translations",
-                                                        "id": "bca2b65b-282a-43ea-9ee7-012afe3b8bdc"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Translations",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Harrellbm",
-                                                "config": "{\n    \"percentage\": 5\n}",
-                                                "project": "Governance",
-                                                "id": "384ecc68-70ff-4159-af49-861cbcf11ff4",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4421.507350277824,
-                                                        "y": 23021.394313642002
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Harrellbm",
-                                                        "id": "9eea93b0-0d2e-4edc-b0d5-9ff9860c7347"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Harrellbm",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            },
-                                            {
-                                                "type": "Position Weight Vote",
-                                                "name": "Teams November 2022 Data Mining",
-                                                "config": "{\r\n    \"percentage\": 5\r\n}",
-                                                "project": "Governance",
-                                                "id": "9d4fc9ec-2dac-4a49-af00-d087d052bb6b",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 4347.21171553039,
-                                                        "y": 23125.727934031616
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 4021.531398383109,
-                                                        "y": 22815.192378864667
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    },
-                                                    "referenceParent": {
-                                                        "type": "Position",
-                                                        "name": "Data Mining",
-                                                        "id": "3c924bb9-58e9-48fa-9db3-f13b93638bca"
-                                                    },
-                                                    "referenceParentCombinedNodePath": [
-                                                        [
-                                                            "Teams of Contributors",
-                                                            "Positions"
-                                                        ],
-                                                        [
-                                                            "Teams November 2022",
-                                                            "Position Class"
-                                                        ],
-                                                        [
-                                                            "Data Mining",
-                                                            "Position"
-                                                        ]
-                                                    ]
-                                                }
-                                            }
-                                        ],
-                                        "id": "0f4e0864-1a2c-4504-846b-fa2db01f08ec",
+                                        "id": "bc98ccda-b28d-4402-b4d6-80a7ab2afca9",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4021.531398383109,
-                                                "y": 22815.192378864667
+                                                "x": 7555.54895798467,
+                                                "y": 13144.750052961008
                                             },
                                             "targetPosition": {
-                                                "x": 3631.8199666801115,
-                                                "y": 23040.192378864667
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
                                                 "isFrozen": false,
                                                 "isCollapsed": false,
                                                 "angleToParent": 2,
-                                                "distanceToParent": 4,
+                                                "distanceToParent": 3,
                                                 "arrangementStyle": 0
                                             },
                                             "uiObject": {
                                                 "isRunning": false
                                             },
                                             "referenceParent": {
-                                                "type": "Position Class",
-                                                "name": "Teams November 2022",
-                                                "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
+                                                "type": "Position",
+                                                "name": "Signalytic Team",
+                                                "id": "a5bfc531-743e-4b5a-851a-38933be11b5f"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -3544,26 +3072,355 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "Teams November 2022",
+                                                    "December 2022 Teams",
                                                     "Position Class"
+                                                ],
+                                                [
+                                                    "Signalytic Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams BigGremlin Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "76997a9f-491e-450d-bdca-963b18b52b45",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7659.7378645848285,
+                                                "y": 13144.750052961008
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "BigGremlin Team",
+                                                "id": "13c25e06-7fcf-471a-af69-d34611a886b3"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "BigGremlin Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams Translations Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "ea1aad00-29e4-4971-bb77-73b4cc963fca",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7757.643411284749,
+                                                "y": 13180.38475772934
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Translations Team",
+                                                "id": "458c661c-1b18-4de6-949f-444f04194ee0"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Translations Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams VEX Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "c90ff4f4-ef6c-42e5-af46-784661a964fb",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7837.4567442204425,
+                                                "y": 13247.356095958708
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "VEX Team",
+                                                "id": "edab16d1-8033-484b-81dd-ef0697a3550d"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "VEX Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams Julian Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "14f49b03-9ebd-4713-a662-42c671d7e69f",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7889.551197520522,
+                                                "y": 13337.58633586697
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Julian Team",
+                                                "id": "532f7d0c-5ef0-498c-af5e-7b82af1dedc0"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Julian Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams Turkish Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "6ab52418-e609-4fc4-a85b-5d2b633ba763",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7907.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Turkish Team",
+                                                "id": "461f6808-8a6b-4f09-a3a6-8987b628fb26"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Turkish Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams Alex White Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "9c11ba4b-80c4-40d0-9a83-925f81cbc26e",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7889.551197520522,
+                                                "y": 13542.798421862371
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Alex White Team",
+                                                "id": "27bcab2f-62b2-4913-a5d5-4c7599e28a53"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Alex White Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "December 2022 Teams Data Mining Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "a7076ddb-ed8a-4a21-9e70-7251f134e372",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7837.4567442204425,
+                                                "y": 13633.028661770633
+                                            },
+                                            "targetPosition": {
+                                                "x": 7607.643411284749,
+                                                "y": 13440.19237886467
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Data Mining Team",
+                                                "id": "2a7b0649-bdd0-4176-b0cc-ec71e5e0f733"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "December 2022 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Data Mining Team",
+                                                    "Position"
                                                 ]
                                             ]
                                         }
                                     }
                                 ],
-                                "poolWeightVotes": [],
-                                "assetWeightVotes": [],
-                                "featureWeightVotes": [],
-                                "positionWeightVotes": [],
                                 "id": "d20b9ec1-342f-488d-89c4-86f24d87168b",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 3631.8199666801115,
-                                        "y": 23040.192378864667
+                                        "x": 7607.643411284749,
+                                        "y": 13440.19237886467
                                     },
                                     "targetPosition": {
-                                        "x": 3372.01234554478,
-                                        "y": 23190.192378864667
+                                        "x": 7347.835790149417,
+                                        "y": 13590.19237886467
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -3577,14 +3434,18 @@
                                         "isRunning": false
                                     },
                                     "referenceParent": {
-                                        "type": "Positions",
-                                        "name": "Teams of Contributors",
-                                        "id": "d0f4f3fb-9353-4922-9e56-f950d17ebf58"
+                                        "type": "Position Class",
+                                        "name": "December 2022 Teams",
+                                        "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
                                             "Teams of Contributors",
                                             "Positions"
+                                        ],
+                                        [
+                                            "December 2022 Teams",
+                                            "Position Class"
                                         ]
                                     ]
                                 }
@@ -3594,12 +3455,12 @@
                         "id": "cb34916f-57bf-4ac7-a032-ba956ad802f3",
                         "savedPayload": {
                             "position": {
-                                "x": 3372.01234554478,
-                                "y": 23190.192378864667
+                                "x": 7347.835790149417,
+                                "y": 13590.19237886467
                             },
                             "targetPosition": {
-                                "x": 3222.01234554478,
-                                "y": 23450
+                                "x": 7197.835790149417,
+                                "y": 13850.000000000002
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -3622,12 +3483,12 @@
                     "id": "5ababb63-b40b-42ec-bfdb-8b35eccfa5a5",
                     "savedPayload": {
                         "position": {
-                            "x": 3522.01234554478,
-                            "y": 23450
+                            "x": 7497.835790149417,
+                            "y": 13850.000000000002
                         },
                         "targetPosition": {
-                            "x": 3222.01234554478,
-                            "y": 23450
+                            "x": 7197.835790149417,
+                            "y": 13850.000000000002
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -3645,17 +3506,17 @@
                 "id": "1459eb0a-1eda-4c93-bcf9-1de745dcdd22",
                 "savedPayload": {
                     "position": {
-                        "x": 3222.01234554478,
-                        "y": 28250
+                        "x": 7197.835790149417,
+                        "y": 13850.000000000002
                     },
                     "targetPosition": {
-                        "x": 2962.2047244094488,
-                        "y": 28400
+                        "x": 6938.0281690140855,
+                        "y": 14000.000000000002
                     },
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": true,
+                        "isCollapsed": false,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -3688,18 +3549,18 @@
                                 "positionContributionClaims": [
                                     {
                                         "type": "Position Contribution Claim",
-                                        "name": "Turkish Team Teams November 2022",
+                                        "name": "Turkish Team December 2022 Teams",
                                         "config": "{\r\n    \"percentage\": \r\n}",
                                         "project": "Governance",
                                         "id": "45137160-ceb2-4f63-9aa2-ce50d9ac060d",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 4272.01234554478,
-                                                "y": 28550
+                                                "x": 8247.835790149416,
+                                                "y": 14150.000000000002
                                             },
                                             "targetPosition": {
-                                                "x": 3822.01234554478,
-                                                "y": 28550
+                                                "x": 7797.835790149417,
+                                                "y": 14150.000000000002
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -3715,7 +3576,7 @@
                                             "referenceParent": {
                                                 "type": "Position",
                                                 "name": "Turkish Team",
-                                                "id": "17ba1cef-54a9-4e42-8936-8c6b77dbb134"
+                                                "id": "461f6808-8a6b-4f09-a3a6-8987b628fb26"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -3723,7 +3584,7 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "Teams November 2022",
+                                                    "December 2022 Teams",
                                                     "Position Class"
                                                 ],
                                                 [
@@ -3737,12 +3598,12 @@
                                 "id": "4f528314-a79f-4e67-9f7a-749b027d1a26",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 3822.01234554478,
-                                        "y": 28550
+                                        "x": 7797.835790149417,
+                                        "y": 14150.000000000002
                                     },
                                     "targetPosition": {
-                                        "x": 3522.01234554478,
-                                        "y": 28550
+                                        "x": 7497.835790149417,
+                                        "y": 14150.000000000002
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -3762,12 +3623,12 @@
                         "id": "3da0c887-1c56-4f79-a034-0ba4658610fc",
                         "savedPayload": {
                             "position": {
-                                "x": 3522.01234554478,
-                                "y": 28550
+                                "x": 7497.835790149417,
+                                "y": 14150.000000000002
                             },
                             "targetPosition": {
-                                "x": 3222.01234554478,
-                                "y": 28550
+                                "x": 7197.835790149417,
+                                "y": 14150.000000000002
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -3782,7 +3643,7 @@
                             },
                             "referenceParent": {
                                 "type": "Position Class",
-                                "name": "Teams November 2022",
+                                "name": "December 2022 Teams",
                                 "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
                             },
                             "referenceParentCombinedNodePath": [
@@ -3791,7 +3652,7 @@
                                     "Positions"
                                 ],
                                 [
-                                    "Teams November 2022",
+                                    "December 2022 Teams",
                                     "Position Class"
                                 ]
                             ]
@@ -3805,12 +3666,12 @@
                     "id": "6dd36c12-3de8-48f3-b898-da9e9815a6d3",
                     "savedPayload": {
                         "position": {
-                            "x": 3372.01234554478,
-                            "y": 28809.807621135333
+                            "x": 7347.835790149417,
+                            "y": 14409.807621135333
                         },
                         "targetPosition": {
-                            "x": 3222.01234554478,
-                            "y": 28550
+                            "x": 7197.835790149417,
+                            "y": 14150.000000000002
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -3828,12 +3689,12 @@
                 "id": "05abdd7d-16ef-463d-af60-eb03b652e112",
                 "savedPayload": {
                     "position": {
-                        "x": 3222.01234554478,
-                        "y": 28550
+                        "x": 7197.835790149417,
+                        "y": 14150.000000000002
                     },
                     "targetPosition": {
-                        "x": 2962.2047244094488,
-                        "y": 28400
+                        "x": 6938.0281690140855,
+                        "y": 14000.000000000002
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -3851,12 +3712,12 @@
             "id": "b4d44f10-0b89-48eb-b211-00b29c273db1",
             "savedPayload": {
                 "position": {
-                    "x": 2962.2047244094488,
-                    "y": 28400
+                    "x": 6938.0281690140855,
+                    "y": 14000.000000000002
                 },
                 "targetPosition": {
-                    "x": 2662.2047244094488,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 14000.000000000002
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -3936,12 +3797,12 @@
             "id": "d6147f09-2991-409b-b657-21f0bccf010e",
             "savedPayload": {
                 "position": {
-                    "x": 2922.01234554478,
-                    "y": 28550
+                    "x": 6897.835790149417,
+                    "y": 14150.000000000002
                 },
                 "targetPosition": {
-                    "x": 2662.2047244094488,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 14000.000000000002
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -4019,12 +3880,12 @@
             "id": "212b0c80-47b6-4081-9622-b668e6bb204f",
             "savedPayload": {
                 "position": {
-                    "x": 2812.2047244094488,
-                    "y": 28659.807621135333
+                    "x": 6788.0281690140855,
+                    "y": 14259.807621135333
                 },
                 "targetPosition": {
-                    "x": 2662.2047244094488,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 14000.000000000002
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -4042,12 +3903,12 @@
         "id": "67cc8c61-7be7-4eab-bf78-9cf93257f4a4",
         "savedPayload": {
             "position": {
-                "x": 2662.2047244094488,
-                "y": 28400
+                "x": 6638.0281690140855,
+                "y": 14000.000000000002
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4069,12 +3930,12 @@
         "id": "aa8934ac-e622-4216-b76e-98fdafffe8f9",
         "savedPayload": {
             "position": {
-                "x": 2592.018057345142,
-                "y": 28592.836282905962
+                "x": 6567.841501949779,
+                "y": 14192.836282905964
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4969,12 +4830,12 @@
         "id": "d7870ff3-96a3-486d-a04b-2b34e0b06a0b",
         "savedPayload": {
             "position": {
-                "x": 2414.299177709528,
-                "y": 28695.442325903663
+                "x": 6390.122622314165,
+                "y": 14295.442325903665
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5197,12 +5058,12 @@
         "id": "964845f3-1a5b-4e67-8af8-038544e462aa",
         "savedPayload": {
             "position": {
-                "x": 2212.2047244094488,
-                "y": 28659.807621135333
+                "x": 6188.0281690140855,
+                "y": 14259.807621135333
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5364,12 +5225,12 @@
         "id": "fa029ee0-8b15-4e27-91e1-15f9fdf8fa6d",
         "savedPayload": {
             "position": {
-                "x": 2080.296938173676,
-                "y": 28502.6060429977
+                "x": 6056.120382778313,
+                "y": 14102.606042997702
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5673,12 +5534,12 @@
         "id": "774fdd34-6d7a-4969-9103-7b07544d88a5",
         "savedPayload": {
             "position": {
-                "x": 2080.296938173676,
-                "y": 28297.3939570023
+                "x": 6056.120382778313,
+                "y": 13897.393957002301
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5792,12 +5653,12 @@
         "id": "55303234-49b6-4670-b995-65a31d3ead15",
         "savedPayload": {
             "position": {
-                "x": 2212.2047244094488,
-                "y": 28140.192378864667
+                "x": 6188.0281690140855,
+                "y": 13740.19237886467
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -5907,12 +5768,12 @@
         "id": "26ddc5fd-ad3f-49b3-9fd0-de692dbed431",
         "savedPayload": {
             "position": {
-                "x": 2414.2991777095276,
-                "y": 28104.557674096337
+                "x": 6390.122622314165,
+                "y": 13704.557674096339
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -6304,12 +6165,12 @@
         "id": "b2052408-4137-449d-b312-3829ffa6ddea",
         "savedPayload": {
             "position": {
-                "x": 2592.018057345142,
-                "y": 28207.163717094038
+                "x": 6567.841501949779,
+                "y": 13807.16371709404
             },
             "targetPosition": {
-                "x": 2362.2047244094488,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 14000.000000000002
             },
             "floatingObject": {
                 "isPinned": false,
@@ -6327,12 +6188,12 @@
     "id": "85213306-a402-4c4a-9c9a-9263ef740542",
     "savedPayload": {
         "position": {
-            "x": 2362.2047244094488,
-            "y": 28400
+            "x": 6338.0281690140855,
+            "y": 14000.000000000002
         },
         "targetPosition": {
-            "x": 2362.2047244094488,
-            "y": 28400
+            "x": 6338.0281690140855,
+            "y": 14000.000000000002
         },
         "floatingObject": {
             "isPinned": false,
