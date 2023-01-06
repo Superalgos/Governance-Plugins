@@ -1,0 +1,37 @@
+{
+    "type": "User Profile",
+    "name": "S4Test",
+    "project": "Governance",
+    "id": "451d86e5-2777-4fa9-89ba-daee150f1e93",
+    "config": "{\"codeName\":\"S4Test\",\"signature\":\"false\"}",
+    "userApps": {
+        "type": "User Apps",
+        "name": "New User Apps",
+        "project": "User-Apps",
+        "id": "b2e8d49f-dd3f-41b7-a723-a82ceb4db3ce",
+        "config": "{}",
+        "desktopApps": {
+            "type": "Desktop Apps",
+            "name": "New Desktop Apps",
+            "project": "User-Apps",
+            "id": "d5550221-8135-4a59-8e3c-3eee10ab2495",
+            "config": "{}",
+            "socialTradingDesktopApps": [
+                {
+                    "type": "Social Trading Desktop App",
+                    "name": "Social Trading Desktop App #1",
+                    "project": "User-Apps",
+                    "id": "2a470107-f5ef-4434-9a89-e25f3171625a",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\"\n}",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "project": "Governance",
+                        "id": "9077b6fa-5792-4e99-822b-c7a24e3e6027",
+                        "config": "{\"codeName\":\"Social-Trading-Desktop-App-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1c\",\"r\":\"0x2d8353022123781dd4ec99d0e15e6b1af5372d7f5cfcaf7c0c257e39df5f69b4\",\"s\":\"0x05dde5956d7baa2e74fd16b7f5318411ce676c75cc8952ca9277e9959f1bf06b\",\"signature\":\"0x2d8353022123781dd4ec99d0e15e6b1af5372d7f5cfcaf7c0c257e39df5f69b405dde5956d7baa2e74fd16b7f5318411ce676c75cc8952ca9277e9959f1bf06b1c\"}}"
+                    }
+                }
+            ]
+        }
+    }
+}
