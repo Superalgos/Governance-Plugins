@@ -33,5 +33,74 @@
                 }
             ]
         }
+    },
+    "socialPersonas": {
+        "type": "Social Personas",
+        "name": "New Social Personas",
+        "project": "Social-Trading",
+        "id": "8c6fd22d-efa8-4063-89be-9f7262b99911",
+        "config": "{}",
+        "socialPersonas": [
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #1",
+                "project": "Social-Trading",
+                "id": "cfceeb5c-86c0-4734-b2e9-1af276ef0f29",
+                "config": "{\n    \"handle\": \"Social-Test\",\n    \"codeName\": \"Social-Persona-1\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "9328f22f-8304-4e5b-be82-022fcc7377c8",
+                    "config": "{\"codeName\":\"Social-Persona-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1b\",\"r\":\"0x39546f29c314212ec59c5096e7a815ffabbda5e9d3ccd08cb9a4c1c073547bfd\",\"s\":\"0x2716004c25135218eee4d1472e73a7dfa8ea15c0cb4b3124cd34d10b18491b1d\",\"signature\":\"0x39546f29c314212ec59c5096e7a815ffabbda5e9d3ccd08cb9a4c1c073547bfd2716004c25135218eee4d1472e73a7dfa8ea15c0cb4b3124cd34d10b18491b1d1b\"}}"
+                },
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "project": "Open-Storage",
+                    "id": "ba82a8f3-dfa0-4666-b7d1-193ec704b694",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "New Storage Container Reference",
+                            "project": "Open-Storage",
+                            "id": "6c8c2ea7-67e2-4a8e-90fb-90fd2e261809",
+                            "config": "{}",
+                            "savedPayload": {
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "New Github Storage Container",
+                                    "id": "3822b484-befd-4b25-a93c-cf10a28f3f3c"
+                                }
+                            }
+                        }
+                    ],
+                    "config": "{}"
+                }
+            }
+        ]
+    },
+    "userStorage": {
+        "type": "User Storage",
+        "name": "New User Storage",
+        "project": "Open-Storage",
+        "id": "bfe05db6-8e4a-4c78-82be-3c9042af1129",
+        "config": "{}",
+        "githubStorage": {
+            "type": "Github Storage",
+            "name": "New Github Storage",
+            "project": "Open-Storage",
+            "id": "c0de25f0-9372-4537-8998-089bdfe81446",
+            "config": "{}",
+            "githubStorageContainers": [
+                {
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "id": "3822b484-befd-4b25-a93c-cf10a28f3f3c",
+                    "config": "{\"codeName\":\"Social-Test-Social-Persona-Data\",\"githubUserName\":\"S4Test\",\"repositoryName\":\"Social-Test-Social-Persona-Data\"}"
+                }
+            ]
+        }
     }
 }
