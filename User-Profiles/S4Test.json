@@ -92,20 +92,75 @@
                         "id": "21f04149-bd76-4d16-ad87-36a843eb4fe0",
                         "config": "{\"codeName\":\"Social-Trading-Desktop-App-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1c\",\"r\":\"0x3d3a6c64df71387e3d0c598fdd195694e065a2296b0004de8097d12acd59ccae\",\"s\":\"0x7b7f1bc463995be54ca98b5d4cdd3f208776a19cea0891077ad3ae431f69765f\",\"signature\":\"0x3d3a6c64df71387e3d0c598fdd195694e065a2296b0004de8097d12acd59ccae7b7f1bc463995be54ca98b5d4cdd3f208776a19cea0891077ad3ae431f69765f1c\"}}"
                     }
+                }
+            ]
+        }
+    },
+    "socialPersonas": {
+        "type": "Social Personas",
+        "name": "New Social Personas",
+        "project": "Social-Trading",
+        "id": "eb6396c6-9b42-4e84-aa7d-fbfc8b21c806",
+        "config": "{}",
+        "socialPersonas": [
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #1",
+                "project": "Social-Trading",
+                "id": "9be517d6-1bac-4f43-8dbe-d97ac3c2a472",
+                "config": "{\n    \"handle\": \"S4Test-Persona\",\n    \"codeName\": \"Social-Persona-1\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "f6c9ced0-7304-41bd-853f-331f063070eb",
+                    "config": "{\"codeName\":\"Social-Persona-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1b\",\"r\":\"0xc72121a0cc2f55995ec16a5db7f8fa53b1a0fe99749cc984fde6465986b40018\",\"s\":\"0x38c8246b1942f33396dd047a16987ade653d094d2635de68432fcd9f0da5dcf4\",\"signature\":\"0xc72121a0cc2f55995ec16a5db7f8fa53b1a0fe99749cc984fde6465986b4001838c8246b1942f33396dd047a16987ade653d094d2635de68432fcd9f0da5dcf41b\"}}"
                 },
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "project": "Open-Storage",
+                    "id": "0aedd594-5bbb-4ae3-bb1a-eb5778c40392",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "New Storage Container Reference",
+                            "project": "Open-Storage",
+                            "id": "995c7b80-f580-45a5-b242-596a77ba8bbe",
+                            "config": "{}",
+                            "savedPayload": {
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "New Github Storage Container",
+                                    "id": "94dc5c75-76c9-4433-a3e6-673f07ecdf2b"
+                                }
+                            }
+                        }
+                    ],
+                    "config": "{}"
+                }
+            }
+        ]
+    },
+    "userStorage": {
+        "type": "User Storage",
+        "name": "New User Storage",
+        "project": "Open-Storage",
+        "id": "a34c97cb-381a-44e5-856f-959c03ab1e90",
+        "config": "{}",
+        "githubStorage": {
+            "type": "Github Storage",
+            "name": "New Github Storage",
+            "project": "Open-Storage",
+            "id": "6979f1d0-6298-4216-a3a8-3799a741c045",
+            "config": "{}",
+            "githubStorageContainers": [
                 {
-                    "type": "Social Trading Desktop App",
-                    "name": "Social Trading Desktop App #2",
-                    "project": "User-Apps",
-                    "id": "e109e1f2-bba6-47f2-a988-93ec599dbc61",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-2\"\n}",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "project": "Governance",
-                        "id": "5c4d657f-35ab-4511-aa20-c258f972435e",
-                        "config": "{\"codeName\":\"Social-Trading-Desktop-App-2\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1c\",\"r\":\"0x0ca017b0497f792ed94facf2b412bf064c477bf4dc385a7da6d14250ef3e8c32\",\"s\":\"0x74c9d8df9e99e031daa6ed5685b3f8598a28a764f530b5d330d0c61fce740a6e\",\"signature\":\"0x0ca017b0497f792ed94facf2b412bf064c477bf4dc385a7da6d14250ef3e8c3274c9d8df9e99e031daa6ed5685b3f8598a28a764f530b5d330d0c61fce740a6e1c\"}}"
-                    }
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "id": "94dc5c75-76c9-4433-a3e6-673f07ecdf2b",
+                    "config": "{\"codeName\":\"S4Test-Persona-Social-Persona-Data\",\"githubUserName\":\"S4Test\",\"repositoryName\":\"S4Test-Persona-Social-Persona-Data\"}"
                 }
             ]
         }
