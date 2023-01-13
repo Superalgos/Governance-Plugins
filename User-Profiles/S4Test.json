@@ -1,0 +1,99 @@
+{
+    "type": "User Profile",
+    "name": "S4Test",
+    "project": "Governance",
+    "id": "974ec156-3e3b-4824-b142-8007585b9c46",
+    "config": "{\"codeName\":\"S4Test\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1c\",\"r\":\"0x157480b74cf81429eb55424406c90652c163715452b5991fb59592e95281b1fd\",\"s\":\"0x6f272dc63392951f2acb80ec3632d4d7226e0328e9235538d725ebac79bfdeac\",\"signature\":\"0x157480b74cf81429eb55424406c90652c163715452b5991fb59592e95281b1fd6f272dc63392951f2acb80ec3632d4d7226e0328e9235538d725ebac79bfdeac1c\"}}",
+    "tokenPowerSwitch": {
+        "type": "Token Power Switch",
+        "name": "New Token Power Switch",
+        "project": "Governance",
+        "id": "40d1e2ba-4177-40e0-8305-78aa39e4b14b",
+        "config": "{}",
+        "financialPrograms": {
+            "type": "Financial Programs",
+            "name": "New Financial Programs",
+            "project": "Governance",
+            "id": "6b050d8d-8afa-4b01-8e2f-c4ea34a2a9f0",
+            "config": "{}",
+            "stakingProgram": {
+                "type": "Staking Program",
+                "name": "New Staking Program",
+                "config": "{}",
+                "project": "Governance",
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "44d8b18e-4889-4bf3-aef2-d90aa2a844eb"
+                },
+                "id": "133b0600-198d-436d-afc7-62ad97b94d11"
+            }
+        },
+        "liquidityPrograms": {
+            "type": "Liquidity Programs",
+            "name": "New Liquidity Programs",
+            "config": "{}",
+            "project": "Governance",
+            "liquidityProgram": [
+                {
+                    "type": "Liquidity Program",
+                    "name": "BTCB",
+                    "config": "{\n    \"asset\": \"BTCB\",\n    \"exchange\": \"PANCAKE\"\n}",
+                    "project": "Governance",
+                    "tokensAwarded": {
+                        "type": "Tokens Awarded",
+                        "name": "New Tokens Awarded",
+                        "project": "Governance",
+                        "id": "142f2767-4c77-4d8b-80ce-a29067afdcb1"
+                    },
+                    "id": "bd888bc5-6ff9-4931-9377-2f33e05ae64c"
+                },
+                {
+                    "type": "Liquidity Program",
+                    "name": "BNB",
+                    "config": "{\n    \"asset\": \"BNB\",\n    \"exchange\": \"PANCAKE\"\n}",
+                    "project": "Governance",
+                    "tokensAwarded": {
+                        "type": "Tokens Awarded",
+                        "name": "New Tokens Awarded",
+                        "project": "Governance",
+                        "id": "de8ba196-131d-4c10-8b49-824683fbd7dc"
+                    },
+                    "id": "43ed527f-60c7-4ff5-9cfb-bde83889a55e"
+                }
+            ],
+            "id": "83af5662-9187-4508-8944-997d1b5fe2cc"
+        }
+    },
+    "userApps": {
+        "type": "User Apps",
+        "name": "New User Apps",
+        "project": "User-Apps",
+        "id": "57ae1361-bcfd-4b96-aa1f-7360dfd534d6",
+        "config": "{}",
+        "desktopApps": {
+            "type": "Desktop Apps",
+            "name": "New Desktop Apps",
+            "project": "User-Apps",
+            "id": "ea89c3ff-da89-42f9-bcad-0752f7f7db56",
+            "config": "{}",
+            "socialTradingDesktopApps": [
+                {
+                    "type": "Social Trading Desktop App",
+                    "name": "Social Trading Desktop App #1",
+                    "project": "User-Apps",
+                    "id": "ad54f125-86e0-40ef-8f5b-88817bd2590e",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Desktop-App-1\"\n}",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "project": "Governance",
+                        "id": "fc23f2da-fa8f-40d6-86dc-492a19bd23f2",
+                        "config": "{\"codeName\":\"Social-Trading-Desktop-App-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1c\",\"r\":\"0x69178ff8ee31e29ca62b3d9d0be2083062faf6103e1712151f8540e2b7dc8f31\",\"s\":\"0x60f12b523b59996fa1b56a4c122e9c859e70b9c01469931c0a856b3f72621f1c\",\"signature\":\"0x69178ff8ee31e29ca62b3d9d0be2083062faf6103e1712151f8540e2b7dc8f3160f12b523b59996fa1b56a4c122e9c859e70b9c01469931c0a856b3f72621f1c1c\"}}"
+                    }
+                }
+            ]
+        }
+    }
+}
