@@ -95,5 +95,158 @@
                 }
             ]
         }
+    },
+    "socialPersonas": {
+        "type": "Social Personas",
+        "name": "New Social Personas",
+        "project": "Social-Trading",
+        "id": "d0758733-cdb2-4a9c-8ab0-01b1bf0b1224",
+        "config": "{}",
+        "socialPersonas": [
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #1",
+                "project": "Social-Trading",
+                "id": "6270ad3b-e5c1-4a13-869a-7fa2fb824043",
+                "config": "{\n    \"handle\": \"S4Test-Persona\",\n    \"codeName\": \"Social-Persona-1\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "bf284792-2a99-447a-b67f-024c0bd0529c",
+                    "config": "{\"codeName\":\"Social-Persona-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1b\",\"r\":\"0x14bf5043ed77ca767acba1ba23aae27576f417a764444644f88b7871c9f63574\",\"s\":\"0x798da9e6a011707acb74957e905da4ca06f4a993f57e9ab782caf6a249935725\",\"signature\":\"0x14bf5043ed77ca767acba1ba23aae27576f417a764444644f88b7871c9f63574798da9e6a011707acb74957e905da4ca06f4a993f57e9ab782caf6a2499357251b\"}}"
+                },
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "project": "Open-Storage",
+                    "id": "c6bf7b37-d65d-4e0b-b520-b62be1584076",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "New Storage Container Reference",
+                            "project": "Open-Storage",
+                            "id": "5b570475-5bc7-4ff8-9260-f624033eee83",
+                            "config": "{}",
+                            "savedPayload": {
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "New Github Storage Container",
+                                    "id": "7280847d-4c39-4f50-a294-11cb3c3a5c06"
+                                }
+                            }
+                        }
+                    ],
+                    "config": "{}"
+                }
+            }
+        ]
+    },
+    "userStorage": {
+        "type": "User Storage",
+        "name": "New User Storage",
+        "project": "Open-Storage",
+        "id": "23f4e6bd-7b53-44a2-8d32-769b4fd3dcef",
+        "config": "{}",
+        "githubStorage": {
+            "type": "Github Storage",
+            "name": "New Github Storage",
+            "project": "Open-Storage",
+            "id": "a4899cbf-38b2-4f0b-9910-57e9e658e565",
+            "config": "{}",
+            "githubStorageContainers": [
+                {
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "id": "7280847d-4c39-4f50-a294-11cb3c3a5c06",
+                    "config": "{\"codeName\":\"S4Test-Persona-Social-Persona-Data\",\"githubUserName\":\"S4Test\",\"repositoryName\":\"S4Test-Persona-Social-Persona-Data\"}"
+                }
+            ]
+        }
+    },
+    "p2pNetworkNodes": {
+        "type": "P2P Network Nodes",
+        "name": "New P2P Network Nodes",
+        "project": "Network",
+        "id": "d840567f-19d0-4da0-b77e-45d979e455d0",
+        "config": "{}",
+        "p2pNetworkNodes": [
+            {
+                "type": "P2P Network Node",
+                "name": "P2P Network Node #1",
+                "project": "Network",
+                "id": "b9547259-d9b6-43df-9774-3ddb1738292c",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"localhost\",\n    \"clientMinimunBalance\": 0\n}",
+                "p2pNetworkReference": {
+                    "type": "P2P Network Reference",
+                    "name": "",
+                    "project": "Network",
+                    "id": "36884ca0-cdb1-407c-9a00-79b27e3db369",
+                    "savedPayload": {
+                        "referenceParent": {
+                            "type": "P2P Network",
+                            "name": "Testnet",
+                            "id": "f3921278-253f-4cce-8045-4eee04547875"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "Testnet",
+                                "P2P Network"
+                            ]
+                        ]
+                    }
+                },
+                "networkServices": {
+                    "type": "Network Services",
+                    "name": "New Network Services",
+                    "config": "{}",
+                    "project": "Network",
+                    "id": "ba0551d4-ffa9-4d81-97d0-461b1282a5fa",
+                    "socialGraph": {
+                        "type": "Social Graph",
+                        "name": "New Social Graph",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "ce4eb974-926e-429f-8796-ba2736756193"
+                    },
+                    "tradingSignals": {
+                        "type": "Trading Signals",
+                        "name": "New Trading Signals",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "71b78249-2ae3-432a-8e11-9f4fbfd54471"
+                    }
+                },
+                "networkInterfaces": {
+                    "type": "Network Interfaces",
+                    "name": "New Network Interfaces",
+                    "config": "{}",
+                    "project": "Network",
+                    "id": "dfb82240-a1ff-4799-9c51-1289c4de0f4b",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{ \n\"webSocketsPort\": \"18042\"\n}",
+                        "project": "Network",
+                        "id": "cf4e72e2-8729-4caf-878f-c5e967237d75"
+                    },
+                    "httpNetworkInterface": {
+                        "type": "Http Network Interface",
+                        "name": "New Http Network Interface",
+                        "config": "{ \n\"httpPort\": \"31248\"\n}",
+                        "project": "Network",
+                        "id": "e923d9ab-f334-4ac1-b053-b61609ba9eab"
+                    }
+                },
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "e77d82ea-36db-4c40-b1e2-df1cb40a8a74",
+                    "config": "{\"codeName\":\"P2P-Network-Node-1\",\"signature\":{\"message\":\"S4Test\",\"messageHash\":\"0xa8b0d83c2cd9fd02575d49cc02c62a536c5cf519095cf6e515c905955ce6e52b\",\"v\":\"0x1b\",\"r\":\"0x5d184c83985bd22ad78165e90a2694ac305e2cf0fd32d1a609382395721c0e45\",\"s\":\"0x169b88faa6a34c1a69527f1e8ccb54ff1167beb7f016aba555529ee9e05f0cb4\",\"signature\":\"0x5d184c83985bd22ad78165e90a2694ac305e2cf0fd32d1a609382395721c0e45169b88faa6a34c1a69527f1e8ccb54ff1167beb7f016aba555529ee9e05f0cb41b\"}}"
+                }
+            }
+        ]
     }
 }
