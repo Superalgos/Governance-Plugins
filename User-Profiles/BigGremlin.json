@@ -3149,6 +3149,43 @@
                     ],
                     "config": "{}"
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #4",
+                "project": "Social-Trading",
+                "id": "e83cba09-2949-458e-8ef7-95ae60f3482c",
+                "config": "{\n    \"handle\": \"Greg\",\n    \"codeName\": \"Social-Persona-4\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "6080268b-5c96-43e9-973a-e170a6916b6e",
+                    "config": "{\"codeName\":\"Social-Persona-4\",\"signature\":{\"message\":\"BigGremlin\",\"messageHash\":\"0xf1ef11ee04deeaed9c3228f859a357e9780f3953491195e5404c2f13e569300b\",\"v\":\"0x1b\",\"r\":\"0x12ddc9b9981a2039423bf78c184e6e6a866e4d8f01267b9f5c9e2bd6549152d5\",\"s\":\"0x46aa4485e11a4f4ca2c79d0ab9cac6d7493c07fd76e6b119840963a503b31b4b\",\"signature\":\"0x12ddc9b9981a2039423bf78c184e6e6a866e4d8f01267b9f5c9e2bd6549152d546aa4485e11a4f4ca2c79d0ab9cac6d7493c07fd76e6b119840963a503b31b4b1b\"}}"
+                },
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "project": "Open-Storage",
+                    "id": "17c6bd83-546c-412c-82cd-481aa4a81ff3",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "New Storage Container Reference",
+                            "project": "Open-Storage",
+                            "id": "8416ae52-84b6-4f15-aa0b-7a72fa1a8a8d",
+                            "config": "{}",
+                            "savedPayload": {
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "New Github Storage Container",
+                                    "id": "ea8b9a8a-c5db-481f-96e1-f2e8aaeb498a"
+                                }
+                            }
+                        }
+                    ],
+                    "config": "{}"
+                }
             }
         ],
         "id": "5185f5fa-8a3b-4628-af54-2aef020c028d",
@@ -3461,6 +3498,13 @@
                     "name": "New Github Storage Container",
                     "project": "Open-Storage",
                     "id": "2e90419a-f06a-4f51-bcc6-9ded04cb7445",
+                    "config": "{\"codeName\":\"Greg-Social-Persona-Data\",\"githubUserName\":\"BigGremlin\",\"repositoryName\":\"Greg-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "id": "ea8b9a8a-c5db-481f-96e1-f2e8aaeb498a",
                     "config": "{\"codeName\":\"Greg-Social-Persona-Data\",\"githubUserName\":\"BigGremlin\",\"repositoryName\":\"Greg-Social-Persona-Data\"}"
                 }
             ],
