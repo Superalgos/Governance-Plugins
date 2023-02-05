@@ -155,7 +155,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{ \n    \"percentage\": 25\n}",
+                "config": "{}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -569,7 +569,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{}",
+                "config": "{\n    \"percentage\": 48\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -583,7 +583,7 @@
                             {
                                 "type": "Position Claims Folder",
                                 "name": "New Position Claims Folder",
-                                "config": "{}",
+                                "config": "{\n    \"percentage\": 83\n}",
                                 "project": "Governance",
                                 "positionClaimsFolders": [],
                                 "positionContributionClaims": [
