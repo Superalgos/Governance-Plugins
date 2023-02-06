@@ -591,7 +591,7 @@
             "votingProgram": {
                 "type": "Voting Program",
                 "name": "New Voting Program",
-                "config": "{\r\n    \"percentage\": 10\r\n}",
+                "config": "{\r\n}",
                 "project": "Governance",
                 "votesSwitch": [
                     {
@@ -601,7 +601,89 @@
                         "project": "Governance",
                         "votesSwitch": [],
                         "claimVotesSwitch": [],
-                        "weightVotesSwitch": [],
+                        "weightVotesSwitch": [
+                            {
+                                "type": "Weight Votes Switch",
+                                "name": "New Weight Votes Switch",
+                                "config": "{}",
+                                "project": "Governance",
+                                "weightVotesSwitch": [],
+                                "poolWeightVotes": [],
+                                "assetWeightVotes": [],
+                                "featureWeightVotes": [],
+                                "positionWeightVotes": [
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "January 2023 Teams Big White",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "3575a600-affa-442c-8a37-50901ba51b78",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 11422.501178380207,
+                                                "y": 27269.176373274302
+                                            },
+                                            "targetPosition": {
+                                                "x": 11334.074626056936,
+                                                "y": 27555.848215010144
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Big White",
+                                                "id": "41f44d41-1480-401e-8523-69c7c2d0ed3b"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "January 2023 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Big White",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "id": "c030e240-9a8d-448e-b98f-3bf6a0be1d8f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 11334.074626056936,
+                                        "y": 27555.848215010144
+                                    },
+                                    "targetPosition": {
+                                        "x": 11245.648073733664,
+                                        "y": 27842.520056745987
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
                         "userProfileVotesSwitch": [],
                         "id": "8e84f6e8-fe94-4322-8558-8db42ca08c18",
                         "savedPayload": {
@@ -616,7 +698,7 @@
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
-                                "isCollapsed": false,
+                                "isCollapsed": true,
                                 "angleToParent": 2,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
@@ -667,7 +749,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
