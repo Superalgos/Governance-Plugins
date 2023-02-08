@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "gustavohcorradi",
-    "config": "{\n    \"signature\": {\n        \"message\": \"gustavohcorradi\",\n        \"messageHash\": \"0x59735810fe00af779370e90e7764e3fa458f64be251919273e376d4058bb7161\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x6c8ed07fbe47bc52caa8872e09e4efbc8f9ed77108098e95605c9c5c3b0af963\",\n        \"s\": \"0x35dc41bccb0cc5ae0f2c9e8e94b5e1694027557d3aa726b98c27ecf10c0615f8\",\n        \"signature\": \"0x6c8ed07fbe47bc52caa8872e09e4efbc8f9ed77108098e95605c9c5c3b0af96335dc41bccb0cc5ae0f2c9e8e94b5e1694027557d3aa726b98c27ecf10c0615f81b\"\n    },\n    \"codeName\": \"gustavohcorradi\"\n}",
+    "config": "{\"signature\":{\"message\":\"gustavohcorradi\",\"messageHash\":\"0x59735810fe00af779370e90e7764e3fa458f64be251919273e376d4058bb7161\",\"v\":\"0x1b\",\"r\":\"0x6c8ed07fbe47bc52caa8872e09e4efbc8f9ed77108098e95605c9c5c3b0af963\",\"s\":\"0x35dc41bccb0cc5ae0f2c9e8e94b5e1694027557d3aa726b98c27ecf10c0615f8\",\"signature\":\"0x6c8ed07fbe47bc52caa8872e09e4efbc8f9ed77108098e95605c9c5c3b0af96335dc41bccb0cc5ae0f2c9e8e94b5e1694027557d3aa726b98c27ecf10c0615f81b\"},\"codeName\":\"gustavohcorradi\"}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -1728,6 +1728,93 @@
         "name": "New User Apps",
         "config": "{}",
         "project": "User-Apps",
+        "serverApps": {
+            "type": "Server Apps",
+            "name": "New Server Apps",
+            "config": "{}",
+            "project": "User-Apps",
+            "taskServerApps": [
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"gustavohcorradi\",\n        \"messageHash\": \"0x59735810fe00af779370e90e7764e3fa458f64be251919273e376d4058bb7161\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xd9fb5505e1b78c7a8c2f9597e395c23b2eea3ba97dd7321dd29adb69057ca0a1\",\n        \"s\": \"0x6a5e02bdf2f6739270b6f2e93bc88d43deedc3642514bfc6ed6b2ba1df3787a8\",\n        \"signature\": \"0xd9fb5505e1b78c7a8c2f9597e395c23b2eea3ba97dd7321dd29adb69057ca0a16a5e02bdf2f6739270b6f2e93bc88d43deedc3642514bfc6ed6b2ba1df3787a81b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "5504e54d-eeeb-4e99-8b2d-596a5310887b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 24796.641679950124,
+                                "y": 25449.163488855495
+                            },
+                            "targetPosition": {
+                                "x": 24779.27686218343,
+                                "y": 25350.682713554274
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "14c85607-e120-4e2d-be87-d7b3a7f02696",
+                    "savedPayload": {
+                        "position": {
+                            "x": 24779.27686218343,
+                            "y": 25350.682713554274
+                        },
+                        "targetPosition": {
+                            "x": 24761.912044416735,
+                            "y": 25252.201938253053
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "socialTradingServerApps": [],
+            "id": "9ff61aca-943c-47ed-9e75-25575410ac93",
+            "savedPayload": {
+                "position": {
+                    "x": 24761.912044416735,
+                    "y": 25252.201938253053
+                },
+                "targetPosition": {
+                    "x": 24744.54722665004,
+                    "y": 25153.72116295183
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
         "id": "534c82f5-6d36-4c6b-946a-213434090da6",
         "savedPayload": {
             "position": {
@@ -1756,6 +1843,92 @@
         "name": "New User Bots",
         "config": "{\"socialHandle\": \"\",\"bio\": \"\"}",
         "project": "Governance",
+        "socialTradingBots": {
+            "type": "Social Trading Bots",
+            "name": "New Social Trading Bots",
+            "config": "{}",
+            "project": "Social-Trading",
+            "socialTradingBots": [
+                {
+                    "type": "Social Trading Bot",
+                    "name": "Social Trading Bot #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"gustavohcorradi-Social-Trading-Bot-1\"\n}",
+                    "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"gustavohcorradi\",\n        \"messageHash\": \"0x59735810fe00af779370e90e7764e3fa458f64be251919273e376d4058bb7161\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xe8b10a24a2e055f8122da87dabbcc560bb7b34373fa404f6aba5533de6f2ec2d\",\n        \"s\": \"0x318a85a7bf814654673a0b0e5bd644b9a0a02c54b53cc65b5a25f9d29ad1ec1a\",\n        \"signature\": \"0xe8b10a24a2e055f8122da87dabbcc560bb7b34373fa404f6aba5533de6f2ec2d318a85a7bf814654673a0b0e5bd644b9a0a02c54b53cc65b5a25f9d29ad1ec1a1c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "d2da5a5b-387b-49e2-b538-8c2c407a1901",
+                        "savedPayload": {
+                            "position": {
+                                "x": 24493.5,
+                                "y": 25395.711431703
+                            },
+                            "targetPosition": {
+                                "x": 24543.5,
+                                "y": 25309.108891324555
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "6db00c38-15b9-45f7-b5f7-fd028acf19bb",
+                    "savedPayload": {
+                        "position": {
+                            "x": 24543.5,
+                            "y": 25309.108891324555
+                        },
+                        "targetPosition": {
+                            "x": 24593.5,
+                            "y": 25222.50635094611
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 2,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "id": "9a86ee2d-630e-4be7-9656-c7595cf9b936",
+            "savedPayload": {
+                "position": {
+                    "x": 24593.5,
+                    "y": 25222.50635094611
+                },
+                "targetPosition": {
+                    "x": 24643.5,
+                    "y": 25135.903810567666
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 2,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
         "id": "e60f69c0-0bd0-43ac-a713-124656fc2e3a",
         "savedPayload": {
             "position": {
