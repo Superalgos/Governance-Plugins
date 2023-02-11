@@ -95,7 +95,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\r\n   \"percentage\": 99\r\n}",
+            "config": "{\r\n   \"percentage\": 20\r\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -293,7 +293,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": true,
+                        "isCollapsed": false,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -308,47 +308,7 @@
                 "name": "New Mentorship Program",
                 "config": "{\r\n   \"percentage\": 99\r\n}",
                 "project": "Governance",
-                "userMentors": [
-                    {
-                        "type": "User Mentor",
-                        "name": "caoHenriques",
-                        "config": "{\r\n   \"percentage\": 99\r\n}",
-                        "project": "Governance",
-                        "id": "0a236fd3-7dd5-41f4-8714-06e9dd8fdb54",
-                        "savedPayload": {
-                            "position": {
-                                "x": 5945.261332936596,
-                                "y": 37659.49546171575
-                            },
-                            "targetPosition": {
-                                "x": 5710.711888196187,
-                                "y": 37846.54240227337
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            },
-                            "referenceParent": {
-                                "type": "User Profile",
-                                "name": "caoHenriques",
-                                "id": "30bcceb5-1e61-4ed3-b7ce-d3b86bb817ea"
-                            },
-                            "referenceParentCombinedNodePath": [
-                                [
-                                    "caoHenriques",
-                                    "User Profile"
-                                ]
-                            ]
-                        }
-                    }
-                ],
+                "userMentors": [],
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
@@ -356,8 +316,8 @@
                     "id": "c4125567-e895-4b26-a7d8-80be9c244689",
                     "savedPayload": {
                         "position": {
-                            "x": 6008.82555116416,
-                            "y": 37880.131745104365
+                            "x": 5985.68056495718,
+                            "y": 37726.57479497745
                         },
                         "targetPosition": {
                             "x": 5710.711888196187,
@@ -383,8 +343,8 @@
                     "id": "aa1f1f57-d815-4ae3-b44b-8f0553362821",
                     "savedPayload": {
                         "position": {
-                            "x": 5897.758828753807,
-                            "y": 38081.09184701378
+                            "x": 5952.091222126188,
+                            "y": 38024.68845794542
                         },
                         "targetPosition": {
                             "x": 5710.711888196187,
@@ -602,7 +562,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "quantum8 Data Mining Team December 2022 Teams",
+                                        "name": "quantum8 Data Mining January 2023 Teams",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "342d13da-424e-4400-950d-ac3b36a27f95",
@@ -628,7 +588,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "Data Mining Team December 2022 Teams",
+                                                "name": "Data Mining January 2023 Teams",
                                                 "id": "b7524287-5a08-4103-99e4-69d1127a17df"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -657,7 +617,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "Data Mining Team December 2022 Teams",
+                                                    "Data Mining January 2023 Teams",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -980,7 +940,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "BlaaSwe Signalytic Team December 2022 Teams",
+                                        "name": "BlaaSwe Data Mining January 2023 Teams",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "e0a18db3-4353-49ea-b704-67f7189883ce",
@@ -1006,7 +966,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "Signalytic Team December 2022 Teams",
+                                                "name": "Data Mining January 2023 Teams",
                                                 "id": "08e1d8af-478d-435f-9ebb-d2c4ed4fbdd1"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -1031,7 +991,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "Signalytic Team December 2022 Teams",
+                                                    "Data Mining January 2023 Teams",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -1190,7 +1150,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Superalgos",
-                                "config": "{\r\n    \"percentage\": 95\r\n}",
+                                "config": "{\r\n    \"percentage\": 50\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -2284,7 +2244,7 @@
                                     {
                                         "type": "Weight Votes Switch",
                                         "name": "Teams Work ",
-                                        "config": "{\r\n    \"percentage\": 3\r\n}",
+                                        "config": "{\r\n    \"percentage\": 50\r\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
                                         "poolWeightVotes": [
@@ -2549,7 +2509,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -2576,11 +2536,11 @@
                     "id": "6d763f2e-7950-4982-a582-6d44f38bb0de",
                     "savedPayload": {
                         "position": {
-                            "x": 11740.815402653783,
+                            "x": 6055.4839014514455,
                             "y": 38200.268840560675
                         },
                         "targetPosition": {
-                            "x": 11448.337028999236,
+                            "x": 5763.005527796899,
                             "y": 38133.51256037378
                         },
                         "floatingObject": {
@@ -2599,11 +2559,11 @@
                 "id": "40068615-6d89-4c38-ace8-9f9fe68e363e",
                 "savedPayload": {
                     "position": {
-                        "x": 11448.337028999236,
+                        "x": 5763.005527796899,
                         "y": 38133.51256037378
                     },
                     "targetPosition": {
-                        "x": 11155.85865534469,
+                        "x": 5470.527154142352,
                         "y": 38066.75628018689
                     },
                     "floatingObject": {
@@ -2632,7 +2592,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
