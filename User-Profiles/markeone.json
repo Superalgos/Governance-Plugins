@@ -160,7 +160,7 @@
                 "userReferrers": [
                     {
                         "type": "User Referrer",
-                        "name": "",
+                        "name": "Luis-Fernando-Molina",
                         "config": "{\r\n}",
                         "project": "Governance",
                         "id": "35155831-e0af-4360-a64a-55bf931294fb",
@@ -283,7 +283,7 @@
                 "userSupporters": [
                     {
                         "type": "User Supporter",
-                        "name": "",
+                        "name": "BigGremlin",
                         "config": "{}",
                         "project": "Governance",
                         "id": "3754ff76-45c7-44a7-8625-0f71be113006",
@@ -322,7 +322,7 @@
                     },
                     {
                         "type": "User Supporter",
-                        "name": "",
+                        "name": "theblockchainarborist",
                         "config": "{}",
                         "project": "Governance",
                         "id": "154add28-5e98-44e8-a91a-1ae047d2a4b6",
@@ -803,7 +803,7 @@
                                 "poolWeightVotes": [
                                     {
                                         "type": "Pool Weight Vote",
-                                        "name": "",
+                                        "name": "Governance Programs  Pool Class",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "e8de64df-c12c-4725-a5d0-f769e040d7e1",
@@ -2549,12 +2549,12 @@
         "id": "7bfe6e27-be81-4662-a685-400e6b589b6b",
         "savedPayload": {
             "position": {
-                "x": 30300,
-                "y": 23600
+                "x": 10644.827586206899,
+                "y": 28400
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -2576,12 +2576,12 @@
         "id": "5cfcad14-bff9-483b-b596-74db5df22dd2",
         "savedPayload": {
             "position": {
-                "x": 30229.813332935693,
-                "y": 23792.836282905962
+                "x": 10574.640919142592,
+                "y": 28592.836282905962
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3643,12 +3643,12 @@
         "id": "fa9fb8bb-0b2a-4df2-ab2a-7347cfbd3eb0",
         "savedPayload": {
             "position": {
-                "x": 30052.09445330008,
-                "y": 23895.442325903663
+                "x": 10396.922039506977,
+                "y": 28695.442325903663
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3757,12 +3757,12 @@
         "id": "2347c8a4-4d4f-4714-9d09-8be91f7ac4cc",
         "savedPayload": {
             "position": {
-                "x": 29850,
-                "y": 23859.807621135333
+                "x": 10194.827586206899,
+                "y": 28659.807621135333
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3786,12 +3786,12 @@
         "id": "bb9da551-fcf6-40d4-bc80-9adcac71bd7b",
         "savedPayload": {
             "position": {
-                "x": 29718.092213764226,
-                "y": 23702.6060429977
+                "x": 10062.919799971127,
+                "y": 28502.6060429977
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -3811,21 +3811,878 @@
         "name": "New P2P Network Nodes",
         "config": "{\r\n    \"percentage\": 0\r\n}",
         "project": "Network",
-        "p2pNetworkNodes": [],
+        "p2pNetworkNodes": [
+            {
+                "type": "P2P Network Node",
+                "name": "New P2P Network Node",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-1\",\n    \"host\": \"mecomputerservice.ddns.org\",\n    \"clientMinimunBalance\": 0,\n    \"peerMinimunBalance\": 0,\n    \"clientMinTokenAllocation\": 0,\n    \"peerMinTokenAllocation\": 0\n}",
+                "project": "Network",
+                "p2pNetworkReference": {
+                    "type": "P2P Network Reference",
+                    "name": "RL-Net",
+                    "project": "Network",
+                    "id": "9cc58d8a-53b2-4004-b042-83c8d5c641f2",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9504.04924569676,
+                            "y": 28481.681828054883
+                        },
+                        "targetPosition": {
+                            "x": 9765.15595447873,
+                            "y": 28333.954760023844
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Permissioned P2P Network",
+                            "name": "RL-Net",
+                            "id": "fbf4ea80-e942-49b0-84c1-dde580ea2f2d"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "markeone",
+                                "User Profile"
+                            ],
+                            [
+                                "New Permissioned P2P Networks",
+                                "Permissioned P2P Networks"
+                            ],
+                            [
+                                "RL-Net",
+                                "Permissioned P2P Network"
+                            ]
+                        ]
+                    }
+                },
+                "networkServices": {
+                    "type": "Network Services",
+                    "name": "New Network Services",
+                    "config": "{}",
+                    "project": "Network",
+                    "machineLearning": {
+                        "type": "Machine Learning",
+                        "name": "New Machine Learning",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "1f5fb19d-58a8-4b79-87a9-58ebc8dbaa19",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9169.628263493938,
+                                "y": 28407.076366066933
+                            },
+                            "targetPosition": {
+                                "x": 9467.392108986334,
+                                "y": 28370.51556304539
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "b3d047db-e579-44d8-a040-73e9af04f7e9",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9467.392108986334,
+                            "y": 28370.51556304539
+                        },
+                        "targetPosition": {
+                            "x": 9765.15595447873,
+                            "y": 28333.954760023844
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "networkInterfaces": {
+                    "type": "Network Interfaces",
+                    "name": "New Network Interfaces",
+                    "config": "{}",
+                    "project": "Network",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{ \n\"webSocketsPort\": \"18042\"\n}",
+                        "project": "Network",
+                        "id": "2a17a36e-4b1a-452f-9904-650d290ae634",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9176.078241596892,
+                                "y": 28251.165286550855
+                            },
+                            "targetPosition": {
+                                "x": 9476.066818516143,
+                                "y": 28253.78324720037
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "httpNetworkInterface": {
+                        "type": "Http Network Interface",
+                        "name": "New Http Network Interface",
+                        "config": "{\n    \"httpPort\": \"31248\"\n}",
+                        "project": "Network",
+                        "id": "f5069f71-72d1-43e9-848d-e3af8d271c83",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9217.578070383684,
+                                "y": 28101.521738312156
+                            },
+                            "targetPosition": {
+                                "x": 9476.066818516143,
+                                "y": 28253.78324720037
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "57a6cbb9-de50-4211-888e-32c05f05661c",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9476.066818516143,
+                            "y": 28253.78324720037
+                        },
+                        "targetPosition": {
+                            "x": 9765.15595447873,
+                            "y": 28333.954760023844
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "9729da11-a68e-4e79-b7cd-3875b1ccdf2d",
+                "savedPayload": {
+                    "position": {
+                        "x": 9765.15595447873,
+                        "y": 28333.954760023844
+                    },
+                    "targetPosition": {
+                        "x": 10062.919799971127,
+                        "y": 28297.3939570023
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "P2P Network Node",
+                "name": "New P2P Network Node",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"mecomputerservice.ddns.org\",\n    \"clientMinimunBalance\": 0,\n    \"peerMinimunBalance\": 0,\n    \"clientMinTokenAllocation\": 0,\n    \"peerMinTokenAllocation\": 0\n}",
+                "project": "Network",
+                "p2pNetworkReference": {
+                    "type": "P2P Network Reference",
+                    "name": "RL-Net-Signals",
+                    "project": "Network",
+                    "id": "9b215951-9dea-4724-b5e6-37b30199f8fa",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9474.454233550578,
+                            "y": 28299.961638714492
+                        },
+                        "targetPosition": {
+                            "x": 9768.431644936827,
+                            "y": 28240.151258389335
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Permissioned P2P Network",
+                            "name": "RL-Net-Signals",
+                            "id": "9b6575a7-a49e-4acf-a879-06c640518d8f"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "markeone",
+                                "User Profile"
+                            ],
+                            [
+                                "New Permissioned P2P Networks",
+                                "Permissioned P2P Networks"
+                            ],
+                            [
+                                "RL-Net-Signals",
+                                "Permissioned P2P Network"
+                            ]
+                        ]
+                    }
+                },
+                "networkServices": {
+                    "type": "Network Services",
+                    "name": "New Network Services",
+                    "config": "{}",
+                    "project": "Network",
+                    "tradingSignals": {
+                        "type": "Trading Signals",
+                        "name": "New Trading Signals",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "8c1da808-227e-4035-b07b-84782da48191",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9179.455334868228,
+                                "y": 28125.665861163405
+                            },
+                            "targetPosition": {
+                                "x": 9473.943489902527,
+                                "y": 28182.90855977637
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "4f62c342-04fb-4b90-913b-bab5768c71fb",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9473.943489902527,
+                            "y": 28182.90855977637
+                        },
+                        "targetPosition": {
+                            "x": 9768.431644936827,
+                            "y": 28240.151258389335
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "networkInterfaces": {
+                    "type": "Network Interfaces",
+                    "name": "New Network Interfaces",
+                    "config": "{}",
+                    "project": "Network",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{\n    \"webSocketsPort\": \"18043\"\n}",
+                        "project": "Network",
+                        "id": "0ac57faa-ff11-4c3f-bcbf-d6d1806d9e72",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9233.768801754817,
+                                "y": 27979.37876587419
+                            },
+                            "targetPosition": {
+                                "x": 9518.265898316677,
+                                "y": 28074.570162795717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "httpNetworkInterface": {
+                        "type": "Http Network Interface",
+                        "name": "New Http Network Interface",
+                        "config": "{\n    \"httpPort\": \"31249\"\n}",
+                        "project": "Network",
+                        "id": "996b7035-f16d-49cf-ac59-bd2cdbf905db",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9319.479883851955,
+                                "y": 27849.883446559015
+                            },
+                            "targetPosition": {
+                                "x": 9518.265898316677,
+                                "y": 28074.570162795717
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "db79a7c6-445e-4d6b-9cb0-217a54f18384",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9518.265898316677,
+                            "y": 28074.570162795717
+                        },
+                        "targetPosition": {
+                            "x": 9768.431644936827,
+                            "y": 28240.151258389335
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "cb6e771e-1b68-43f5-bded-6d75bf07853b",
+                "savedPayload": {
+                    "position": {
+                        "x": 9768.431644936827,
+                        "y": 28240.151258389335
+                    },
+                    "targetPosition": {
+                        "x": 10062.919799971127,
+                        "y": 28297.3939570023
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "P2P Network Node",
+                "name": "New P2P Network Node",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"mecomputerservice.ddns.org\",\n    \"clientMinimunBalance\": 0,\n    \"peerMinimunBalance\": 0,\n    \"clientMinTokenAllocation\": 0,\n    \"peerMinTokenAllocation\": 0\n}",
+                "project": "Network",
+                "p2pNetworkReference": {
+                    "type": "P2P Network Reference",
+                    "name": "ML-Net",
+                    "project": "Network",
+                    "id": "fa84c7ab-94b3-4548-9448-10fd7d192062",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9502.462331126331,
+                            "y": 28117.990106798024
+                        },
+                        "targetPosition": {
+                            "x": 9800.533887829308,
+                            "y": 28151.951070928397
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Permissioned P2P Network",
+                            "name": "ML-Net",
+                            "id": "0ba8c5a1-519b-405a-80cb-e8553ade7622"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "markeone",
+                                "User Profile"
+                            ],
+                            [
+                                "New Permissioned P2P Networks",
+                                "Permissioned P2P Networks"
+                            ],
+                            [
+                                "ML-Net",
+                                "Permissioned P2P Network"
+                            ]
+                        ]
+                    }
+                },
+                "networkServices": {
+                    "type": "Network Services",
+                    "name": "New Network Services",
+                    "config": "{}",
+                    "project": "Network",
+                    "machineLearning": {
+                        "type": "Machine Learning",
+                        "name": "New Machine Learning",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "9b0796fe-0d68-4cd7-bcb8-000e049e155f",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9275.76206354567,
+                                "y": 27861.06529878059
+                            },
+                            "targetPosition": {
+                                "x": 9538.147975687489,
+                                "y": 28006.508184854494
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "221cce7b-887f-4a95-8672-76f98153463f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9538.147975687489,
+                            "y": 28006.508184854494
+                        },
+                        "targetPosition": {
+                            "x": 9800.533887829308,
+                            "y": 28151.951070928397
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "networkInterfaces": {
+                    "type": "Network Interfaces",
+                    "name": "New Network Interfaces",
+                    "config": "{}",
+                    "project": "Network",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{\n    \"webSocketsPort\": \"18044\"\n}",
+                        "project": "Network",
+                        "id": "4dd284c3-c0d6-445a-92c7-883adc400a29",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9372.622438652857,
+                                "y": 27738.72178784727
+                            },
+                            "targetPosition": {
+                                "x": 9613.779496838022,
+                                "y": 27917.168623872672
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "httpNetworkInterface": {
+                        "type": "Http Network Interface",
+                        "name": "New Http Network Interface",
+                        "config": "{\n    \"httpPort\": \"31250\"\n}",
+                        "project": "Network",
+                        "id": "a054aa67-e101-4cad-ba53-ca1e1e53cbfe",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9494.154776160449,
+                                "y": 27642.050601557134
+                            },
+                            "targetPosition": {
+                                "x": 9613.779496838022,
+                                "y": 27917.168623872672
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "50efa7d2-76eb-4ee7-9e47-d5e63e46935c",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9613.779496838022,
+                            "y": 27917.168623872672
+                        },
+                        "targetPosition": {
+                            "x": 9800.533887829308,
+                            "y": 28151.951070928397
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "0ce9154c-9f65-48ad-82d1-fec59ac44150",
+                "savedPayload": {
+                    "position": {
+                        "x": 9800.533887829308,
+                        "y": 28151.951070928397
+                    },
+                    "targetPosition": {
+                        "x": 10062.919799971127,
+                        "y": 28297.3939570023
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "P2P Network Node",
+                "name": "New P2P Network Node",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-4\",\n    \"host\": \"mecomputerservice.ddns.org\",\n    \"clientMinimunBalance\": 0,\n    \"peerMinimunBalance\": 0,\n    \"clientMinTokenAllocation\": 0,\n    \"peerMinTokenAllocation\": 0\n}",
+                "project": "Network",
+                "p2pNetworkReference": {
+                    "type": "P2P Network Reference",
+                    "name": "ML-Net-Signals",
+                    "project": "Network",
+                    "id": "2738453f-b47c-4129-bc50-cc929f76128e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9585.331910689414,
+                            "y": 27953.57987371968
+                        },
+                        "targetPosition": {
+                            "x": 9858.320291952377,
+                            "y": 28077.98784651655
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        },
+                        "referenceParent": {
+                            "type": "Permissioned P2P Network",
+                            "name": "ML-Net-Signals",
+                            "id": "6907be88-9f08-424a-b632-e50f3d606b38"
+                        },
+                        "referenceParentCombinedNodePath": [
+                            [
+                                "markeone",
+                                "User Profile"
+                            ],
+                            [
+                                "New Permissioned P2P Networks",
+                                "Permissioned P2P Networks"
+                            ],
+                            [
+                                "ML-Net-Signals",
+                                "Permissioned P2P Network"
+                            ]
+                        ]
+                    }
+                },
+                "networkServices": {
+                    "type": "Network Services",
+                    "name": "New Network Services",
+                    "config": "{}",
+                    "project": "Network",
+                    "tradingSignals": {
+                        "type": "Trading Signals",
+                        "name": "New Trading Signals",
+                        "config": "{}",
+                        "project": "Network",
+                        "id": "ccdc9837-1621-493c-86f9-ca22a9649453",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9449.121275914878,
+                                "y": 27639.17562554505
+                            },
+                            "targetPosition": {
+                                "x": 9653.720783933628,
+                                "y": 27858.5817360308
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "c2c850d8-a3ef-4aac-9368-e15ec46fa226",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9653.720783933628,
+                            "y": 27858.5817360308
+                        },
+                        "targetPosition": {
+                            "x": 9858.320291952377,
+                            "y": 28077.98784651655
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "networkInterfaces": {
+                    "type": "Network Interfaces",
+                    "name": "New Network Interfaces",
+                    "config": "{}",
+                    "project": "Network",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{\n    \"webSocketsPort\": \"18045\"\n}",
+                        "project": "Network",
+                        "id": "fb80dc72-bd5c-47b7-a736-556f974d858b",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9579.047190861256,
+                                "y": 27552.751534235136
+                            },
+                            "targetPosition": {
+                                "x": 9753.258077574537,
+                                "y": 27796.98618974203
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "httpNetworkInterface": {
+                        "type": "Http Network Interface",
+                        "name": "New Http Network Interface",
+                        "config": "{\n    \"httpPort\": \"31251\"\n}",
+                        "project": "Network",
+                        "id": "cc7cd1b9-d71d-45ca-9f99-1a5fc6b0e504",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9724.50435181847,
+                                "y": 27498.36733023188
+                            },
+                            "targetPosition": {
+                                "x": 9753.258077574537,
+                                "y": 27796.98618974203
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "b8505795-56dd-4985-8411-7cb1403d4235",
+                    "savedPayload": {
+                        "position": {
+                            "x": 9753.258077574537,
+                            "y": 27796.98618974203
+                        },
+                        "targetPosition": {
+                            "x": 9858.320291952377,
+                            "y": 28077.98784651655
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "7b082219-4031-4992-87de-1be9671340df",
+                "savedPayload": {
+                    "position": {
+                        "x": 9858.320291952377,
+                        "y": 28077.98784651655
+                    },
+                    "targetPosition": {
+                        "x": 10062.919799971127,
+                        "y": 28297.3939570023
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": true,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
         "id": "f1f02d31-37e2-4375-9aca-f9302818267a",
         "savedPayload": {
             "position": {
-                "x": 29718.092213764226,
-                "y": 23497.3939570023
+                "x": 10062.919799971127,
+                "y": 28297.3939570023
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -3840,21 +4697,1114 @@
         "name": "New Permissioned P2P Networks",
         "config": "{\n    \"percentage\": 0\n}",
         "project": "Network",
-        "permissionedP2PNetworks": [],
+        "permissionedP2PNetworks": [
+            {
+                "type": "Permissioned P2P Network",
+                "name": "RL-Net",
+                "config": "{\n    \"codeName\": \"RL-Net\"\n}",
+                "project": "Network",
+                "permissionGroups": [
+                    {
+                        "type": "Permission Group",
+                        "name": "New Permission Group",
+                        "config": "{\n    \"codeName\": \"\"\n}",
+                        "project": "Network",
+                        "permissionGroups": [],
+                        "permissionsGranted": [
+                            {
+                                "type": "Permission Granted",
+                                "name": "markeone",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "914915c5-231a-4c24-8b71-f746561de4f8",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9391.658814896564,
+                                        "y": 27808.921135751072
+                                    },
+                                    "targetPosition": {
+                                        "x": 9691.625245439645,
+                                        "y": 27813.408957855652
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "markeone",
+                                        "id": "b752abf1-7b8f-4688-84ec-5fd3d681b728"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "markeone",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "DJ05GaZ",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "13c9325f-b2e2-47fb-9de4-7f8d7acb98cd",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9400.178233951785,
+                                        "y": 27742.284844541
+                                    },
+                                    "targetPosition": {
+                                        "x": 9691.625245439645,
+                                        "y": 27813.408957855652
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "DJ05GaZ",
+                                        "id": "09b2e0a4-d810-49d3-95a2-25a09de1a584"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "DJ05GaZ",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "theblockchainarborist",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "1d026657-331e-43c8-9ee8-0cbeb2225e5f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9423.312023139744,
+                                        "y": 27679.21501336096
+                                    },
+                                    "targetPosition": {
+                                        "x": 9691.625245439645,
+                                        "y": 27813.408957855652
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "theblockchainarborist",
+                                        "id": "4f18c127-098f-4695-aed6-90632d3db544"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "theblockchainarborist",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "NAmorim",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "bed2e0b2-73c0-4785-9f99-92f46e4df347",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9459.900157672266,
+                                        "y": 27622.874226902997
+                                    },
+                                    "targetPosition": {
+                                        "x": 9691.625245439645,
+                                        "y": 27813.408957855652
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "NAmorim",
+                                        "id": "d611eda3-4202-438a-af65-8981a90e742a"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "NAmorim",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "83aeb3d0-026c-424f-b474-cb2740e46a24",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9508.107955705143,
+                                        "y": 27576.08764745875
+                                    },
+                                    "targetPosition": {
+                                        "x": 9691.625245439645,
+                                        "y": 27813.408957855652
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "3182e706-53e4-43fd-aedb-6ada3f834eba",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9565.518076946775,
+                                        "y": 27541.201349485294
+                                    },
+                                    "targetPosition": {
+                                        "x": 9691.625245439645,
+                                        "y": 27813.408957855652
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "1506805a-3434-47f1-b2b0-0dc615219759",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9691.625245439645,
+                                "y": 27813.408957855652
+                            },
+                            "targetPosition": {
+                                "x": 9943.226415823272,
+                                "y": 27976.80066836016
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "id": "fbf4ea80-e942-49b0-84c1-dde580ea2f2d",
+                "savedPayload": {
+                    "position": {
+                        "x": 9943.226415823272,
+                        "y": 27976.80066836016
+                    },
+                    "targetPosition": {
+                        "x": 10194.827586206899,
+                        "y": 28140.192378864667
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Permissioned P2P Network",
+                "name": "RL-Net-Signals",
+                "config": "{\n    \"codeName\": \"RL-Net-Signals\"\n}",
+                "project": "Network",
+                "permissionGroups": [
+                    {
+                        "type": "Permission Group",
+                        "name": "New Permission Group",
+                        "config": "{\n    \"codeName\": \"\"\n}",
+                        "project": "Network",
+                        "permissionGroups": [],
+                        "permissionsGranted": [
+                            {
+                                "type": "Permission Granted",
+                                "name": "markeone",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "9284e501-c1b9-4ef0-9de7-84a9fe7e0b26",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9533.337136437249,
+                                        "y": 27576.94190475415
+                                    },
+                                    "targetPosition": {
+                                        "x": 9817.235351576997,
+                                        "y": 27673.904801990488
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "markeone",
+                                        "id": "b752abf1-7b8f-4688-84ec-5fd3d681b728"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "markeone",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "DJ05GaZ",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "aad94be0-93d2-42f9-8667-a54101f2c8fb",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9562.031331870796,
+                                        "y": 27516.199671047336
+                                    },
+                                    "targetPosition": {
+                                        "x": 9817.235351576997,
+                                        "y": 27673.904801990488
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "DJ05GaZ",
+                                        "id": "09b2e0a4-d810-49d3-95a2-25a09de1a584"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "DJ05GaZ",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "theblockchainarborist",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "538aafa2-9a59-4a39-9d84-5b6c03e48ada",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9603.522522491594,
+                                        "y": 27463.36543112529
+                                    },
+                                    "targetPosition": {
+                                        "x": 9817.235351576997,
+                                        "y": 27673.904801990488
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "theblockchainarborist",
+                                        "id": "4f18c127-098f-4695-aed6-90632d3db544"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "theblockchainarborist",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "NAmorim",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "39768256-db4b-4c2c-a389-70cfc4c7292f",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9655.730166749792,
+                                        "y": 27421.088514394276
+                                    },
+                                    "targetPosition": {
+                                        "x": 9817.235351576997,
+                                        "y": 27673.904801990488
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "NAmorim",
+                                        "id": "d611eda3-4202-438a-af65-8981a90e742a"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "NAmorim",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "3baa0d08-df48-4d21-9bef-750eaf2c8947",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9716.036355362148,
+                                        "y": 27391.488861992217
+                                    },
+                                    "targetPosition": {
+                                        "x": 9817.235351576997,
+                                        "y": 27673.904801990488
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "0124287e-5d02-4209-aa18-8871b47fec3d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9781.417084214923,
+                                        "y": 27376.050724087938
+                                    },
+                                    "targetPosition": {
+                                        "x": 9817.235351576997,
+                                        "y": 27673.904801990488
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "3898a917-77cf-4614-9a4d-75eefa266339",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9817.235351576997,
+                                "y": 27673.904801990488
+                            },
+                            "targetPosition": {
+                                "x": 10006.031468891948,
+                                "y": 27907.048590427577
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "id": "9b6575a7-a49e-4acf-a879-06c640518d8f",
+                "savedPayload": {
+                    "position": {
+                        "x": 10006.031468891948,
+                        "y": 27907.048590427577
+                    },
+                    "targetPosition": {
+                        "x": 10194.827586206899,
+                        "y": 28140.192378864667
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Permissioned P2P Network",
+                "name": "ML-Net",
+                "config": "{\n    \"codeName\": \"ML-Net\"\n}",
+                "project": "Network",
+                "permissionGroups": [
+                    {
+                        "type": "Permission Group",
+                        "name": "New Permission Group",
+                        "config": "{\n    \"codeName\": \"\"\n}",
+                        "project": "Network",
+                        "permissionGroups": [],
+                        "permissionsGranted": [
+                            {
+                                "type": "Permission Granted",
+                                "name": "markeone",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "6a8c11e3-01bf-449b-81de-d62f10c86bcf",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9739.766752076357,
+                                        "y": 27400.097554559976
+                                    },
+                                    "targetPosition": {
+                                        "x": 9979.806816479719,
+                                        "y": 27580.04412296635
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "markeone",
+                                        "id": "b752abf1-7b8f-4688-84ec-5fd3d681b728"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "markeone",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "DJ05GaZ",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "95ad82fd-d05d-41d5-a493-eb58dc40186a",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9785.826936114978,
+                                        "y": 27351.19525140767
+                                    },
+                                    "targetPosition": {
+                                        "x": 9979.806816479719,
+                                        "y": 27580.04412296635
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "DJ05GaZ",
+                                        "id": "09b2e0a4-d810-49d3-95a2-25a09de1a584"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "DJ05GaZ",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "theblockchainarborist",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "3f3f8e1c-526a-44d9-8e33-0d91c56ac232",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9841.614081344529,
+                                        "y": 27313.768386264983
+                                    },
+                                    "targetPosition": {
+                                        "x": 9979.806816479719,
+                                        "y": 27580.04412296635
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "theblockchainarborist",
+                                        "id": "4f18c127-098f-4695-aed6-90632d3db544"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "theblockchainarborist",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "NAmorim",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "ff20f39f-9af5-4809-ae56-92aee60a6fa7",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9904.330787356366,
+                                        "y": 27289.693698431147
+                                    },
+                                    "targetPosition": {
+                                        "x": 9979.806816479719,
+                                        "y": 27580.04412296635
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "NAmorim",
+                                        "id": "d611eda3-4202-438a-af65-8981a90e742a"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "NAmorim",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "a459058d-1d73-4f88-9747-63a594707c28",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9970.8321766289,
+                                        "y": 27280.178393281298
+                                    },
+                                    "targetPosition": {
+                                        "x": 9979.806816479719,
+                                        "y": 27580.04412296635
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "d8c5c289-30ce-4252-baeb-7ec43a8d9268",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 10037.783591818385,
+                                        "y": 27285.699607948096
+                                    },
+                                    "targetPosition": {
+                                        "x": 9979.806816479719,
+                                        "y": 27580.04412296635
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "c0ccdece-c155-4bc8-ba93-f9b1171901ff",
+                        "savedPayload": {
+                            "position": {
+                                "x": 9979.806816479719,
+                                "y": 27580.04412296635
+                            },
+                            "targetPosition": {
+                                "x": 10087.317201343309,
+                                "y": 27860.118250915508
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "id": "0ba8c5a1-519b-405a-80cb-e8553ade7622",
+                "savedPayload": {
+                    "position": {
+                        "x": 10087.317201343309,
+                        "y": 27860.118250915508
+                    },
+                    "targetPosition": {
+                        "x": 10194.827586206899,
+                        "y": 28140.192378864667
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "Permissioned P2P Network",
+                "name": "ML-Net-Signals",
+                "config": "{\n    \"codeName\": \"ML-Net-Signals\"\n}",
+                "project": "Network",
+                "permissionGroups": [
+                    {
+                        "type": "Permission Group",
+                        "name": "New Permission Group",
+                        "config": "{\n    \"codeName\": \"\"\n}",
+                        "project": "Network",
+                        "permissionGroups": [],
+                        "permissionsGranted": [
+                            {
+                                "type": "Permission Granted",
+                                "name": "markeone",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "1813e72a-8846-44b5-878a-317eb190ba67",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9990.74089275543,
+                                        "y": 27295.698842312595
+                                    },
+                                    "targetPosition": {
+                                        "x": 10163.426012461132,
+                                        "y": 27541.014658011925
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "markeone",
+                                        "id": "b752abf1-7b8f-4688-84ec-5fd3d681b728"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "markeone",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "DJ05GaZ",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "abc59587-ff2a-4ba9-94e8-812179cfb29a",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 10049.658373665254,
+                                        "y": 27263.423367869727
+                                    },
+                                    "targetPosition": {
+                                        "x": 10163.426012461132,
+                                        "y": 27541.014658011925
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "DJ05GaZ",
+                                        "id": "09b2e0a4-d810-49d3-95a2-25a09de1a584"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "DJ05GaZ",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "theblockchainarborist",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "9e41062a-2a7e-4da9-962d-6a6f7557adef",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 10114.280639036591,
+                                        "y": 27245.06747983487
+                                    },
+                                    "targetPosition": {
+                                        "x": 10163.426012461132,
+                                        "y": 27541.014658011925
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "theblockchainarborist",
+                                        "id": "4f18c127-098f-4695-aed6-90632d3db544"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "theblockchainarborist",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "NAmorim",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "e3386320-b8ea-4c8c-9938-c3ab0beedc7e",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 10181.367258644643,
+                                        "y": 27241.551619081605
+                                    },
+                                    "targetPosition": {
+                                        "x": 10163.426012461132,
+                                        "y": 27541.014658011925
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "NAmorim",
+                                        "id": "d611eda3-4202-438a-af65-8981a90e742a"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "NAmorim",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "5f9c63bc-f797-4fcd-af38-297bebc3bbeb",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 10247.554229252934,
+                                        "y": 27253.052085549058
+                                    },
+                                    "targetPosition": {
+                                        "x": 10163.426012461132,
+                                        "y": 27541.014658011925
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            {
+                                "type": "Permission Granted",
+                                "name": "",
+                                "config": "{}",
+                                "project": "Network",
+                                "id": "d9160b9f-fa55-459a-ae67-d8b5898f8a3b",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 10309.522659782442,
+                                        "y": 27278.992197826785
+                                    },
+                                    "targetPosition": {
+                                        "x": 10163.426012461132,
+                                        "y": 27541.014658011925
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            }
+                        ],
+                        "id": "f2273ac3-8aa8-41d8-81c0-b9e5907c1779",
+                        "savedPayload": {
+                            "position": {
+                                "x": 10163.426012461132,
+                                "y": 27541.014658011925
+                            },
+                            "targetPosition": {
+                                "x": 10179.126799334015,
+                                "y": 27840.603518438296
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": true,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "id": "6907be88-9f08-424a-b632-e50f3d606b38",
+                "savedPayload": {
+                    "position": {
+                        "x": 10179.126799334015,
+                        "y": 27840.603518438296
+                    },
+                    "targetPosition": {
+                        "x": 10194.827586206899,
+                        "y": 28140.192378864667
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 3,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
         "id": "80ae6c03-bd0d-4192-9ea7-9a01f2c4cfaf",
         "savedPayload": {
             "position": {
-                "x": 29850,
-                "y": 23340.192378864667
+                "x": 10194.827586206899,
+                "y": 28140.192378864667
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -3930,12 +5880,12 @@
         "id": "34ea5878-887c-4220-8e0c-092e7ba60298",
         "savedPayload": {
             "position": {
-                "x": 30052.09445330008,
-                "y": 23304.557674096337
+                "x": 10396.922039506977,
+                "y": 28104.557674096337
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4384,12 +6334,12 @@
         "id": "c8cf4003-2cb6-41a1-9118-6a1d247be79a",
         "savedPayload": {
             "position": {
-                "x": 30229.813332935693,
-                "y": 23407.163717094038
+                "x": 10574.640919142592,
+                "y": 28207.163717094038
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 23600
+                "x": 10344.827586206899,
+                "y": 28400
             },
             "floatingObject": {
                 "isPinned": false,
@@ -4407,12 +6357,12 @@
     "id": "b752abf1-7b8f-4688-84ec-5fd3d681b728",
     "savedPayload": {
         "position": {
-            "x": 30000,
-            "y": 23600
+            "x": 10344.827586206899,
+            "y": 28400
         },
         "targetPosition": {
-            "x": 30000,
-            "y": 23600
+            "x": 10344.827586206899,
+            "y": 28400
         },
         "floatingObject": {
             "isPinned": true,
