@@ -3708,6 +3708,7 @@
                             }
                         }
                     },
+                    "followedBotReference": [],
                     "id": "464d0d1c-6589-4d93-b0a1-f45ad29b6ddf",
                     "savedPayload": {
                         "position": {
@@ -3930,6 +3931,7 @@
                             }
                         }
                     },
+                    "followedBotReference": [],
                     "id": "56e00269-4e8d-498d-9773-f0ab8294a2ca",
                     "savedPayload": {
                         "position": {
@@ -3986,6 +3988,7 @@
                             }
                         }
                     },
+                    "followedBotReference": [],
                     "id": "7a73e54b-d844-4908-b326-411ae792e2ab",
                     "savedPayload": {
                         "position": {
@@ -4097,7 +4100,7 @@
                 },
                 "p2pNetworkReference": {
                     "type": "P2P Network Reference",
-                    "name": "Mainnet",
+                    "name": "Permissioned P2P Network",
                     "project": "Network",
                     "id": "f5a7a6dc-65c6-490f-a1e8-f26fa2e86d97",
                     "savedPayload": {
@@ -4121,14 +4124,22 @@
                             "isRunning": false
                         },
                         "referenceParent": {
-                            "type": "P2P Network",
-                            "name": "Mainnet",
-                            "id": "f614fedc-e405-4260-9e17-90c863482c8d"
+                            "type": "Permissioned P2P Network",
+                            "name": "New Permissioned P2P Network",
+                            "id": "442d22b9-fb3e-4411-b6dc-d5050f97f283"
                         },
                         "referenceParentCombinedNodePath": [
                             [
-                                "Mainnet",
-                                "P2P Network"
+                                "caoHenriques",
+                                "User Profile"
+                            ],
+                            [
+                                "New Permissioned P2P Networks",
+                                "Permissioned P2P Networks"
+                            ],
+                            [
+                                "New Permissioned P2P Network",
+                                "Permissioned P2P Network"
                             ]
                         ]
                     }
