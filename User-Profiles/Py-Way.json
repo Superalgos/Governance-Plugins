@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "Py-Way",
-    "config": "{\"signature\":{\"message\":\"Py-Way\",\"messageHash\":\"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\"v\":\"0x1c\",\"r\":\"0x27eaf083aa4d4d8aad3b9f92dbdd42d091ad48797090793ea8193eccee4ac962\",\"s\":\"0x12ca945468d8ae67f3e7af359616f3869390907cbfa6ea3e735f338da5369503\",\"signature\":\"0x27eaf083aa4d4d8aad3b9f92dbdd42d091ad48797090793ea8193eccee4ac96212ca945468d8ae67f3e7af359616f3869390907cbfa6ea3e735f338da53695031c\"},\"codeName\":\"Py-Way\"}",
+    "config": "{\"signature\":{\"message\":\"Py-Way\",\"messageHash\":\"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\"v\":\"0x1c\",\"r\":\"0xb6ce8013ddbf8910ca4a2024a96508005348b57f56e1d7d2be8e4fabd381f610\",\"s\":\"0x2310f4d88430baf83b30b5f53487e630db1a16a1d9194ce8e40c7864b7ba9fa0\",\"signature\":\"0xb6ce8013ddbf8910ca4a2024a96508005348b57f56e1d7d2be8e4fabd381f6102310f4d88430baf83b30b5f53487e630db1a16a1d9194ce8e40c7864b7ba9fa01c\"},\"codeName\":\"Py-Way\"}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -12,7 +12,7 @@
         "onboardingPrograms": {
             "type": "Onboarding Programs",
             "name": "New Onboarding Programs",
-            "config": "{}{\r\n  \"percentage\": 0\r\n}",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "airdropProgram": {
                 "type": "Airdrop Program",
@@ -23,15 +23,15 @@
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
                     "project": "Governance",
-                    "id": "b6fb8f12-364d-4b96-ae3b-d0fd7c47ffb5",
+                    "id": "82c79df1-4ac3-4b28-958d-f6c11992aac1",
                     "savedPayload": {
                         "position": {
-                            "x": 30750,
-                            "y": 27620.577136594
+                            "x": 6723.3552345974995,
+                            "y": 37131.387061320565
                         },
                         "targetPosition": {
-                            "x": 30600,
-                            "y": 27880.384757729335
+                            "x": 6745.774262673426,
+                            "y": 37430.54820047492
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -46,15 +46,15 @@
                         }
                     }
                 },
-                "id": "3f14e2af-be40-4117-be5d-cac93f5851ab",
+                "id": "3e2169d5-96e3-45c5-bbdb-279478bb8bd6",
                 "savedPayload": {
                     "position": {
-                        "x": 30600,
-                        "y": 27880.384757729335
+                        "x": 6745.774262673426,
+                        "y": 37430.54820047492
                     },
                     "targetPosition": {
-                        "x": 30450,
-                        "y": 28140.192378864667
+                        "x": 6768.193290749353,
+                        "y": 37729.70933962928
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -69,15 +69,70 @@
                     }
                 }
             },
-            "id": "d0106fde-553f-4c6d-8d56-973aec2aa316",
+            "githubProgram": {
+                "type": "Github Program",
+                "name": "New Github Program",
+                "config": "{}",
+                "project": "Governance",
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "957c6563-91fb-42c1-a36f-95d42c3156f1",
+                    "savedPayload": {
+                        "position": {
+                            "x": 7263.93655533895,
+                            "y": 37391.717304791106
+                        },
+                        "targetPosition": {
+                            "x": 7016.064923044151,
+                            "y": 37560.71332221019
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "49a1ec2e-731d-4c45-8ebe-c39c8a097a59",
+                "savedPayload": {
+                    "position": {
+                        "x": 7016.064923044151,
+                        "y": 37560.71332221019
+                    },
+                    "targetPosition": {
+                        "x": 6768.193290749353,
+                        "y": 37729.70933962928
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "id": "5f73de4f-f33f-4c99-9fd0-b45edc87cf9e",
             "savedPayload": {
                 "position": {
-                    "x": 30450,
-                    "y": 28140.192378864667
+                    "x": 6768.193290749353,
+                    "y": 37729.70933962928
                 },
                 "targetPosition": {
-                    "x": 30300,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -95,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{}",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -108,15 +163,15 @@
                         "name": "",
                         "config": "{}",
                         "project": "Governance",
-                        "id": "9044a0db-0ded-4dfc-8b3c-9e3ef71f2f31",
+                        "id": "ca38e23c-167b-4734-bcfe-a668f7b3817c",
                         "savedPayload": {
                             "position": {
-                                "x": 30632.161907604575,
-                                "y": 27700.414630977946
+                                "x": 6862.212313768491,
+                                "y": 37258.72225808812
                             },
                             "targetPosition": {
-                                "x": 30709.807621135333,
-                                "y": 27990.192378864667
+                                "x": 6982.179921064413,
+                                "y": 37533.69093484912
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -136,15 +191,15 @@
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
                     "project": "Governance",
-                    "id": "c5f0a95d-dcf9-4ad9-b55d-079c896b5ec9",
+                    "id": "38a0926b-433b-48b2-bd99-7646504fab90",
                     "savedPayload": {
                         "position": {
-                            "x": 30859.807621135333,
-                            "y": 27730.384757729335
+                            "x": 7091.782228374332,
+                            "y": 37254.42881025586
                         },
                         "targetPosition": {
-                            "x": 30709.807621135333,
-                            "y": 27990.192378864667
+                            "x": 6982.179921064413,
+                            "y": 37533.69093484912
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -163,15 +218,15 @@
                     "type": "Tokens Bonus",
                     "name": "New Tokens Bonus",
                     "project": "Governance",
-                    "id": "69e46f52-f8ce-4b94-8eb0-b984b260f828",
+                    "id": "93b92632-0a91-4a26-ad45-83357991f771",
                     "savedPayload": {
                         "position": {
-                            "x": 30999.585369022054,
-                            "y": 27912.54666533391
+                            "x": 7257.148597825406,
+                            "y": 37413.7233275532
                         },
                         "targetPosition": {
-                            "x": 30709.807621135333,
-                            "y": 27990.192378864667
+                            "x": 6982.179921064413,
+                            "y": 37533.69093484912
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -186,15 +241,15 @@
                         }
                     }
                 },
-                "id": "ab786152-da57-4030-88a4-9ff3ba817e3a",
+                "id": "07f31de2-f978-4303-b5f1-1441fad08428",
                 "savedPayload": {
                     "position": {
-                        "x": 30709.807621135333,
-                        "y": 27990.192378864667
+                        "x": 6982.179921064413,
+                        "y": 37533.69093484912
                     },
                     "targetPosition": {
-                        "x": 30559.807621135333,
-                        "y": 28250
+                        "x": 6872.577613754494,
+                        "y": 37812.95305944238
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -214,49 +269,20 @@
                 "name": "New Support Program",
                 "config": "{}",
                 "project": "Governance",
-                "userSupporters": [
-                    {
-                        "type": "User Supporter",
-                        "name": "",
-                        "config": "{}",
-                        "project": "Governance",
-                        "id": "320fb191-39e7-465b-ac27-a44e90dc8d33",
-                        "savedPayload": {
-                            "position": {
-                                "x": 31071.939655491296,
-                                "y": 28037.867965644036
-                            },
-                            "targetPosition": {
-                                "x": 30859.807621135333,
-                                "y": 28250
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    }
-                ],
+                "userSupporters": [],
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
                     "project": "Governance",
-                    "id": "ee643564-cba2-4fb6-adb3-3eeb24eac58b",
+                    "id": "96a552f5-50d3-44a8-8160-f632a80f2f60",
                     "savedPayload": {
                         "position": {
-                            "x": 31159.807621135333,
-                            "y": 28250
+                            "x": 7403.776306362442,
+                            "y": 37581.1934390319
                         },
                         "targetPosition": {
-                            "x": 30859.807621135333,
-                            "y": 28250
+                            "x": 7169.226861622033,
+                            "y": 37768.24037958952
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -275,15 +301,15 @@
                     "type": "Tokens Bonus",
                     "name": "New Tokens Bonus",
                     "project": "Governance",
-                    "id": "f807a290-b368-4441-ab42-11640fe3c1dd",
+                    "id": "30373767-5a8c-4192-a8b8-f5653bf8b664",
                     "savedPayload": {
                         "position": {
-                            "x": 31071.939655491296,
-                            "y": 28462.132034355964
+                            "x": 7448.488986215294,
+                            "y": 37877.84268689944
                         },
                         "targetPosition": {
-                            "x": 30859.807621135333,
-                            "y": 28250
+                            "x": 7169.226861622033,
+                            "y": 37768.24037958952
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -298,15 +324,15 @@
                         }
                     }
                 },
-                "id": "63050dd3-9d34-4406-b27f-95e0c62110bb",
+                "id": "bfe8802d-0238-43d1-8301-0853a0542bc1",
                 "savedPayload": {
                     "position": {
-                        "x": 30859.807621135333,
-                        "y": 28250
+                        "x": 7169.226861622033,
+                        "y": 37768.24037958952
                     },
                     "targetPosition": {
-                        "x": 30559.807621135333,
-                        "y": 28250
+                        "x": 6872.577613754494,
+                        "y": 37812.95305944238
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -321,15 +347,43 @@
                     }
                 }
             },
-            "id": "d52d27e3-1ed8-4680-a8b6-55bc8a4f8927",
+            "id": "a5bd3ce5-c874-4448-9c06-51cfc478513f",
             "savedPayload": {
                 "position": {
-                    "x": 30559.807621135333,
-                    "y": 28250
+                    "x": 6872.577613754494,
+                    "y": 37812.95305944238
                 },
                 "targetPosition": {
-                    "x": 30300,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 38000
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 2,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "votesAndClaimsPrograms": {
+            "type": "Votes And Claims Programs",
+            "name": "New Votes And Claims Programs",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
+            "project": "Governance",
+            "id": "774b68cb-8327-4488-b4b8-bed1ec3f2330",
+            "savedPayload": {
+                "position": {
+                    "x": 6930.506542668632,
+                    "y": 37933.24371981311
+                },
+                "targetPosition": {
+                    "x": 6638.0281690140855,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -358,15 +412,15 @@
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
                     "project": "Governance",
-                    "id": "239920f0-30c1-4ba1-8726-46b0bafa90c9",
+                    "id": "cf8a1432-3523-4b17-bf8b-2e3c35ada971",
                     "savedPayload": {
                         "position": {
-                            "x": 31200,
-                            "y": 28400
+                            "x": 7515.463289977726,
+                            "y": 38200.268840560675
                         },
                         "targetPosition": {
-                            "x": 30900,
-                            "y": 28400
+                            "x": 7222.984916323179,
+                            "y": 38133.51256037378
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -381,15 +435,15 @@
                         }
                     }
                 },
-                "id": "6d722c13-16fb-4d36-862f-a44e32bbdd2f",
+                "id": "c5636939-a9f3-4f7b-93bf-a418bc03829e",
                 "savedPayload": {
                     "position": {
-                        "x": 30900,
-                        "y": 28400
+                        "x": 7222.984916323179,
+                        "y": 38133.51256037378
                     },
                     "targetPosition": {
-                        "x": 30600,
-                        "y": 28400
+                        "x": 6930.506542668632,
+                        "y": 38066.75628018689
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -404,15 +458,15 @@
                     }
                 }
             },
-            "id": "b5d5b2db-f6e3-4fc0-a25d-f1a300d8b3b5",
+            "id": "f9a9f28c-78b0-46f9-9157-a0ed7550fd3e",
             "savedPayload": {
                 "position": {
-                    "x": 30600,
-                    "y": 28400
+                    "x": 6930.506542668632,
+                    "y": 38066.75628018689
                 },
                 "targetPosition": {
-                    "x": 30300,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -442,15 +496,15 @@
                         "type": "Tokens Awarded",
                         "name": "New Tokens Awarded",
                         "project": "Governance",
-                        "id": "819590c9-7048-4e8c-8f18-6dfd325dc668",
+                        "id": "9cad59f4-3ad7-4617-b30d-ba7293e43b2a",
                         "savedPayload": {
                             "position": {
-                                "x": 31079.422863406,
-                                "y": 28850
+                                "x": 7341.676503235312,
+                                "y": 38561.14082167287
                             },
                             "targetPosition": {
-                                "x": 30819.615242270665,
-                                "y": 28700
+                                "x": 7107.127058494903,
+                                "y": 38374.093881115245
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -465,15 +519,15 @@
                             }
                         }
                     },
-                    "id": "14ef9c92-a19e-4c19-a436-a8a2c3d34b0b",
+                    "id": "dcb8962b-dea8-4d8b-86d0-0b28bbfdae0a",
                     "savedPayload": {
                         "position": {
-                            "x": 30819.615242270665,
-                            "y": 28700
+                            "x": 7107.127058494903,
+                            "y": 38374.093881115245
                         },
                         "targetPosition": {
-                            "x": 30559.807621135333,
-                            "y": 28550
+                            "x": 6872.577613754494,
+                            "y": 38187.04694055762
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -489,15 +543,15 @@
                     }
                 }
             ],
-            "id": "406faf48-2484-4b20-81fc-ce7379fb0341",
+            "id": "ebd394ce-0129-4fef-8d9a-034444d32759",
             "savedPayload": {
                 "position": {
-                    "x": 30559.807621135333,
-                    "y": 28550
+                    "x": 6872.577613754494,
+                    "y": 38187.04694055762
                 },
                 "targetPosition": {
-                    "x": 30300,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -526,15 +580,15 @@
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
                     "project": "Governance",
-                    "id": "e3bd4a24-6da5-4cf3-a801-c475fdb00571",
+                    "id": "6cb41f1c-c81e-4dad-8c34-3db02fade468",
                     "savedPayload": {
                         "position": {
-                            "x": 30750,
-                            "y": 29179.422863406
+                            "x": 7028.523534219888,
+                            "y": 38810.87198111217
                         },
                         "targetPosition": {
-                            "x": 30600,
-                            "y": 28919.615242270665
+                            "x": 6898.35841248462,
+                            "y": 38540.58132074145
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -549,15 +603,15 @@
                         }
                     }
                 },
-                "id": "68f5d9ae-b42c-43d8-b169-84de0b16e5ec",
+                "id": "6e1236f0-6770-4d7a-8067-0f69e066a4d7",
                 "savedPayload": {
                     "position": {
-                        "x": 30600,
-                        "y": 28919.615242270665
+                        "x": 6898.35841248462,
+                        "y": 38540.58132074145
                     },
                     "targetPosition": {
-                        "x": 30450,
-                        "y": 28659.807621135333
+                        "x": 6768.193290749353,
+                        "y": 38270.29066037072
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -572,15 +626,15 @@
                     }
                 }
             },
-            "id": "002b4a61-e9cc-4862-a008-aa30b3c7aaf6",
+            "id": "e20a79aa-e2b6-4354-8e1f-088af6faa3f4",
             "savedPayload": {
                 "position": {
-                    "x": 30450,
-                    "y": 28659.807621135333
+                    "x": 6768.193290749353,
+                    "y": 38270.29066037072
                 },
                 "targetPosition": {
-                    "x": 30300,
-                    "y": 28400
+                    "x": 6638.0281690140855,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -595,15 +649,15 @@
                 }
             }
         },
-        "id": "f199f5b9-51cf-4640-98ed-726466893f96",
+        "id": "443319ed-dbf0-4274-bbd5-bc3d05b3fe21",
         "savedPayload": {
             "position": {
-                "x": 30300,
-                "y": 28400
+                "x": 6638.0281690140855,
+                "y": 38000
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 38000
             },
             "floatingObject": {
                 "isPinned": false,
@@ -622,15 +676,15 @@
         "type": "Tokens Mined",
         "name": "New Tokens Mined",
         "project": "Governance",
-        "id": "b5c63c08-a98f-402b-b399-2c3541355d3f",
+        "id": "de3c6af4-f384-48f2-91c6-f80116623447",
         "savedPayload": {
             "position": {
-                "x": 30092.705098312483,
-                "y": 28685.316954888545
+                "x": 6430.73326732657,
+                "y": 38285.31695488855
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 38000
             },
             "floatingObject": {
                 "isPinned": false,
@@ -648,7 +702,7 @@
     "userApps": {
         "type": "User Apps",
         "name": "New User Apps",
-        "config": "{}",
+        "config": "{\r\n    \"percentage\": 0\r\n}",
         "project": "User-Apps",
         "serverApps": {
             "type": "Server Apps",
@@ -664,17 +718,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x59c872af4efadf498274f885a1060ce94c2803e91f2a23386aefb04a25e9d006\",\n        \"s\": \"0x06ac8310c19cd116120d777139f949a637a73dca0192335d97bbe03b5c662ccc\",\n        \"signature\": \"0x59c872af4efadf498274f885a1060ce94c2803e91f2a23386aefb04a25e9d00606ac8310c19cd116120d777139f949a637a73dca0192335d97bbe03b5c662ccc1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xb34499b123d58e94e84467210877a4e59007dd74c6f33c4f00a994b918c8bfa9\",\n        \"s\": \"0x1e4f68c3d4691597fca0d462501b93d598ff207be16433ea8ddc0227806c625a\",\n        \"signature\": \"0xb34499b123d58e94e84467210877a4e59007dd74c6f33c4f00a994b918c8bfa91e4f68c3d4691597fca0d462501b93d598ff207be16433ea8ddc0227806c625a1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "c9f6078b-ded3-41c7-99c8-2c4acb3d62a7",
+                        "id": "3b4ae6be-b342-47bd-bc2b-0ea70581ab16",
                         "savedPayload": {
                             "position": {
-                                "x": 29707.294901687517,
-                                "y": 28910.006727063228
+                                "x": 5895.73326732657,
+                                "y": 38368.31695488855
                             },
                             "targetPosition": {
-                                "x": 29757.294901687517,
-                                "y": 28929.006727063228
+                                "x": 5830.73326732657,
+                                "y": 38285.31695488855
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -689,15 +743,15 @@
                             }
                         }
                     },
-                    "id": "24e5a734-360d-45d3-8447-f97b9c9e7de8",
+                    "id": "bd403a1e-dc9f-48a9-a1ba-1ef22dd3d354",
                     "savedPayload": {
                         "position": {
-                            "x": 29757.294901687517,
-                            "y": 28929.006727063228
+                            "x": 5830.73326732657,
+                            "y": 38285.31695488855
                         },
                         "targetPosition": {
-                            "x": 29514.589803375035,
-                            "y": 28752.671151375485
+                            "x": 5738.0281690140855,
+                            "y": 38000
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -720,17 +774,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x45b87d8a1b309814b958af02623194270cc7f6722ebf6b0a9370e1593e8fb564\",\n        \"s\": \"0x76b4eb483b20d4191ff1cce1fbf31d65eef311638afd345ee489d7563481cff0\",\n        \"signature\": \"0x45b87d8a1b309814b958af02623194270cc7f6722ebf6b0a9370e1593e8fb56476b4eb483b20d4191ff1cce1fbf31d65eef311638afd345ee489d7563481cff01c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xaacf208feb21ee9d845d0fa48b3713ce62be20e454e764bff1c5fa44cbb4c040\",\n        \"s\": \"0x693af308fd7ca5075c10e62d32ced50d73c290f9e879cc83b5f3be55c422ac0a\",\n        \"signature\": \"0xaacf208feb21ee9d845d0fa48b3713ce62be20e454e764bff1c5fa44cbb4c040693af308fd7ca5075c10e62d32ced50d73c290f9e879cc83b5f3be55c422ac0a1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "bb4b9747-0372-46ff-9a16-5da0fed4bcf7",
+                        "id": "8c8ef2ca-c946-4f35-8194-fba7de9a25ce",
                         "savedPayload": {
                             "position": {
-                                "x": 29420.88470506255,
-                                "y": 28988.98810626403
+                                "x": 5451.323070701601,
+                                "y": 38145.33557568774
                             },
                             "targetPosition": {
-                                "x": 29421.88470506255,
-                                "y": 29037.98810626403
+                                "x": 5495.323070701601,
+                                "y": 38176.33557568774
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -745,15 +799,15 @@
                             }
                         }
                     },
-                    "id": "47a8f584-cd91-4273-8baa-147f58ba9dc0",
+                    "id": "e7869b6a-dee1-4416-a31f-b9242a69100a",
                     "savedPayload": {
                         "position": {
-                            "x": 29421.88470506255,
-                            "y": 29037.98810626403
+                            "x": 5495.323070701601,
+                            "y": 38176.33557568774
                         },
                         "targetPosition": {
-                            "x": 29514.589803375035,
-                            "y": 28752.671151375485
+                            "x": 5738.0281690140855,
+                            "y": 38000
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -776,17 +830,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xc0dbfa1c90b1a4db9ab15f78449eecfea4075eff19e3fc77eb300c3111bb004d\",\n        \"s\": \"0x736dd679e6752123c32518f14c7d99d44b5150ef7cae7353c1c89f110d81e2aa\",\n        \"signature\": \"0xc0dbfa1c90b1a4db9ab15f78449eecfea4075eff19e3fc77eb300c3111bb004d736dd679e6752123c32518f14c7d99d44b5150ef7cae7353c1c89f110d81e2aa1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-3\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xe3ad2dd66dd371584bbe8c0e2b79a671fa0c3c06d15c764a4c39453c2bd268f0\",\n        \"s\": \"0x0a6de59dd03d4d6af3a0fdbf2e00caf672945ae0b31a7cd99ce92edc20212804\",\n        \"signature\": \"0xe3ad2dd66dd371584bbe8c0e2b79a671fa0c3c06d15c764a4c39453c2bd268f00a6de59dd03d4d6af3a0fdbf2e00caf672945ae0b31a7cd99ce92edc202128041c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "ea1f4784-462a-4243-9fa4-1f24c029d649",
+                        "id": "dc5ec772-3768-4e24-a2f9-0306e35c78d0",
                         "savedPayload": {
                             "position": {
-                                "x": 29304.589803375035,
-                                "y": 28762.671151375485
+                                "x": 5529.323070701601,
+                                "y": 37786.66442431226
                             },
                             "targetPosition": {
-                                "x": 29214.589803375035,
-                                "y": 28752.671151375485
+                                "x": 5495.323070701601,
+                                "y": 37823.66442431226
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -801,15 +855,15 @@
                             }
                         }
                     },
-                    "id": "a3a44f73-8ac0-49a5-a171-ce1ea7696fb2",
+                    "id": "21610970-f1ad-4a6a-a898-765a89509563",
                     "savedPayload": {
                         "position": {
-                            "x": 29214.589803375035,
-                            "y": 28752.671151375485
+                            "x": 5495.323070701601,
+                            "y": 37823.66442431226
                         },
                         "targetPosition": {
-                            "x": 29514.589803375035,
-                            "y": 28752.671151375485
+                            "x": 5738.0281690140855,
+                            "y": 38000
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -832,17 +886,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x35cc5d39ead83b44f73433a63169bc4f7ed87f20eb9b7a383c9cb06bdf749115\",\n        \"s\": \"0x2dcb2c847c8764eba1e416dc48f50adf89767b9209df84776ef24cb860a1b84a\",\n        \"signature\": \"0x35cc5d39ead83b44f73433a63169bc4f7ed87f20eb9b7a383c9cb06bdf7491152dcb2c847c8764eba1e416dc48f50adf89767b9209df84776ef24cb860a1b84a1c\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-4\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x505362c0ca98bc9f1f12c3424067b832e0dc6204bb700c2f87deeda80a191fa7\",\n        \"s\": \"0x08fba03aa0faafb7bbf26a6e24972f2f730a72be0ad9016b59d8c0b0a4777841\",\n        \"signature\": \"0x505362c0ca98bc9f1f12c3424067b832e0dc6204bb700c2f87deeda80a191fa708fba03aa0faafb7bbf26a6e24972f2f730a72be0ad9016b59d8c0b0a47778411c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "6f021216-0bdf-4bc4-ae4c-b75a8d4ede18",
+                        "id": "7f17e351-cfb1-4ecd-bd18-543e90a53044",
                         "savedPayload": {
                             "position": {
-                                "x": 29416.88470506255,
-                                "y": 28488.35419648694
+                                "x": 5900.73326732657,
+                                "y": 37701.68304511145
                             },
                             "targetPosition": {
-                                "x": 29421.88470506255,
-                                "y": 28467.35419648694
+                                "x": 5830.73326732657,
+                                "y": 37714.68304511145
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -857,15 +911,15 @@
                             }
                         }
                     },
-                    "id": "4591f7c9-eb5f-46b4-aba3-28653f4b0c40",
+                    "id": "be8b22f5-719a-44e4-91c4-28d1ad75f968",
                     "savedPayload": {
                         "position": {
-                            "x": 29421.88470506255,
-                            "y": 28467.35419648694
+                            "x": 5830.73326732657,
+                            "y": 37714.68304511145
                         },
                         "targetPosition": {
-                            "x": 29514.589803375035,
-                            "y": 28752.671151375485
+                            "x": 5738.0281690140855,
+                            "y": 38000
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -882,20 +936,20 @@
                 }
             ],
             "socialTradingServerApps": [],
-            "id": "698bc2b5-d92d-4457-84b5-193290b4104d",
+            "id": "085631f5-f597-468c-9e75-0080117f3f58",
             "savedPayload": {
                 "position": {
-                    "x": 29514.589803375035,
-                    "y": 28752.671151375485
+                    "x": 5738.0281690140855,
+                    "y": 38000
                 },
                 "targetPosition": {
-                    "x": 29757.294901687517,
-                    "y": 28576.335575687743
+                    "x": 6038.0281690140855,
+                    "y": 38000
                 },
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 1,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -905,20 +959,20 @@
                 }
             }
         },
-        "id": "32bd5b46-0b5f-4dae-a638-288dd836d133",
+        "id": "a61a5b95-11ed-450e-83e3-df13ab698365",
         "savedPayload": {
             "position": {
-                "x": 29757.294901687517,
-                "y": 28576.335575687743
+                "x": 6095.323070701601,
+                "y": 38176.33557568774
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 38000
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -931,7 +985,7 @@
     "userBots": {
         "type": "User Bots",
         "name": "New User Bots",
-        "config": "{\"socialHandle\": \"\",\"bio\": \"\"}",
+        "config": "{\r\n    \"socialHandle\": \"\",\r\n    \"bio\": \"\",\r\n    \"percentage\": 0\r\n}",
         "project": "Governance",
         "socialTradingBots": {
             "type": "Social Trading Bots",
@@ -947,17 +1001,17 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x7e0ca7c7e236e5459590c6568f4048bfc94f8a133f7ea4cf862aae118c321e67\",\n        \"s\": \"0x28cda9e315fa90e317341cd52f54c16bd53c5f8a9b94f9fe8303e027cf31f60c\",\n        \"signature\": \"0x7e0ca7c7e236e5459590c6568f4048bfc94f8a133f7ea4cf862aae118c321e6728cda9e315fa90e317341cd52f54c16bd53c5f8a9b94f9fe8303e027cf31f60c1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"Py-Way\",\n        \"messageHash\": \"0xdaaf38db01b8eb791d927ab9ced002d619fc06d6ca9922b0a8a93b0bd32591d2\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x2cff7355affb45b00cca0f7a82da80c49876e0a5b75915fc8ccb97cdf7e5236b\",\n        \"s\": \"0x6a2c3baf689a5332cb4cdd5be769d2f5d38d396aa7b0115f5e99c0728bc868ba\",\n        \"signature\": \"0x2cff7355affb45b00cca0f7a82da80c49876e0a5b75915fc8ccb97cdf7e5236b6a2c3baf689a5332cb4cdd5be769d2f5d38d396aa7b0115f5e99c0728bc868ba1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "0ce66011-d92c-4df9-af5b-9925e44d10c2",
+                        "id": "0bd64c25-087e-40da-99d0-369a4ea1d0cf",
                         "savedPayload": {
                             "position": {
-                                "x": 32594.21803839588,
-                                "y": 23054.993272936772
+                                "x": 5708.912874076632,
+                                "y": 37387.99327293677
                             },
                             "targetPosition": {
-                                "x": 32605.21803839588,
-                                "y": 23070.993272936772
+                                "x": 5609.912874076632,
+                                "y": 37470.99327293677
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -972,15 +1026,15 @@
                             }
                         }
                     },
-                    "id": "195ec8f4-87f6-4398-ba28-524de610e651",
+                    "id": "eee1ee2f-9f95-447d-aa80-07bab2dfac31",
                     "savedPayload": {
                         "position": {
-                            "x": 32605.21803839588,
-                            "y": 23070.993272936772
+                            "x": 5609.912874076632,
+                            "y": 37470.99327293677
                         },
                         "targetPosition": {
-                            "x": 32847.92313670836,
-                            "y": 23247.328848624515
+                            "x": 5852.617972389116,
+                            "y": 37647.328848624515
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -996,15 +1050,15 @@
                     }
                 }
             ],
-            "id": "3ecda85f-7a64-4ec6-8c0f-67dbeaab530f",
+            "id": "bf93bb25-e51d-4f0b-b2b9-55be27581101",
             "savedPayload": {
                 "position": {
-                    "x": 32847.92313670836,
-                    "y": 23247.328848624515
+                    "x": 5852.617972389116,
+                    "y": 37647.328848624515
                 },
                 "targetPosition": {
-                    "x": 33090.62823502085,
-                    "y": 23423.664424312257
+                    "x": 6095.323070701601,
+                    "y": 37823.66442431226
                 },
                 "floatingObject": {
                     "isPinned": false,
@@ -1019,15 +1073,15 @@
                 }
             }
         },
-        "id": "08788208-55f1-41cb-b8d4-f6f64c86e792",
+        "id": "4fb5bde9-7450-4115-9ef1-2aa1186e4632",
         "savedPayload": {
             "position": {
-                "x": 29757.294901687517,
-                "y": 28223.664424312257
+                "x": 6095.323070701601,
+                "y": 37823.66442431226
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 38000
             },
             "floatingObject": {
                 "isPinned": false,
@@ -1045,7 +1099,7 @@
     "forecastsProviders": {
         "type": "Forecasts Providers",
         "name": "New Forecasts Providers",
-        "config": "{}",
+        "config": "{\r\n    \"percentage\": 0\r\n}",
         "project": "Governance",
         "bitcoinFactoryForecasts": [
             {
@@ -1059,15 +1113,15 @@
                         "name": "Py-Way-1",
                         "config": "{\r\n    \"codeName\": \"Py-Way-1\"\r\n}",
                         "project": "Governance",
-                        "id": "5e2d1b06-6665-4a41-aa4b-0875e9bdec8d",
+                        "id": "d417ac7d-65b0-48e6-b57c-d8d3299e7599",
                         "savedPayload": {
                             "position": {
-                                "x": 29885.410196624965,
-                                "y": 27829.36609022291
+                                "x": 5837.288987106428,
+                                "y": 37703.328205372556
                             },
                             "targetPosition": {
-                                "x": 30185.410196624965,
-                                "y": 27829.36609022291
+                                "x": 6038.0281690140855,
+                                "y": 37480.384757729335
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1087,15 +1141,15 @@
                         "name": "Py-Way-2",
                         "config": "{\r\n    \"codeName\": \"Py-Way-2\"\r\n}",
                         "project": "Governance",
-                        "id": "0d5d5246-4e32-47d9-9552-4af028906add",
+                        "id": "cb5a6065-e5e5-4423-8d61-5109e77aa772",
                         "savedPayload": {
                             "position": {
-                                "x": 30092.705098312483,
-                                "y": 27544.049135334364
+                                "x": 5763.964531721305,
+                                "y": 37358.36376480659
                             },
                             "targetPosition": {
-                                "x": 30185.410196624965,
-                                "y": 27829.36609022291
+                                "x": 6038.0281690140855,
+                                "y": 37480.384757729335
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1115,15 +1169,15 @@
                         "name": "Py-Way-3",
                         "config": "{\r\n    \"codeName\": \"Py-Way-3\"\r\n}",
                         "project": "Governance",
-                        "id": "4592fde0-0235-4d83-a5b4-6782ca088d77",
+                        "id": "7fa07146-43da-4f34-af6e-751bea3e8224",
                         "savedPayload": {
                             "position": {
-                                "x": 30428.11529493745,
-                                "y": 27653.030514535167
+                                "x": 6069.386707994381,
+                                "y": 37182.02818911885
                             },
                             "targetPosition": {
-                                "x": 30185.410196624965,
-                                "y": 27829.36609022291
+                                "x": 6038.0281690140855,
+                                "y": 37480.384757729335
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1143,15 +1197,15 @@
                         "name": "Py-Way-4",
                         "config": "{\r\n    \"codeName\": \"Py-Way-4\"\r\n}",
                         "project": "Governance",
-                        "id": "b7a991b9-831f-4f92-ad7d-834dd15931dc",
+                        "id": "d6c853b1-0ab5-4bae-91cc-700638ece865",
                         "savedPayload": {
                             "position": {
-                                "x": 30428.11529493745,
-                                "y": 28005.701665910652
+                                "x": 6331.4724492342275,
+                                "y": 37418.01125048401
                             },
                             "targetPosition": {
-                                "x": 30185.410196624965,
-                                "y": 27829.36609022291
+                                "x": 6038.0281690140855,
+                                "y": 37480.384757729335
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -1168,15 +1222,15 @@
                     }
                 ],
                 "forecastClientInstances": [],
-                "id": "79cf2f6a-1ad6-4e1a-a8d3-3d94b237d0ca",
+                "id": "dc507188-82c8-4d48-8e3c-62ce1292db47",
                 "savedPayload": {
                     "position": {
-                        "x": 30185.410196624965,
-                        "y": 27829.36609022291
+                        "x": 6038.0281690140855,
+                        "y": 37480.384757729335
                     },
                     "targetPosition": {
-                        "x": 30092.705098312483,
-                        "y": 28114.683045111455
+                        "x": 6188.0281690140855,
+                        "y": 37740.19237886467
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1192,20 +1246,20 @@
                 }
             }
         ],
-        "id": "e8bb9249-0c18-4e44-a9e1-4fc2202ac01e",
+        "id": "7bb458f7-ed25-4158-a338-2f16161ae0b8",
         "savedPayload": {
             "position": {
-                "x": 30092.705098312483,
-                "y": 28114.683045111455
+                "x": 6430.73326732657,
+                "y": 37714.68304511145
             },
             "targetPosition": {
-                "x": 30000,
-                "y": 28400
+                "x": 6338.0281690140855,
+                "y": 38000
             },
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -1215,15 +1269,15 @@
             }
         }
     },
-    "id": "ea7f7b2e-bf64-4905-bc37-f99dcec7671c",
+    "id": "21f4631c-8578-4943-914c-ffaa077cc0e0",
     "savedPayload": {
         "position": {
-            "x": 30000,
-            "y": 28400
+            "x": 6338.0281690140855,
+            "y": 38000
         },
         "targetPosition": {
-            "x": 30000,
-            "y": 28400
+            "x": 6338.0281690140855,
+            "y": 38000
         },
         "floatingObject": {
             "isPinned": false,
