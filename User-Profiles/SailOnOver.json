@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "SailOnOver",
-    "config": "{\n    \"signature\": {\n        \"message\": \"SailOnOver\",\n        \"messageHash\": \"0x7b3b5596e9852480eab17b4cf8cf6800cbe98cffe8be6458b64f38f1a3f75243\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e38\",\n        \"s\": \"0x0fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd0\",\n        \"signature\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e380fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd01b\"\n    },\n    \"codeName\": \"SailOnOver-Code\"\n}",
+    "config": "{\r\n    \"signature\": {\r\n        \"message\": \"SailOnOver\",\r\n        \"messageHash\": \"0x7b3b5596e9852480eab17b4cf8cf6800cbe98cffe8be6458b64f38f1a3f75243\",\r\n        \"v\": \"0x1b\",\r\n        \"r\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e38\",\r\n        \"s\": \"0x0fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd0\",\r\n        \"signature\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e380fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd01b\"\r\n    },\r\n    \"codeName\": \"SailOnOver\"\r\n}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -320,19 +320,18 @@
             "name": "New Server Apps",
             "config": "{}",
             "project": "User-Apps",
-            "taskServerApps": [],
-            "socialTradingServerApps": [
+            "taskServerApps": [
                 {
-                    "type": "Social Trading Server App",
-                    "name": "Social Trading Server App #1",
-                    "config": "{\n    \"codeName\": \"SailOnOver-Social-Trading-Server-App-1\",\n    \"host\": \"localhost\",\n    \"webSocketsPort\": \"16042\"\n}",
+                    "type": "Task Server App",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"SailOnOver-Code\",\n        \"messageHash\": \"0xdaecd69a04d4b82ef491b7df84fdcc839a412d88f8cd3cefb3f4fa405cb519e4\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x01821ce7db426d72869a15339f6e24d743dba5421362c7366cd03ca6be9edd0b\",\n        \"s\": \"0x6f094caec9f6f3991880d2decc8289ae5a8f98efbf2acd717b9562c576e0fa87\",\n        \"signature\": \"0x01821ce7db426d72869a15339f6e24d743dba5421362c7366cd03ca6be9edd0b6f094caec9f6f3991880d2decc8289ae5a8f98efbf2acd717b9562c576e0fa871b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"SailOnOver-Code\",\n        \"messageHash\": \"0xdaecd69a04d4b82ef491b7df84fdcc839a412d88f8cd3cefb3f4fa405cb519e4\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x08f1f223e619ce38a5341d8fcc7b9416ccc28b5856eae674c25283895b2223ab\",\n        \"s\": \"0x07c317d332679e3d513b6e6b3b01ee5735c412191a810499cadb0e263d074967\",\n        \"signature\": \"0x08f1f223e619ce38a5341d8fcc7b9416ccc28b5856eae674c25283895b2223ab07c317d332679e3d513b6e6b3b01ee5735c412191a810499cadb0e263d0749671b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "12e9b62e-b1e7-42ad-8cb5-5b412a6eb96c",
+                        "id": "c3dfe52f-c345-496c-8bd2-4e4f7b7be815",
                         "savedPayload": {
                             "position": {
                                 "x": 28961.3991859737,
@@ -355,7 +354,7 @@
                             }
                         }
                     },
-                    "id": "52417f62-d7fb-406e-8a81-2f9a7e052378",
+                    "id": "fb62d9e0-d21a-4390-8e95-ce12333c8e86",
                     "savedPayload": {
                         "position": {
                             "x": 29261.3991859737,
@@ -379,6 +378,7 @@
                     }
                 }
             ],
+            "socialTradingServerApps": [],
             "id": "6dbe5a2f-6ea6-4747-838e-c606caa0580f",
             "savedPayload": {
                 "position": {
@@ -444,9 +444,9 @@
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"SailOnOver-Code\",\n        \"messageHash\": \"0xdaecd69a04d4b82ef491b7df84fdcc839a412d88f8cd3cefb3f4fa405cb519e4\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xfbd2093187fcdaa2a1f7ceebf172aed4f5ce8e871f39170870eab1ff25f8eb46\",\n        \"s\": \"0x387ef80ed3cb462cbfce3be1e428df3e8ec7c8c9e0b9b04ef67c375a3eb97004\",\n        \"signature\": \"0xfbd2093187fcdaa2a1f7ceebf172aed4f5ce8e871f39170870eab1ff25f8eb46387ef80ed3cb462cbfce3be1e428df3e8ec7c8c9e0b9b04ef67c375a3eb970041b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"SailOnOver-Code\",\n        \"messageHash\": \"0xdaecd69a04d4b82ef491b7df84fdcc839a412d88f8cd3cefb3f4fa405cb519e4\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xed10de9a3f7c6cf4a1727a82690843c677874641f8852f1e5d24963d7c6a0690\",\n        \"s\": \"0x38d0a9cbc05c516b509e462e1e839c2f3466bc13c976fe5fe6ec43090e554ce0\",\n        \"signature\": \"0xed10de9a3f7c6cf4a1727a82690843c677874641f8852f1e5d24963d7c6a069038d0a9cbc05c516b509e462e1e839c2f3466bc13c976fe5fe6ec43090e554ce01c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "9e911df9-52e6-4eea-8005-aedca29ca814",
+                        "id": "77122fbf-2d42-4b58-83bd-522fc07a7c5a",
                         "savedPayload": {
                             "position": {
                                 "x": 30161.3991859737,
