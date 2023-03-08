@@ -10398,7 +10398,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": false,
+                            "isCollapsed": true,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -10421,12 +10421,12 @@
                         "id": "ef2aed74-99c0-41d0-be01-3c49cccad667",
                         "savedPayload": {
                             "position": {
-                                "x": 8992.579245385365,
-                                "y": 25888.237355552046
+                                "x": 8795.960890204195,
+                                "y": 25667.56488168318
                             },
                             "targetPosition": {
-                                "x": 9142.579245385365,
-                                "y": 25628.429734416713
+                                "x": 9008.092924560158,
+                                "y": 25455.432847327218
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -10451,7 +10451,214 @@
                             "name": "New Trading System Signals",
                             "config": "{}",
                             "project": "Trading-Signals",
-                            "tradingStrategySignals": [],
+                            "tradingStrategySignals": [
+                                {
+                                    "type": "Trading Strategy Signals",
+                                    "name": "New Trading Strategy Signals",
+                                    "config": "{}",
+                                    "project": "Trading-Signals",
+                                    "openStageSignals": {
+                                        "type": "Open Stage Signals",
+                                        "name": "New Open Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [
+                                            {
+                                                "type": "Market Buy Order Signals",
+                                                "name": "New Market Buy Order Signals",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "New Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "602def07-3cd5-4871-84ae-8784af06fbdb",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 7698.285303424826,
+                                                            "y": 26384.855710733216
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 7848.285303424826,
+                                                            "y": 26125.048089597884
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "a02cbc87-90a8-43ba-969d-4e296b7238dc",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 7848.285303424826,
+                                                        "y": 26125.048089597884
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 7998.285303424826,
+                                                        "y": 25865.24046846255
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "marketSellOrderSignals": [],
+                                        "id": "6910e3c0-19a6-403e-8be8-c603813f1869",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7998.285303424826,
+                                                "y": 25865.24046846255
+                                            },
+                                            "targetPosition": {
+                                                "x": 8148.285303424826,
+                                                "y": 25605.432847327218
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "closeStageSignals": {
+                                        "type": "Close Stage Signals",
+                                        "name": "New Close Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [],
+                                        "marketSellOrderSignals": [
+                                            {
+                                                "type": "Market Sell Order Signals",
+                                                "name": "New Market Sell Order Signals",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "New Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "a09a3332-0c3c-42e0-b285-04e7a8c960c9",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 7248.285303424826,
+                                                            "y": 25605.432847327218
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 7548.285303424826,
+                                                            "y": 25605.432847327218
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "62ef7aac-34e1-48af-80be-d2b2fceea65c",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 7548.285303424826,
+                                                        "y": 25605.432847327218
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 7848.285303424826,
+                                                        "y": 25605.432847327218
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "id": "393651f4-1af2-4c9a-9d1c-70cf2be54268",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7848.285303424826,
+                                                "y": 25605.432847327218
+                                            },
+                                            "targetPosition": {
+                                                "x": 8148.285303424826,
+                                                "y": 25605.432847327218
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "ae1b3fa1-3702-49eb-9bb2-0fe2264e82f1",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 8148.285303424826,
+                                            "y": 25605.432847327218
+                                        },
+                                        "targetPosition": {
+                                            "x": 8408.092924560158,
+                                            "y": 25455.432847327218
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
                             "tradingSystemSignal": {
                                 "type": "Trading System Signal",
                                 "name": "New Trading System Signal",
@@ -10460,12 +10667,12 @@
                                 "id": "cd5b0c56-b4b0-498e-9a2e-101346244020",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 8273.246001725201,
-                                        "y": 25861.366875008986
+                                        "x": 8148.285303424826,
+                                        "y": 25305.432847327218
                                     },
                                     "targetPosition": {
-                                        "x": 8563.023749611923,
-                                        "y": 25783.721161478228
+                                        "x": 8408.092924560158,
+                                        "y": 25455.432847327218
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -10483,12 +10690,12 @@
                             "id": "31adecb5-d686-4a4a-a918-a167fd0bab51",
                             "savedPayload": {
                                 "position": {
-                                    "x": 8563.023749611923,
-                                    "y": 25783.721161478228
+                                    "x": 8408.092924560158,
+                                    "y": 25455.432847327218
                                 },
                                 "targetPosition": {
-                                    "x": 8852.801497498644,
-                                    "y": 25706.07544794747
+                                    "x": 8708.092924560158,
+                                    "y": 25455.432847327218
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -10506,12 +10713,12 @@
                         "id": "410546de-989b-4848-b490-b579a5dccd93",
                         "savedPayload": {
                             "position": {
-                                "x": 8852.801497498644,
-                                "y": 25706.07544794747
+                                "x": 8708.092924560158,
+                                "y": 25455.432847327218
                             },
                             "targetPosition": {
-                                "x": 9142.579245385365,
-                                "y": 25628.429734416713
+                                "x": 9008.092924560158,
+                                "y": 25455.432847327218
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -10531,16 +10738,68 @@
                         "name": "New Available Storage",
                         "config": "{}",
                         "project": "Open-Storage",
-                        "storageContainerReferences": [],
+                        "storageContainerReferences": [
+                            {
+                                "type": "Storage Container Reference",
+                                "name": "Troodon2",
+                                "config": "{}",
+                                "project": "Open-Storage",
+                                "id": "18833714-641e-43de-a9af-5a0f89740248",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 8583.82885584823,
+                                        "y": 25031.16877861529
+                                    },
+                                    "targetPosition": {
+                                        "x": 8795.960890204195,
+                                        "y": 25243.300812971254
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Github Storage Container",
+                                        "name": "Troodon2",
+                                        "id": "47ddc7ef-c8fd-4802-ac64-386c5b2c1642"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "prepheadrus",
+                                            "User Profile"
+                                        ],
+                                        [
+                                            "New User Storage",
+                                            "User Storage"
+                                        ],
+                                        [
+                                            "New Github Storage",
+                                            "Github Storage"
+                                        ],
+                                        [
+                                            "Troodon2",
+                                            "Github Storage Container"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
                         "id": "e9ae6df7-8ab7-4589-a10c-1e26f7441278",
                         "savedPayload": {
                             "position": {
-                                "x": 8882.771624250034,
-                                "y": 25478.429734416713
+                                "x": 8795.960890204195,
+                                "y": 25243.300812971254
                             },
                             "targetPosition": {
-                                "x": 9142.579245385365,
-                                "y": 25628.429734416713
+                                "x": 9008.092924560158,
+                                "y": 25455.432847327218
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -10569,7 +10828,7 @@
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": true,
+                            "isCollapsed": false,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -10724,7 +10983,7 @@
                         },
                         {
                             "type": "Storage Container Reference",
-                            "name": "My-Social-Trading-Data-Backup",
+                            "name": "Troodon2",
                             "config": "{}",
                             "project": "Open-Storage",
                             "id": "693a78ad-3a4d-4fe2-922b-fcbd44577c68",
@@ -10750,7 +11009,7 @@
                                 },
                                 "referenceParent": {
                                     "type": "Github Storage Container",
-                                    "name": "My-Social-Trading-Data-Backup",
+                                    "name": "Troodon2",
                                     "id": "47ddc7ef-c8fd-4802-ac64-386c5b2c1642"
                                 },
                                 "referenceParentCombinedNodePath": [
@@ -10767,7 +11026,7 @@
                                         "Github Storage"
                                     ],
                                     [
-                                        "My-Social-Trading-Data-Backup",
+                                        "Troodon2",
                                         "Github Storage Container"
                                     ]
                                 ]
@@ -10912,7 +11171,7 @@
                         },
                         {
                             "type": "Storage Container Reference",
-                            "name": "My-Social-Trading-Data-Backup",
+                            "name": "Troodon2",
                             "config": "{}",
                             "project": "Open-Storage",
                             "id": "6fd36713-8bfa-41cf-bcc8-6901a9778b1f",
@@ -10938,7 +11197,7 @@
                                 },
                                 "referenceParent": {
                                     "type": "Github Storage Container",
-                                    "name": "My-Social-Trading-Data-Backup",
+                                    "name": "Troodon2",
                                     "id": "47ddc7ef-c8fd-4802-ac64-386c5b2c1642"
                                 },
                                 "referenceParentCombinedNodePath": [
@@ -10955,7 +11214,7 @@
                                         "Github Storage"
                                     ],
                                     [
-                                        "My-Social-Trading-Data-Backup",
+                                        "Troodon2",
                                         "Github Storage Container"
                                     ]
                                 ]
@@ -11576,7 +11835,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -11655,8 +11914,8 @@
                 },
                 {
                     "type": "Github Storage Container",
-                    "name": "My-Social-Trading-Data-Backup",
-                    "config": "{\n    \"codeName\": \"My-Social-Trading-Data-Backup-github\",\n    \"githubUserName\": \"prepheadrus\",\n    \"repositoryName\": \"My-Social-Trading-Data-Backup\"\n}",
+                    "name": "Troodon2",
+                    "config": "{\n    \"codeName\": \"Troodon2\",\n    \"githubUserName\": \"prepheadrus\",\n    \"repositoryName\": \"Troodon2\"\n}",
                     "project": "Open-Storage",
                     "id": "47ddc7ef-c8fd-4802-ac64-386c5b2c1642",
                     "savedPayload": {
