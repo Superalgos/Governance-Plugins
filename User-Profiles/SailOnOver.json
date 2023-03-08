@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "SailOnOver",
-    "config": "{\n    \"signature\": {\n        \"message\": \"SailOnOver\",\n        \"messageHash\": \"0x7b3b5596e9852480eab17b4cf8cf6800cbe98cffe8be6458b64f38f1a3f75243\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e38\",\n        \"s\": \"0x0fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd0\",\n        \"signature\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e380fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd01b\"\n    }\n}",
+    "config": "{\n    \"signature\": {\n        \"message\": \"SailOnOver\",\n        \"messageHash\": \"0x7b3b5596e9852480eab17b4cf8cf6800cbe98cffe8be6458b64f38f1a3f75243\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e38\",\n        \"s\": \"0x0fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd0\",\n        \"signature\": \"0x1c1feacb18702f171e508f222d961291bf3ea72ea30a99c3a34f94db70539e380fa7a8a57ba4df48b9863cc2b8cc096848440f276edfc1e6fd1071c275d22fd01b\"\n    },\n    \"codeName\": \"SailOnOver-Code\"\n}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -290,8 +290,238 @@
         "id": "8766671c-333c-4afb-8ebd-6467213c7747",
         "savedPayload": {
             "position": {
+                "x": 30161.3991859737,
+                "y": 25673.262899262896
+            },
+            "targetPosition": {
+                "x": 30161.3991859737,
+                "y": 25373.262899262896
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "userApps": {
+        "type": "User Apps",
+        "name": "New User Apps",
+        "config": "{}",
+        "project": "User-Apps",
+        "serverApps": {
+            "type": "Server Apps",
+            "name": "New Server Apps",
+            "config": "{}",
+            "project": "User-Apps",
+            "taskServerApps": [],
+            "socialTradingServerApps": [
+                {
+                    "type": "Social Trading Server App",
+                    "name": "Social Trading Server App #1",
+                    "config": "{\n    \"codeName\": \"SailOnOver-Social-Trading-Server-App-1\",\n    \"host\": \"localhost\",\n    \"webSocketsPort\": \"16042\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Server-App-1\",\n    \"signature\": {\n        \"message\": \"SailOnOver-Code\",\n        \"messageHash\": \"0xdaecd69a04d4b82ef491b7df84fdcc839a412d88f8cd3cefb3f4fa405cb519e4\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x01821ce7db426d72869a15339f6e24d743dba5421362c7366cd03ca6be9edd0b\",\n        \"s\": \"0x6f094caec9f6f3991880d2decc8289ae5a8f98efbf2acd717b9562c576e0fa87\",\n        \"signature\": \"0x01821ce7db426d72869a15339f6e24d743dba5421362c7366cd03ca6be9edd0b6f094caec9f6f3991880d2decc8289ae5a8f98efbf2acd717b9562c576e0fa871b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "12e9b62e-b1e7-42ad-8cb5-5b412a6eb96c",
+                        "savedPayload": {
+                            "position": {
+                                "x": 28961.3991859737,
+                                "y": 25373.262899262896
+                            },
+                            "targetPosition": {
+                                "x": 29261.3991859737,
+                                "y": 25373.262899262896
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "52417f62-d7fb-406e-8a81-2f9a7e052378",
+                    "savedPayload": {
+                        "position": {
+                            "x": 29261.3991859737,
+                            "y": 25373.262899262896
+                        },
+                        "targetPosition": {
+                            "x": 29561.3991859737,
+                            "y": 25373.262899262896
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "id": "6dbe5a2f-6ea6-4747-838e-c606caa0580f",
+            "savedPayload": {
+                "position": {
+                    "x": 29561.3991859737,
+                    "y": 25373.262899262896
+                },
+                "targetPosition": {
+                    "x": 29861.3991859737,
+                    "y": 25373.262899262896
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "id": "9f7f81ea-fef0-491a-9c1a-331d3a763e52",
+        "savedPayload": {
+            "position": {
                 "x": 29861.3991859737,
                 "y": 25373.262899262896
+            },
+            "targetPosition": {
+                "x": 30161.3991859737,
+                "y": 25373.262899262896
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "userBots": {
+        "type": "User Bots",
+        "name": "New User Bots",
+        "config": "{\"socialHandle\": \"\",\"bio\": \"\"}",
+        "project": "Governance",
+        "socialTradingBots": {
+            "type": "Social Trading Bots",
+            "name": "New Social Trading Bots",
+            "config": "{}",
+            "project": "Social-Trading",
+            "socialTradingBots": [
+                {
+                    "type": "Social Trading Bot",
+                    "name": "Social Trading Bot #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"SailOnOver-Code-Social-Trading-Bot-1\"\n}",
+                    "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"SailOnOver-Code\",\n        \"messageHash\": \"0xdaecd69a04d4b82ef491b7df84fdcc839a412d88f8cd3cefb3f4fa405cb519e4\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xfbd2093187fcdaa2a1f7ceebf172aed4f5ce8e871f39170870eab1ff25f8eb46\",\n        \"s\": \"0x387ef80ed3cb462cbfce3be1e428df3e8ec7c8c9e0b9b04ef67c375a3eb97004\",\n        \"signature\": \"0xfbd2093187fcdaa2a1f7ceebf172aed4f5ce8e871f39170870eab1ff25f8eb46387ef80ed3cb462cbfce3be1e428df3e8ec7c8c9e0b9b04ef67c375a3eb970041b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "9e911df9-52e6-4eea-8005-aedca29ca814",
+                        "savedPayload": {
+                            "position": {
+                                "x": 30161.3991859737,
+                                "y": 24173.262899262896
+                            },
+                            "targetPosition": {
+                                "x": 30161.3991859737,
+                                "y": 24473.262899262896
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "followedBotReference": [],
+                    "id": "007d5b53-4cd9-4ad7-99e9-987a7e8dc386",
+                    "savedPayload": {
+                        "position": {
+                            "x": 30161.3991859737,
+                            "y": 24473.262899262896
+                        },
+                        "targetPosition": {
+                            "x": 30161.3991859737,
+                            "y": 24773.262899262896
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "id": "dbf96e22-6faf-4a7d-941c-06d8078d802f",
+            "savedPayload": {
+                "position": {
+                    "x": 30161.3991859737,
+                    "y": 24773.262899262896
+                },
+                "targetPosition": {
+                    "x": 30161.3991859737,
+                    "y": 25073.262899262896
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "id": "c71bbbcf-28d2-4e0c-a22b-ece71176ba3c",
+        "savedPayload": {
+            "position": {
+                "x": 30161.3991859737,
+                "y": 25073.262899262896
             },
             "targetPosition": {
                 "x": 30161.3991859737,
