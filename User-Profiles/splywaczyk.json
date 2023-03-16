@@ -262,7 +262,7 @@
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "Seweryn Plywaczyk Team February 2023 Teams",
+                                "name": "",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "f860bf3d-331f-48dd-95df-86899cdacac7",
@@ -518,7 +518,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": false,
+                "isCollapsed": true,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -535,6 +535,121 @@
         "id": "1a01f597-52dc-4c94-addb-49393e764d81",
         "savedPayload": {
             "position": {
+                "x": 2013.4228187919462,
+                "y": 38300
+            },
+            "targetPosition": {
+                "x": 2013.4228187919462,
+                "y": 38000
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "userApps": {
+        "type": "User Apps",
+        "name": "New User Apps",
+        "config": "{}",
+        "project": "User-Apps",
+        "serverApps": {
+            "type": "Server Apps",
+            "name": "New Server Apps",
+            "config": "{}",
+            "project": "User-Apps",
+            "taskServerApps": [
+                {
+                    "type": "Task Server App",
+                    "name": "Task Server App #1",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x34237bb42fbcfca8b76311fce78af4174e35a5a745d33774b325a3aa5efaa046\",\n        \"s\": \"0x592d0ef002a57431ec86185c05d4e20ee61456b03c8981405f026d1a5d0223da\",\n        \"signature\": \"0x34237bb42fbcfca8b76311fce78af4174e35a5a745d33774b325a3aa5efaa046592d0ef002a57431ec86185c05d4e20ee61456b03c8981405f026d1a5d0223da1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "b352cdc1-64bb-4399-bb28-bc4aecc8222d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 813.4228187919462,
+                                "y": 38000
+                            },
+                            "targetPosition": {
+                                "x": 1113.4228187919462,
+                                "y": 38000
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "e4f202ba-dbcd-46e3-a6ed-db73357522d2",
+                    "savedPayload": {
+                        "position": {
+                            "x": 1113.4228187919462,
+                            "y": 38000
+                        },
+                        "targetPosition": {
+                            "x": 1413.4228187919462,
+                            "y": 38000
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "socialTradingServerApps": [],
+            "id": "e78e686d-262f-4e35-923c-6b5ed7b93613",
+            "savedPayload": {
+                "position": {
+                    "x": 1413.4228187919462,
+                    "y": 38000
+                },
+                "targetPosition": {
+                    "x": 1713.4228187919462,
+                    "y": 38000
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "id": "3cef8b2b-4404-43d8-9b55-f9d3edbc60ce",
+        "savedPayload": {
+            "position": {
                 "x": 1713.4228187919462,
                 "y": 38000
             },
@@ -546,7 +661,122 @@
                 "isPinned": false,
                 "isFrozen": false,
                 "isCollapsed": false,
-                "angleToParent": 1,
+                "angleToParent": 3,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "userBots": {
+        "type": "User Bots",
+        "name": "New User Bots",
+        "config": "{\"socialHandle\": \"\",\"bio\": \"\"}",
+        "project": "Governance",
+        "socialTradingBots": {
+            "type": "Social Trading Bots",
+            "name": "New Social Trading Bots",
+            "config": "{}",
+            "project": "Social-Trading",
+            "socialTradingBots": [
+                {
+                    "type": "Social Trading Bot",
+                    "name": "Social Trading Bot #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"splywaczyk-Social-Trading-Bot-1\"\n}",
+                    "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x067256d3478fdf15d2fd8f2c31e7d9c2e8eb648081e03e9b70018590c77e231e\",\n        \"s\": \"0x54215d5c082fe4828a266188b74d767a5b70d0adb1dabdb203fb1b1ddf9b5b1a\",\n        \"signature\": \"0x067256d3478fdf15d2fd8f2c31e7d9c2e8eb648081e03e9b70018590c77e231e54215d5c082fe4828a266188b74d767a5b70d0adb1dabdb203fb1b1ddf9b5b1a1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "7151a7e4-2405-494c-aee8-a00fe577ea67",
+                        "savedPayload": {
+                            "position": {
+                                "x": 904.7673797784018,
+                                "y": 37540.7798811619
+                            },
+                            "targetPosition": {
+                                "x": 1181.931239531788,
+                                "y": 37655.584910871425
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "followedBotReference": [],
+                    "id": "9f497844-055d-48fa-a304-1ff51a2fd8e8",
+                    "savedPayload": {
+                        "position": {
+                            "x": 1181.931239531788,
+                            "y": 37655.584910871425
+                        },
+                        "targetPosition": {
+                            "x": 1459.095099285174,
+                            "y": 37770.38994058095
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                }
+            ],
+            "id": "39ac62d9-3bec-4203-a967-9bd84be5366f",
+            "savedPayload": {
+                "position": {
+                    "x": 1459.095099285174,
+                    "y": 37770.38994058095
+                },
+                "targetPosition": {
+                    "x": 1736.25895903856,
+                    "y": 37885.194970290475
+                },
+                "floatingObject": {
+                    "isPinned": false,
+                    "isFrozen": false,
+                    "isCollapsed": false,
+                    "angleToParent": 1,
+                    "distanceToParent": 3,
+                    "arrangementStyle": 0
+                },
+                "uiObject": {
+                    "isRunning": false
+                }
+            }
+        },
+        "id": "3244be42-c0a8-4393-a0b6-e7df669c793e",
+        "savedPayload": {
+            "position": {
+                "x": 1736.25895903856,
+                "y": 37885.194970290475
+            },
+            "targetPosition": {
+                "x": 2013.4228187919462,
+                "y": 38000
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 3,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
             },
@@ -569,7 +799,7 @@
             "isPinned": false,
             "isFrozen": false,
             "isCollapsed": false,
-            "angleToParent": 1,
+            "angleToParent": 4,
             "distanceToParent": 3,
             "arrangementStyle": 0
         },
