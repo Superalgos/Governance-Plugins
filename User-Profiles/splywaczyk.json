@@ -568,29 +568,29 @@
             "taskServerApps": [
                 {
                     "type": "Task Server App",
-                    "name": "Task Server App #1",
+                    "name": "TokenPower Signal Test",
                     "config": "{\n    \"codeName\": \"Task-Server-App-1\"\n}",
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x34237bb42fbcfca8b76311fce78af4174e35a5a745d33774b325a3aa5efaa046\",\n        \"s\": \"0x592d0ef002a57431ec86185c05d4e20ee61456b03c8981405f026d1a5d0223da\",\n        \"signature\": \"0x34237bb42fbcfca8b76311fce78af4174e35a5a745d33774b325a3aa5efaa046592d0ef002a57431ec86185c05d4e20ee61456b03c8981405f026d1a5d0223da1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1c\",\n        \"r\": \"0x783330ba2f3b967810e3d0e7565138a7791dbcfc8e90678dc85488ad209ae68c\",\n        \"s\": \"0x64edd30acddeb12bb30fac680d17322fc222e5a6f2c8aacf7e39a55209b3f6d7\",\n        \"signature\": \"0x783330ba2f3b967810e3d0e7565138a7791dbcfc8e90678dc85488ad209ae68c64edd30acddeb12bb30fac680d17322fc222e5a6f2c8aacf7e39a55209b3f6d71c\"\n    }\n}",
                         "project": "Governance",
-                        "id": "b352cdc1-64bb-4399-bb28-bc4aecc8222d",
+                        "id": "d57ae9f9-53d0-4c53-a7e1-7889559bdc7c",
                         "savedPayload": {
                             "position": {
-                                "x": 813.4228187919462,
-                                "y": 38000
+                                "x": 833.8673230185051,
+                                "y": 38155.291427061515
                             },
                             "targetPosition": {
-                                "x": 1113.4228187919462,
-                                "y": 38000
+                                "x": 1123.6450709052256,
+                                "y": 38077.64571353076
                             },
                             "floatingObject": {
                                 "isPinned": false,
                                 "isFrozen": false,
                                 "isCollapsed": false,
-                                "angleToParent": 1,
+                                "angleToParent": 3,
                                 "distanceToParent": 3,
                                 "arrangementStyle": 0
                             },
@@ -602,8 +602,8 @@
                     "id": "e4f202ba-dbcd-46e3-a6ed-db73357522d2",
                     "savedPayload": {
                         "position": {
-                            "x": 1113.4228187919462,
-                            "y": 38000
+                            "x": 1123.6450709052256,
+                            "y": 38077.64571353076
                         },
                         "targetPosition": {
                             "x": 1413.4228187919462,
@@ -613,7 +613,63 @@
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
-                            "angleToParent": 1,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Task Server App",
+                    "name": "Trading Signal Test",
+                    "config": "{\n    \"codeName\": \"Task-Server-App-2\"\n}",
+                    "project": "User-Apps",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Task-Server-App-2\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1c\",\n        \"r\": \"0xad40643628ff85faf50fff477a91b1fa9845e4cfb9343d82dc9fd47a9809ded9\",\n        \"s\": \"0x3143d926df7f993f0b9e91708865133f7815f364f0fd9196f7abc4886a458471\",\n        \"signature\": \"0xad40643628ff85faf50fff477a91b1fa9845e4cfb9343d82dc9fd47a9809ded93143d926df7f993f0b9e91708865133f7815f364f0fd9196f7abc4886a4584711c\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "bbd39346-55ea-483c-9649-06df1f544650",
+                        "savedPayload": {
+                            "position": {
+                                "x": 833.8673230185051,
+                                "y": 37844.708572938485
+                            },
+                            "targetPosition": {
+                                "x": 1123.6450709052256,
+                                "y": 37922.35428646924
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 3,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "id": "d57b258f-127b-41d3-88f0-fd1f2d76c30b",
+                    "savedPayload": {
+                        "position": {
+                            "x": 1123.6450709052256,
+                            "y": 37922.35428646924
+                        },
+                        "targetPosition": {
+                            "x": 1413.4228187919462,
+                            "y": 38000
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 3,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
                         },
@@ -683,23 +739,23 @@
             "socialTradingBots": [
                 {
                     "type": "Social Trading Bot",
-                    "name": "Social Trading Bot #1",
+                    "name": "TokenPower Signal Test",
                     "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"splywaczyk-Social-Trading-Bot-1\"\n}",
                     "project": "Social-Trading",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x067256d3478fdf15d2fd8f2c31e7d9c2e8eb648081e03e9b70018590c77e231e\",\n        \"s\": \"0x54215d5c082fe4828a266188b74d767a5b70d0adb1dabdb203fb1b1ddf9b5b1a\",\n        \"signature\": \"0x067256d3478fdf15d2fd8f2c31e7d9c2e8eb648081e03e9b70018590c77e231e54215d5c082fe4828a266188b74d767a5b70d0adb1dabdb203fb1b1ddf9b5b1a1b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xaa74680bde8c4d2a22c86f88c7e5649b3b739e6f0fd951602945377405f5d808\",\n        \"s\": \"0x42ed30a5e593a8ce5408b743221de0c5a08bbe949dd97d7fdb82ed84d4c0bdba\",\n        \"signature\": \"0xaa74680bde8c4d2a22c86f88c7e5649b3b739e6f0fd951602945377405f5d80842ed30a5e593a8ce5408b743221de0c5a08bbe949dd97d7fdb82ed84d4c0bdba1b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "7151a7e4-2405-494c-aee8-a00fe577ea67",
+                        "id": "5621563a-6c61-44f7-8e57-3e06c4b467d2",
                         "savedPayload": {
                             "position": {
-                                "x": 943.9252374444175,
-                                "y": 37838.21333957404
+                                "x": 1174.6616408730308,
+                                "y": 37665.23208291493
                             },
                             "targetPosition": {
-                                "x": 1181.931239531788,
-                                "y": 37655.584910871425
+                                "x": 1161.6616408730308,
+                                "y": 37731.23208291493
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -717,17 +773,17 @@
                     "followedBotReference": [
                         {
                             "type": "Followed Bot Reference",
-                            "name": "Follower Test",
+                            "name": "",
                             "project": "Social-Trading",
                             "id": "5151c086-f5cd-4f14-bebd-d1a7fb23d1d0",
                             "savedPayload": {
                                 "position": {
-                                    "x": 1142.7733818657725,
-                                    "y": 37358.15145245928
+                                    "x": 943.9252374444175,
+                                    "y": 37838.21333957404
                                 },
                                 "targetPosition": {
-                                    "x": 1181.931239531788,
-                                    "y": 37655.584910871425
+                                    "x": 1221.0890971978035,
+                                    "y": 37953.01836928356
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -769,8 +825,93 @@
                     "id": "9f497844-055d-48fa-a304-1ff51a2fd8e8",
                     "savedPayload": {
                         "position": {
-                            "x": 1181.931239531788,
-                            "y": 37655.584910871425
+                            "x": 1161.6616408730308,
+                            "y": 37731.23208291493
+                        },
+                        "targetPosition": {
+                            "x": 1459.095099285174,
+                            "y": 37770.38994058095
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 3,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Social Trading Bot",
+                    "name": "Trading Signal Test",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"handle\": \"splywaczyk-Social-Trading-Bot-2\"\n}",
+                    "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"signature\": {\n        \"message\": \"splywaczyk\",\n        \"messageHash\": \"0xdc08ad5ca12a3b1952bdfde315b68e0a2d522aaca8d6699dd6a60412893f149a\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xa98f7603fa22fa577519165119691190dd5228b7e0323bb9594f4b3b3173f98f\",\n        \"s\": \"0x12025d18e3c5374b349c3bac8c1f925bb4fde2368b9331fa5017905b0323931a\",\n        \"signature\": \"0xa98f7603fa22fa577519165119691190dd5228b7e0323bb9594f4b3b3173f98f12025d18e3c5374b349c3bac8c1f925bb4fde2368b9331fa5017905b0323931a1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "9c998c3d-0560-4a54-b638-038ec4b8e25d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 999.3028108291717,
+                                "y": 37417.57890878405
+                            },
+                            "targetPosition": {
+                                "x": 1276.4666705825578,
+                                "y": 37532.38393849358
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "followedBotReference": [
+                        {
+                            "type": "Followed Bot Reference",
+                            "name": "",
+                            "project": "Social-Trading",
+                            "id": "0619691b-f97b-4f25-a08f-8f55e80fd70d",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 1237.3088129165424,
+                                    "y": 37234.95048008143
+                                },
+                                "targetPosition": {
+                                    "x": 1276.4666705825578,
+                                    "y": 37532.38393849358
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "4febd938-cb66-4df2-93bf-2178a6cbc6b2",
+                    "savedPayload": {
+                        "position": {
+                            "x": 1276.4666705825578,
+                            "y": 37532.38393849358
                         },
                         "targetPosition": {
                             "x": 1459.095099285174,
@@ -780,7 +921,7 @@
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
-                            "angleToParent": 1,
+                            "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
                         },
@@ -804,7 +945,7 @@
                     "isPinned": false,
                     "isFrozen": false,
                     "isCollapsed": false,
-                    "angleToParent": 1,
+                    "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
                 },
