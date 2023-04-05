@@ -768,7 +768,7 @@
                 {
                     "type": "Social Trading Bot",
                     "name": "Social Trading Bot #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"admn-monkey-Social-Trading-Bot-1\",\n    \"amount\": 750000\n}",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"admn-monkey-Social-Trading-Bot-1\",\n    \"percentage\": 0.0001\n}",
                     "project": "Social-Trading",
                     "signingAccount": {
                         "type": "Signing Account",
@@ -778,12 +778,12 @@
                         "id": "d07ac89a-238f-458c-9b3e-65415e766904",
                         "savedPayload": {
                             "position": {
-                                "x": 1753.6151976566146,
-                                "y": 27350
+                                "x": 1493.807576521283,
+                                "y": 27800
                             },
                             "targetPosition": {
-                                "x": 2013.4228187919462,
-                                "y": 27500
+                                "x": 1753.6151976566146,
+                                "y": 27650
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -806,12 +806,12 @@
                             "id": "71bc568c-d193-41b7-91b9-b8fc7b837f05",
                             "savedPayload": {
                                 "position": {
-                                    "x": 2273.2304399272775,
+                                    "x": 1753.6151976566146,
                                     "y": 27350
                                 },
                                 "targetPosition": {
-                                    "x": 2013.4228187919462,
-                                    "y": 27500
+                                    "x": 1753.6151976566146,
+                                    "y": 27650
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -853,8 +853,8 @@
                     "id": "2d4f7b0e-f8ba-4f23-8259-c265390831ea",
                     "savedPayload": {
                         "position": {
-                            "x": 2013.4228187919462,
-                            "y": 27500
+                            "x": 1753.6151976566146,
+                            "y": 27650
                         },
                         "targetPosition": {
                             "x": 2013.4228187919462,
@@ -862,6 +862,86 @@
                         },
                         "floatingObject": {
                             "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Social Trading Bot",
+                    "name": "New Social Trading Bot",
+                    "config": "{\r\n    \"codeName\": \"Social-Trading-Bot-1\",\r\n    \"handle\": \"admn-monkey-Social-Trading-Bot-1\",\r\n    \"amount\": 150000\r\n    }",
+                    "project": "Social-Trading",
+                    "followedBotReference": [
+                        {
+                            "type": "Followed Bot Reference",
+                            "name": "Base Soaring - Social Trading Bot",
+                            "project": "Social-Trading",
+                            "id": "94493555-9062-4a3a-9f4f-076606b5ef52",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 2015.038061062609,
+                                    "y": 27363
+                                },
+                                "targetPosition": {
+                                    "x": 2014.2304399272775,
+                                    "y": 27531
+                                },
+                                "floatingObject": {
+                                    "isPinned": true,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "referenceParent": {
+                                    "type": "Social Trading Bot",
+                                    "name": "Base Soaring - Social Trading Bot",
+                                    "id": "6592544c-598b-4a4c-8e67-10a077092a6d"
+                                },
+                                "referenceParentCombinedNodePath": [
+                                    [
+                                        "BlaaSwe",
+                                        "User Profile"
+                                    ],
+                                    [
+                                        "New User Bots",
+                                        "User Bots"
+                                    ],
+                                    [
+                                        "New Social Trading Bots",
+                                        "Social Trading Bots"
+                                    ],
+                                    [
+                                        "Base Soaring - Social Trading Bot",
+                                        "Social Trading Bot"
+                                    ]
+                                ]
+                            }
+                        }
+                    ],
+                    "id": "f271e4be-070e-46dc-b76d-8f13e1cf7068",
+                    "savedPayload": {
+                        "position": {
+                            "x": 2014.2304399272775,
+                            "y": 27531
+                        },
+                        "targetPosition": {
+                            "x": 2013.4228187919462,
+                            "y": 27800
+                        },
+                        "floatingObject": {
+                            "isPinned": true,
                             "isFrozen": false,
                             "isCollapsed": false,
                             "angleToParent": 1,
