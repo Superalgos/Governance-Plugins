@@ -767,115 +767,7 @@
             "socialTradingBots": [
                 {
                     "type": "Social Trading Bot",
-                    "name": "Social Trading Bot #1",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"admn-monkey-Social-Trading-Bot-1\",\n    \"percentage\": 0.0001\n}",
-                    "project": "Social-Trading",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"admn-monkey\",\n        \"messageHash\": \"0x7f2dc9581a8cb16f2c449b650aa65b5a7e1998a4340aa41e085c3c89c3d98b07\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x2f0697ce834f56abc3aacbe5451ef536aa1130add14259485ce6759af46f41e8\",\n        \"s\": \"0x315a93f5c42c15b023dcbaab7766a6db92ceaa6d811a0281b7ab3415db95c32f\",\n        \"signature\": \"0x2f0697ce834f56abc3aacbe5451ef536aa1130add14259485ce6759af46f41e8315a93f5c42c15b023dcbaab7766a6db92ceaa6d811a0281b7ab3415db95c32f1b\"\n    }\n}",
-                        "project": "Governance",
-                        "id": "d07ac89a-238f-458c-9b3e-65415e766904",
-                        "savedPayload": {
-                            "position": {
-                                "x": 1493.807576521283,
-                                "y": 27800
-                            },
-                            "targetPosition": {
-                                "x": 1753.6151976566146,
-                                "y": 27650
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 1,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "followedBotReference": [
-                        {
-                            "type": "Followed Bot Reference",
-                            "name": "Follower Test",
-                            "project": "Social-Trading",
-                            "id": "71bc568c-d193-41b7-91b9-b8fc7b837f05",
-                            "savedPayload": {
-                                "position": {
-                                    "x": 1753.6151976566146,
-                                    "y": 27350
-                                },
-                                "targetPosition": {
-                                    "x": 1753.6151976566146,
-                                    "y": 27650
-                                },
-                                "floatingObject": {
-                                    "isPinned": false,
-                                    "isFrozen": false,
-                                    "isCollapsed": false,
-                                    "angleToParent": 1,
-                                    "distanceToParent": 3,
-                                    "arrangementStyle": 0
-                                },
-                                "uiObject": {
-                                    "isRunning": false
-                                },
-                                "referenceParent": {
-                                    "type": "Social Trading Bot",
-                                    "name": "Follower Test",
-                                    "id": "e9bb06e5-d92d-4835-b5e3-f4cbee0303de"
-                                },
-                                "referenceParentCombinedNodePath": [
-                                    [
-                                        "BastianMuc",
-                                        "User Profile"
-                                    ],
-                                    [
-                                        "New User Bots",
-                                        "User Bots"
-                                    ],
-                                    [
-                                        "New Social Trading Bots",
-                                        "Social Trading Bots"
-                                    ],
-                                    [
-                                        "Follower Test",
-                                        "Social Trading Bot"
-                                    ]
-                                ]
-                            }
-                        }
-                    ],
-                    "id": "2d4f7b0e-f8ba-4f23-8259-c265390831ea",
-                    "savedPayload": {
-                        "position": {
-                            "x": 1753.6151976566146,
-                            "y": 27650
-                        },
-                        "targetPosition": {
-                            "x": 2013.4228187919462,
-                            "y": 27800
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 1,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                {
-                    "type": "Social Trading Bot",
-                    "name": "New Social Trading Bot",
+                    "name": "Base Soaring Trading Bot",
                     "config": "{\r\n    \"codeName\": \"Social-Trading-Bot-1\",\r\n    \"handle\": \"admn-monkey-Social-Trading-Bot-1\",\r\n    \"amount\": 150000\r\n    }",
                     "project": "Social-Trading",
                     "followedBotReference": [
@@ -890,8 +782,8 @@
                                     "y": 27363
                                 },
                                 "targetPosition": {
-                                    "x": 2014.2304399272775,
-                                    "y": 27531
+                                    "x": 2016.2304399272775,
+                                    "y": 27609
                                 },
                                 "floatingObject": {
                                     "isPinned": true,
@@ -933,8 +825,8 @@
                     "id": "f271e4be-070e-46dc-b76d-8f13e1cf7068",
                     "savedPayload": {
                         "position": {
-                            "x": 2014.2304399272775,
-                            "y": 27531
+                            "x": 2016.2304399272775,
+                            "y": 27609
                         },
                         "targetPosition": {
                             "x": 2013.4228187919462,
