@@ -767,9 +767,37 @@
             "socialTradingBots": [
                 {
                     "type": "Social Trading Bot",
-                    "name": "Social Trading Bot",
-                    "config": "{\r\n    \"codeName\": \"Social-Trading-Base-Follower\",\r\n    \"amount\": 150000\r\n}",
+                    "name": "Social Trading Bot #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Base-Follower\",\n    \"handle\": \"admn-monkey-Social-Trading-Base-Follower\",\n    \"amount\": 150000\n}",
                     "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"admn-monkey\",\n        \"messageHash\": \"0x7f2dc9581a8cb16f2c449b650aa65b5a7e1998a4340aa41e085c3c89c3d98b07\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x2f0697ce834f56abc3aacbe5451ef536aa1130add14259485ce6759af46f41e8\",\n        \"s\": \"0x315a93f5c42c15b023dcbaab7766a6db92ceaa6d811a0281b7ab3415db95c32f\",\n        \"signature\": \"0x2f0697ce834f56abc3aacbe5451ef536aa1130add14259485ce6759af46f41e8315a93f5c42c15b023dcbaab7766a6db92ceaa6d811a0281b7ab3415db95c32f1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "d07ac89a-238f-458c-9b3e-65415e766904",
+                        "savedPayload": {
+                            "position": {
+                                "x": 1753.6151976566146,
+                                "y": 27350
+                            },
+                            "targetPosition": {
+                                "x": 2013.4228187919462,
+                                "y": 27500
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "followedBotReference": [
                         {
                             "type": "Followed Bot Reference",
@@ -825,15 +853,15 @@
                     "id": "b938dbb3-598b-4933-8199-ba386884e498",
                     "savedPayload": {
                         "position": {
-                            "x": 2011.4228187919462,
-                            "y": 27627
+                            "x": 2013.4228187919462,
+                            "y": 27500
                         },
                         "targetPosition": {
-                            "x": 1973.6842105263158,
+                            "x": 2013.4228187919462,
                             "y": 27800
                         },
                         "floatingObject": {
-                            "isPinned": true,
+                            "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
                             "angleToParent": 1,
