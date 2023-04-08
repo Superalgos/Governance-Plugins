@@ -642,7 +642,7 @@
     "userApps": {
         "type": "User Apps",
         "name": "New User Apps",
-        "config": "{\r\n    \"percentage\": 6\r\n}",
+        "config": "{\r\n    \"percentage\": 0\r\n}",
         "project": "User-Apps",
         "serverApps": {
             "type": "Server Apps",
@@ -657,7 +657,7 @@
                     "project": "User-Apps",
                     "signingAccount": {
                         "type": "Signing Account",
-                        "name": "admn-monkey Signing Account",
+                        "name": "New Signing Account",
                         "config": "{\n    \"codeName\": \"Task-Server-App-1\",\n    \"signature\": {\n        \"message\": \"admn-monkey\",\n        \"messageHash\": \"0x7f2dc9581a8cb16f2c449b650aa65b5a7e1998a4340aa41e085c3c89c3d98b07\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x44f09887a763b2b23c4a755739ae00170b3cbd369f42faab30dde17cbcbfa5f7\",\n        \"s\": \"0x3339624d006a7a245515bdeaa85690568416b2dac4027c7407ffee3905fcd219\",\n        \"signature\": \"0x44f09887a763b2b23c4a755739ae00170b3cbd369f42faab30dde17cbcbfa5f73339624d006a7a245515bdeaa85690568416b2dac4027c7407ffee3905fcd2191b\"\n    }\n}",
                         "project": "Governance",
                         "id": "da6306e8-3f42-46fe-af2e-5d3cbe535637",
@@ -767,26 +767,54 @@
             "socialTradingBots": [
                 {
                     "type": "Social Trading Bot",
-                    "name": "New Social Trading Bot",
-                    "config": "{\r\n    \"amount\": 250000\r\n}",
+                    "name": "Social Trading Bot #1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"handle\": \"admn-monkey-Social-Trading-Bot-1\",\n    \"amount\": 750000\n}",
                     "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-1\",\n    \"signature\": {\n        \"message\": \"admn-monkey\",\n        \"messageHash\": \"0x7f2dc9581a8cb16f2c449b650aa65b5a7e1998a4340aa41e085c3c89c3d98b07\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x2f0697ce834f56abc3aacbe5451ef536aa1130add14259485ce6759af46f41e8\",\n        \"s\": \"0x315a93f5c42c15b023dcbaab7766a6db92ceaa6d811a0281b7ab3415db95c32f\",\n        \"signature\": \"0x2f0697ce834f56abc3aacbe5451ef536aa1130add14259485ce6759af46f41e8315a93f5c42c15b023dcbaab7766a6db92ceaa6d811a0281b7ab3415db95c32f1b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "d07ac89a-238f-458c-9b3e-65415e766904",
+                        "savedPayload": {
+                            "position": {
+                                "x": 1753.6151976566146,
+                                "y": 27350
+                            },
+                            "targetPosition": {
+                                "x": 2013.4228187919462,
+                                "y": 27500
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 1,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "followedBotReference": [
                         {
                             "type": "Followed Bot Reference",
                             "name": "Trend Soaring - Social Trading Bot",
                             "project": "Social-Trading",
-                            "id": "e498a9df-971b-4865-a7e9-c3df54907644",
+                            "id": "71bc568c-d193-41b7-91b9-b8fc7b837f05",
                             "savedPayload": {
                                 "position": {
-                                    "x": 2010.4228187919462,
-                                    "y": 27442
+                                    "x": 2273.2304399272775,
+                                    "y": 27350
                                 },
                                 "targetPosition": {
-                                    "x": 2011.4228187919462,
-                                    "y": 27627
+                                    "x": 2013.4228187919462,
+                                    "y": 27500
                                 },
                                 "floatingObject": {
-                                    "isPinned": true,
+                                    "isPinned": false,
                                     "isFrozen": false,
                                     "isCollapsed": false,
                                     "angleToParent": 1,
@@ -822,18 +850,18 @@
                             }
                         }
                     ],
-                    "id": "b938dbb3-598b-4933-8199-ba386884e498",
+                    "id": "2d4f7b0e-f8ba-4f23-8259-c265390831ea",
                     "savedPayload": {
                         "position": {
-                            "x": 2011.4228187919462,
-                            "y": 27627
+                            "x": 2013.4228187919462,
+                            "y": 27500
                         },
                         "targetPosition": {
                             "x": 2013.4228187919462,
                             "y": 27800
                         },
                         "floatingObject": {
-                            "isPinned": true,
+                            "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": false,
                             "angleToParent": 1,
