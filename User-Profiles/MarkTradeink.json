@@ -832,7 +832,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\r\n    \"amount\": 150000\r\n}",
+                                "config": "{\r\n    \"amount\": 100000\r\n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
                                 "positionClaimVotes": [
@@ -1304,7 +1304,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Superalgos",
-                                "config": "{}",
+                                "config": "{\r\n    \"percentage\": 25\r\n     }",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -3307,7 +3307,7 @@
         "financialPrograms": {
             "type": "Financial Programs",
             "name": "New Financial Programs",
-            "config": "{\r\n    \"amount\" : 0\r\n}",
+            "config": "{\r\n    \"amount\": 100000\r\n}",
             "project": "Governance",
             "stakingProgram": {
                 "type": "Staking Program",
@@ -3367,7 +3367,7 @@
             "delegationProgram": {
                 "type": "Delegation Program",
                 "name": "New Delegation Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\": 100\r\n}",
                 "project": "Governance",
                 "delegatePowerSwitch": [
                     {
@@ -3376,7 +3376,47 @@
                         "config": "{}",
                         "project": "Governance",
                         "delegatePowerSwitch": [],
-                        "userDelegates": [],
+                        "userDelegates": [
+                            {
+                                "type": "User Delegate",
+                                "name": "Melimmon",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "1d172173-10c8-4ec9-a5e5-bcb14c09d2b1",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 30888.100515149286,
+                                        "y": 14830.664026286951
+                                    },
+                                    "targetPosition": {
+                                        "x": 30957.62933888365,
+                                        "y": 14616.676310120542
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 3,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "Melimmon",
+                                        "id": "ff34b295-2b98-4d67-b81c-86a9b255821e"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Melimmon",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
                         "id": "18432bdb-c6fb-46fd-b005-3f54be8ab5da",
                         "savedPayload": {
                             "position": {
