@@ -837,7 +837,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -873,7 +873,7 @@
         "financialPrograms": {
             "type": "Financial Programs",
             "name": "New Financial Programs",
-            "config": "{\n    \"percentage\": 0\n}",
+            "config": "{\n    \"amount\": 600000\n}",
             "project": "Governance",
             "delegationProgram": {
                 "type": "Delegation Program",
@@ -887,16 +887,56 @@
                         "config": "{}",
                         "project": "Governance",
                         "delegatePowerSwitch": [],
-                        "userDelegates": [],
+                        "userDelegates": [
+                            {
+                                "type": "User Delegate",
+                                "name": "Melimmon",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "dd465171-b1c0-471c-862e-6a8f74ecfc56",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 7226.753239448145,
+                                        "y": 23660.66318213431
+                                    },
+                                    "targetPosition": {
+                                        "x": 6933.308959228003,
+                                        "y": 23723.036689379638
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "Melimmon",
+                                        "id": "ff34b295-2b98-4d67-b81c-86a9b255821e"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Melimmon",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
                         "id": "b772cd47-5344-4f95-8ec9-0d4221b6c530",
                         "savedPayload": {
                             "position": {
-                                "x": 31842.84839935202,
-                                "y": 32570.870325678487
+                                "x": 6933.308959228003,
+                                "y": 23723.036689379638
                             },
                             "targetPosition": {
-                                "x": 31549.404119131876,
-                                "y": 32633.243832923814
+                                "x": 6639.864679007861,
+                                "y": 23785.410196624965
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -919,12 +959,12 @@
                     "id": "e1785b15-3f8c-471b-9502-dd776e79dec8",
                     "savedPayload": {
                         "position": {
-                            "x": 31750.143301039534,
-                            "y": 32856.18728056703
+                            "x": 6840.603860915518,
+                            "y": 24008.353644268183
                         },
                         "targetPosition": {
-                            "x": 31549.404119131876,
-                            "y": 32633.243832923814
+                            "x": 6639.864679007861,
+                            "y": 23785.410196624965
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -942,12 +982,12 @@
                 "id": "f7d72909-4814-4c42-82f4-5bb0e99117ed",
                 "savedPayload": {
                     "position": {
-                        "x": 31549.404119131876,
-                        "y": 32633.243832923814
+                        "x": 6639.864679007861,
+                        "y": 23785.410196624965
                     },
                     "targetPosition": {
-                        "x": 31264.087164243334,
-                        "y": 32540.538734611328
+                        "x": 6354.547724119315,
+                        "y": 23692.705098312483
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -975,7 +1015,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -1083,7 +1123,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
