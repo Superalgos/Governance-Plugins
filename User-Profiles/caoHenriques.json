@@ -210,7 +210,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -225,7 +225,47 @@
                 "name": "New Support Program",
                 "config": "{}",
                 "project": "Governance",
-                "userSupporters": [],
+                "userSupporters": [
+                    {
+                        "type": "User Supporter",
+                        "name": "caoHenriques",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "f142f412-6ee7-483e-a769-719eb3ed9b79",
+                        "savedPayload": {
+                            "position": {
+                                "x": 12981.015512115828,
+                                "y": 13476.849287400775
+                            },
+                            "targetPosition": {
+                                "x": 12964.22084070033,
+                                "y": 13625.90611888476
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 2,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "caoHenriques",
+                                "id": "30bcceb5-1e61-4ed3-b7ce-d3b86bb817ea"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "caoHenriques",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    }
+                ],
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
                     "name": "New Tokens Awarded",
@@ -233,8 +273,8 @@
                     "id": "9e02ef9c-50dd-454a-aed1-ad059174db34",
                     "savedPayload": {
                         "position": {
-                            "x": 13019.021994355291,
-                            "y": 13486.27505658813
+                            "x": 13081.495563070535,
+                            "y": 13532.382648605952
                         },
                         "targetPosition": {
                             "x": 12964.22084070033,
@@ -260,8 +300,8 @@
                     "id": "01ceaeae-7862-4bf2-a9bb-ce96fec18870",
                     "savedPayload": {
                         "position": {
-                            "x": 13112.5454646341,
-                            "y": 13603.549778958335
+                            "x": 13113.277672184317,
+                            "y": 13642.700790300258
                         },
                         "targetPosition": {
                             "x": 12964.22084070033,
@@ -306,7 +346,7 @@
             "mentorshipProgram": {
                 "type": "Mentorship Program",
                 "name": "New Mentorship Program",
-                "config": "{\r\n   \"percentage\": 50\r\n}",
+                "config": "{\r\n   \"percentage\": 0\r\n}",
                 "project": "Governance",
                 "userMentors": [],
                 "tokensAwarded": {
@@ -376,7 +416,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -562,7 +602,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "quantum8 Data Mining Team February 2023 Teams",
+                                        "name": "quantum8 Data Mining March 2023 Teams",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "342d13da-424e-4400-950d-ac3b36a27f95",
@@ -588,7 +628,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "Data Mining Team February 2023 Teams",
+                                                "name": "Data Mining March 2023 Teams",
                                                 "id": "b7524287-5a08-4103-99e4-69d1127a17df"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -617,7 +657,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "Data Mining Team February 2023 Teams",
+                                                    "Data Mining March 2023 Teams",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -625,7 +665,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "BastianMuc Elves and Fairies Team February 2023 Teams",
+                                        "name": "BastianMuc Elves and Fairies March 2023 Teams",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "bc3edc10-f1c4-45b5-8b14-fb4b7b14e972",
@@ -651,7 +691,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "Elves and Fairies Team February 2023 Teams",
+                                                "name": "Elves and Fairies March 2023 Teams",
                                                 "id": "1dfaa8d3-154d-4330-8ccb-587739b2cd6a"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -676,7 +716,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "Elves and Fairies Team February 2023 Teams",
+                                                    "Elves and Fairies March 2023 Teams",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -2509,7 +2549,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -2592,7 +2632,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -5531,7 +5571,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 3,
             "arrangementStyle": 0
