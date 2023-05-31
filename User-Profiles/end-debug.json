@@ -5874,6 +5874,129 @@
                     ],
                     "config": "{}"
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #8",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "b3cfa557-626e-4c9e-80dd-9cf9b08af8df",
+                "config": "{\n    \"handle\": \"Drone\",\n    \"codeName\": \"Social-Persona-8\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "28f099a7-dd94-46ad-896b-b405823b75ea",
+                    "config": "{\n    \"codeName\": \"Social-Persona-8\",\n    \"signature\": {\n        \"message\": \"end-debug\",\n        \"messageHash\": \"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x3633cb0d0b5cc33aad36b687f0b512a5b4851e2a2ebd8a957ca30784b01dcec1\",\n        \"s\": \"0x256aa73bda21b7553cf5a194878ebeb653c3ecd15d3007b220334c9a0759da95\",\n        \"signature\": \"0x3633cb0d0b5cc33aad36b687f0b512a5b4851e2a2ebd8a957ca30784b01dcec1256aa73bda21b7553cf5a194878ebeb653c3ecd15d3007b220334c9a0759da951b\"\n    }\n}",
+                    "savedPayloadNode": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "bea4c3b5-97c6-4503-a3d5-53d12f32e3d4",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "New Storage Container Reference",
+                            "project": "Open-Storage",
+                            "id": "6e79b3ac-f5cf-41f8-8e64-e499296e85f8",
+                            "config": "{}",
+                            "savedPayload": [
+                                {
+                                    "referenceParent": {
+                                        "type": "Github Storage Container",
+                                        "name": "New Github Storage Container",
+                                        "id": "add0763d-4a1c-4aaa-99b1-25b081f1d0aa"
+                                    }
+                                },
+                                {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "config": "{}"
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6716,6 +6839,34 @@
                     },
                     "id": "f4dced43-fbc1-4290-ba87-59cd12b525b3",
                     "config": "{\"codeName\":\"LastOne-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"LastOne-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "add0763d-4a1c-4aaa-99b1-25b081f1d0aa",
+                    "config": "{\"codeName\":\"Drone-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Drone-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
