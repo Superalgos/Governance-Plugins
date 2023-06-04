@@ -5855,7 +5855,7 @@
                                     {
                                         "type": "Position Contribution Claim",
                                         "name": "VEX Team April 2023 Teams",
-                                        "config": "{\r\n    \"amount\": 395000\r\n}",
+                                        "config": "{\r\n    \"amount\": 425000\r\n}",
                                         "project": "Governance",
                                         "id": "7afcd83a-d169-467b-a2bf-54af3406f7f6",
                                         "savedPayload": {
@@ -5902,7 +5902,7 @@
                                     {
                                         "type": "Position Contribution Claim",
                                         "name": "Turkish Team April 2023 Teams",
-                                        "config": "{\r\n    \"amount\": 156000\r\n}",
+                                        "config": "{\r\n    \"amount\": 160000\r\n}",
                                         "project": "Governance",
                                         "id": "7170d3d4-c8bd-4121-9182-fb7e8a8640f6",
                                         "savedPayload": {
@@ -6490,7 +6490,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 4,
                 "arrangementStyle": 0
@@ -8666,12 +8666,12 @@
                     "id": "3b2bb3bb-1354-4c17-84d5-3997bba05150",
                     "savedPayload": {
                         "position": {
-                            "x": 35954.31314928049,
-                            "y": 19234.509120050123
+                            "x": 35944.31314928049,
+                            "y": 19355.509120050123
                         },
                         "targetPosition": {
-                            "x": 36007.88021772008,
-                            "y": 18939.330243470533
+                            "x": 35997.88021772008,
+                            "y": 19060.330243470533
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -8688,23 +8688,23 @@
                 },
                 {
                     "type": "Social Trading Bot",
-                    "name": "Troodon",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"handle\": \"prepheadrus-Social-Trading-Bot-2\",\n    \"followerMinTokenPower\": \"0\"\n}",
+                    "name": "Troodon_1",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-4\",\n    \"handle\": \"prepheadrus-Social-Trading-Bot-4\",\n    \"followerMinTokenPower\": \"0\"\n}",
                     "project": "Social-Trading",
                     "signingAccount": {
                         "type": "Signing Account",
                         "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x3b6b409595be0f4c203fa4aafb17aea5523a1e8bc9c29b572937c08e878ce781\",\n        \"s\": \"0x70cf09b7eb04b1e953c56c74501a94c63f8e45b3d3ac7e15f6fd3bd2e2b01e33\",\n        \"signature\": \"0x3b6b409595be0f4c203fa4aafb17aea5523a1e8bc9c29b572937c08e878ce78170cf09b7eb04b1e953c56c74501a94c63f8e45b3d3ac7e15f6fd3bd2e2b01e331b\"\n    }\n}",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-4\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x2cd94e37538a58486ab385a13ce13a6276ab90ab31d6ea154594045d6d8d5812\",\n        \"s\": \"0x1a51ab3f680a2addebdce5e0a04188afd9793798ea57c6c063c9bd6e2755eed4\",\n        \"signature\": \"0x2cd94e37538a58486ab385a13ce13a6276ab90ab31d6ea154594045d6d8d58121a51ab3f680a2addebdce5e0a04188afd9793798ea57c6c063c9bd6e2755eed41b\"\n    }\n}",
                         "project": "Governance",
-                        "id": "e178ff78-864a-40fe-881c-bfde2099bbd7",
+                        "id": "74ea5f16-dc72-4eb6-a3ee-00069ec8d4f2",
                         "savedPayload": {
                             "position": {
-                                "x": 35833.04175857186,
-                                "y": 19153.649038166594
+                                "x": 35821.311738317156,
+                                "y": 19564.933966696975
                             },
                             "targetPosition": {
-                                "x": 35791.04175857186,
-                                "y": 19146.649038166594
+                                "x": 35781.04175857186,
+                                "y": 19267.649038166594
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -8721,20 +8721,104 @@
                     },
                     "availableSignals": {
                         "type": "Available Signals",
-                        "name": "New Available Signals",
+                        "name": "T1_Available Signals",
                         "config": "{}",
                         "project": "Trading-Signals",
                         "tradingSystemSignals": {
                             "type": "Trading System Signals",
-                            "name": "New Trading System Signals",
+                            "name": "T1_Trading System Signals",
                             "config": "{}",
                             "project": "Trading-Signals",
                             "tradingStrategySignals": [
                                 {
                                     "type": "Trading Strategy Signals",
-                                    "name": "New Trading Strategy Signals",
+                                    "name": "T1_Thanatos",
                                     "config": "{}",
                                     "project": "Trading-Signals",
+                                    "triggerStageSignals": {
+                                        "type": "Trigger Stage Signals",
+                                        "name": "New Trigger Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "triggerOnSignal": {
+                                            "type": "Trigger On Signal",
+                                            "name": "Thanatos Trigger On",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "020b59a8-55ec-46dc-9e16-254ab1b11aaf",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 34994.974608252196,
+                                                    "y": 19700.683642376982
+                                                },
+                                                "targetPosition": {
+                                                    "x": 34843.17611392992,
+                                                    "y": 19277.059732379577
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 4,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "triggerOffSignal": {
+                                            "type": "Trigger Off Signal",
+                                            "name": "Thanatos Trigger Off",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "79763407-1169-4278-8ad8-077b56d926aa",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 34552.20629338281,
+                                                    "y": 19620.333039717596
+                                                },
+                                                "targetPosition": {
+                                                    "x": 34843.17611392992,
+                                                    "y": 19277.059732379577
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 4,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "e789a666-ae78-4932-9816-0fdc2fd724d8",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 34843.17611392992,
+                                                "y": 19277.059732379577
+                                            },
+                                            "targetPosition": {
+                                                "x": 34896.74318236951,
+                                                "y": 18981.880855799987
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": true,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
                                     "openStageSignals": {
                                         "type": "Open Stage Signals",
                                         "name": "New Open Stage Signals",
@@ -8750,18 +8834,18 @@
                                                 "project": "Trading-Signals",
                                                 "createOrderSignal": {
                                                     "type": "Create Order Signal",
-                                                    "name": "New Create Order Signal",
+                                                    "name": "Thanatos Buy",
                                                     "config": "{}",
                                                     "project": "Trading-Signals",
-                                                    "id": "eba8e18f-fb5d-477d-8943-35c9f18f718d",
+                                                    "id": "80c32413-436c-4ab8-a068-4f8c48caa07f",
                                                     "savedPayload": {
                                                         "position": {
-                                                            "x": 35126.30596199857,
-                                                            "y": 20767.43656152437
+                                                            "x": 34156.941314466385,
+                                                            "y": 19494.4168996516
                                                         },
                                                         "targetPosition": {
-                                                            "x": 35055.181848683926,
-                                                            "y": 20475.98955003651
+                                                            "x": 34403.54193710076,
+                                                            "y": 19323.57155170106
                                                         },
                                                         "floatingObject": {
                                                             "isPinned": false,
@@ -8776,15 +8860,15 @@
                                                         }
                                                     }
                                                 },
-                                                "id": "94c27aa2-793f-4c76-a2c1-24f3f9d88954",
+                                                "id": "9b4a9f7a-33ea-469e-8140-c4eeaf8c1047",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 35055.181848683926,
-                                                        "y": 20475.98955003651
+                                                        "x": 34403.54193710076,
+                                                        "y": 19323.57155170106
                                                     },
                                                     "targetPosition": {
-                                                        "x": 34984.05773536928,
-                                                        "y": 20184.54253854865
+                                                        "x": 34650.14255973513,
+                                                        "y": 19152.726203750524
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -8801,15 +8885,15 @@
                                             }
                                         ],
                                         "marketSellOrderSignals": [],
-                                        "id": "10846ff4-7aff-460f-97d5-4efb751854be",
+                                        "id": "95d2981e-5347-4c9b-bf9b-23d8bbb79ec9",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 34984.05773536928,
-                                                "y": 20184.54253854865
+                                                "x": 34650.14255973513,
+                                                "y": 19152.726203750524
                                             },
                                             "targetPosition": {
-                                                "x": 34912.93362205463,
-                                                "y": 19893.09552706079
+                                                "x": 34896.74318236951,
+                                                "y": 18981.880855799987
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -8840,23 +8924,23 @@
                                                 "project": "Trading-Signals",
                                                 "createOrderSignal": {
                                                     "type": "Create Order Signal",
-                                                    "name": "New Create Order Signal",
+                                                    "name": "Thanatos Sell",
                                                     "config": "{}",
                                                     "project": "Trading-Signals",
-                                                    "id": "c3479b87-3839-440a-b439-d07b6a8dfa10",
+                                                    "id": "9f34748b-c1cb-45e0-949a-84cd9587c013",
                                                     "savedPayload": {
                                                         "position": {
-                                                            "x": 34262.41824460998,
-                                                            "y": 20515.05191114897
+                                                            "x": 34011.20655263075,
+                                                            "y": 18821.179650481212
                                                         },
                                                         "targetPosition": {
-                                                            "x": 34479.2567037582,
-                                                            "y": 20307.73311645291
+                                                            "x": 34306.385429210335,
+                                                            "y": 18874.746718920804
                                                         },
                                                         "floatingObject": {
                                                             "isPinned": false,
                                                             "isFrozen": false,
-                                                            "isCollapsed": false,
+                                                            "isCollapsed": true,
                                                             "angleToParent": 2,
                                                             "distanceToParent": 3,
                                                             "arrangementStyle": 0
@@ -8866,15 +8950,15 @@
                                                         }
                                                     }
                                                 },
-                                                "id": "7c28a649-01b1-4aa7-a5a0-c00921f46aeb",
+                                                "id": "2028e534-4e99-470f-a6d2-18d7ebbaa6ed",
                                                 "savedPayload": {
                                                     "position": {
-                                                        "x": 34479.2567037582,
-                                                        "y": 20307.73311645291
+                                                        "x": 34306.385429210335,
+                                                        "y": 18874.746718920804
                                                     },
                                                     "targetPosition": {
-                                                        "x": 34696.095162906415,
-                                                        "y": 20100.41432175685
+                                                        "x": 34601.56430578992,
+                                                        "y": 18928.313787360396
                                                     },
                                                     "floatingObject": {
                                                         "isPinned": false,
@@ -8890,15 +8974,15 @@
                                                 }
                                             }
                                         ],
-                                        "id": "501e559d-147d-4c6e-b30d-8184cc585e45",
+                                        "id": "37706707-65c8-4841-a5fb-e4f6b7dbb1f4",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 34696.095162906415,
-                                                "y": 20100.41432175685
+                                                "x": 34601.56430578992,
+                                                "y": 18928.313787360396
                                             },
                                             "targetPosition": {
-                                                "x": 34912.93362205463,
-                                                "y": 19893.09552706079
+                                                "x": 34896.74318236951,
+                                                "y": 18981.880855799987
                                             },
                                             "floatingObject": {
                                                 "isPinned": false,
@@ -8913,15 +8997,305 @@
                                             }
                                         }
                                     },
-                                    "id": "a7911021-3958-45e1-8d1d-4b14be1d3fdb",
+                                    "id": "e1d5699d-c28a-4978-9388-e82c7c758069",
                                     "savedPayload": {
                                         "position": {
-                                            "x": 34912.93362205463,
-                                            "y": 19893.09552706079
+                                            "x": 35583.00035931766,
+                                            "y": 20083.331602286118
                                         },
                                         "targetPosition": {
-                                            "x": 34997.061838846435,
-                                            "y": 19605.13295459792
+                                            "x": 35496.720561088056,
+                                            "y": 19796.00635728064
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": true,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Trading Strategy Signals",
+                                    "name": "T1_Troodon",
+                                    "config": "{}",
+                                    "project": "Trading-Signals",
+                                    "triggerStageSignals": {
+                                        "type": "Trigger Stage Signals",
+                                        "name": "T1_Trigger Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "triggerOnSignal": {
+                                            "type": "Trigger On Signal",
+                                            "name": "T1_Troodon Trigger On",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "9a7467a4-3178-4e52-bbfd-97900ce54e89",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 35659.22288017873,
+                                                    "y": 20553.20132405167
+                                                },
+                                                "targetPosition": {
+                                                    "x": 35440.83976057576,
+                                                    "y": 20347.51026184314
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "triggerOffSignal": {
+                                            "type": "Trigger Off Signal",
+                                            "name": "T1_Troodon Trigger Off",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "b542e562-50d9-4183-b9b6-10bd250a56cb",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 35371.89763517325,
+                                                    "y": 20639.481122281275
+                                                },
+                                                "targetPosition": {
+                                                    "x": 35440.83976057576,
+                                                    "y": 20347.51026184314
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "3c01a389-18c8-472b-94fb-c72b7acfa43c",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 35440.83976057576,
+                                                "y": 20347.51026184314
+                                            },
+                                            "targetPosition": {
+                                                "x": 35354.55996234615,
+                                                "y": 20060.185016837662
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "openStageSignals": {
+                                        "type": "Open Stage Signals",
+                                        "name": "T1_Open Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [
+                                            {
+                                                "type": "Market Buy Order Signals",
+                                                "name": "T1_Troodon Buy",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "T1_Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "39c4b9f1-4900-4abf-a425-716cbf6479fa",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 34928.078166120446,
+                                                            "y": 20852.72099550873
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 35070.23876486235,
+                                                            "y": 20588.542335951708
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "c5994428-f9c2-4bc2-ac64-8424e9d7f6f5",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 35070.23876486235,
+                                                        "y": 20588.542335951708
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 35212.39936360425,
+                                                        "y": 20324.363676394685
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "marketSellOrderSignals": [],
+                                        "id": "54a1790f-2c90-4b0c-b17f-081db5dd12ba",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 35212.39936360425,
+                                                "y": 20324.363676394685
+                                            },
+                                            "targetPosition": {
+                                                "x": 35354.55996234615,
+                                                "y": 20060.185016837662
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "closeStageSignals": {
+                                        "type": "Close Stage Signals",
+                                        "name": "T1_Close Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [],
+                                        "marketSellOrderSignals": [
+                                            {
+                                                "type": "Market Sell Order Signals",
+                                                "name": "T1_Troodon Sell",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "T1_Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "4cc10800-826d-4520-af7d-c8e89083b5a5",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 34492.58422732972,
+                                                            "y": 20319.024411526483
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 34779.909472335195,
+                                                            "y": 20232.744613296876
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "8840e7e8-6d70-4561-9cde-4fd7425e799a",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 34779.909472335195,
+                                                        "y": 20232.744613296876
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 35067.234717340674,
+                                                        "y": 20146.46481506727
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "id": "7e1362d5-3760-42cf-8fcc-878d75f87be8",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 35067.234717340674,
+                                                "y": 20146.46481506727
+                                            },
+                                            "targetPosition": {
+                                                "x": 35354.55996234615,
+                                                "y": 20060.185016837662
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "18d6c88e-f74b-4643-90e8-98d0565e4d48",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 35354.55996234615,
+                                            "y": 20060.185016837662
+                                        },
+                                        "targetPosition": {
+                                            "x": 35496.720561088056,
+                                            "y": 19796.00635728064
                                         },
                                         "floatingObject": {
                                             "isPinned": false,
@@ -8939,18 +9313,18 @@
                             ],
                             "tradingSystemSignal": {
                                 "type": "Trading System Signal",
-                                "name": "New Trading System Signal",
+                                "name": "T1_Trading System Signal",
                                 "config": "{}",
                                 "project": "Trading-Signals",
-                                "id": "c07c9cd0-a756-4b71-b261-cae0d475e472",
+                                "id": "d3722112-3e74-42a2-bded-e1fdee2b055e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 34705.61482735858,
-                                        "y": 19676.25706791257
+                                        "x": 35209.39531608258,
+                                        "y": 19882.286155510246
                                     },
                                     "targetPosition": {
-                                        "x": 34997.061838846435,
-                                        "y": 19605.13295459792
+                                        "x": 35496.720561088056,
+                                        "y": 19796.00635728064
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -8965,15 +9339,15 @@
                                     }
                                 }
                             },
-                            "id": "a1895143-bd92-4a99-a701-1728e7f1dc6e",
+                            "id": "4885b99e-1438-4cf4-a76a-74ad71bff6c1",
                             "savedPayload": {
                                 "position": {
-                                    "x": 34997.061838846435,
-                                    "y": 19605.13295459792
+                                    "x": 35496.720561088056,
+                                    "y": 19796.00635728064
                                 },
                                 "targetPosition": {
-                                    "x": 35213.90029799465,
-                                    "y": 19397.81415990186
+                                    "x": 35638.88115982996,
+                                    "y": 19531.827697723616
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -8988,15 +9362,870 @@
                                 }
                             }
                         },
-                        "id": "e002ec9c-c78c-4f94-91de-21c6a08b1f92",
+                        "id": "d56b6eee-8d95-4f52-9c4a-dfb757f8f993",
                         "savedPayload": {
                             "position": {
-                                "x": 35213.90029799465,
+                                "x": 35638.88115982996,
+                                "y": 19531.827697723616
+                            },
+                            "targetPosition": {
+                                "x": 35781.04175857186,
+                                "y": 19267.649038166594
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "availableStorage": {
+                        "type": "Available Storage",
+                        "name": "New Available Storage",
+                        "config": "{}",
+                        "project": "Open-Storage",
+                        "storageContainerReferences": [
+                            {
+                                "type": "Storage Container Reference",
+                                "name": "Troodon3",
+                                "config": "{}",
+                                "project": "Open-Storage",
+                                "id": "77fda3b8-0d73-412e-ae4c-0a66f57b3fa1",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 35240.460437830414,
+                                        "y": 19527.979281637126
+                                    },
+                                    "targetPosition": {
+                                        "x": 35510.75109820114,
+                                        "y": 19397.81415990186
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Github Storage Container",
+                                        "name": "Troodon3",
+                                        "id": "d3629e35-4a30-413b-b7c7-37d470a24454"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "prepheadrus",
+                                            "User Profile"
+                                        ],
+                                        [
+                                            "New User Storage",
+                                            "User Storage"
+                                        ],
+                                        [
+                                            "New Github Storage",
+                                            "Github Storage"
+                                        ],
+                                        [
+                                            "Troodon3",
+                                            "Github Storage Container"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "id": "7759cd9a-8de5-42fb-9b0b-88b70b8c0c81",
+                        "savedPayload": {
+                            "position": {
+                                "x": 35510.75109820114,
                                 "y": 19397.81415990186
                             },
                             "targetPosition": {
-                                "x": 35430.73875714287,
-                                "y": 19190.4953652058
+                                "x": 35781.04175857186,
+                                "y": 19267.649038166594
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "followedBotReference": [
+                        {
+                            "type": "Followed Bot Reference",
+                            "name": "Troodon_1",
+                            "project": "Social-Trading",
+                            "id": "17bea88c-9ab4-49a4-85ca-92b88b1ffb62",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 35485.862881992274,
+                                    "y": 19214.081969727
+                                },
+                                "targetPosition": {
+                                    "x": 35781.04175857186,
+                                    "y": 19267.649038166594
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "referenceParent": {
+                                    "type": "Social Trading Bot",
+                                    "name": "Troodon_1",
+                                    "id": "fec39f82-1f58-4b0b-a17a-df930acf0c0f"
+                                },
+                                "referenceParentCombinedNodePath": [
+                                    [
+                                        "prepheadrus",
+                                        "User Profile"
+                                    ],
+                                    [
+                                        "New User Bots",
+                                        "User Bots"
+                                    ],
+                                    [
+                                        "New Social Trading Bots",
+                                        "Social Trading Bots"
+                                    ],
+                                    [
+                                        "Troodon_1",
+                                        "Social Trading Bot"
+                                    ]
+                                ]
+                            }
+                        }
+                    ],
+                    "id": "fec39f82-1f58-4b0b-a17a-df930acf0c0f",
+                    "savedPayload": {
+                        "position": {
+                            "x": 35781.04175857186,
+                            "y": 19267.649038166594
+                        },
+                        "targetPosition": {
+                            "x": 35997.88021772008,
+                            "y": 19060.330243470533
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": true,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                {
+                    "type": "Social Trading Bot",
+                    "name": "Troodon_2",
+                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"handle\": \"prepheadrus-Social-Trading-Bot-2\",\n    \"followerMinTokenPower\": \"0\"\n}",
+                    "project": "Social-Trading",
+                    "signingAccount": {
+                        "type": "Signing Account",
+                        "name": "New Signing Account",
+                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-2\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x3b6b409595be0f4c203fa4aafb17aea5523a1e8bc9c29b572937c08e878ce781\",\n        \"s\": \"0x70cf09b7eb04b1e953c56c74501a94c63f8e45b3d3ac7e15f6fd3bd2e2b01e33\",\n        \"signature\": \"0x3b6b409595be0f4c203fa4aafb17aea5523a1e8bc9c29b572937c08e878ce78170cf09b7eb04b1e953c56c74501a94c63f8e45b3d3ac7e15f6fd3bd2e2b01e331b\"\n    }\n}",
+                        "project": "Governance",
+                        "id": "e178ff78-864a-40fe-881c-bfde2099bbd7",
+                        "savedPayload": {
+                            "position": {
+                                "x": 35558.43469044779,
+                                "y": 19364.77888277285
+                            },
+                            "targetPosition": {
+                                "x": 35700.595289189696,
+                                "y": 19100.600223215828
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
+                    "availableSignals": {
+                        "type": "Available Signals",
+                        "name": "T2_Available Signals",
+                        "config": "{}",
+                        "project": "Trading-Signals",
+                        "tradingSystemSignals": {
+                            "type": "Trading System Signals",
+                            "name": "T2_Trading System Signals",
+                            "config": "{}",
+                            "project": "Trading-Signals",
+                            "tradingStrategySignals": [
+                                {
+                                    "type": "Trading Strategy Signals",
+                                    "name": "T2_Thanatos",
+                                    "config": "{}",
+                                    "project": "Trading-Signals",
+                                    "triggerStageSignals": {
+                                        "type": "Trigger Stage Signals",
+                                        "name": "T2_Thanatos_Trigger Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "triggerOnSignal": {
+                                            "type": "Trigger On Signal",
+                                            "name": "T2_Thanatos_Trigger On Signal",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "5962b9ae-7eea-443d-bbc6-7352b218c6a0",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 35438.96700389177,
+                                                    "y": 20083.382143568684
+                                                },
+                                                "targetPosition": {
+                                                    "x": 35191.095371596966,
+                                                    "y": 19914.3861261496
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": true,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "triggerOffSignal": {
+                                            "type": "Trigger Off Signal",
+                                            "name": "T2_Thanatos_Trigger Off Signal",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "60403566-670c-4127-82c7-e4fe84240a4a",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 35168.67634352104,
+                                                    "y": 20213.547265303954
+                                                },
+                                                "targetPosition": {
+                                                    "x": 35191.095371596966,
+                                                    "y": 19914.3861261496
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "b1d87589-1dae-4145-8f91-7a14a8a3069d",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 35191.095371596966,
+                                                "y": 19914.3861261496
+                                            },
+                                            "targetPosition": {
+                                                "x": 35060.930249861696,
+                                                "y": 19644.09546577887
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "openStageSignals": {
+                                        "type": "Open Stage Signals",
+                                        "name": "T2_Thanatos_Open Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [
+                                            {
+                                                "type": "Market Buy Order Signals",
+                                                "name": "T2_Thanatos_Market Buy Order Signals",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "T2_Thanatos_Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "be68fa76-43e2-4d49-b8e5-2e5e7cdcfedc",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 34763.67909410204,
+                                                            "y": 20493.590463056404
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 34862.76281268859,
+                                                            "y": 20210.425463963893
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "1a8a07c5-cfde-4f0d-ba7a-e70f43f34edc",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 34862.76281268859,
+                                                        "y": 20210.425463963893
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 34961.84653127514,
+                                                        "y": 19927.260464871382
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "marketSellOrderSignals": [],
+                                        "id": "e2a8db43-f64e-43f1-8006-832170ee57e8",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 34961.84653127514,
+                                                "y": 19927.260464871382
+                                            },
+                                            "targetPosition": {
+                                                "x": 35060.930249861696,
+                                                "y": 19644.09546577887
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "closeStageSignals": {
+                                        "type": "Close Stage Signals",
+                                        "name": "T2_Thanatos_Close Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [],
+                                        "marketSellOrderSignals": [
+                                            {
+                                                "type": "Market Sell Order Signals",
+                                                "name": "T2_Thanatos_Market Sell Order Signals",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "T2_Thanatos_Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "982ab6c6-a03b-41e9-be8c-29ff2ff6f5c3",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 34250.058268749526,
+                                                            "y": 20034.59083098467
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 34520.34892912025,
+                                                            "y": 19904.425709249404
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "21002f65-a550-4338-9324-15d762fdffe6",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 34520.34892912025,
+                                                        "y": 19904.425709249404
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 34790.63958949097,
+                                                        "y": 19774.260587514138
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "id": "e9d70f2f-7947-4e8f-a125-6c0fbbef8b5b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 34790.63958949097,
+                                                "y": 19774.260587514138
+                                            },
+                                            "targetPosition": {
+                                                "x": 35060.930249861696,
+                                                "y": 19644.09546577887
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "963884a6-0c21-4c41-9a83-256aba617922",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 35060.930249861696,
+                                            "y": 19644.09546577887
+                                        },
+                                        "targetPosition": {
+                                            "x": 35160.01396844825,
+                                            "y": 19360.93046668636
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": true,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "Trading Strategy Signals",
+                                    "name": "T2_Troodon",
+                                    "config": "{}",
+                                    "project": "Trading-Signals",
+                                    "triggerStageSignals": {
+                                        "type": "Trigger Stage Signals",
+                                        "name": "T2_Troodon_Trigger Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "triggerOnSignal": {
+                                            "type": "Trigger On Signal",
+                                            "name": "T2_Troodon_Trigger On Signal",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "9692b339-0c4f-4ac4-93c8-6b996a73ae27",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 34846.41307163985,
+                                                    "y": 20069.030529484124
+                                                },
+                                                "targetPosition": {
+                                                    "x": 34790.63958949097,
+                                                    "y": 19774.260587514138
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": false,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "triggerOffSignal": {
+                                            "type": "Trigger Off Signal",
+                                            "name": "T2_Troodon_Trigger Off Signal",
+                                            "config": "{}",
+                                            "project": "Trading-Signals",
+                                            "id": "c601ca21-8a53-400e-903b-764e0151c7c1",
+                                            "savedPayload": {
+                                                "position": {
+                                                    "x": 34563.248072547336,
+                                                    "y": 19969.946810897574
+                                                },
+                                                "targetPosition": {
+                                                    "x": 34790.63958949097,
+                                                    "y": 19774.260587514138
+                                                },
+                                                "floatingObject": {
+                                                    "isPinned": false,
+                                                    "isFrozen": false,
+                                                    "isCollapsed": true,
+                                                    "angleToParent": 2,
+                                                    "distanceToParent": 3,
+                                                    "arrangementStyle": 0
+                                                },
+                                                "uiObject": {
+                                                    "isRunning": false
+                                                }
+                                            }
+                                        },
+                                        "id": "e6292d0b-7062-4ebf-8ab4-413308800e46",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 34790.63958949097,
+                                                "y": 19774.260587514138
+                                            },
+                                            "targetPosition": {
+                                                "x": 34889.723308077526,
+                                                "y": 19491.095588421627
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "openStageSignals": {
+                                        "type": "Open Stage Signals",
+                                        "name": "T2_Troodon_Open Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [
+                                            {
+                                                "type": "Market Buy Order Signals",
+                                                "name": "T2_Troodon_Market Buy Order Signals",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "T2_Troodon_Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "803c7567-a98d-40a6-904e-434f9e83e5c9",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 34078.851326965356,
+                                                            "y": 19881.590953627427
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 34349.14198733608,
+                                                            "y": 19751.42583189216
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "48e95ce9-5b25-4391-87db-82659740690c",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 34349.14198733608,
+                                                        "y": 19751.42583189216
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 34619.4326477068,
+                                                        "y": 19621.260710156894
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "marketSellOrderSignals": [],
+                                        "id": "99152f5f-60f0-4399-9430-e5926920cc3c",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 34619.4326477068,
+                                                "y": 19621.260710156894
+                                            },
+                                            "targetPosition": {
+                                                "x": 34889.723308077526,
+                                                "y": 19491.095588421627
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "closeStageSignals": {
+                                        "type": "Close Stage Signals",
+                                        "name": "T2_Troodon_Close Stage Signals",
+                                        "config": "{}",
+                                        "project": "Trading-Signals",
+                                        "limitBuyOrderSignals": [],
+                                        "limitSellOrderSignals": [],
+                                        "marketBuyOrderSignals": [],
+                                        "marketSellOrderSignals": [
+                                            {
+                                                "type": "Market Sell Order Signals",
+                                                "name": "T2_Troodon_Market Sell Order Signals",
+                                                "config": "{}",
+                                                "project": "Trading-Signals",
+                                                "createOrderSignal": {
+                                                    "type": "Create Order Signal",
+                                                    "name": "T2_Troodon_Create Order Signal",
+                                                    "config": "{}",
+                                                    "project": "Trading-Signals",
+                                                    "id": "f3505f43-a451-4b34-8009-fd52aea40989",
+                                                    "savedPayload": {
+                                                        "position": {
+                                                            "x": 34040.228310800005,
+                                                            "y": 19193.84443266198
+                                                        },
+                                                        "targetPosition": {
+                                                            "x": 34323.39330989251,
+                                                            "y": 19292.92815124853
+                                                        },
+                                                        "floatingObject": {
+                                                            "isPinned": false,
+                                                            "isFrozen": false,
+                                                            "isCollapsed": false,
+                                                            "angleToParent": 2,
+                                                            "distanceToParent": 3,
+                                                            "arrangementStyle": 0
+                                                        },
+                                                        "uiObject": {
+                                                            "isRunning": false
+                                                        }
+                                                    }
+                                                },
+                                                "id": "9ae05ed6-f742-4d33-bbad-edf5de3df745",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 34323.39330989251,
+                                                        "y": 19292.92815124853
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 34606.55830898502,
+                                                        "y": 19392.011869835078
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 3,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "id": "1aa303d4-abd1-4db9-a761-5f7a9594b15b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 34606.55830898502,
+                                                "y": 19392.011869835078
+                                            },
+                                            "targetPosition": {
+                                                "x": 34889.723308077526,
+                                                "y": 19491.095588421627
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            }
+                                        }
+                                    },
+                                    "id": "d9bb5534-69a7-499b-86c5-4a4df665bb43",
+                                    "savedPayload": {
+                                        "position": {
+                                            "x": 34889.723308077526,
+                                            "y": 19491.095588421627
+                                        },
+                                        "targetPosition": {
+                                            "x": 35160.01396844825,
+                                            "y": 19360.93046668636
+                                        },
+                                        "floatingObject": {
+                                            "isPinned": false,
+                                            "isFrozen": false,
+                                            "isCollapsed": false,
+                                            "angleToParent": 2,
+                                            "distanceToParent": 3,
+                                            "arrangementStyle": 0
+                                        },
+                                        "uiObject": {
+                                            "isRunning": false
+                                        }
+                                    }
+                                }
+                            ],
+                            "tradingSystemSignal": {
+                                "type": "Trading System Signal",
+                                "name": "T2_Trading System Signal",
+                                "config": "{}",
+                                "project": "Trading-Signals",
+                                "id": "6322a8d2-f086-4c6f-98f6-94bcb3d8432d",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 34876.84896935574,
+                                        "y": 19261.84674809981
+                                    },
+                                    "targetPosition": {
+                                        "x": 35160.01396844825,
+                                        "y": 19360.93046668636
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                }
+                            },
+                            "id": "3e26bb8e-79ff-43f8-b2e7-79cf3e133911",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 35160.01396844825,
+                                    "y": 19360.93046668636
+                                },
+                                "targetPosition": {
+                                    "x": 35430.30462881897,
+                                    "y": 19230.765344951094
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        },
+                        "id": "812c79db-0860-4318-8864-d88403343a99",
+                        "savedPayload": {
+                            "position": {
+                                "x": 35430.30462881897,
+                                "y": 19230.765344951094
+                            },
+                            "targetPosition": {
+                                "x": 35700.595289189696,
+                                "y": 19100.600223215828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -9025,12 +10254,12 @@
                                 "id": "5fa4e838-b259-421c-9595-43fab3861353",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 34836.168900082106,
-                                        "y": 19271.03532469639
+                                        "x": 35110.23753603052,
+                                        "y": 18993.466086336644
                                     },
                                     "targetPosition": {
-                                        "x": 35133.45382861249,
-                                        "y": 19230.765344951094
+                                        "x": 35405.41641261011,
+                                        "y": 19047.033154776236
                                     },
                                     "floatingObject": {
                                         "isPinned": false,
@@ -9072,12 +10301,12 @@
                         "id": "110772b5-6b16-4a92-bfbc-5126f8ad4706",
                         "savedPayload": {
                             "position": {
-                                "x": 35133.45382861249,
-                                "y": 19230.765344951094
+                                "x": 35405.41641261011,
+                                "y": 19047.033154776236
                             },
                             "targetPosition": {
-                                "x": 35430.73875714287,
-                                "y": 19190.4953652058
+                                "x": 35700.595289189696,
+                                "y": 19100.600223215828
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -9095,17 +10324,17 @@
                     "followedBotReference": [
                         {
                             "type": "Followed Bot Reference",
-                            "name": "Troodon",
+                            "name": "Troodon_2",
                             "project": "Social-Trading",
                             "id": "43b55b84-a97b-460b-9cdb-f7a90f47adf6",
                             "savedPayload": {
                                 "position": {
-                                    "x": 35166.56009758585,
-                                    "y": 19048.3347664639
+                                    "x": 35493.276494493635,
+                                    "y": 18883.76176406761
                                 },
                                 "targetPosition": {
-                                    "x": 35430.73875714287,
-                                    "y": 19190.4953652058
+                                    "x": 35700.595289189696,
+                                    "y": 19100.600223215828
                                 },
                                 "floatingObject": {
                                     "isPinned": false,
@@ -9120,7 +10349,7 @@
                                 },
                                 "referenceParent": {
                                     "type": "Social Trading Bot",
-                                    "name": "Troodon",
+                                    "name": "Troodon_2",
                                     "id": "bf581295-2590-43c1-8493-45b2bbe883ba"
                                 },
                                 "referenceParentCombinedNodePath": [
@@ -9137,7 +10366,7 @@
                                         "Social Trading Bots"
                                     ],
                                     [
-                                        "Troodon",
+                                        "Troodon_2",
                                         "Social Trading Bot"
                                     ]
                                 ]
@@ -9147,17 +10376,17 @@
                     "id": "bf581295-2590-43c1-8493-45b2bbe883ba",
                     "savedPayload": {
                         "position": {
-                            "x": 35791.04175857186,
-                            "y": 19146.649038166594
+                            "x": 35700.595289189696,
+                            "y": 19100.600223215828
                         },
                         "targetPosition": {
-                            "x": 36007.88021772008,
-                            "y": 18939.330243470533
+                            "x": 35997.88021772008,
+                            "y": 19060.330243470533
                         },
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
-                            "isCollapsed": true,
+                            "isCollapsed": false,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -9169,7 +10398,7 @@
                 },
                 {
                     "type": "Social Trading Bot",
-                    "name": "Troodon_2",
+                    "name": "Troodon_3_(Reserve)",
                     "config": "{\n    \"codeName\": \"Social-Trading-Bot-3\",\n    \"handle\": \"prepheadrus-Social-Trading-Bot-3\",\n    \"followerMinTokenPower\": \"0\"\n}",
                     "project": "Social-Trading",
                     "signingAccount": {
@@ -9576,7 +10805,7 @@
                     "followedBotReference": [
                         {
                             "type": "Followed Bot Reference",
-                            "name": "Troodon_2",
+                            "name": "Troodon_3_(Reserve)",
                             "project": "Social-Trading",
                             "id": "ba4d60e7-c4a9-4478-b858-de9bca96bce7",
                             "savedPayload": {
@@ -9601,7 +10830,7 @@
                                 },
                                 "referenceParent": {
                                     "type": "Social Trading Bot",
-                                    "name": "Troodon_2",
+                                    "name": "Troodon_3_(Reserve)",
                                     "id": "5eaecaa9-9782-4593-bbaf-bb427596e720"
                                 },
                                 "referenceParentCombinedNodePath": [
@@ -9618,7 +10847,7 @@
                                         "Social Trading Bots"
                                     ],
                                     [
-                                        "Troodon_2",
+                                        "Troodon_3_(Reserve)",
                                         "Social Trading Bot"
                                     ]
                                 ]
@@ -9628,872 +10857,17 @@
                     "id": "5eaecaa9-9782-4593-bbaf-bb427596e720",
                     "savedPayload": {
                         "position": {
-                            "x": 35710.595289189696,
-                            "y": 18979.600223215828
+                            "x": 35733.701558163055,
+                            "y": 18918.169644728634
                         },
                         "targetPosition": {
-                            "x": 36007.88021772008,
-                            "y": 18939.330243470533
+                            "x": 35997.88021772008,
+                            "y": 19060.330243470533
                         },
                         "floatingObject": {
                             "isPinned": false,
                             "isFrozen": false,
                             "isCollapsed": true,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                {
-                    "type": "Social Trading Bot",
-                    "name": "Troodon_3",
-                    "config": "{\n    \"codeName\": \"Social-Trading-Bot-4\",\n    \"handle\": \"prepheadrus-Social-Trading-Bot-4\",\n    \"followerMinTokenPower\": \"0\"\n}",
-                    "project": "Social-Trading",
-                    "signingAccount": {
-                        "type": "Signing Account",
-                        "name": "New Signing Account",
-                        "config": "{\n    \"codeName\": \"Social-Trading-Bot-4\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0x2cd94e37538a58486ab385a13ce13a6276ab90ab31d6ea154594045d6d8d5812\",\n        \"s\": \"0x1a51ab3f680a2addebdce5e0a04188afd9793798ea57c6c063c9bd6e2755eed4\",\n        \"signature\": \"0x2cd94e37538a58486ab385a13ce13a6276ab90ab31d6ea154594045d6d8d58121a51ab3f680a2addebdce5e0a04188afd9793798ea57c6c063c9bd6e2755eed41b\"\n    }\n}",
-                        "project": "Governance",
-                        "id": "74ea5f16-dc72-4eb6-a3ee-00069ec8d4f2",
-                        "savedPayload": {
-                            "position": {
-                                "x": 35826.701558163055,
-                                "y": 18825.169644728634
-                            },
-                            "targetPosition": {
-                                "x": 35743.701558163055,
-                                "y": 18797.169644728634
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "availableSignals": {
-                        "type": "Available Signals",
-                        "name": "New Available Signals",
-                        "config": "{}",
-                        "project": "Trading-Signals",
-                        "tradingSystemSignals": {
-                            "type": "Trading System Signals",
-                            "name": "New Trading System Signals",
-                            "config": "{}",
-                            "project": "Trading-Signals",
-                            "tradingStrategySignals": [
-                                {
-                                    "type": "Trading Strategy Signals",
-                                    "name": "Thanatos",
-                                    "config": "{}",
-                                    "project": "Trading-Signals",
-                                    "triggerStageSignals": {
-                                        "type": "Trigger Stage Signals",
-                                        "name": "New Trigger Stage Signals",
-                                        "config": "{}",
-                                        "project": "Trading-Signals",
-                                        "triggerOnSignal": {
-                                            "type": "Trigger On Signal",
-                                            "name": "Thanatos Trigger On",
-                                            "config": "{}",
-                                            "project": "Trading-Signals",
-                                            "id": "020b59a8-55ec-46dc-9e16-254ab1b11aaf",
-                                            "savedPayload": {
-                                                "position": {
-                                                    "x": 34994.974608252196,
-                                                    "y": 19700.683642376982
-                                                },
-                                                "targetPosition": {
-                                                    "x": 34843.17611392992,
-                                                    "y": 19277.059732379577
-                                                },
-                                                "floatingObject": {
-                                                    "isPinned": false,
-                                                    "isFrozen": false,
-                                                    "isCollapsed": false,
-                                                    "angleToParent": 2,
-                                                    "distanceToParent": 4,
-                                                    "arrangementStyle": 0
-                                                },
-                                                "uiObject": {
-                                                    "isRunning": false
-                                                }
-                                            }
-                                        },
-                                        "triggerOffSignal": {
-                                            "type": "Trigger Off Signal",
-                                            "name": "Thanatos Trigger Off",
-                                            "config": "{}",
-                                            "project": "Trading-Signals",
-                                            "id": "79763407-1169-4278-8ad8-077b56d926aa",
-                                            "savedPayload": {
-                                                "position": {
-                                                    "x": 34552.20629338281,
-                                                    "y": 19620.333039717596
-                                                },
-                                                "targetPosition": {
-                                                    "x": 34843.17611392992,
-                                                    "y": 19277.059732379577
-                                                },
-                                                "floatingObject": {
-                                                    "isPinned": false,
-                                                    "isFrozen": false,
-                                                    "isCollapsed": false,
-                                                    "angleToParent": 2,
-                                                    "distanceToParent": 4,
-                                                    "arrangementStyle": 0
-                                                },
-                                                "uiObject": {
-                                                    "isRunning": false
-                                                }
-                                            }
-                                        },
-                                        "id": "e789a666-ae78-4932-9816-0fdc2fd724d8",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 34843.17611392992,
-                                                "y": 19277.059732379577
-                                            },
-                                            "targetPosition": {
-                                                "x": 34896.74318236951,
-                                                "y": 18981.880855799987
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": true,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "openStageSignals": {
-                                        "type": "Open Stage Signals",
-                                        "name": "New Open Stage Signals",
-                                        "config": "{}",
-                                        "project": "Trading-Signals",
-                                        "limitBuyOrderSignals": [],
-                                        "limitSellOrderSignals": [],
-                                        "marketBuyOrderSignals": [
-                                            {
-                                                "type": "Market Buy Order Signals",
-                                                "name": "New Market Buy Order Signals",
-                                                "config": "{}",
-                                                "project": "Trading-Signals",
-                                                "createOrderSignal": {
-                                                    "type": "Create Order Signal",
-                                                    "name": "Thanatos Buy",
-                                                    "config": "{}",
-                                                    "project": "Trading-Signals",
-                                                    "id": "80c32413-436c-4ab8-a068-4f8c48caa07f",
-                                                    "savedPayload": {
-                                                        "position": {
-                                                            "x": 34156.941314466385,
-                                                            "y": 19494.4168996516
-                                                        },
-                                                        "targetPosition": {
-                                                            "x": 34403.54193710076,
-                                                            "y": 19323.57155170106
-                                                        },
-                                                        "floatingObject": {
-                                                            "isPinned": false,
-                                                            "isFrozen": false,
-                                                            "isCollapsed": false,
-                                                            "angleToParent": 2,
-                                                            "distanceToParent": 3,
-                                                            "arrangementStyle": 0
-                                                        },
-                                                        "uiObject": {
-                                                            "isRunning": false
-                                                        }
-                                                    }
-                                                },
-                                                "id": "9b4a9f7a-33ea-469e-8140-c4eeaf8c1047",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 34403.54193710076,
-                                                        "y": 19323.57155170106
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 34650.14255973513,
-                                                        "y": 19152.726203750524
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    }
-                                                }
-                                            }
-                                        ],
-                                        "marketSellOrderSignals": [],
-                                        "id": "95d2981e-5347-4c9b-bf9b-23d8bbb79ec9",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 34650.14255973513,
-                                                "y": 19152.726203750524
-                                            },
-                                            "targetPosition": {
-                                                "x": 34896.74318236951,
-                                                "y": 18981.880855799987
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "closeStageSignals": {
-                                        "type": "Close Stage Signals",
-                                        "name": "New Close Stage Signals",
-                                        "config": "{}",
-                                        "project": "Trading-Signals",
-                                        "limitBuyOrderSignals": [],
-                                        "limitSellOrderSignals": [],
-                                        "marketBuyOrderSignals": [],
-                                        "marketSellOrderSignals": [
-                                            {
-                                                "type": "Market Sell Order Signals",
-                                                "name": "New Market Sell Order Signals",
-                                                "config": "{}",
-                                                "project": "Trading-Signals",
-                                                "createOrderSignal": {
-                                                    "type": "Create Order Signal",
-                                                    "name": "Thanatos Sell",
-                                                    "config": "{}",
-                                                    "project": "Trading-Signals",
-                                                    "id": "9f34748b-c1cb-45e0-949a-84cd9587c013",
-                                                    "savedPayload": {
-                                                        "position": {
-                                                            "x": 34011.20655263075,
-                                                            "y": 18821.179650481212
-                                                        },
-                                                        "targetPosition": {
-                                                            "x": 34306.385429210335,
-                                                            "y": 18874.746718920804
-                                                        },
-                                                        "floatingObject": {
-                                                            "isPinned": false,
-                                                            "isFrozen": false,
-                                                            "isCollapsed": true,
-                                                            "angleToParent": 2,
-                                                            "distanceToParent": 3,
-                                                            "arrangementStyle": 0
-                                                        },
-                                                        "uiObject": {
-                                                            "isRunning": false
-                                                        }
-                                                    }
-                                                },
-                                                "id": "2028e534-4e99-470f-a6d2-18d7ebbaa6ed",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 34306.385429210335,
-                                                        "y": 18874.746718920804
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 34601.56430578992,
-                                                        "y": 18928.313787360396
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    }
-                                                }
-                                            }
-                                        ],
-                                        "id": "37706707-65c8-4841-a5fb-e4f6b7dbb1f4",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 34601.56430578992,
-                                                "y": 18928.313787360396
-                                            },
-                                            "targetPosition": {
-                                                "x": 34896.74318236951,
-                                                "y": 18981.880855799987
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "id": "e1d5699d-c28a-4978-9388-e82c7c758069",
-                                    "savedPayload": {
-                                        "position": {
-                                            "x": 34906.74318236951,
-                                            "y": 18860.880855799987
-                                        },
-                                        "targetPosition": {
-                                            "x": 35153.34380500388,
-                                            "y": 18690.03550784945
-                                        },
-                                        "floatingObject": {
-                                            "isPinned": false,
-                                            "isFrozen": false,
-                                            "isCollapsed": true,
-                                            "angleToParent": 2,
-                                            "distanceToParent": 3,
-                                            "arrangementStyle": 0
-                                        },
-                                        "uiObject": {
-                                            "isRunning": false
-                                        }
-                                    }
-                                },
-                                {
-                                    "type": "Trading Strategy Signals",
-                                    "name": "Troodon",
-                                    "config": "{}",
-                                    "project": "Trading-Signals",
-                                    "triggerStageSignals": {
-                                        "type": "Trigger Stage Signals",
-                                        "name": "New Trigger Stage Signals",
-                                        "config": "{}",
-                                        "project": "Trading-Signals",
-                                        "triggerOnSignal": {
-                                            "type": "Trigger On Signal",
-                                            "name": "Troodon Trigger On",
-                                            "config": "{}",
-                                            "project": "Trading-Signals",
-                                            "id": "9a7467a4-3178-4e52-bbfd-97900ce54e89",
-                                            "savedPayload": {
-                                                "position": {
-                                                    "x": 34483.424575974765,
-                                                    "y": 19078.57051012114
-                                                },
-                                                "targetPosition": {
-                                                    "x": 34611.56430578992,
-                                                    "y": 18807.313787360396
-                                                },
-                                                "floatingObject": {
-                                                    "isPinned": false,
-                                                    "isFrozen": false,
-                                                    "isCollapsed": false,
-                                                    "angleToParent": 2,
-                                                    "distanceToParent": 3,
-                                                    "arrangementStyle": 0
-                                                },
-                                                "uiObject": {
-                                                    "isRunning": false
-                                                }
-                                            }
-                                        },
-                                        "triggerOffSignal": {
-                                            "type": "Trigger Off Signal",
-                                            "name": "Troodon Trigger Off",
-                                            "config": "{}",
-                                            "project": "Trading-Signals",
-                                            "id": "b542e562-50d9-4183-b9b6-10bd250a56cb",
-                                            "savedPayload": {
-                                                "position": {
-                                                    "x": 34312.579228024224,
-                                                    "y": 18831.969887486764
-                                                },
-                                                "targetPosition": {
-                                                    "x": 34611.56430578992,
-                                                    "y": 18807.313787360396
-                                                },
-                                                "floatingObject": {
-                                                    "isPinned": false,
-                                                    "isFrozen": false,
-                                                    "isCollapsed": false,
-                                                    "angleToParent": 2,
-                                                    "distanceToParent": 3,
-                                                    "arrangementStyle": 0
-                                                },
-                                                "uiObject": {
-                                                    "isRunning": false
-                                                }
-                                            }
-                                        },
-                                        "id": "3c01a389-18c8-472b-94fb-c72b7acfa43c",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 34611.56430578992,
-                                                "y": 18807.313787360396
-                                            },
-                                            "targetPosition": {
-                                                "x": 34858.164928424296,
-                                                "y": 18636.46843940986
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "openStageSignals": {
-                                        "type": "Open Stage Signals",
-                                        "name": "New Open Stage Signals",
-                                        "config": "{}",
-                                        "project": "Trading-Signals",
-                                        "limitBuyOrderSignals": [],
-                                        "limitSellOrderSignals": [],
-                                        "marketBuyOrderSignals": [
-                                            {
-                                                "type": "Market Buy Order Signals",
-                                                "name": "Troodon Buy",
-                                                "config": "{}",
-                                                "project": "Trading-Signals",
-                                                "createOrderSignal": {
-                                                    "type": "Create Order Signal",
-                                                    "name": "New Create Order Signal",
-                                                    "config": "{}",
-                                                    "project": "Trading-Signals",
-                                                    "id": "39c4b9f1-4900-4abf-a425-716cbf6479fa",
-                                                    "savedPayload": {
-                                                        "position": {
-                                                            "x": 33972.62829868554,
-                                                            "y": 18475.767234091083
-                                                        },
-                                                        "targetPosition": {
-                                                            "x": 34267.80717526512,
-                                                            "y": 18529.334302530675
-                                                        },
-                                                        "floatingObject": {
-                                                            "isPinned": false,
-                                                            "isFrozen": false,
-                                                            "isCollapsed": false,
-                                                            "angleToParent": 2,
-                                                            "distanceToParent": 3,
-                                                            "arrangementStyle": 0
-                                                        },
-                                                        "uiObject": {
-                                                            "isRunning": false
-                                                        }
-                                                    }
-                                                },
-                                                "id": "c5994428-f9c2-4bc2-ac64-8424e9d7f6f5",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 34267.80717526512,
-                                                        "y": 18529.334302530675
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 34562.98605184471,
-                                                        "y": 18582.901370970267
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    }
-                                                }
-                                            }
-                                        ],
-                                        "marketSellOrderSignals": [],
-                                        "id": "54a1790f-2c90-4b0c-b17f-081db5dd12ba",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 34562.98605184471,
-                                                "y": 18582.901370970267
-                                            },
-                                            "targetPosition": {
-                                                "x": 34858.164928424296,
-                                                "y": 18636.46843940986
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "closeStageSignals": {
-                                        "type": "Close Stage Signals",
-                                        "name": "New Close Stage Signals",
-                                        "config": "{}",
-                                        "project": "Trading-Signals",
-                                        "limitBuyOrderSignals": [],
-                                        "limitSellOrderSignals": [],
-                                        "marketBuyOrderSignals": [],
-                                        "marketSellOrderSignals": [
-                                            {
-                                                "type": "Market Sell Order Signals",
-                                                "name": "Troodon Sell",
-                                                "config": "{}",
-                                                "project": "Trading-Signals",
-                                                "createOrderSignal": {
-                                                    "type": "Create Order Signal",
-                                                    "name": "New Create Order Signal",
-                                                    "config": "{}",
-                                                    "project": "Trading-Signals",
-                                                    "id": "4cc10800-826d-4520-af7d-c8e89083b5a5",
-                                                    "savedPayload": {
-                                                        "position": {
-                                                            "x": 34345.628884572696,
-                                                            "y": 17896.666571506736
-                                                        },
-                                                        "targetPosition": {
-                                                            "x": 34516.47423252323,
-                                                            "y": 18143.26719414111
-                                                        },
-                                                        "floatingObject": {
-                                                            "isPinned": false,
-                                                            "isFrozen": false,
-                                                            "isCollapsed": false,
-                                                            "angleToParent": 2,
-                                                            "distanceToParent": 3,
-                                                            "arrangementStyle": 0
-                                                        },
-                                                        "uiObject": {
-                                                            "isRunning": false
-                                                        }
-                                                    }
-                                                },
-                                                "id": "8840e7e8-6d70-4561-9cde-4fd7425e799a",
-                                                "savedPayload": {
-                                                    "position": {
-                                                        "x": 34516.47423252323,
-                                                        "y": 18143.26719414111
-                                                    },
-                                                    "targetPosition": {
-                                                        "x": 34687.31958047376,
-                                                        "y": 18389.867816775484
-                                                    },
-                                                    "floatingObject": {
-                                                        "isPinned": false,
-                                                        "isFrozen": false,
-                                                        "isCollapsed": false,
-                                                        "angleToParent": 2,
-                                                        "distanceToParent": 3,
-                                                        "arrangementStyle": 0
-                                                    },
-                                                    "uiObject": {
-                                                        "isRunning": false
-                                                    }
-                                                }
-                                            }
-                                        ],
-                                        "id": "7e1362d5-3760-42cf-8fcc-878d75f87be8",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 34687.31958047376,
-                                                "y": 18389.867816775484
-                                            },
-                                            "targetPosition": {
-                                                "x": 34858.164928424296,
-                                                "y": 18636.46843940986
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 3,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            }
-                                        }
-                                    },
-                                    "id": "18d6c88e-f74b-4643-90e8-98d0565e4d48",
-                                    "savedPayload": {
-                                        "position": {
-                                            "x": 34858.164928424296,
-                                            "y": 18636.46843940986
-                                        },
-                                        "targetPosition": {
-                                            "x": 35153.34380500388,
-                                            "y": 18690.03550784945
-                                        },
-                                        "floatingObject": {
-                                            "isPinned": false,
-                                            "isFrozen": false,
-                                            "isCollapsed": false,
-                                            "angleToParent": 2,
-                                            "distanceToParent": 3,
-                                            "arrangementStyle": 0
-                                        },
-                                        "uiObject": {
-                                            "isRunning": false
-                                        }
-                                    }
-                                }
-                            ],
-                            "tradingSystemSignal": {
-                                "type": "Trading System Signal",
-                                "name": "New Trading System Signal",
-                                "config": "{}",
-                                "project": "Trading-Signals",
-                                "id": "d3722112-3e74-42a2-bded-e1fdee2b055e",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 34982.49845705335,
-                                        "y": 18443.434885215076
-                                    },
-                                    "targetPosition": {
-                                        "x": 35153.34380500388,
-                                        "y": 18690.03550784945
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 2,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    }
-                                }
-                            },
-                            "id": "4885b99e-1438-4cf4-a76a-74ad71bff6c1",
-                            "savedPayload": {
-                                "position": {
-                                    "x": 35153.34380500388,
-                                    "y": 18690.03550784945
-                                },
-                                "targetPosition": {
-                                    "x": 35448.52268158347,
-                                    "y": 18743.602576289042
-                                },
-                                "floatingObject": {
-                                    "isPinned": false,
-                                    "isFrozen": false,
-                                    "isCollapsed": false,
-                                    "angleToParent": 2,
-                                    "distanceToParent": 3,
-                                    "arrangementStyle": 0
-                                },
-                                "uiObject": {
-                                    "isRunning": false
-                                }
-                            }
-                        },
-                        "id": "d56b6eee-8d95-4f52-9c4a-dfb757f8f993",
-                        "savedPayload": {
-                            "position": {
-                                "x": 35448.52268158347,
-                                "y": 18743.602576289042
-                            },
-                            "targetPosition": {
-                                "x": 35743.701558163055,
-                                "y": 18797.169644728634
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "availableStorage": {
-                        "type": "Available Storage",
-                        "name": "New Available Storage",
-                        "config": "{}",
-                        "project": "Open-Storage",
-                        "storageContainerReferences": [
-                            {
-                                "type": "Storage Container Reference",
-                                "name": "Troodon3",
-                                "config": "{}",
-                                "project": "Open-Storage",
-                                "id": "77fda3b8-0d73-412e-ae4c-0a66f57b3fa1",
-                                "savedPayload": {
-                                    "position": {
-                                        "x": 35329.06396877093,
-                                        "y": 18363.4927264322
-                                    },
-                                    "targetPosition": {
-                                        "x": 35536.382763466994,
-                                        "y": 18580.331185580417
-                                    },
-                                    "floatingObject": {
-                                        "isPinned": false,
-                                        "isFrozen": false,
-                                        "isCollapsed": false,
-                                        "angleToParent": 2,
-                                        "distanceToParent": 3,
-                                        "arrangementStyle": 0
-                                    },
-                                    "uiObject": {
-                                        "isRunning": false
-                                    },
-                                    "referenceParent": {
-                                        "type": "Github Storage Container",
-                                        "name": "Troodon3",
-                                        "id": "d3629e35-4a30-413b-b7c7-37d470a24454"
-                                    },
-                                    "referenceParentCombinedNodePath": [
-                                        [
-                                            "prepheadrus",
-                                            "User Profile"
-                                        ],
-                                        [
-                                            "New User Storage",
-                                            "User Storage"
-                                        ],
-                                        [
-                                            "New Github Storage",
-                                            "Github Storage"
-                                        ],
-                                        [
-                                            "Troodon3",
-                                            "Github Storage Container"
-                                        ]
-                                    ]
-                                }
-                            }
-                        ],
-                        "id": "7759cd9a-8de5-42fb-9b0b-88b70b8c0c81",
-                        "savedPayload": {
-                            "position": {
-                                "x": 35536.382763466994,
-                                "y": 18580.331185580417
-                            },
-                            "targetPosition": {
-                                "x": 35743.701558163055,
-                                "y": 18797.169644728634
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "followedBotReference": [
-                        {
-                            "type": "Followed Bot Reference",
-                            "name": "Troodon_3",
-                            "project": "Social-Trading",
-                            "id": "17bea88c-9ab4-49a4-85ca-92b88b1ffb62",
-                            "savedPayload": {
-                                "position": {
-                                    "x": 35703.43157841776,
-                                    "y": 18499.884716198252
-                                },
-                                "targetPosition": {
-                                    "x": 35743.701558163055,
-                                    "y": 18797.169644728634
-                                },
-                                "floatingObject": {
-                                    "isPinned": false,
-                                    "isFrozen": false,
-                                    "isCollapsed": false,
-                                    "angleToParent": 2,
-                                    "distanceToParent": 3,
-                                    "arrangementStyle": 0
-                                },
-                                "uiObject": {
-                                    "isRunning": false
-                                },
-                                "referenceParent": {
-                                    "type": "Social Trading Bot",
-                                    "name": "Troodon_3",
-                                    "id": "fec39f82-1f58-4b0b-a17a-df930acf0c0f"
-                                },
-                                "referenceParentCombinedNodePath": [
-                                    [
-                                        "prepheadrus",
-                                        "User Profile"
-                                    ],
-                                    [
-                                        "New User Bots",
-                                        "User Bots"
-                                    ],
-                                    [
-                                        "New Social Trading Bots",
-                                        "Social Trading Bots"
-                                    ],
-                                    [
-                                        "Troodon_3",
-                                        "Social Trading Bot"
-                                    ]
-                                ]
-                            }
-                        }
-                    ],
-                    "id": "fec39f82-1f58-4b0b-a17a-df930acf0c0f",
-                    "savedPayload": {
-                        "position": {
-                            "x": 35743.701558163055,
-                            "y": 18797.169644728634
-                        },
-                        "targetPosition": {
-                            "x": 36007.88021772008,
-                            "y": 18939.330243470533
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
                             "angleToParent": 2,
                             "distanceToParent": 3,
                             "arrangementStyle": 0
@@ -10517,7 +10891,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 1,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -10540,7 +10914,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
@@ -10821,7 +11195,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "P2P Network Node #2",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"130.61.134.18\",\n    \"clientMinimunBalance\": 0\n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"152.70.162.189\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
@@ -11083,7 +11457,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "P2P Network Node #3",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"152.70.162.189\",\n    \"clientMinimunBalance\": 0\n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"130.61.134.18\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
@@ -11356,7 +11730,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
