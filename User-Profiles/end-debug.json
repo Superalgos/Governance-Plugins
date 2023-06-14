@@ -5183,6 +5183,148 @@
                         "isRunning": false
                     }
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #3",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "b3193007-60f8-432d-a2ac-1cdbba7971a1",
+                "config": "{\n    \"handle\": \"drX\",\n    \"codeName\": \"Social-Persona-3\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "0f4ef451-4eda-450a-a844-b2eb84b031e5",
+                    "config": "{\"codeName\":\"Social-Persona-3\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0x161334e41e8b24c50f6d1ece056f9022f2c96eb2f6bd4d61292c291192c3d0f8\",\"s\":\"0x6a190ab96bf8c7c097f2607f558b0c50118524d47ac6e7815e4c0dcf99375247\",\"signature\":\"0x161334e41e8b24c50f6d1ece056f9022f2c96eb2f6bd4d61292c291192c3d0f86a190ab96bf8c7c097f2607f558b0c50118524d47ac6e7815e4c0dcf993752471c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "drXAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "f827f343-e19d-43e9-be97-86d6d7a0b60e",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "drX-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "8e8424f0-dea5-491f-87a4-a17830be9f4b",
+                            "config": "{}",
+                            "referenceParent": {
+                                "type": "Github Storage Container",
+                                "name": "drX-Social-Persona-Data",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "id": "62543ca8-0489-4dc6-8283-8abfa1717b94",
+                                "config": "{\"codeName\":\"drX-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"drX-Social-Persona-Data\"}"
+                            },
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -5885,6 +6027,34 @@
                             "isRunning": false
                         }
                     }
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "drX-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "6e79155b-e279-45d9-b2c7-c2993076a963",
+                    "config": "{\"codeName\":\"drX-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"drX-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
