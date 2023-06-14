@@ -5723,6 +5723,148 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #7",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "98233088-3ec9-4cde-8c84-16e14c18c5e3",
+                "config": "{\n    \"handle\": \"Drone\",\n    \"codeName\": \"Social-Persona-7\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "3e425740-20e6-4172-bb11-3b2654eda519",
+                    "config": "{\"codeName\":\"Social-Persona-7\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0x22bf4819a84cd8585a508b386c012d84754ab00f4f2669988f24219a2363cf4d\",\"s\":\"0x6d1ccf237e4a2ea78350689e289eb4bd4afc839a2e865e308ec1980523f54a4a\",\"signature\":\"0x22bf4819a84cd8585a508b386c012d84754ab00f4f2669988f24219a2363cf4d6d1ccf237e4a2ea78350689e289eb4bd4afc839a2e865e308ec1980523f54a4a1c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "DroneAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "80f7b5bb-1b7c-401d-9ab9-89e4cb618ee1",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "Drone-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "57f381b2-5c3c-4b66-9c78-0806e04f5869",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            },
+                            "referenceParent": {
+                                "type": "Github Storage Container",
+                                "name": "Drone-Social-Persona-Data",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "id": "6fec0a88-db21-426e-af79-1b7d99d76337",
+                                "config": "{\"codeName\":\"Drone-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Drone-Social-Persona-Data\"}"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6537,6 +6679,34 @@
                     },
                     "id": "70e2f529-56c4-4aa3-83d5-0a08bb09fa27",
                     "config": "{\"codeName\":\"Dig-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Dig-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "Drone-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "6fec0a88-db21-426e-af79-1b7d99d76337",
+                    "config": "{\"codeName\":\"Drone-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Drone-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
