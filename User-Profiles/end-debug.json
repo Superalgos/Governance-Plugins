@@ -5439,6 +5439,148 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #5",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "612b0a8c-6431-423b-9be3-f32736240f9e",
+                "config": "{\n    \"handle\": \"Rocky\",\n    \"codeName\": \"Social-Persona-5\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "d31e4809-dfc4-4069-a08f-40751e068707",
+                    "config": "{\"codeName\":\"Social-Persona-5\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1b\",\"r\":\"0x99994b545cf3635480455387484f98debb384f3402fad380f1dfe73f61ca77d3\",\"s\":\"0x0891ae5e8023315d0068739bdd84c1ef58449e326aadf9b120f6f8db8b19c661\",\"signature\":\"0x99994b545cf3635480455387484f98debb384f3402fad380f1dfe73f61ca77d30891ae5e8023315d0068739bdd84c1ef58449e326aadf9b120f6f8db8b19c6611b\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "RockyAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "cc9406d3-0442-460b-827f-73a9e9e37b61",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "Rocky-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "81ad035e-6bae-49da-9db8-fb544d06a731",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            },
+                            "referenceParent": {
+                                "name": "Rocky-Social-Persona-Data",
+                                "type": "Github Storage Container",
+                                "id": "b08e1313-d8cd-495b-ad5a-e80e91d855a7",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "config": "{\"codeName\":\"Rocky-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Rocky-Social-Persona-Data\"}"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6197,6 +6339,34 @@
                     },
                     "id": "e5e1efa2-f742-4e02-ab89-e59c35418cd6",
                     "config": "{\"codeName\":\"Ranger-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Ranger-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "Rocky-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "b08e1313-d8cd-495b-ad5a-e80e91d855a7",
+                    "config": "{\"codeName\":\"Rocky-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Rocky-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
