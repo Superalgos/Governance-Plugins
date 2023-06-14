@@ -5581,6 +5581,148 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #6",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "e5e61efd-4ad7-4b21-b035-4fd4b1466d5a",
+                "config": "{\n    \"handle\": \"Dig\",\n    \"codeName\": \"Social-Persona-6\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "bbfb3a9a-4d69-4bbc-b0e0-68a0dfa34a2b",
+                    "config": "{\"codeName\":\"Social-Persona-6\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0xfbd31ae6d8de33038af352486750a4e9ad880e147a0da336e5405a1f10fe4a30\",\"s\":\"0x6b638db0433f1f012fa7ee3de6a33a7af29fe9e00be8043b74bddbc23c9a4f9d\",\"signature\":\"0xfbd31ae6d8de33038af352486750a4e9ad880e147a0da336e5405a1f10fe4a306b638db0433f1f012fa7ee3de6a33a7af29fe9e00be8043b74bddbc23c9a4f9d1c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "DigAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "39da391a-a612-4e68-9c1e-c7e8a9ca2e04",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "Dig-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "4c244115-e703-47fd-b6b9-4b4b0f105f22",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            },
+                            "referenceParent": {
+                                "type": "Github Storage Container",
+                                "name": "Dig-Social-Persona-Data",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "id": "70e2f529-56c4-4aa3-83d5-0a08bb09fa27",
+                                "config": "{\"codeName\":\"Dig-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Dig-Social-Persona-Data\"}"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6367,6 +6509,34 @@
                     },
                     "id": "b08e1313-d8cd-495b-ad5a-e80e91d855a7",
                     "config": "{\"codeName\":\"Rocky-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Rocky-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "Dig-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "70e2f529-56c4-4aa3-83d5-0a08bb09fa27",
+                    "config": "{\"codeName\":\"Dig-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Dig-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
