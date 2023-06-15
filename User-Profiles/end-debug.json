@@ -5410,6 +5410,149 @@
                     },
                     "storageContainerReferences": []
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #5",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "aadd39a5-c2ef-4da5-ad93-1562343ef5cf",
+                "config": "{\n    \"handle\": \"10D\",\n    \"codeName\": \"Social-Persona-5\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "012ba499-c6b4-4fd1-807b-e38777e379df",
+                    "config": "{\"codeName\":\"Social-Persona-5\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1b\",\"r\":\"0x9f80cb5a490da5ec2b8392fbe8725fdc5b4bef048f0d4a41417ff1d176ca23c0\",\"s\":\"0x122bfac4feb4885b2d03ccc97d6ef36d3c0038ada522cdf6e55b314e31c861e7\",\"signature\":\"0x9f80cb5a490da5ec2b8392fbe8725fdc5b4bef048f0d4a41417ff1d176ca23c0122bfac4feb4885b2d03ccc97d6ef36d3c0038ada522cdf6e55b314e31c861e71b\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "10DAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "9d5edb4b-fcae-4686-947d-80b1aea67392",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "10D-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "a675afdc-fea6-48ea-87c4-3aecd7bb4342",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            },
+                            "referenceParent": {
+                                "type": "Github Storage Container",
+                                "name": "10D-Social-Persona-Data",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "id": "6ae64b00-688a-4bf5-942c-406d33d20df3",
+                                "config": "{\"codeName\":\"10D-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"10D-Social-Persona-Data\"}",
+                                "referenceChildren": {}
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6168,6 +6311,35 @@
                     },
                     "id": "add81e00-fc5d-4e2c-8d42-f84d03196018",
                     "config": "{\"codeName\":\"eDen-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"eDen-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "10D-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "6ae64b00-688a-4bf5-942c-406d33d20df3",
+                    "config": "{\"codeName\":\"10D-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"10D-Social-Persona-Data\"}",
+                    "referenceChildren": {}
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
