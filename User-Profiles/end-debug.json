@@ -5865,6 +5865,148 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #8",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "830b6aab-c34f-4bbd-9613-787d7f27cb15",
+                "config": "{\n    \"handle\": \"Foreman\",\n    \"codeName\": \"Social-Persona-8\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "d107c40b-750c-4b2d-8d42-9a9c54d41b75",
+                    "config": "{\"codeName\":\"Social-Persona-8\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1b\",\"r\":\"0xf88a2805c9dcab255803c5db5ef3c1654bbb12188d81c7c3c7d85725c6bf0011\",\"s\":\"0x510633b90e015fa12e7220b3a793afd4ff0d1366561d3c2c7d6eaafaf49fcce4\",\"signature\":\"0xf88a2805c9dcab255803c5db5ef3c1654bbb12188d81c7c3c7d85725c6bf0011510633b90e015fa12e7220b3a793afd4ff0d1366561d3c2c7d6eaafaf49fcce41b\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "ForemanAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "e103e414-8a1b-434a-a51a-0efce22a8abe",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "Foreman-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "b116a749-172c-48cb-ac53-ef0362b38cc5",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            },
+                            "referenceParent": {
+                                "type": "Github Storage Container",
+                                "name": "Foreman-Social-Persona-Data",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "id": "530e77a5-73ca-4bc8-ba57-06d3c853234f",
+                                "config": "{\"codeName\":\"Foreman-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Foreman-Social-Persona-Data\"}"
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6707,6 +6849,34 @@
                     },
                     "id": "6fec0a88-db21-426e-af79-1b7d99d76337",
                     "config": "{\"codeName\":\"Drone-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Drone-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "Foreman-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "530e77a5-73ca-4bc8-ba57-06d3c853234f",
+                    "config": "{\"codeName\":\"Foreman-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Foreman-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
