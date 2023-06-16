@@ -5699,6 +5699,148 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #7",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "080b8c29-c20a-4ff6-95d4-f9052abc2f2d",
+                "config": "{\n    \"handle\": \"Scott\",\n    \"codeName\": \"Social-Persona-7\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "3206ab49-0407-4300-98ad-1c3e9887a01a",
+                    "config": "{\"codeName\":\"Social-Persona-7\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0x5159a8b4582f58e2c97cdd0c9e596fb831334c08d0a77e9a85c2864ce3a52b24\",\"s\":\"0x7679393c0368bbd35db476c72ad20a81ddd28ba7af2ec472346ed6efbe029607\",\"signature\":\"0x5159a8b4582f58e2c97cdd0c9e596fb831334c08d0a77e9a85c2864ce3a52b247679393c0368bbd35db476c72ad20a81ddd28ba7af2ec472346ed6efbe0296071c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "ScottAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "1767dea3-fe42-4938-947c-a99255190e7d",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "Scott-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "5e228916-1ec0-4280-9c7a-3940eef3d14d",
+                            "config": "{}",
+                            "referenceParent": {
+                                "type": "Github Storage Container",
+                                "name": "Scott-Social-Persona-Data",
+                                "project": "Open-Storage",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "targetPosition": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    }
+                                },
+                                "id": "dddd9252-60c3-40fc-b86e-0fe4542bd69e",
+                                "config": "{\"codeName\":\"Scott-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Scott-Social-Persona-Data\"}"
+                            },
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6514,6 +6656,34 @@
                     },
                     "id": "fe03e5cf-21aa-4401-b27a-6f648f85d028",
                     "config": "{\"codeName\":\"Drone-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Drone-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "Scott-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "dddd9252-60c3-40fc-b86e-0fe4542bd69e",
+                    "config": "{\"codeName\":\"Scott-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Scott-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
