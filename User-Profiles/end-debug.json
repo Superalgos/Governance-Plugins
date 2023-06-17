@@ -5325,6 +5325,121 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #4",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "107f1f83-2312-4c92-8a1c-712d0de1453c",
+                "config": "{\n    \"handle\": \"Dee\",\n    \"codeName\": \"Social-Persona-4\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "ede45eb7-6ef0-4985-92fe-0e08b751e6d5",
+                    "config": "{\"codeName\":\"Social-Persona-4\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0x391acbeb3d17c0144912580dc7561bd6d8d61565e1ea8ca1cf4b760590eee1b8\",\"s\":\"0x676e670678612ac3ef10ae61b1b26a6e4d54f4d33fd8b058798087c34637a310\",\"signature\":\"0x391acbeb3d17c0144912580dc7561bd6d8d61565e1ea8ca1cf4b760590eee1b8676e670678612ac3ef10ae61b1b26a6e4d54f4d33fd8b058798087c34637a3101c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "DeeAvailable Storage",
+                    "type": "Available Storage",
+                    "id": "dc837361-b433-450e-ac76-3df37b556052",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "Dee-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "ba5b4062-5cec-4253-be67-42f893b5ab63",
+                            "config": "{}",
+                            "referenceParent": "{\n    \"type\": \"Github Storage Container\",\n    \"name\": \"Dee-Social-Persona-Data\",\n    \"project\": \"Open-Storage\",\n    \"savedPayload\": {\n        \"position\": {\n            \"x\": 0,\n            \"y\": 0\n        },\n        \"targetPosition\": {\n            \"x\": 0,\n            \"y\": 0\n        },\n        \"floatingObject\": {\n            \"isPinned\": false,\n            \"isFrozen\": false,\n            \"isCollapsed\": false,\n            \"angleToParent\": 2,\n            \"distanceToParent\": 3,\n            \"arrangementStyle\": 0\n        },\n        \"uiObject\": {\n            \"isRunning\": false\n        }\n    },\n    \"id\": \"18ce8e01-8270-49e0-bfe2-cee370b2a130\",\n    \"config\": \"{\\\"codeName\\\":\\\"Dee-Social-Persona-Data\\\",\\\"githubUserName\\\":\\\"end-debug\\\",\\\"repositoryName\\\":\\\"Dee-Social-Persona-Data\\\"}\"\n}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6055,6 +6170,34 @@
                     },
                     "id": "6d080483-b73f-4a50-9233-e3e88945e7a1",
                     "config": "{\"codeName\":\"eLB-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"eLB-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "Dee-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "18ce8e01-8270-49e0-bfe2-cee370b2a130",
+                    "config": "{\"codeName\":\"Dee-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"Dee-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
