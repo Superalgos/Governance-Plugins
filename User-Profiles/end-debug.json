@@ -5183,6 +5183,125 @@
                         "isRunning": false
                     }
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #3",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "1511b8bd-bcca-4e60-af98-8e01f9b3bc67",
+                "config": "{\n    \"handle\": \"dustyCollector\",\n    \"codeName\": \"Social-Persona-3\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "0bb2c14f-55f5-4724-9a00-7ce0eb8ed404",
+                    "config": "{\"codeName\":\"Social-Persona-3\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0x6d24698d653a40a203e96d87fa2309aa17e92388089d110f4d4feab052293933\",\"s\":\"0x351df47d9677c8c84bc65209be55a3e8920ae68a6ffb408d6cbaed8942ced49e\",\"signature\":\"0x6d24698d653a40a203e96d87fa2309aa17e92388089d110f4d4feab052293933351df47d9677c8c84bc65209be55a3e8920ae68a6ffb408d6cbaed8942ced49e1c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "dustyCollector Available Storage",
+                    "type": "Available Storage",
+                    "id": "aa68097e-5de9-4da2-9ba9-a0f9dfac63fb",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "dustyCollector-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "45ad7164-30eb-4032-9c42-4df1de473ce1",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "New Github Storage Container",
+                                    "id": "a5a8825a-0c33-4d6e-808b-cc68e48aa2b8"
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -5885,6 +6004,34 @@
                             "isRunning": false
                         }
                     }
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "New Github Storage Container",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "a5a8825a-0c33-4d6e-808b-cc68e48aa2b8",
+                    "config": "{\"codeName\":\"dustyCollector-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"dustyCollector-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
