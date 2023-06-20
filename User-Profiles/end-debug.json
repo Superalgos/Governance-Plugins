@@ -5302,6 +5302,125 @@
                         }
                     ]
                 }
+            },
+            {
+                "type": "Social Persona",
+                "name": "Social Persona #4",
+                "project": "Social-Trading",
+                "savedPayload": {
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "targetPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                },
+                "id": "eea9a51b-4f19-4d6b-a21a-ba4bf1015140",
+                "config": "{\n    \"handle\": \"jamesB\",\n    \"codeName\": \"Social-Persona-4\"\n}",
+                "signingAccount": {
+                    "type": "Signing Account",
+                    "name": "New Signing Account",
+                    "project": "Governance",
+                    "id": "60b4b46d-c565-421b-8080-8502d343d333",
+                    "config": "{\"codeName\":\"Social-Persona-4\",\"signature\":{\"message\":\"end-debug\",\"messageHash\":\"0x1f7f8bc57e6f5599e068e83eb802f255db43dfc4372420441068d244ab9304bb\",\"v\":\"0x1c\",\"r\":\"0xfc64cf0688aab891456e123fb9406084976ecdec396d8ab31771aaa88316855a\",\"s\":\"0x67d94cbcc2cf57feb398a5668280e14d70bd0dcec7d2363a4f677d324953e11b\",\"signature\":\"0xfc64cf0688aab891456e123fb9406084976ecdec396d8ab31771aaa88316855a67d94cbcc2cf57feb398a5668280e14d70bd0dcec7d2363a4f677d324953e11b1c\"}}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "availableStorage": {
+                    "name": "jamesB Available Storage",
+                    "type": "Available Storage",
+                    "id": "6ade691d-8fa1-4d31-aee4-2addd894eae1",
+                    "project": "Open-Storage",
+                    "config": "{}",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "jamesB-Social-Persona-Data",
+                            "project": "Open-Storage",
+                            "id": "498d4670-edda-48ae-aea8-b2f84b46818e",
+                            "config": "{}",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "targetPosition": {
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 2,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                },
+                                "referenceParent": {
+                                    "type": "Github Storage Container",
+                                    "name": "jamesB-Social-Persona-Data",
+                                    "id": "bcbfe9f2-190e-45d0-83f0-cbae300e63e5"
+                                }
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "id": "d010fb9a-e68a-48ec-a36b-028a55f5d981",
@@ -6032,6 +6151,34 @@
                     },
                     "id": "a5a8825a-0c33-4d6e-808b-cc68e48aa2b8",
                     "config": "{\"codeName\":\"dustyCollector-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"dustyCollector-Social-Persona-Data\"}"
+                },
+                {
+                    "type": "Github Storage Container",
+                    "name": "jamesB-Social-Persona-Data",
+                    "project": "Open-Storage",
+                    "savedPayload": {
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "targetPosition": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    },
+                    "id": "bcbfe9f2-190e-45d0-83f0-cbae300e63e5",
+                    "config": "{\"codeName\":\"jamesB-Social-Persona-Data\",\"githubUserName\":\"end-debug\",\"repositoryName\":\"jamesB-Social-Persona-Data\"}"
                 }
             ],
             "id": "ccfccd90-d06c-4e94-9e16-30ee573b2029",
