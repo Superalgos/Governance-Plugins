@@ -150,8 +150,131 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\r\n    \"percentage\": 10\r\n}",
+            "config": "{\r\n    \"percentage\": 20\r\n}",
             "project": "Governance",
+            "referralProgram": {
+                "type": "Referral Program",
+                "name": "New Referral Program",
+                "config": "{}",
+                "project": "Governance",
+                "userReferrers": [
+                    {
+                        "type": "User Referrer",
+                        "name": "NicN11",
+                        "config": "{}",
+                        "project": "Governance",
+                        "id": "3c146182-8f51-4193-a2b8-16362633c9ff",
+                        "savedPayload": {
+                            "position": {
+                                "x": 7977.515283129107,
+                                "y": 37106.21647666391
+                            },
+                            "targetPosition": {
+                                "x": 8108.542424712258,
+                                "y": 37595.21642622275
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 4,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            },
+                            "referenceParent": {
+                                "type": "User Profile",
+                                "name": "NicN11",
+                                "id": "a884f5c0-2ffb-4a31-8edc-349430071fbe"
+                            },
+                            "referenceParentCombinedNodePath": [
+                                [
+                                    "NicN11",
+                                    "User Profile"
+                                ]
+                            ]
+                        }
+                    }
+                ],
+                "tokensAwarded": {
+                    "type": "Tokens Awarded",
+                    "name": "New Tokens Awarded",
+                    "project": "Governance",
+                    "id": "ebb7e841-60a2-45bc-b0ac-2efd8e8e1600",
+                    "savedPayload": {
+                        "position": {
+                            "x": 8361.66742471226,
+                            "y": 37156.79106555688
+                        },
+                        "targetPosition": {
+                            "x": 8108.542424712258,
+                            "y": 37595.21642622275
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 4,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "44cacf20-3612-491c-9ba9-277d1f99ca28",
+                    "savedPayload": {
+                        "position": {
+                            "x": 8597.5423742711,
+                            "y": 37464.1892846396
+                        },
+                        "targetPosition": {
+                            "x": 8108.542424712258,
+                            "y": 37595.21642622275
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 4,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "94f60582-daec-4eb0-9e17-2af3be5efe3e",
+                "savedPayload": {
+                    "position": {
+                        "x": 8108.542424712258,
+                        "y": 37595.21642622275
+                    },
+                    "targetPosition": {
+                        "x": 7939.792424712258,
+                        "y": 37887.5
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 4,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
             "supportProgram": {
                 "type": "Support Program",
                 "name": "New Support Program",
@@ -294,15 +417,15 @@
                 "id": "19f4c0dd-a15d-4195-be86-12dc56f1a820",
                 "savedPayload": {
                     "position": {
-                        "x": 8509.830564796532,
-                        "y": 27878.75
+                        "x": 8277.292424712257,
+                        "y": 37887.5
                     },
                     "targetPosition": {
-                        "x": 8398.546991019284,
-                        "y": 28287.5
+                        "x": 7939.792424712258,
+                        "y": 37887.5
                     },
                     "floatingObject": {
-                        "isPinned": true,
+                        "isPinned": false,
                         "isFrozen": false,
                         "isCollapsed": true,
                         "angleToParent": 2,
@@ -327,7 +450,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 4,
                     "arrangementStyle": 0
@@ -907,7 +1030,7 @@
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "Alex White Team July 2023 Teams",
+                                "name": "Translations Team July 2023 Teams",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "d7fb6b5b-c487-44ce-ae39-9604a6203854",
@@ -933,8 +1056,8 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position",
-                                        "name": "Alex White Team",
-                                        "id": "4dfd7703-4c20-4ed9-a457-63eadeeb928d"
+                                        "name": "Translations Team",
+                                        "id": "c73eebe8-cf3f-4c5d-9cee-599994bd474b"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -946,7 +1069,7 @@
                                             "Position Class"
                                         ],
                                         [
-                                            "Alex White Team",
+                                            "Translations Team",
                                             "Position"
                                         ]
                                     ]
