@@ -604,10 +604,70 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\n    \"percentage\": 0\n}",
+                                "config": "{\n    \"percentage\": 5\n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
-                                "positionClaimVotes": [],
+                                "positionClaimVotes": [
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "splywaczyk Seweryn Plywaczyk July 2023 Teams",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "d660252a-da60-465a-81c2-57fa870dee32",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8312.76700287062,
+                                                "y": 17712.050820643224
+                                            },
+                                            "targetPosition": {
+                                                "x": 8452.947591352538,
+                                                "y": 17977.285438694606
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 3,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "Seweryn Plywaczyk July 2023 Teams",
+                                                "id": "c6680534-69ce-424e-8a3d-bdd966937722"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "splywaczyk",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "New Position Claims Folder",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "Seweryn Plywaczyk July 2023 Teams",
+                                                    "Position Contribution Claim"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
                                 "assetClaimVotes": [],
                                 "featureClaimVotes": [],
                                 "id": "50ad335e-af2d-4876-9b56-f091724aeae0",
