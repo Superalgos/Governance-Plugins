@@ -698,13 +698,13 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Superalgos",
-                                "config": "{}",
+                                "config": "{\n    \"percentage\": 53\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
                                         "type": "Weight Votes Switch",
                                         "name": "Governance Programs ",
-                                        "config": "{\n    \"percentage\": 15\n}",
+                                        "config": "{\n    \"percentage\": 25\n}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [
                                             {
@@ -1810,7 +1810,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Incentives for Staking & Delegating SA Tokens",
-                                                "config": "{\n    \"percentage\": 5\n}",
+                                                "config": "{\n    \"amount\": 750000\n}\n",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [
                                                     {
@@ -1928,14 +1928,14 @@
                                                     {
                                                         "type": "Weight Votes Switch",
                                                         "name": "Delegation Program",
-                                                        "config": "{}",
+                                                        "config": "{\n    \"amount\": 700000\n}",
                                                         "project": "Governance",
                                                         "weightVotesSwitch": [],
                                                         "poolWeightVotes": [
                                                             {
                                                                 "type": "Pool Weight Vote",
                                                                 "name": "Delegation Bonus Pool",
-                                                                "config": "{}",
+                                                                "config": "{\n    \"negative\": true\n}",
                                                                 "project": "Governance",
                                                                 "id": "66064674-dbc7-424f-a05f-43a72bb5f6e8",
                                                                 "savedPayload": {
@@ -3131,7 +3131,7 @@
             "stakingProgram": {
                 "type": "Staking Program",
                 "name": "New Staking Program",
-                "config": "{\n    \"percentage\": 0\n}",
+                "config": "{\n}",
                 "project": "Governance",
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
