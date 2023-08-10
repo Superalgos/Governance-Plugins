@@ -210,7 +210,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -293,7 +293,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -376,7 +376,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 3,
                         "arrangementStyle": 0
@@ -1162,7 +1162,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Incentives for Providing Liquidity to SA Markets",
-                                                "config": "{\r\n   \"percentage\": 4\r\n}",
+                                                "config": "",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [],
                                                 "poolWeightVotes": [
@@ -1266,7 +1266,7 @@
                                             {
                                                 "type": "Weight Votes Switch",
                                                 "name": "Incentives for Staking & Delegating SA Tokens",
-                                                "config": "{\r\n   \"percentage\": 95\r\n}",
+                                                "config": "{\r\n   \"percentage\": 99\r\n}",
                                                 "project": "Governance",
                                                 "weightVotesSwitch": [
                                                     {
@@ -1384,7 +1384,7 @@
                                                     {
                                                         "type": "Weight Votes Switch",
                                                         "name": "Delegation Program",
-                                                        "config": "{\r\n   \"percentage\": 95\r\n}",
+                                                        "config": "{\r\n   \"percentage\": 99\r\n}",
                                                         "project": "Governance",
                                                         "weightVotesSwitch": [],
                                                         "poolWeightVotes": [
@@ -1511,7 +1511,7 @@
                                                     "floatingObject": {
                                                         "isPinned": false,
                                                         "isFrozen": false,
-                                                        "isCollapsed": true,
+                                                        "isCollapsed": false,
                                                         "angleToParent": 2,
                                                         "distanceToParent": 3,
                                                         "arrangementStyle": 0
@@ -2509,7 +2509,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 2,
                     "distanceToParent": 3,
                     "arrangementStyle": 0
@@ -2582,7 +2582,7 @@
             "delegationProgram": {
                 "type": "Delegation Program",
                 "name": "New Delegation Program",
-                "config": "{\r\n   \"percentage\": 97\r\n}",
+                "config": "{\r\n   \"percentage\": 99\r\n}",
                 "project": "Governance",
                 "delegatePowerSwitch": [
                     {
@@ -2594,14 +2594,14 @@
                         "userDelegates": [
                             {
                                 "type": "User Delegate",
-                                "name": "caoHenriques",
+                                "name": "tigers40",
                                 "config": "{}",
                                 "project": "Governance",
-                                "id": "59cfbf95-7a11-40d5-b456-9d2bff596559",
+                                "id": "1c8852b8-70de-4757-bc7a-cad01322eda3",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 12789.755745803728,
-                                        "y": 28804.32066189196
+                                        "x": 12660.041251308909,
+                                        "y": 28485.556604759833
                                     },
                                     "targetPosition": {
                                         "x": 12497.277372149181,
@@ -2620,19 +2620,292 @@
                                     },
                                     "referenceParent": {
                                         "type": "User Profile",
-                                        "name": "caoHenriques",
-                                        "id": "30bcceb5-1e61-4ed3-b7ce-d3b86bb817ea"
+                                        "name": "tigers40",
+                                        "id": "db83993c-13b3-4a30-82cd-13497117987d"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
-                                            "caoHenriques",
+                                            "tigers40",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "BicMC22",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "9155309a-f478-4e79-9a67-242ecca52783",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12736.417124316058,
+                                        "y": 28556.423058607423
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "BicMC22",
+                                        "id": "638fb858-97c9-4e6d-97b7-41622cc4b87d"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "BicMC22",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "BastianMuc",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "5e437aae-e960-4b5b-ac6a-a38cca38a1b8",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12783.949213885024,
+                                        "y": 28649.137829381794
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "BastianMuc",
+                                        "id": "869f0db2-94e6-440d-a5f7-6ba14519fdab"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "BastianMuc",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "prepheadrus",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "f9a0e8be-4410-48d9-b745-b0eab0e09245",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12796.904448514859,
+                                        "y": 28752.518147403276
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "prepheadrus",
+                                        "id": "9e9d4d50-41ae-4f6f-b2a8-b1f86b8b3d58"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "prepheadrus",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "splywaczyk",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "3991383a-7ca3-441d-a06d-a9a656691b80",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12773.720235710303,
+                                        "y": 28854.094820587474
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "splywaczyk",
+                                        "id": "09e558d0-a4a7-499f-8181-f5380f4f7625"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "splywaczyk",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "Awhiteweb",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "cde77d6d-cdfb-4bfc-b577-8b54ec2013a7",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12717.192933698128,
+                                        "y": 28941.61620303634
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "Awhiteweb",
+                                        "id": "6515f2a1-6349-4986-98ee-bc588bbf743a"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Awhiteweb",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "BigGremlin",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "e22478bb-9601-4408-9029-4098589b0159",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12634.14056935513,
+                                        "y": 29004.525924348505
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "BigGremlin",
+                                        "id": "32f97116-b536-4fcc-b018-a3f868c289a1"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "BigGremlin",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "User Delegate",
+                                "name": "quantum8",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "b7ee83a9-e265-4fca-807f-1d84443c64c4",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 12534.580483543426,
+                                        "y": 29035.236143685117
+                                    },
+                                    "targetPosition": {
+                                        "x": 12497.277372149181,
+                                        "y": 28737.564381705066
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 3,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "quantum8",
+                                        "id": "61dffeab-3674-4878-973e-1ce38935e8c1"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "quantum8",
                                             "User Profile"
                                         ]
                                     ]
                                 }
                             }
                         ],
-                        "id": "9a124b9f-1435-4e72-ab53-031515ad0360",
+                        "id": "757f9134-e1a2-44b8-b039-5193d9f8d785",
                         "savedPayload": {
                             "position": {
                                 "x": 12497.277372149181,
