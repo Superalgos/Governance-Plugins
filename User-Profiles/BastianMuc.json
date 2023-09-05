@@ -667,7 +667,7 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "Superalgos",
-                                "config": "{\n    \"percentage\": 80\n}",
+                                "config": "{\n    \"percentage\": 75\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [
                                     {
@@ -2433,7 +2433,7 @@
                             },
                             {
                                 "type": "Weight Votes Switch",
-                                "name": "July 2023 Teams",
+                                "name": "August 2023 Teams",
                                 "config": "{}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
@@ -2443,14 +2443,14 @@
                                 "positionWeightVotes": [
                                     {
                                         "type": "Position Weight Vote",
-                                        "name": "July 2023 Teams Turkish",
+                                        "name": "August 2023 Teams Turkish",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "652fc421-e17d-4d46-aba6-d631d85d4157",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9037.592683195191,
-                                                "y": 17364.054532871305
+                                                "x": 8967.223572651188,
+                                                "y": 17357.72119829094
                                             },
                                             "targetPosition": {
                                                 "x": 8941.984516514669,
@@ -2478,7 +2478,7 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "July 2023 Teams",
+                                                    "August 2023 Teams",
                                                     "Position Class"
                                                 ],
                                                 [
@@ -2490,14 +2490,14 @@
                                     },
                                     {
                                         "type": "Position Weight Vote",
-                                        "name": "July 2023 Teams Translations",
+                                        "name": "August 2023 Teams Translations",
                                         "config": "{\n    \"percentage\": 10\n}",
                                         "project": "Governance",
                                         "id": "ff01ad88-fee2-495d-a84e-1a3e703a06c0",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9412.088103890135,
-                                                "y": 17547.86542415456
+                                                "x": 9301.10616816252,
+                                                "y": 17460.710339544017
                                             },
                                             "targetPosition": {
                                                 "x": 8941.984516514669,
@@ -2525,7 +2525,7 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "July 2023 Teams",
+                                                    "August 2023 Teams",
                                                     "Position Class"
                                                 ],
                                                 [
@@ -2537,14 +2537,14 @@
                                     },
                                     {
                                         "type": "Position Weight Vote",
-                                        "name": "July 2023 Teams End Debug",
-                                        "config": "{\n    \"percentage\": 80\n}",
+                                        "name": "August 2023 Teams End Debug",
+                                        "config": "{\n    \"percentage\": 50\n}",
                                         "project": "Governance",
                                         "id": "87cd9041-8213-4e0c-b49c-5b0a7ce50bd3",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9607.01993244091,
-                                                "y": 17916.694444289475
+                                                "x": 9538.76240713028,
+                                                "y": 17716.842849938792
                                             },
                                             "targetPosition": {
                                                 "x": 8941.984516514669,
@@ -2572,7 +2572,7 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "July 2023 Teams",
+                                                    "August 2023 Teams",
                                                     "Position Class"
                                                 ],
                                                 [
@@ -2584,14 +2584,14 @@
                                     },
                                     {
                                         "type": "Position Weight Vote",
-                                        "name": "July 2023 Teams VEX",
+                                        "name": "August 2023 Teams VEX",
                                         "config": "{}",
                                         "project": "Governance",
                                         "id": "700e7303-e769-4bac-acf6-a64b02adb245",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 9547.93083583028,
-                                                "y": 18329.66144362183
+                                                "x": 9616.512492246839,
+                                                "y": 18057.48823015963
                                             },
                                             "targetPosition": {
                                                 "x": 8941.984516514669,
@@ -2619,11 +2619,58 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "July 2023 Teams",
+                                                    "August 2023 Teams",
                                                     "Position Class"
                                                 ],
                                                 [
                                                     "VEX",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "August 2023 Teams Data Mining",
+                                        "config": "{\n    \"percentage\": 30\n}",
+                                        "project": "Governance",
+                                        "id": "6d33dc5e-d1f6-44d4-a007-e685d6421953",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 9513.52335099376,
+                                                "y": 18391.37082567096
+                                            },
+                                            "targetPosition": {
+                                                "x": 8941.984516514669,
+                                                "y": 18032.24917402311
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Data Mining",
+                                                "id": "1358765f-01fe-4a39-83ed-3363b409b781"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "August 2023 Teams",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Data Mining",
                                                     "Position"
                                                 ]
                                             ]
@@ -2653,7 +2700,7 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position Class",
-                                        "name": "July 2023 Teams",
+                                        "name": "August 2023 Teams",
                                         "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
                                     },
                                     "referenceParentCombinedNodePath": [
@@ -2662,7 +2709,7 @@
                                             "Positions"
                                         ],
                                         [
-                                            "July 2023 Teams",
+                                            "August 2023 Teams",
                                             "Position Class"
                                         ]
                                     ]
