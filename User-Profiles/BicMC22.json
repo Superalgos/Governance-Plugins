@@ -150,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\r\n    \"percentage\": 30\r\n}",
+            "config": "{\r\n    \"percentage\": 15\r\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -166,8 +166,8 @@
                         "id": "3c146182-8f51-4193-a2b8-16362633c9ff",
                         "savedPayload": {
                             "position": {
-                                "x": 7902.6319991551345,
-                                "y": 37132.734038291186
+                                "x": 7977.515283129107,
+                                "y": 37106.21647666391
                             },
                             "targetPosition": {
                                 "x": 8108.542424712258,
@@ -196,45 +196,6 @@
                                 ]
                             ]
                         }
-                    },
-                    {
-                        "type": "User Referrer",
-                        "name": "markeone",
-                        "config": "{}",
-                        "project": "Governance",
-                        "id": "757d0ada-ba9b-420c-b429-09190eeb931a",
-                        "savedPayload": {
-                            "position": {
-                                "x": 8213.797718188749,
-                                "y": 37100.02920335127
-                            },
-                            "targetPosition": {
-                                "x": 8108.542424712258,
-                                "y": 37595.21642622275
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 4,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            },
-                            "referenceParent": {
-                                "type": "User Profile",
-                                "name": "markeone",
-                                "id": "b752abf1-7b8f-4688-84ec-5fd3d681b728"
-                            },
-                            "referenceParentCombinedNodePath": [
-                                [
-                                    "markeone",
-                                    "User Profile"
-                                ]
-                            ]
-                        }
                     }
                 ],
                 "tokensAwarded": {
@@ -244,8 +205,8 @@
                     "id": "ebb7e841-60a2-45bc-b0ac-2efd8e8e1600",
                     "savedPayload": {
                         "position": {
-                            "x": 8484.759492610188,
-                            "y": 37256.46905675358
+                            "x": 8361.66742471226,
+                            "y": 37156.79106555688
                         },
                         "targetPosition": {
                             "x": 8108.542424712258,
@@ -271,8 +232,8 @@
                     "id": "44cacf20-3612-491c-9ba9-277d1f99ca28",
                     "savedPayload": {
                         "position": {
-                            "x": 8612.019134242446,
-                            "y": 37542.29889169351
+                            "x": 8597.5423742711,
+                            "y": 37464.1892846396
                         },
                         "targetPosition": {
                             "x": 8108.542424712258,
@@ -502,7 +463,7 @@
         "votesAndClaimsPrograms": {
             "type": "Votes And Claims Programs",
             "name": "New Votes And Claims Programs",
-            "config": "{}",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "votingProgram": {
                 "type": "Voting Program",
@@ -529,8 +490,8 @@
                                 "id": "ff14db86-54cd-4c55-a78d-93de19eb894e",
                                 "savedPayload": {
                                     "position": {
-                                        "x": 8346.595282638007,
-                                        "y": 37431.98321311137
+                                        "x": 8281.081711846431,
+                                        "y": 37440.60823833195
                                     },
                                     "targetPosition": {
                                         "x": 8346.595282638007,
@@ -554,249 +515,13 @@
                             {
                                 "type": "Weight Votes Switch",
                                 "name": "August 2023 Teams",
-                                "config": "{}",
+                                "config": "{\r\n    \"percentage\": 0\r\n}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
                                 "poolWeightVotes": [],
                                 "assetWeightVotes": [],
                                 "featureWeightVotes": [],
-                                "positionWeightVotes": [
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "August 2023 Teams Turkish",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "6b7bc03a-0c4d-4ba4-a369-c6beea3cd9d4",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8628.183356021013,
-                                                "y": 37037.85821311137
-                                            },
-                                            "targetPosition": {
-                                                "x": 8628.183356021013,
-                                                "y": 37417.54571311137
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Turkish",
-                                                "id": "cf8ee2d1-6939-4a29-be58-168369bbd1ed"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "August 2023 Teams",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Turkish",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "August 2023 Teams Translations",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "96c46a17-5763-415c-962e-48d11cb381a3",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8818.027106021013,
-                                                "y": 37088.72669261197
-                                            },
-                                            "targetPosition": {
-                                                "x": 8628.183356021013,
-                                                "y": 37417.54571311137
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Translations",
-                                                "id": "df10b1dd-c9fa-427a-ad10-f41caa2a09af"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "August 2023 Teams",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Translations",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "August 2023 Teams End Debug",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "a948617a-7fc5-4f2c-9027-285474ba685b",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8957.002376520417,
-                                                "y": 37227.70196311137
-                                            },
-                                            "targetPosition": {
-                                                "x": 8628.183356021013,
-                                                "y": 37417.54571311137
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "End Debug",
-                                                "id": "b5c19893-0c35-4375-a057-9bcd63877620"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "August 2023 Teams",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "End Debug",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "August 2023 Teams VEX",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "074caeed-1b08-4454-b81b-8eacd9ef723c",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 9007.870856021013,
-                                                "y": 37417.54571311137
-                                            },
-                                            "targetPosition": {
-                                                "x": 8628.183356021013,
-                                                "y": 37417.54571311137
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "VEX",
-                                                "id": "7e1f1c06-9623-4469-9940-20d0f3dbc5d3"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "August 2023 Teams",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "VEX",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "August 2023 Teams Data Mining",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "69ceb941-1aab-4078-b19f-2b3f514f70cb",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8957.002376520417,
-                                                "y": 37607.38946311137
-                                            },
-                                            "targetPosition": {
-                                                "x": 8628.183356021013,
-                                                "y": 37417.54571311137
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Data Mining",
-                                                "id": "1358765f-01fe-4a39-83ed-3363b409b781"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "August 2023 Teams",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Data Mining",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    }
-                                ],
+                                "positionWeightVotes": [],
                                 "id": "c7f6308c-241f-45cb-8007-a234d097693f",
                                 "savedPayload": {
                                     "position": {
@@ -831,6 +556,102 @@
                                         [
                                             "August 2023 Teams",
                                             "Position Class"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "type": "Weight Votes Switch",
+                                "name": "Teams Work ",
+                                "config": "{}",
+                                "project": "Governance",
+                                "weightVotesSwitch": [],
+                                "poolWeightVotes": [
+                                    {
+                                        "type": "Pool Weight Vote",
+                                        "name": "Team Positions Pool",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "8fce4f0e-60db-4103-bc82-06f6ee3105b1",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8957.84521958656,
+                                                "y": 37521.32428613243
+                                            },
+                                            "targetPosition": {
+                                                "x": 8591.095257417428,
+                                                "y": 37619.5946423198
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Pool",
+                                                "name": "Team Positions",
+                                                "id": "74f6ea9f-b42e-4be2-9686-ac7b6f9ad603"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Superalgos",
+                                                    "Pools"
+                                                ],
+                                                [
+                                                    "Teams Work ",
+                                                    "Pool Class"
+                                                ],
+                                                [
+                                                    "Team Positions",
+                                                    "Pool"
+                                                ]
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "assetWeightVotes": [],
+                                "featureWeightVotes": [],
+                                "positionWeightVotes": [],
+                                "id": "01899d20-cd05-4f48-817e-d57d19774766",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 8591.095257417428,
+                                        "y": 37619.5946423198
+                                    },
+                                    "targetPosition": {
+                                        "x": 8346.595282638007,
+                                        "y": 37685.10821311137
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 4,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "Pool Class",
+                                        "name": "Teams Work ",
+                                        "id": "f54a0460-4482-4234-b3a4-010629af26f6"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "Superalgos",
+                                            "Pools"
+                                        ],
+                                        [
+                                            "Teams Work ",
+                                            "Pool Class"
                                         ]
                                     ]
                                 }
@@ -914,7 +735,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"percentage\": 50\r\n}",
+                "config": "{\r\n    \"percentage\": 0\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -1076,7 +897,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 2,
                     "distanceToParent": 4,
                     "arrangementStyle": 0
@@ -1089,12 +910,12 @@
         "financialPrograms": {
             "type": "Financial Programs",
             "name": "New Financial Programs",
-            "config": "{\r\n    \"percentage\": 0\r\n}",
+            "config": "{\r\n    \"percentage\": 85\r\n}",
             "project": "Governance",
             "stakingProgram": {
                 "type": "Staking Program",
                 "name": "New Staking Program",
-                "config": "{}",
+                "config": "{\r\n    \"percentage\": 10\r\n}",
                 "project": "Governance",
                 "tokensAwarded": {
                     "type": "Tokens Awarded",
@@ -1103,12 +924,12 @@
                     "id": "47797157-e63c-46e0-b496-eb1a375168b1",
                     "savedPayload": {
                         "position": {
-                            "x": 5102.410287878512,
-                            "y": 28934.375
+                            "x": 8783.542424712257,
+                            "y": 38112.5
                         },
                         "targetPosition": {
-                            "x": 4663.984927212639,
-                            "y": 28681.25
+                            "x": 8277.292424712257,
+                            "y": 38112.5
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -1126,12 +947,139 @@
                 "id": "4b018421-f283-4581-8855-763e19b21d17",
                 "savedPayload": {
                     "position": {
-                        "x": 4663.984927212639,
-                        "y": 28681.25
+                        "x": 8277.292424712257,
+                        "y": 38112.5
                     },
                     "targetPosition": {
-                        "x": 4371.701353435391,
-                        "y": 28512.5
+                        "x": 7939.792424712258,
+                        "y": 38112.5
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 4,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            "delegationProgram": {
+                "type": "Delegation Program",
+                "name": "New Delegation Program",
+                "config": "{}",
+                "project": "Governance",
+                "delegatePowerSwitch": [
+                    {
+                        "type": "Delegate Power Switch",
+                        "name": "New Delegate Power Switch",
+                        "config": "{}",
+                        "project": "Governance",
+                        "delegatePowerSwitch": [],
+                        "userDelegates": [
+                            {
+                                "type": "User Delegate",
+                                "name": "NicN11",
+                                "config": "{}",
+                                "project": "Governance",
+                                "id": "19cf9c25-b8f9-4191-b954-f5330ed64a32",
+                                "savedPayload": {
+                                    "position": {
+                                        "x": 9204.60582637694,
+                                        "y": 39037.59607377725
+                                    },
+                                    "targetPosition": {
+                                        "x": 8546.96778537813,
+                                        "y": 38657.90857377725
+                                    },
+                                    "floatingObject": {
+                                        "isPinned": false,
+                                        "isFrozen": false,
+                                        "isCollapsed": false,
+                                        "angleToParent": 2,
+                                        "distanceToParent": 4,
+                                        "arrangementStyle": 0
+                                    },
+                                    "uiObject": {
+                                        "isRunning": false
+                                    },
+                                    "referenceParent": {
+                                        "type": "User Profile",
+                                        "name": "NicN11",
+                                        "id": "a884f5c0-2ffb-4a31-8edc-349430071fbe"
+                                    },
+                                    "referenceParentCombinedNodePath": [
+                                        [
+                                            "NicN11",
+                                            "User Profile"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ],
+                        "id": "15e637ba-1ea1-4ea7-ae64-9bd17aedab64",
+                        "savedPayload": {
+                            "position": {
+                                "x": 8546.96778537813,
+                                "y": 38657.90857377725
+                            },
+                            "targetPosition": {
+                                "x": 8108.542424712258,
+                                "y": 38404.78357377725
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 4,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    }
+                ],
+                "tokensBonus": {
+                    "type": "Tokens Bonus",
+                    "name": "New Tokens Bonus",
+                    "project": "Governance",
+                    "id": "ac53bef0-7914-4707-99a5-6c39100b3842",
+                    "savedPayload": {
+                        "position": {
+                            "x": 8108.542424712258,
+                            "y": 38911.03357377725
+                        },
+                        "targetPosition": {
+                            "x": 8108.542424712258,
+                            "y": 38404.78357377725
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 4,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "f1f74f45-20d1-4c06-a253-d895d453cfc5",
+                "savedPayload": {
+                    "position": {
+                        "x": 8108.542424712258,
+                        "y": 38404.78357377725
+                    },
+                    "targetPosition": {
+                        "x": 7939.792424712258,
+                        "y": 38112.5
                     },
                     "floatingObject": {
                         "isPinned": false,
@@ -1159,7 +1107,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": true,
+                    "isCollapsed": false,
                     "angleToParent": 2,
                     "distanceToParent": 4,
                     "arrangementStyle": 0
@@ -1547,7 +1495,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 2,
             "arrangementStyle": 0
