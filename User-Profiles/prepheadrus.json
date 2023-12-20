@@ -14966,7 +14966,7 @@
                 "floatingObject": {
                     "isPinned": false,
                     "isFrozen": false,
-                    "isCollapsed": false,
+                    "isCollapsed": true,
                     "angleToParent": 1,
                     "distanceToParent": 5,
                     "arrangementStyle": 0
@@ -15270,269 +15270,7 @@
             {
                 "type": "P2P Network Node",
                 "name": "Pardus_1",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"host\": \"130.61.134.18\",\n    \"clientMinimunBalance\": 0\n}",
-                "project": "Network",
-                "signingAccount": {
-                    "type": "Signing Account",
-                    "name": "New Signing Account",
-                    "config": "{\n    \"codeName\": \"P2P-Network-Node-2\",\n    \"signature\": {\n        \"message\": \"prepheadrus\",\n        \"messageHash\": \"0x42c33a4ca875d127f23bdfd3f7d3df36fabf0a2304fdea5f9d61baf3209400d0\",\n        \"v\": \"0x1b\",\n        \"r\": \"0xc2f362245d3530aba7d5f59bce886c605292e03d7adab5efbcd720fbd28826a5\",\n        \"s\": \"0x317db4854526b13555d2bef9bbfb08a14b288ea455b4048b5d436b119eff89c4\",\n        \"signature\": \"0xc2f362245d3530aba7d5f59bce886c605292e03d7adab5efbcd720fbd28826a5317db4854526b13555d2bef9bbfb08a14b288ea455b4048b5d436b119eff89c41b\"\n    }\n}",
-                    "project": "Governance",
-                    "id": "10532512-ad92-4ac0-bef8-619b212ff9d2",
-                    "savedPayload": {
-                        "position": {
-                            "x": 36968.41867925855,
-                            "y": 13800.669756529465
-                        },
-                        "targetPosition": {
-                            "x": 36959.41867925855,
-                            "y": 13739.669756529465
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "p2pNetworkReference": {
-                    "type": "P2P Network Reference",
-                    "name": "Mainnet",
-                    "project": "Network",
-                    "id": "4d8e111a-7b9b-48bc-b989-5fb8b02aba5d",
-                    "savedPayload": {
-                        "position": {
-                            "x": 36676.253680166046,
-                            "y": 13838.753475116015
-                        },
-                        "targetPosition": {
-                            "x": 36959.41867925855,
-                            "y": 13739.669756529465
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        },
-                        "referenceParent": {
-                            "type": "P2P Network",
-                            "name": "Mainnet",
-                            "id": "f614fedc-e405-4260-9e17-90c863482c8d"
-                        },
-                        "referenceParentCombinedNodePath": [
-                            [
-                                "Mainnet",
-                                "P2P Network"
-                            ]
-                        ]
-                    }
-                },
-                "networkServices": {
-                    "type": "Network Services",
-                    "name": "New Network Services",
-                    "config": "{}",
-                    "project": "Network",
-                    "socialGraph": {
-                        "type": "Social Graph",
-                        "name": "New Social Graph",
-                        "config": "{}",
-                        "project": "Network",
-                        "id": "54c68fe2-529b-47a8-87e0-8772032aa81f",
-                        "savedPayload": {
-                            "position": {
-                                "x": 36389.966879733474,
-                                "y": 13631.923662870124
-                            },
-                            "targetPosition": {
-                                "x": 36689.12801888783,
-                                "y": 13609.504634794197
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "tradingSignals": {
-                        "type": "Trading Signals",
-                        "name": "New Trading Signals",
-                        "config": "{}",
-                        "project": "Network",
-                        "id": "714dea3f-a631-42a5-99ce-29cf638da236",
-                        "savedPayload": {
-                            "position": {
-                                "x": 36520.132001468744,
-                                "y": 13361.633002499399
-                            },
-                            "targetPosition": {
-                                "x": 36689.12801888783,
-                                "y": 13609.504634794197
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "eefdcc7a-b614-42aa-a74a-46a71223cbcb",
-                    "savedPayload": {
-                        "position": {
-                            "x": 36689.12801888783,
-                            "y": 13609.504634794197
-                        },
-                        "targetPosition": {
-                            "x": 36959.41867925855,
-                            "y": 13739.669756529465
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "networkInterfaces": {
-                    "type": "Network Interfaces",
-                    "name": "New Network Interfaces",
-                    "config": "{}",
-                    "project": "Network",
-                    "websocketsNetworkInterface": {
-                        "type": "Websockets Network Interface",
-                        "name": "New Websockets Network Interface",
-                        "config": "{\n    \"webSocketsPort\": \"18042\"\n}",
-                        "project": "Network",
-                        "id": "d3865375-9031-4d36-8939-22f5da99f358",
-                        "savedPayload": {
-                            "position": {
-                                "x": 36632.94344372836,
-                                "y": 13260.818534053518
-                            },
-                            "targetPosition": {
-                                "x": 36860.334960672,
-                                "y": 13456.504757436955
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "httpNetworkInterface": {
-                        "type": "Http Network Interface",
-                        "name": "New Http Network Interface",
-                        "config": "{\n    \"httpPort\": \"31248\"\n}",
-                        "project": "Network",
-                        "id": "055fa848-07e6-42aa-88c3-0322a62cecd4",
-                        "savedPayload": {
-                            "position": {
-                                "x": 36916.10844282088,
-                                "y": 13161.734815466969
-                            },
-                            "targetPosition": {
-                                "x": 36860.334960672,
-                                "y": 13456.504757436955
-                            },
-                            "floatingObject": {
-                                "isPinned": false,
-                                "isFrozen": false,
-                                "isCollapsed": false,
-                                "angleToParent": 2,
-                                "distanceToParent": 3,
-                                "arrangementStyle": 0
-                            },
-                            "uiObject": {
-                                "isRunning": false
-                            }
-                        }
-                    },
-                    "id": "b3621d8c-daa5-4d74-8987-73264e3eacdc",
-                    "savedPayload": {
-                        "position": {
-                            "x": 36860.334960672,
-                            "y": 13456.504757436955
-                        },
-                        "targetPosition": {
-                            "x": 36959.41867925855,
-                            "y": 13739.669756529465
-                        },
-                        "floatingObject": {
-                            "isPinned": false,
-                            "isFrozen": false,
-                            "isCollapsed": false,
-                            "angleToParent": 2,
-                            "distanceToParent": 3,
-                            "arrangementStyle": 0
-                        },
-                        "uiObject": {
-                            "isRunning": false
-                        }
-                    }
-                },
-                "id": "cfa0578b-ec78-4d9f-b9a6-22c2f64c5850",
-                "savedPayload": {
-                    "position": {
-                        "x": 36959.41867925855,
-                        "y": 13739.669756529465
-                    },
-                    "targetPosition": {
-                        "x": 37229.70933962928,
-                        "y": 13869.834878264734
-                    },
-                    "floatingObject": {
-                        "isPinned": false,
-                        "isFrozen": false,
-                        "isCollapsed": true,
-                        "angleToParent": 2,
-                        "distanceToParent": 3,
-                        "arrangementStyle": 0
-                    },
-                    "uiObject": {
-                        "isRunning": false
-                    }
-                }
-            },
-            {
-                "type": "P2P Network Node",
-                "name": "P2P Network Node #3",
-                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"130.61.248.95\",\n    \"clientMinimunBalance\": 0\n}",
+                "config": "{\n    \"codeName\": \"P2P-Network-Node-3\",\n    \"host\": \"130.61.134.18\",\n    \"clientMinimunBalance\": 0\n}",
                 "project": "Network",
                 "signingAccount": {
                     "type": "Signing Account",
@@ -15542,12 +15280,12 @@
                     "id": "a7edf5dd-4d2b-4bb6-9ef6-26ba83379d44",
                     "savedPayload": {
                         "position": {
-                            "x": 37176.625621042724,
-                            "y": 13677.669879172223
+                            "x": 36695.24001970153,
+                            "y": 13881.830355271364
                         },
                         "targetPosition": {
-                            "x": 37130.625621042724,
-                            "y": 13586.669879172223
+                            "x": 36959.41867925855,
+                            "y": 13739.669756529465
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -15569,12 +15307,12 @@
                     "id": "9f53e1ca-d4a3-4a53-ae19-5a896e74ff46",
                     "savedPayload": {
                         "position": {
-                            "x": 36860.334960672,
-                            "y": 13456.504757436955
+                            "x": 36662.13375072817,
+                            "y": 13699.399776784168
                         },
                         "targetPosition": {
-                            "x": 37130.625621042724,
-                            "y": 13586.669879172223
+                            "x": 36959.41867925855,
+                            "y": 13739.669756529465
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -15613,12 +15351,12 @@
                         "id": "7cf227c6-2347-4c45-af41-7d5edfef5eae",
                         "savedPayload": {
                             "position": {
-                                "x": 36804.150385512534,
-                                "y": 13107.818656696276
+                                "x": 36451.13320862248,
+                                "y": 13461.226848518758
                             },
                             "targetPosition": {
-                                "x": 37031.54190245617,
-                                "y": 13303.504880079712
+                                "x": 36742.580220110336,
+                                "y": 13532.350961833406
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -15641,12 +15379,12 @@
                         "id": "81de7b1b-6d6e-4bc6-9126-a4143bd1ff58",
                         "savedPayload": {
                             "position": {
-                                "x": 37087.31538460505,
-                                "y": 13008.734938109726
+                                "x": 36658.45200331853,
+                                "y": 13244.388389370539
                             },
                             "targetPosition": {
-                                "x": 37031.54190245617,
-                                "y": 13303.504880079712
+                                "x": 36742.580220110336,
+                                "y": 13532.350961833406
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -15664,12 +15402,12 @@
                     "id": "12c5bd8b-19e8-487c-bf0a-c4cc63ce9c91",
                     "savedPayload": {
                         "position": {
-                            "x": 37031.54190245617,
-                            "y": 13303.504880079712
+                            "x": 36742.580220110336,
+                            "y": 13532.350961833406
                         },
                         "targetPosition": {
-                            "x": 37130.625621042724,
-                            "y": 13586.669879172223
+                            "x": 36959.41867925855,
+                            "y": 13739.669756529465
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -15697,12 +15435,12 @@
                         "id": "52250bb2-f81f-42d5-9dc3-438aea5dbe7b",
                         "savedPayload": {
                             "position": {
-                                "x": 37238.371714702065,
-                                "y": 13017.218079647144
+                                "x": 36711.87173045422,
+                                "y": 13215.642008391196
                             },
                             "targetPosition": {
-                                "x": 37260.790742777994,
-                                "y": 13316.379218801498
+                                "x": 36905.851610818965,
+                                "y": 13444.490879949877
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -15725,12 +15463,12 @@
                         "id": "a5e7168c-d2f2-4c4a-b508-b94fd25da9c0",
                         "savedPayload": {
                             "position": {
-                                "x": 37508.662375072796,
-                                "y": 13147.383201382412
+                                "x": 37007.050607033816,
+                                "y": 13162.074939951606
                             },
                             "targetPosition": {
-                                "x": 37260.790742777994,
-                                "y": 13316.379218801498
+                                "x": 36905.851610818965,
+                                "y": 13444.490879949877
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -15746,6 +15484,117 @@
                         }
                     },
                     "id": "6dfa973c-525f-47c2-82f2-ae12491950e3",
+                    "savedPayload": {
+                        "position": {
+                            "x": 36905.851610818965,
+                            "y": 13444.490879949877
+                        },
+                        "targetPosition": {
+                            "x": 36959.41867925855,
+                            "y": 13739.669756529465
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "315681a5-9e50-4074-8f70-b592d5b13449",
+                "savedPayload": {
+                    "position": {
+                        "x": 36959.41867925855,
+                        "y": 13739.669756529465
+                    },
+                    "targetPosition": {
+                        "x": 37229.70933962928,
+                        "y": 13869.834878264734
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 2,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            },
+            {
+                "type": "P2P Network Node",
+                "name": "New P2P Network Node",
+                "config": "{ \n\"codeName\": \"\", \n\"host\": \"localhost\", \n\"clientMinimunBalance\": 0, \n\"peerMinimunBalance\": 0, \n\"clientMinTokenAllocation\": 0, \n\"peerMinTokenAllocation\": 0 \n}",
+                "project": "Network",
+                "p2pNetworkReference": {
+                    "type": "P2P Network Reference",
+                    "name": "",
+                    "project": "Network",
+                    "id": "71dc7267-6e16-4b2e-9ddb-30179cd75cba",
+                    "savedPayload": {
+                        "position": {
+                            "x": 36860.334960672,
+                            "y": 13456.504757436955
+                        },
+                        "targetPosition": {
+                            "x": 37130.625621042724,
+                            "y": 13586.669879172223
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "networkServices": {
+                    "type": "Network Services",
+                    "name": "New Network Services",
+                    "config": "{}",
+                    "project": "Network",
+                    "id": "3264d676-aa50-47be-977d-be8663d193b5",
+                    "savedPayload": {
+                        "position": {
+                            "x": 37031.54190245617,
+                            "y": 13303.504880079712
+                        },
+                        "targetPosition": {
+                            "x": 37130.625621042724,
+                            "y": 13586.669879172223
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 2,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "networkInterfaces": {
+                    "type": "Network Interfaces",
+                    "name": "New Network Interfaces",
+                    "config": "{}",
+                    "project": "Network",
+                    "id": "cd5251b6-6767-4a83-ab3b-986517aef3f8",
                     "savedPayload": {
                         "position": {
                             "x": 37260.790742777994,
@@ -15768,7 +15617,7 @@
                         }
                     }
                 },
-                "id": "315681a5-9e50-4074-8f70-b592d5b13449",
+                "id": "cb3b71a0-3d18-4046-9ce6-b897ebf4f680",
                 "savedPayload": {
                     "position": {
                         "x": 37130.625621042724,
@@ -15805,7 +15654,7 @@
             "floatingObject": {
                 "isPinned": false,
                 "isFrozen": false,
-                "isCollapsed": true,
+                "isCollapsed": false,
                 "angleToParent": 1,
                 "distanceToParent": 3,
                 "arrangementStyle": 0
