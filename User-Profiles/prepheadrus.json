@@ -15346,6 +15346,34 @@
                     "name": "New Network Interfaces",
                     "config": "{}",
                     "project": "Network",
+                    "websocketsNetworkInterface": {
+                        "type": "Websockets Network Interface",
+                        "name": "New Websockets Network Interface",
+                        "config": "{ \n\"webSocketsPort\": \"18042\"\n}",
+                        "project": "Network",
+                        "id": "d5ac462e-5421-4de1-ab85-907e4860225d",
+                        "savedPayload": {
+                            "position": {
+                                "x": 37069.91231842504,
+                                "y": 13319.547305971664
+                            },
+                            "targetPosition": {
+                                "x": 37161.91231842504,
+                                "y": 13339.547305971664
+                            },
+                            "floatingObject": {
+                                "isPinned": false,
+                                "isFrozen": false,
+                                "isCollapsed": false,
+                                "angleToParent": 2,
+                                "distanceToParent": 3,
+                                "arrangementStyle": 0
+                            },
+                            "uiObject": {
+                                "isRunning": false
+                            }
+                        }
+                    },
                     "httpNetworkInterface": {
                         "type": "Http Network Interface",
                         "name": "New Http Network Interface",
