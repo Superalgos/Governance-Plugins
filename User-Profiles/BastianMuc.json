@@ -2218,7 +2218,63 @@
                                         "config": "{}",
                                         "project": "Governance",
                                         "weightVotesSwitch": [],
-                                        "poolWeightVotes": [],
+                                        "poolWeightVotes": [
+                                            {
+                                                "type": "Pool Weight Vote",
+                                                "name": "Voting Bonus Pool",
+                                                "config": "{\n    \"negative\": true\n}",
+                                                "project": "Governance",
+                                                "id": "00c771f8-8a62-4a43-ab98-ac35f10ed9be",
+                                                "savedPayload": {
+                                                    "position": {
+                                                        "x": 10130.387776172764,
+                                                        "y": 17267.095997187822
+                                                    },
+                                                    "targetPosition": {
+                                                        "x": 9172.23130007611,
+                                                        "y": 17594.345775360463
+                                                    },
+                                                    "floatingObject": {
+                                                        "isPinned": false,
+                                                        "isFrozen": false,
+                                                        "isCollapsed": false,
+                                                        "angleToParent": 2,
+                                                        "distanceToParent": 4,
+                                                        "arrangementStyle": 0
+                                                    },
+                                                    "uiObject": {
+                                                        "isRunning": false
+                                                    },
+                                                    "referenceParent": {
+                                                        "type": "Pool",
+                                                        "name": "Voting Bonus",
+                                                        "id": "309ca74b-dddd-49ec-87a0-2103d7069d41"
+                                                    },
+                                                    "referenceParentCombinedNodePath": [
+                                                        [
+                                                            "Superalgos",
+                                                            "Pools"
+                                                        ],
+                                                        [
+                                                            "Governance Programs ",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Incentives for Voting",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Voting Program",
+                                                            "Pool Class"
+                                                        ],
+                                                        [
+                                                            "Voting Bonus",
+                                                            "Pool"
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ],
                                         "assetWeightVotes": [],
                                         "featureWeightVotes": [],
                                         "positionWeightVotes": [],
