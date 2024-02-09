@@ -481,7 +481,7 @@
                             {
                                 "type": "Claim Votes Switch",
                                 "name": "New Claim Votes Switch",
-                                "config": "{\r\n    \"percentage\": 0\r\n}",
+                                "config": "{\r\n    \"amount\": 250000\r\n}",
                                 "project": "Governance",
                                 "claimVotesSwitch": [],
                                 "positionClaimVotes": [
@@ -493,8 +493,8 @@
                                         "id": "1468287f-54c2-4657-95c7-395f58c4e62d",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 7773.503389313279,
-                                                "y": 37073.85827616282
+                                                "x": 7603.2941395188745,
+                                                "y": 37172.128632350184
                                             },
                                             "targetPosition": {
                                                 "x": 7871.773745500642,
@@ -543,6 +543,65 @@
                                                 ]
                                             ]
                                         }
+                                    },
+                                    {
+                                        "type": "Position Claim Vote",
+                                        "name": "NicN11 German January 2024",
+                                        "config": "{\r\n    \"amount\": 950000\r\n}",
+                                        "project": "Governance",
+                                        "id": "39204a86-a3bf-4d3c-9c7c-2cf909221515",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 7970.044101688005,
+                                                "y": 37073.85827616282
+                                            },
+                                            "targetPosition": {
+                                                "x": 7871.773745500642,
+                                                "y": 37440.60823833195
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position Contribution Claim",
+                                                "name": "German January 2024",
+                                                "id": "460eefff-d413-46e1-8330-2881e7b28ae2"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "NicN11",
+                                                    "User Profile"
+                                                ],
+                                                [
+                                                    "New Token Power Switch",
+                                                    "Token Power Switch"
+                                                ],
+                                                [
+                                                    "New Votes And Claims Programs",
+                                                    "Votes And Claims Programs"
+                                                ],
+                                                [
+                                                    "New Claims Program",
+                                                    "Claims Program"
+                                                ],
+                                                [
+                                                    "Germany Teams",
+                                                    "Position Claims Folder"
+                                                ],
+                                                [
+                                                    "German January 2024",
+                                                    "Position Contribution Claim"
+                                                ]
+                                            ]
+                                        }
                                     }
                                 ],
                                 "assetClaimVotes": [],
@@ -560,7 +619,7 @@
                                     "floatingObject": {
                                         "isPinned": false,
                                         "isFrozen": false,
-                                        "isCollapsed": true,
+                                        "isCollapsed": false,
                                         "angleToParent": 2,
                                         "distanceToParent": 4,
                                         "arrangementStyle": 0
@@ -2146,7 +2205,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": false,
+            "isCollapsed": true,
             "angleToParent": 1,
             "distanceToParent": 2,
             "arrangementStyle": 0
