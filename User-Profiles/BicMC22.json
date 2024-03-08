@@ -12,7 +12,7 @@
         "onboardingPrograms": {
             "type": "Onboarding Programs",
             "name": "New Onboarding Programs",
-            "config": "",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "airdropProgram": {
                 "type": "Airdrop Program",
@@ -150,7 +150,7 @@
         "communityBuildingPrograms": {
             "type": "Community Building Programs",
             "name": "New Community Building Programs",
-            "config": "{\r\n    \"percentage\": 25\r\n}",
+            "config": "{\r\n    \"percentage\": 18\r\n}",
             "project": "Governance",
             "referralProgram": {
                 "type": "Referral Program",
@@ -265,7 +265,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": false,
+                        "isCollapsed": true,
                         "angleToParent": 2,
                         "distanceToParent": 4,
                         "arrangementStyle": 0
@@ -278,7 +278,7 @@
             "supportProgram": {
                 "type": "Support Program",
                 "name": "New Support Program",
-                "config": "{\r\n    \"percentage\": 0\r\n}",
+                "config": "{\r\n    \"percentage\": 5\r\n}",
                 "project": "Governance",
                 "userSupporters": [
                     {
@@ -289,12 +289,12 @@
                         "id": "e3d18606-8f33-4929-ac5a-3db4f9096320",
                         "savedPayload": {
                             "position": {
-                                "x": 8562.748099325781,
-                                "y": 27375.273290469813
+                                "x": 8165.550742339532,
+                                "y": 37477.93514659768
                             },
                             "targetPosition": {
-                                "x": 8509.830564796532,
-                                "y": 27878.75
+                                "x": 7867.984458366468,
+                                "y": 37887.5
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -328,12 +328,12 @@
                         "id": "6df6dc96-f770-4a99-b223-bc38d65215ec",
                         "savedPayload": {
                             "position": {
-                                "x": 8848.577934265704,
-                                "y": 27502.53293210207
+                                "x": 8349.45681974089,
+                                "y": 37731.06014659768
                             },
                             "targetPosition": {
-                                "x": 8509.830564796532,
-                                "y": 27878.75
+                                "x": 7867.984458366468,
+                                "y": 37887.5
                             },
                             "floatingObject": {
                                 "isPinned": false,
@@ -367,12 +367,12 @@
                     "id": "8c78c6e2-50fc-4c79-8d9b-fb04bd4caaba",
                     "savedPayload": {
                         "position": {
-                            "x": 9005.01778766802,
-                            "y": 27773.49470652351
+                            "x": 8349.45681974089,
+                            "y": 38043.93985340232
                         },
                         "targetPosition": {
-                            "x": 8509.830564796532,
-                            "y": 27878.75
+                            "x": 7867.984458366468,
+                            "y": 37887.5
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -394,12 +394,12 @@
                     "id": "e0d77f32-ac38-4188-a13f-e09989b32c2a",
                     "savedPayload": {
                         "position": {
-                            "x": 8972.312952728098,
-                            "y": 28084.660425557126
+                            "x": 8165.550742339533,
+                            "y": 38297.06485340232
                         },
                         "targetPosition": {
-                            "x": 8509.830564796532,
-                            "y": 27878.75
+                            "x": 7867.984458366468,
+                            "y": 37887.5
                         },
                         "floatingObject": {
                             "isPinned": false,
@@ -427,7 +427,7 @@
                     "floatingObject": {
                         "isPinned": false,
                         "isFrozen": false,
-                        "isCollapsed": true,
+                        "isCollapsed": false,
                         "angleToParent": 2,
                         "distanceToParent": 4,
                         "arrangementStyle": 0
@@ -546,7 +546,7 @@
                                     },
                                     {
                                         "type": "Position Claim Vote",
-                                        "name": "NicN11 German January 2024",
+                                        "name": "NicN11 ",
                                         "config": "{\r\n    \"amount\": 950000\r\n}",
                                         "project": "Governance",
                                         "id": "39204a86-a3bf-4d3c-9c7c-2cf909221515",
@@ -572,7 +572,7 @@
                                             },
                                             "referenceParent": {
                                                 "type": "Position Contribution Claim",
-                                                "name": "German January 2024",
+                                                "name": "",
                                                 "id": "460eefff-d413-46e1-8330-2881e7b28ae2"
                                             },
                                             "referenceParentCombinedNodePath": [
@@ -597,7 +597,7 @@
                                                     "Position Claims Folder"
                                                 ],
                                                 [
-                                                    "German January 2024",
+                                                    "",
                                                     "Position Contribution Claim"
                                                 ]
                                             ]
@@ -729,7 +729,7 @@
                             },
                             {
                                 "type": "Weight Votes Switch",
-                                "name": "January 2024",
+                                "name": "February 2024",
                                 "config": "{}",
                                 "project": "Governance",
                                 "weightVotesSwitch": [],
@@ -739,249 +739,14 @@
                                 "positionWeightVotes": [
                                     {
                                         "type": "Position Weight Vote",
-                                        "name": "January 2024 Turkish",
+                                        "name": "February 2024 Alex White",
                                         "config": "{}",
                                         "project": "Governance",
-                                        "id": "ad34fe20-bf3a-49f7-bd55-146d8bbc95ff",
+                                        "id": "79ddd33b-902f-40d5-82dc-9fb2860249c7",
                                         "savedPayload": {
                                             "position": {
-                                                "x": 8503.375604416307,
-                                                "y": 37112.52643451403
-                                            },
-                                            "targetPosition": {
-                                                "x": 8432.787291071638,
-                                                "y": 37485.5946423198
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Turkish",
-                                                "id": "25fb30b8-4763-4f7e-8613-04058a58e237"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "January 2024",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Turkish",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "January 2024 VEX",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "d54490ac-3acc-44dc-bf10-50cf3825570b",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8658.253392781577,
-                                                "y": 37180.09892281464
-                                            },
-                                            "targetPosition": {
-                                                "x": 8432.787291071638,
-                                                "y": 37485.5946423198
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "VEX",
-                                                "id": "67e50f13-ef2a-4e77-8c6f-9571cb43ea36"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "January 2024",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "VEX",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "January 2024 Translations",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "e2452411-3d1c-4c72-862c-c742c973be5d",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8768.47485454292,
-                                                "y": 37308.17858502237
-                                            },
-                                            "targetPosition": {
-                                                "x": 8432.787291071638,
-                                                "y": 37485.5946423198
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Translations",
-                                                "id": "cc1990fd-5f89-4f13-9da3-c2a17d2ab880"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "January 2024",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Translations",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "January 2024 Elves and Fairies",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "324d0d0f-7094-4055-913c-bb8d171b5a21",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8812.209277420983,
-                                                "y": 37471.397673243
-                                            },
-                                            "targetPosition": {
-                                                "x": 8432.787291071638,
-                                                "y": 37485.5946423198
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "Elves and Fairies",
-                                                "id": "d5e977d8-878e-406c-b323-f1030b06f1aa"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "January 2024",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "Elves and Fairies",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "January 2024 German",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "5d7eed54-eabc-4ff0-a7e9-c026f195ed31",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8780.794522597269,
-                                                "y": 37637.4286453037
-                                            },
-                                            "targetPosition": {
-                                                "x": 8432.787291071638,
-                                                "y": 37485.5946423198
-                                            },
-                                            "floatingObject": {
-                                                "isPinned": false,
-                                                "isFrozen": false,
-                                                "isCollapsed": false,
-                                                "angleToParent": 2,
-                                                "distanceToParent": 4,
-                                                "arrangementStyle": 0
-                                            },
-                                            "uiObject": {
-                                                "isRunning": false
-                                            },
-                                            "referenceParent": {
-                                                "type": "Position",
-                                                "name": "German",
-                                                "id": "75560526-1b63-4623-96a3-08173583ae4a"
-                                            },
-                                            "referenceParentCombinedNodePath": [
-                                                [
-                                                    "Teams of Contributors",
-                                                    "Positions"
-                                                ],
-                                                [
-                                                    "January 2024",
-                                                    "Position Class"
-                                                ],
-                                                [
-                                                    "German",
-                                                    "Position"
-                                                ]
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "type": "Position Weight Vote",
-                                        "name": "January 2024 Alex White",
-                                        "config": "{}",
-                                        "project": "Governance",
-                                        "id": "8cb6c718-1c4c-43cd-b3b6-ce230ab608c4",
-                                        "savedPayload": {
-                                            "position": {
-                                                "x": 8680.4526675413,
-                                                "y": 37773.387030951584
+                                                "x": 8568.85512191462,
+                                                "y": 37131.12582413414
                                             },
                                             "targetPosition": {
                                                 "x": 8432.787291071638,
@@ -1001,7 +766,7 @@
                                             "referenceParent": {
                                                 "type": "Position",
                                                 "name": "Alex White",
-                                                "id": "16cacd76-e7bf-4e7e-81cf-7f1905d0e4b1"
+                                                "id": "3068b284-a783-4b43-8035-81a0c6d61db3"
                                             },
                                             "referenceParentCombinedNodePath": [
                                                 [
@@ -1009,11 +774,152 @@
                                                     "Positions"
                                                 ],
                                                 [
-                                                    "January 2024",
+                                                    "February 2024",
                                                     "Position Class"
                                                 ],
                                                 [
                                                     "Alex White",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "February 2024 VEX",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "2add555e-cd7f-4ba1-90df-81e14611925b",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8751.220022338415,
+                                                "y": 37278.802008712526
+                                            },
+                                            "targetPosition": {
+                                                "x": 8432.787291071638,
+                                                "y": 37485.5946423198
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "VEX",
+                                                "id": "8bd91c40-3831-4142-baf8-73436051f757"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "February 2024",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "VEX",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "February 2024 Turkish Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "cc08be6b-40b9-4161-9253-9912bf91c2a1",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8811.954442548766,
+                                                "y": 37505.46595070579
+                                            },
+                                            "targetPosition": {
+                                                "x": 8432.787291071638,
+                                                "y": 37485.5946423198
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Turkish Team",
+                                                "id": "59df6132-14e4-4576-906c-6e5a5cf4b31b"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "February 2024",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Turkish Team",
+                                                    "Position"
+                                                ]
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "Position Weight Vote",
+                                        "name": "February 2024 Translations Team",
+                                        "config": "{}",
+                                        "project": "Governance",
+                                        "id": "18087ff1-e09d-4821-993c-b7e88c2f5764",
+                                        "savedPayload": {
+                                            "position": {
+                                                "x": 8727.859898312332,
+                                                "y": 37724.539728296535
+                                            },
+                                            "targetPosition": {
+                                                "x": 8432.787291071638,
+                                                "y": 37485.5946423198
+                                            },
+                                            "floatingObject": {
+                                                "isPinned": false,
+                                                "isFrozen": false,
+                                                "isCollapsed": false,
+                                                "angleToParent": 2,
+                                                "distanceToParent": 4,
+                                                "arrangementStyle": 0
+                                            },
+                                            "uiObject": {
+                                                "isRunning": false
+                                            },
+                                            "referenceParent": {
+                                                "type": "Position",
+                                                "name": "Translations Team",
+                                                "id": "1e304f0b-7606-4660-a415-8950523c16ed"
+                                            },
+                                            "referenceParentCombinedNodePath": [
+                                                [
+                                                    "Teams of Contributors",
+                                                    "Positions"
+                                                ],
+                                                [
+                                                    "February 2024",
+                                                    "Position Class"
+                                                ],
+                                                [
+                                                    "Translations Team",
                                                     "Position"
                                                 ]
                                             ]
@@ -1043,7 +949,7 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position Class",
-                                        "name": "January 2024",
+                                        "name": "February 2024",
                                         "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
                                     },
                                     "referenceParentCombinedNodePath": [
@@ -1052,7 +958,7 @@
                                             "Positions"
                                         ],
                                         [
-                                            "January 2024",
+                                            "February 2024",
                                             "Position Class"
                                         ]
                                     ]
@@ -1137,7 +1043,7 @@
             "claimsProgram": {
                 "type": "Claims Program",
                 "name": "New Claims Program",
-                "config": "{\r\n    \"amount\": 450000\r\n}",
+                "config": "{\r\n    \"amount\": 400000\r\n}",
                 "project": "Governance",
                 "assetClaimsFolders": [],
                 "featureClaimsFolders": [],
@@ -1145,13 +1051,13 @@
                     {
                         "type": "Position Claims Folder",
                         "name": "April 2023 Teams Position Class",
-                        "config": "{\r\n    \"amount\": 450000\r\n}",
+                        "config": "{\r\n    \"amount\": 230000\r\n}",
                         "project": "Governance",
                         "positionClaimsFolders": [],
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "Translations January 2024",
+                                "name": "Translations Team February 2024",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "d7fb6b5b-c487-44ce-ae39-9604a6203854",
@@ -1177,8 +1083,8 @@
                                     },
                                     "referenceParent": {
                                         "type": "Position",
-                                        "name": "Translations",
-                                        "id": "cc1990fd-5f89-4f13-9da3-c2a17d2ab880"
+                                        "name": "Translations Team",
+                                        "id": "1e304f0b-7606-4660-a415-8950523c16ed"
                                     },
                                     "referenceParentCombinedNodePath": [
                                         [
@@ -1186,11 +1092,11 @@
                                             "Positions"
                                         ],
                                         [
-                                            "January 2024",
+                                            "February 2024",
                                             "Position Class"
                                         ],
                                         [
-                                            "Translations",
+                                            "Translations Team",
                                             "Position"
                                         ]
                                     ]
@@ -1220,7 +1126,7 @@
                             },
                             "referenceParent": {
                                 "type": "Position Class",
-                                "name": "January 2024",
+                                "name": "February 2024",
                                 "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
                             },
                             "referenceParentCombinedNodePath": [
@@ -1229,7 +1135,7 @@
                                     "Positions"
                                 ],
                                 [
-                                    "January 2024",
+                                    "February 2024",
                                     "Position Class"
                                 ]
                             ]
@@ -1244,7 +1150,7 @@
                         "positionContributionClaims": [
                             {
                                 "type": "Position Contribution Claim",
-                                "name": "German January 2024",
+                                "name": "",
                                 "config": "{}",
                                 "project": "Governance",
                                 "id": "0973c21c-81ff-40d1-9130-3dac0b741cb5",
@@ -1313,7 +1219,7 @@
                             },
                             "referenceParent": {
                                 "type": "Position Class",
-                                "name": "January 2024",
+                                "name": "February 2024",
                                 "id": "298e8aa8-ad66-4fec-a103-02d20d49cd86"
                             },
                             "referenceParentCombinedNodePath": [
@@ -1322,7 +1228,7 @@
                                     "Positions"
                                 ],
                                 [
-                                    "January 2024",
+                                    "February 2024",
                                     "Position Class"
                                 ]
                             ]
@@ -1405,7 +1311,7 @@
         "financialPrograms": {
             "type": "Financial Programs",
             "name": "New Financial Programs",
-            "config": "{\r\n    \"percentage\": 5\r\n}",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "stakingProgram": {
                 "type": "Staking Program",
@@ -1615,7 +1521,7 @@
         "liquidityPrograms": {
             "type": "Liquidity Programs",
             "name": "New Liquidity Programs",
-            "config": "",
+            "config": "{\r\n    \"percentage\": 0\r\n}",
             "project": "Governance",
             "liquidityProgram": [
                 {
@@ -2205,7 +2111,7 @@
         "floatingObject": {
             "isPinned": false,
             "isFrozen": false,
-            "isCollapsed": true,
+            "isCollapsed": false,
             "angleToParent": 1,
             "distanceToParent": 2,
             "arrangementStyle": 0
