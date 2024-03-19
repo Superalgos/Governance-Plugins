@@ -1,7 +1,7 @@
 {
     "type": "User Profile",
     "name": "DaAlien81",
-    "config": "{\r\n    \"signature\": {\r\n        \"message\": \"DaAlien81\",\r\n        \"messageHash\": \"0xcae9c430b25d48ef4ef55bd8e297eb7fb9eb85577025215480e2f432b4005b1f\",\r\n        \"v\": \"0x1c\",\r\n        \"r\": \"0x273f5e8f1dd089b771d68a0372a380762f2db7ed61a2eae0509a008abe71a00e\",\r\n        \"s\": \"0x4c6b9d081d692e33d6b2f629398bcd179a585c2fbdb6bdf4c08090ae96e3ecd9\",\r\n        \"signature\": \"0x273f5e8f1dd089b771d68a0372a380762f2db7ed61a2eae0509a008abe71a00e4c6b9d081d692e33d6b2f629398bcd179a585c2fbdb6bdf4c08090ae96e3ecd91c\"\r\n    },\r\n    \"codeName\": \"DaAlien81\"\r\n}",
+    "config": "{\"signature\":{\"message\":\"DaAlien81\",\"messageHash\":\"0xcae9c430b25d48ef4ef55bd8e297eb7fb9eb85577025215480e2f432b4005b1f\",\"v\":\"0x1c\",\"r\":\"0x273f5e8f1dd089b771d68a0372a380762f2db7ed61a2eae0509a008abe71a00e\",\"s\":\"0x4c6b9d081d692e33d6b2f629398bcd179a585c2fbdb6bdf4c08090ae96e3ecd9\",\"signature\":\"0x273f5e8f1dd089b771d68a0372a380762f2db7ed61a2eae0509a008abe71a00e4c6b9d081d692e33d6b2f629398bcd179a585c2fbdb6bdf4c08090ae96e3ecd91c\"},\"codeName\":\"DaAlien81\"}",
     "project": "Governance",
     "tokenPowerSwitch": {
         "type": "Token Power Switch",
@@ -548,8 +548,124 @@
         "id": "81f4da69-5b85-414e-8df6-106fd2588cbb",
         "savedPayload": {
             "position": {
-                "x": 12200,
+                "x": 12350,
+                "y": 38259.80762113533
+            },
+            "targetPosition": {
+                "x": 12500,
                 "y": 38000
+            },
+            "floatingObject": {
+                "isPinned": false,
+                "isFrozen": false,
+                "isCollapsed": false,
+                "angleToParent": 1,
+                "distanceToParent": 3,
+                "arrangementStyle": 0
+            },
+            "uiObject": {
+                "isRunning": false
+            }
+        }
+    },
+    "socialPersonas": {
+        "type": "Social Personas",
+        "name": "New Social Personas",
+        "config": "{}",
+        "project": "Social-Trading",
+        "socialPersonas": [
+            {
+                "type": "Social Persona",
+                "name": "New Social Persona",
+                "config": "{\"codeName\": \"\",\"handle\": \"\"}",
+                "project": "Social-Trading",
+                "availableStorage": {
+                    "type": "Available Storage",
+                    "name": "New Available Storage",
+                    "config": "{}",
+                    "project": "Open-Storage",
+                    "storageContainerReferences": [
+                        {
+                            "type": "Storage Container Reference",
+                            "name": "",
+                            "config": "{}",
+                            "project": "Open-Storage",
+                            "id": "98f4e2e3-773f-498c-beee-7540eb0f5ee3",
+                            "savedPayload": {
+                                "position": {
+                                    "x": 11900,
+                                    "y": 36960.76951545867
+                                },
+                                "targetPosition": {
+                                    "x": 12050,
+                                    "y": 37220.577136594
+                                },
+                                "floatingObject": {
+                                    "isPinned": false,
+                                    "isFrozen": false,
+                                    "isCollapsed": false,
+                                    "angleToParent": 1,
+                                    "distanceToParent": 3,
+                                    "arrangementStyle": 0
+                                },
+                                "uiObject": {
+                                    "isRunning": false
+                                }
+                            }
+                        }
+                    ],
+                    "id": "c9cc05b2-1c91-4a35-b8cb-2b4dbc124b7e",
+                    "savedPayload": {
+                        "position": {
+                            "x": 12050,
+                            "y": 37220.577136594
+                        },
+                        "targetPosition": {
+                            "x": 12200,
+                            "y": 37480.384757729335
+                        },
+                        "floatingObject": {
+                            "isPinned": false,
+                            "isFrozen": false,
+                            "isCollapsed": false,
+                            "angleToParent": 1,
+                            "distanceToParent": 3,
+                            "arrangementStyle": 0
+                        },
+                        "uiObject": {
+                            "isRunning": false
+                        }
+                    }
+                },
+                "id": "bdef0c7f-d417-4ec8-a23f-749decb25791",
+                "savedPayload": {
+                    "position": {
+                        "x": 12200,
+                        "y": 37480.384757729335
+                    },
+                    "targetPosition": {
+                        "x": 12350,
+                        "y": 37740.19237886467
+                    },
+                    "floatingObject": {
+                        "isPinned": false,
+                        "isFrozen": false,
+                        "isCollapsed": false,
+                        "angleToParent": 1,
+                        "distanceToParent": 3,
+                        "arrangementStyle": 0
+                    },
+                    "uiObject": {
+                        "isRunning": false
+                    }
+                }
+            }
+        ],
+        "id": "9a812b0c-1be8-4fa6-b3e6-b3aa5a1269d0",
+        "savedPayload": {
+            "position": {
+                "x": 12350,
+                "y": 37740.19237886467
             },
             "targetPosition": {
                 "x": 12500,
